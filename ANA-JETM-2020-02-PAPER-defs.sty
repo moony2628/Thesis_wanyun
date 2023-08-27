@@ -1,0 +1,325 @@
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{subfig}
+\usepackage{lineno}
+\usepackage{csvsimple}
+%\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+%\usepackage{multirow}
+%\usepackage{bm}
+%\usepackage{float}
+%\usepackage{morefloats}
+%\usepackage{subfigure}
+%\usepackage{subfig}
+%\usepackage{slashed}
+%\usepackage{mathrsfs}
+%\usepackage{placeins}
+%\usepackage{xspace} % needed for \xspace command
+%\usepackage{units}
+%\usepackage{rotating}
+%\usepackage{hyperref}
+%%\usepackage{latex/atlaspackage}
+%\usepackage{cleveref} % to quote multiple Figs or Tables via \cref
+%\usepackage{verbatim}
+%\usepackage{siunitx}
+%\usepackage{lscape}
+%\usepackage{listings}
+%\usepackage{arydshln}
+%\usepackage{grffile}
+%\usepackage{hhline}
+%\usepackage{booktabs}
+%\usepackage{longtable}
+%\usepackage{csvsimple}
+%\usepackage{booktabs}
+%\def\mjj{$m_{jj}$ }
+%\def\ifb{fb$^{-1}$ }
+%\def\pt{$p_T$ }
+%\def\abseta{$|$$\eta$$|$}
+%\def\ga{\gamma}
+%\newcommand{\powheg}{\textsc{Powheg}}
+%\newcommand{\prospino}{\textsc{PROSPINO}}
+%\newcommand{\herwig}{\textsc{Herwig}}
+%\newcommand{\herwigpp}{\textsc{Herwig++}}
+%\newcommand{\pythia}{\textsc{Pythia}}
+%\newcommand{\mcatnlo}{\textsc{MC@NLO}}
+%\newcommand{\fewz}{\textsc{FEWZ}}
+%\newcommand{\mcfm}{\textsc{MCFM}}
+%\newcommand{\isajet}{\textsc{ISAJET}}
+%\newcommand{\madgraph}{\textsc{MADGRAPH}}
+%\newcommand{\isasugra}{\textsc{ISASUGRA}}
+%\newcommand{\isasusy}{\textsc{ISASUSY}}
+%\newcommand{\jimmy}{\textsc{JIMMY}}
+%\newcommand{\sherpa}{\textsc{Sherpa}}
+%\newcommand{\cteqVER}[1]{\textsc{CTEQ#1}}
+%\newcommand{\mrstVER}[1]{\textsc{MRST#1}}
+%\newcommand{\cteq}{\textsc{CTEQ6.6}}
+%\newcommand{\mstw}{\textsc{MSTW2008}}
+%\newcommand{\AcerMC}{{\textsc{AcerMC}}}
+%\newcommand{\Madgraph}{{\textsc{Madgraph}}}
+%\newcommand{\Tauola}{{\tt TAUOLA}}
+%\newcommand{\nnpdf}{{\textsc{NNPDF3.0}}}
+%\newcommand{\annpdf}{\textsc{A14NNPDF23}}
+%\newcommand{\nnpdftwo}{\textsc{NNPDF23}}
+%\newcommand{\ctten}{{\textsc{CT10}}}
+%\newcommand{\ctfourteen}{{\textsc{CT14}}}
+%\newcommand{\mmht}{{\textsc{MMHT2014}}}
+%\newcommand{\Njet}{\ensuremath{N_{\mrm{jet}}}\xspace}
+%\newcommand{\metsig}{\ensuremath{\met/\sqrt{H_{\mrm T}}}\xspace}
+%\newcommand{\metomeff}[1]{\ensuremath{\met/\meff(#1)}\xspace}
+%\newcommand{\metomeffQ}{\ensuremath{\met/\meff(4\mathrm{j})}\xspace}
+%\newcommand{\dPhi}{\ensuremath{\ourdeltaphishort(\textrm{jet}_{1,2,(3)},\ourvecptmiss)_\mathrm{min}}\xspace}
+%\newcommand{\dPhiR}{\ensuremath{\ourdeltaphishort(\textrm{jet}_{i>3},\ourvecptmiss)_\mathrm{min}}\xspace}
+%\newcommand{\wtrk}{\ensuremath{W_{\mathrm{trk}}}\xspace}
+%\newcommand{\ntrk}{\ensuremath{N_{\mathrm{trk}}}\xspace}
+%\newcommand{\cbeta}{\ensuremath{C_{1}^{\beta=0.2}}\xspace}
+%\newcommand{\pttrk}{\ensuremath{p_{\mathrm{T,trk}}}\xspace}
+%\newcommand{\ptgamma}{\ensuremath{p_{\mathrm{T}}^{\gamma}}}
+%
+%\newcommand{\DMass}{\ensuremath{\Delta M(\SUSY{g},\XNF)}\xspace}
+%\newcommand{\Poiss}{\ensuremath{\mathcal{P}}\xspace}
+%
+%\newcommand{\chf}{f_{\rm ch}}
+%\newcommand{\emf}{f_{\rm em}}
+%\newcommand{\dphi}{\ensuremath{\Delta\phi(\mathrm{jet},\ourvecptmiss)}}
+%\newcommand{\ourintlumi}{36.1}
+%
+%\newcommand{\subDM}{_{\mathrm{DM}}}
+%\newcommand{\cm}{\mathrm{cm}}
+%\newcommand{\ssec}{\mathrm{s}}
+%%\newcommand{\cos}{\mathrm{cos}}
+%%\newcommand{\sin}{\mathrm{sin}}
+%%\newcommand{\tan}{\mathrm{tan}}
+%%\newcommand{\log}{\mathrm{log}}
+%%\newcommand{\ln}{\mathrm{ln}}
+%%\newcommand{\LP}{\left(}
+%%\newcommand{\RP}{\right)}
+%\newcommand{\LLL}{\ln\frac{M_S}{m_t}}
+%\newcommand{\mrm}[1]{\mathrm{#1}}
+%\renewcommand{\rm}{\textrm}
+%\newcommand{\kakko}[1]{\left( #1 \right)}
+%\let\gammaa=\gamma
+%\renewcommand*{\gamma}{\ensuremath{\gammaa}\xspace}
+%\newcommand*{\gammaX}{\ensuremath{\gammaa}}
+%\newcommand{\pbp}{$p$-$p$\xspace}
+%
+%\newcommand{\metX}{\met\xspace}
+%\newcommand{\metprime}{\ensuremath{E_{\text{T}}^{\text{miss}~\prime}}\xspace}
+%
+%%\renewcommand{\kappa}{\ensuremath{\kappa}\xspace}
+%\newcommand{\kappaF}{$\kappa$-factor\xspace}
+%\newcommand{\cellsign}{\ensuremath{\varsigma^{\mrm{EM}}_{\mrm{cell}}}\xspace}
+%
+%% bold
+%\renewcommand*{\bf}[1]{{\normalfont \bfseries #1}}
+%% bold line in table
+%\newcommand\whline{%
+%  \noalign{\xdef\origarrayrulewidth{\the\arrayrulewidth}%
+%    \global\arrayrulewidth 3\arrayrulewidth}%
+%    \hline%
+%    \noalign{\global\arrayrulewidth\origarrayrulewidth}%
+%}
+%
+%% my energy unit
+%\renewcommand*{\TeV}{\ifmmode {\mathrm{~Te\kern -0.1em V}}\else\textrm{~Te\kern -0.1em V}\fi\xspace}%
+%\renewcommand*{\GeV}{\ifmmode {\mathrm{~Ge\kern -0.1em V}}\else\textrm{~Ge\kern -0.1em V}\fi\xspace}%
+%\renewcommand*{\MeV}{\ifmmode {\mathrm{~Me\kern -0.1em V}}\else\textrm{~Me\kern -0.1em V}\fi\xspace}%
+%\renewcommand*{\keV}{\ifmmode {\mathrm{~ke\kern -0.1em V}}\else\textrm{~ke\kern -0.1em V}\fi\xspace}%
+%\renewcommand*{\eV} {\ifmmode {\mathrm{~e\kern -0.1em V}}\else\textrm{~e\kern -0.1em V}\fi\xspace}%
+%
+%\newcommand*{\TeVX}{\ifmmode {\mathrm{Te\kern -0.1em V}}\else\textrm{Te\kern -0.1em V}\fi}%
+%\newcommand*{\GeVX}{\ifmmode {\mathrm{Ge\kern -0.1em V}}\else\textrm{Ge\kern -0.1em V}\fi}%
+%\newcommand*{\MeVX}{\ifmmode {\mathrm{Me\kern -0.1em V}}\else\textrm{Me\kern -0.1em V}\fi}%
+%\newcommand*{\keVX}{\ifmmode {\mathrm{ke\kern -0.1em V}}\else\textrm{ke\kern -0.1em V}\fi}%
+%\newcommand*{\eVX} {\ifmmode {\mathrm{e\kern -0.1em V}}\else\textrm{e\kern -0.1em V}\fi}%
+%
+%
+%% my unit
+%\newcommand{\m}{\mathrm{m}}
+%\newcommand{\mm}{\ensuremath{\mu\mathrm{m}}\xspace}
+%\newcommand{\LumiUnit}{\cm^{-2}\ssec{-1}}
+%
+%% my lumi
+%\newcommand*{\Lumi}{\ensuremath{\mathcal L}\xspace}
+%
+%% my pt/eta/phi
+%\newcommand*{\ptX}{\ensuremath{p_{\text{T}}}}
+%
+%\let\etaa=\eta
+%\renewcommand*{\eta}{\ensuremath{\etaa}\xspace}
+%\renewcommand*{\abseta}{\ensuremath{|\etaa|}\xspace}
+%\let\phia=\phi
+%\renewcommand*{\phi}{\ensuremath{\phia}\xspace}
+%
+%\newcommand*{\etaX}{\ensuremath{\eta}}
+%\newcommand*{\phiX}{\ensuremath{\phi}}
+%
+%% my ref
+%\renewcommand*{\App}[1]{Appendix~\ref{#1}\xspace}
+%\renewcommand*{\Eqn}[1]{Eq.~\ref{#1}\xspace}
+%\renewcommand*{\Fig}[1]{Figure~\ref{#1}\xspace}
+%\newcommand*{\Ref}[1]{Ref.~\ref{#1}\xspace}
+%\renewcommand*{\Sect}[1]{Section~\ref{#1}\xspace}
+%\renewcommand*{\Tab}[1]{Table~\ref{#1}\xspace}
+%\renewcommand*{\Apps}[2]{Appendices~\ref{#1} and \ref{#2}\xspace}
+%\renewcommand*{\Eqns}[2]{Eqs.~\ref{#1} and \ref{#2}\xspace}
+%\renewcommand*{\Figs}[2]{Figures~\ref{#1} and \ref{#2}\xspace}
+%\newcommand*{\Figss}[1]{Figures~\ref{#1}\xspace}
+%\newcommand*{\Refs}[2]{Refs.~\ref{#1} and \ref{#2}\xspace}
+%\renewcommand*{\Sects}[2]{Sections~\ref{#1} and \ref{#2}\xspace}
+%\renewcommand*{\Tabs}[2]{Tables~\ref{#1} and \ref{#2}\xspace}
+%\renewcommand*{\Apprange}[2]{Appendices~\ref{#1}--\ref{#2}\xspace}
+%\renewcommand*{\Eqnrange}[2]{Eqs.~\ref{#1}--\ref{#2}\xspace}
+%\renewcommand*{\Figrange}[2]{Figures~\ref{#1}--\ref{#2}\xspace}
+%\renewcommand*{\Refrange}[2]{Refs.~\ref{#1}--\ref{#2}\xspace}
+%\renewcommand*{\Sectrange}[2]{Sections~\ref{#1}--\ref{#2}\xspace}
+%\renewcommand*{\Tabrange}[2]{Tables~\ref{#1}--\ref{#2}\xspace}
+%
+%
+%% Useful macros for rounding by using siunitx package
+%%\newcommand*{\numR}[2]{\num[round-precision=#2]{#1}}
+%%\newcommand*{\numRF}[2]{\num[round-mode=figures,round-precision=#2]{#1}}
+%%\newcommand*{\numRP}[2]{\num[round-mode=places, round-precision=#2]{#1}}
+%%\newcommand{\numpmerr}[3]{\ensuremath{^{\num[round-precision=#3]{#1}}_{\num[round-precision=#3]{#2}}}}
+%%\newcommand{\numpmRF}[3]{\ensuremath{^{\num[round-mode=figures,round-precision=#3]{#1}}_{\num[round-mode=figures,round-precision=#3]{#2}}}}
+%%\newcommand{\numpmRP}[3]{\ensuremath{^{\num[round-mode=places, round-precision=#3]{#1}}_{\num[round-mode=places, round-precision=#3]{#2}}}}
+%
+%% SUSY particles
+%\newcommand{\XN}{\ifmmode {\tilde{\chi}^{0}}\else
+%  {$\tilde{\chi}^{0}$}\xspace\fi}%
+%\newcommand{\XNF}{\ifmmode {\tilde{\chi}^{0}_1}\else
+%  {$\tilde{\chi}^{0}_1$}\xspace\fi}%
+%\newcommand{\XNS}{\ifmmode {\tilde{\chi}^{0}_2}\else
+%  {$\tilde{\chi}^{0}_2$}\xspace\fi}%
+%\newcommand{\XC}{\ifmmode {\tilde{\chi}^{\pm}}\else
+%  {$\tilde{\chi}^{\pm}$}\xspace\fi}%
+%\newcommand{\XCF}{\ifmmode {\tilde{\chi}^{\pm}_1}\else
+%  {$\tilde{\chi}^{\pm}_1$}\xspace\fi}%
+%\newcommand{\XCS}{\ifmmode {\tilde{\chi}^{\pm}_2}\else
+%  {$\tilde{\chi}^{\pm}_2$}\xspace\fi}%
+%\newcommand{\SUSY}[1]{\ifmmode {\tilde{#1}}\else
+%  {$\tilde{#1}$}\xspace\fi}%
+%
+%% physics
+%%\newcommand{\ttbar}{\ensuremath{t\bar{t}}}
+%\newcommand{\ttbartop}{\ensuremath{t\bar{t}}+single top\xspace}
+%\newcommand{\Znunu}{\ensuremath{Z(\rightarrow\nu\nu)}\xspace}
+%\newcommand{\Wlnu} {\ensuremath{W(\rightarrow l\nu)}\xspace}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Get from susydef.tex
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%% Shorthand for \phantom to use in tables
+%\newcommand{\pho}{\phantom{0}}
+%\newcommand{\bslash}{\ensuremath{\backslash}}
+%\newcommand{\BibTeX}{{\sc Bib\TeX}}
+%
+%% susy-specific variables
+%\newcommand{\meff}{\ensuremath{m_{\mathrm{eff}}}\xspace} % This was an M, but all our other m's are in lower case and M_eff sticks out like a sore thumb.  So I've changed it to something more relaxing.
+%\newcommand{\meffincl}{\ensuremath{m_{\mathrm{eff}}^{\mathrm{inc}}}\xspace}
+%\newcommand{\meffexcl}{\ensuremath{m_{\mathrm{eff}}^{\mathrm{excl}}}\xspace}
+%\newcommand{\mt}{\ensuremath{m_\mathrm{T}}\xspace}
+%\newcommand{\mttwo}{\ensuremath{m_\mathrm{T2}}\xspace}
+%\newcommand{\amttwo}{\ensuremath{m_\mathrm{T2}^{a}}\xspace}
+%\newcommand{\mc}{\ensuremath{m_\mathrm{C}}\xspace}
+%\newcommand{\mct}{\ensuremath{m_\mathrm{CT}}\xspace}
+%\newcommand{\mll}{\ensuremath{m_{\ell\ell}}\xspace}
+%\def\ptl{\ensuremath{p_{\mathrm{T}}^\ell}\xspace}
+%\def\ptlone{\ensuremath{p_{\mathrm{T}}^{\ell_1}}\xspace}
+%\def\ptltwo{\ensuremath{p_{\mathrm{T}}^{\ell_2}}\xspace}
+%\def\ptj{\ensuremath{p_{\mathrm{T}}^{jet}}\xspace}
+%%\newcommand{\alphat}{\ensuremath{\ensuremath{\alpha_{T}}}}
+%%\newcommand{\etmiss}{\ensuremath{\slashed{E}_T}}
+%%\newcommand{\pmiss}{\ensuremath{\slashed{p}}}
+%%\newcommand{\ptmiss}{\ensuremath{\slashed{p}_T}}
+%%\newcommand{\Ptmiss}{\ensuremath{{\slashed{\bf p}}_T}}
+%\def\Ptmiss{\ensuremath{\vec{E}_\mathrm{T}^{\mathrm{miss}}}}
+%
+%\def\lsim{\mathrel{\rlap{\lower4pt\hbox{\hskip1pt$\sim$}}
+%    \raise1pt\hbox{$<$}}}                % less than or approx. symbol
+%\def\gsim{\mathrel{\rlap{\lower4pt\hbox{\hskip1pt$\sim$}}
+%    \raise1pt\hbox{$>$}}}                % greater than or approx. symbol
+%
+%%\renewcommand{\thesubfigure}{\alpha{subfigure}}
+%%\makeatletter
+%%\renewcommand{\p@subfigure}{\arabic{figure}}
+%%\renewcommand{\thesubfigure}{\alph{subfigure}}
+%%\renewcommand{\@thesubfigure}{(\thesubfigure)}
+%%\makeatother
+%\newcommand{\alpgen}{\textsc{ALPGEN}}
+%%\newcommand{\powheg}{\textsc{Powheg-box}}
+%%\newcommand{\prospino}{\textsc{PROSPINO}}
+%%\newcommand{\herwig}{\textsc{Herwig}}
+%%\newcommand{\herwigpp}{\textsc{Herwig++}}
+%%\newcommand{\pythia}{\textsc{Pythia}}
+%%\newcommand{\mcatnlo}{\textsc{MC@NLO}}
+%%\newcommand{\fewz}{\textsc{FEWZ}}
+%%\newcommand{\mcfm}{\textsc{MCFM}}
+%%\newcommand{\isajet}{\textsc{ISAJET}}
+%%\newcommand{\madgraph}{\textsc{MADGRAPH}}
+%%\newcommand{\isasugra}{\textsc{ISASUGRA}}
+%%\newcommand{\isasusy}{\textsc{ISASUSY}}
+%%\newcommand{\jimmy}{\textsc{JIMMY}}
+%%\newcommand{\sherpa}{\textsc{Sherpa}}
+%%\newcommand{\cteqVER}[1]{\textsc{CTEQ#1}}
+%%\newcommand{\mrstVER}[1]{\textsc{MRST#1}}
+%%\newcommand{\cteq}{\textsc{CTEQ6.6}}
+%%\newcommand{\mstw}{\textsc{MSTW2008}}
+%%\newcommand{\AcerMC}{{\textsc{AcerMC}}}
+%%\newcommand{\Madgraph}{{\textsc{Madgraph}}}
+%%\newcommand{\Tauola}{{\tt TAUOLA}}
+%%\newcommand{\nnpdf}{{\textsc{NNPDF3.0}}}
+%%\newcommand{\annpdf}{\textsc{A14NNPDF23}}
+%%\newcommand{\nnpdftwo}{\textsc{NNPDF23}}
+%%\newcommand{\ctten}{{\textsc{CT10}}}
+%%\newcommand{\ctfourteen}{{\textsc{CT14}}}
+%%\newcommand{\mmht}{{\textsc{MMHT2014}}}
+%
+%
+%\newcommand{\lumi}[2]{\ensuremath{#1 \times 10^{#2} \mathrm{cm}^{-2} \mathrm{s}^{-1}}}
+%\newcommand{\mettopo}{MET\_Topo\xspace}
+%\newcommand{\metlhtopo}{MET\_Loc\-Had\-Topo\xspace}
+%\newcommand{\metsrf}{Simplified MET\_Ref\-Final\xspace}
+%\newcommand{\metrf}{MET\_Ref\-Final\xspace}
+%\newcommand{\wen}{W $\rightarrow$ e$\nu$ }
+%\newcommand{\wmn}{W $\rightarrow$ $\mu\nu$ }
+%\newcommand{\wln}{W $\rightarrow$ $\ell\nu$ }
+%\newcommand{\jetmet}{{jet + \met}\xspace}
+%\newcommand{\ptx}{\pt\xspace}
+%
+%\newcommand{\mvetmiss}{\ensuremath{\vec{E}_{\rm T}^{\rm miss}}}
+%\newcommand{\trackmet}{\ensuremath{E_{\mathrm{T,track}}^{\mathrm{miss}}}}
+%\newcommand{\dphitrackmet}{\ensuremath{\Delta\phi(\met,\trackmet)}}
+%
+%\newcommand{\ourdeltaphishort}{\Delta\phi}
+%\newcommand{\ourdeltaphifull}{\ourdeltaphishort(\textrm{jet},\ourvecptmiss)_\mathrm{min}}
+%\newcommand{\ourvecptmiss}{\Ptmiss\xspace}
+%\newcommand{\ourmagptmiss}{\MET}
+%\newcommand{\peoplecallit}{\MET}
+%
+%
+%
+%
+%%%%%%%%%%%%%%%%%%%
+%% My definitions %
+%%%%%%%%%%%%%%%%%%%
+%
+%% my variables
+%%\newcommand{\HT}{\ensuremath{H_{\rm T}}}
+%%\renewcommand*{\mt}{\mt\xspace}
+%%%\newcommand{\mll}{\ensuremath{m_{ll}}}
+%%\newcommand{\Njet}{\ensuremath{N_{\mrm{jet}}}\xspace}
+%%\newcommand{\metsig}{\ensuremath{\met/\sqrt{H_{\mrm T}}}\xspace}
+%%\newcommand{\metomeff}[1]{\ensuremath{\met/\meff(#1)}\xspace}
+%%\newcommand{\metomeffQ}{\ensuremath{\met/\meff(4\mathrm{j})}\xspace}
+%%\newcommand{\dPhi}{\ensuremath{\ourdeltaphishort(\textrm{jet}_{1,2,(3)},\ourvecptmiss)_\mathrm{min}}\xspace}
+%%\newcommand{\dPhiR}{\ensuremath{\ourdeltaphishort(\textrm{jet}_{i>3},\ourvecptmiss)_\mathrm{min}}\xspace}
+%%\newcommand{\wtrk}{\ensuremath{W_{\mathrm{trk}}}\xspace}
+%%\newcommand{\ntrk}{\ensuremath{N_{\mathrm{trk}}}\xspace}
+\newcommand{\cbeta}{\ensuremath{C_{1}^{\beta=0.2}}\xspace}
+%%\newcommand{\pttrk}{\ensuremath{p_{\mathrm{T,trk}}}\xspace}
+%%\newcommand{\ptgamma}{\ensuremath{p_{\mathrm{T}}^{\gamma}}}
+%%
+%%\newcommand{\DMass}{\ensuremath{\Delta M(\SUSY{g},\XNF)}\xspace}
+%%\newcommand{\Poiss}{\ensuremath{\mathcal{P}}\xspace}
+%%

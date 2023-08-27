@@ -1,0 +1,103 @@
+\section{The BumpHunter algorithm}
+\label{section: bumphunter}
+
+Once the background is derived, the BumpHunter algorithm ~\cite{Aaltonen:2008vt,Choudalakis:2011bh} is employed to test the consistency or discrepancy between background and the observed data.
+This algorithm can locate the local excess above the background and quantifies the degree of discrepancy between the observed data and background, based on the frequentist $p$-value from one of three test statistics: $\chi^{2}$, Log Likelihood and BumpHunter described below.
+
+%\subsection{Frequentist $p$-value}
+%
+%In the comparison between observed data and background, if the background comes only from the SM, this is called the background-only hypothesis or null hypothesis, denoted by $H_{0}$. If the null hypothesis is correct, the observed data, denoted $D$, will be the statistical fluctuation of the background. The validity of $H_{0}$ can be tested by determining the probability of obtaining the data spectrum as a fluctuation of the background-only hypothesis.
+%
+%The frequentist probability is commonly used in high energy physics, which is a statement on the frequency of a certain outcome given a large number $N$ of repeated experiments. The frequentist hypothesis test determines the consistency between $H_{0}$ and the observed experimental outcome $x$ by fixing in advance a value of probability $\alpha$ below which the hypothesis will be rejected as too discrepant. Specifically, if the observation falls in a space of possible outcomes $\omega$ such that
+%\begin{equation}
+%P(x \in \omega|H_{0}) \leq \alpha
+%\end{equation}
+%then the null hypothesis $H_{0}$ will be rejected, otherwise the data is consider to be consistent with background.
+
+%Define a test statistic $t$ to be any numerical quantity which describes the compatibility
+%between data and background, it usually increases monotonically with decreasing compatibility. The $p$-value of this test statistic is the probability of obtaining a value at least as extreme as the observed $t = t_{0}$ given $H_{0}$:
+%\begin{equation}
+%p = P(t>t_{0}|H_{0})
+%\end{equation}
+%where small $p$-value means small consistency between data and background.
+
+\subsection{Test statistic}
+Three test statistics are employed in the BumpHunter algorithm to quantify the discrepancy between observed data and background: $\chi^{2}$, Log Likelihood and the BumpHunter. They are represented by a single value which characterises the degree of agreement between the observed data and background and are used in defining $p$-values.
+
+%The $\chi^{2}$ test statistic is defined as the sum in quadrature of the differences
+%between observations and expectations, normalised to the variance. For a comparison
+%where the observation and prediction are both binned histograms with contents $d_{i}$ and $b_{i}$ in bin $i$:
+%\begin{equation}
+%\chi^{2} = \sum_{i}\frac{(d_{i}-b_{i})^{2}}{b_{i}}\,.
+%\end{equation}
+%The "reduced $\chi^{2}$" value is defined as $\chi^{2}/\mathrm{NDF}$, which is often used to test goodness-of-fit, where NDF is the number of degrees of freedom in the fit.
+
+%The Likelihood, $\mathcal{L}$, test statistic is an effective one in comparison of two binned histograms. In comparison of a mass spectrum, each bin content follows the Poisson distribution, so the Log Likelihood is defined as the product of the Poisson probability in each bin
+%over all bins:
+%\begin{eqnarray}
+%\mathcal{L} = \prod_{i}\frac{b_{i}^{d_{i}}e^{-b_{i}}}{d_{i}!}.
+%\end{eqnarray}
+%The  Negative Log Likelihood (NLL), $-2\ln\mathcal{L}$ is defined as:
+%\begin{equation}
+%-2\ln\mathcal{L} = -2\ln\prod_{i}\frac{b_{i}^{d_{i}}e^{-b_{i}}}{d_{i}!}.
+%\end{equation}
+
+Both $\chi^{2}$ and log likelihood can quantify the discrepancy between the observed data and background in individual bin.
+However, in the comparison of two binned spectra, the discrepancy in the window of neighbouring bins is more meaningful.
+Several adjacent bins with large excess in each bin indicate new physics, however three bins with a large excess, a large deficit and a large excess may produce the large $\chi^{2}$ and NNL but would be of much less physical interest.
+
+The third test statistic has therefore been defined to quantify the ``bump'' above the background, the ``BumpHunter statistic'', which is the default test statistic in the BumpHunter algorithm.
+For a set of adjacent bins, a value $t$ is calculated as the Poisson probability of obtaining a result at least as significant as the one observed, define $d$ as the sum of the data and $b$ as the background in these neighbouring bins:
+\begin{equation}
+t =  
+\begin{cases}\displaystyle
+\sum_{n=0}^{d}\frac{b^{n}}{n!}e^{-b} \quad \mathrm{for} \quad d<b\,, \\\displaystyle
+\sum_{n=d}^{\infty}\frac{b^{n}}{n!}e^{-b} \quad \mathrm{for} \quad d \geq b\,.
+\end{cases}
+\end{equation}
+The above expression can be represented in terms of gamma functions:
+\begin{equation}
+ t =
+\begin{cases}\displaystyle
+\Gamma(d+1, b) = 1 - \Gamma(d+1, b) \quad \mathrm{for} \quad d<b\,, \\
+\Gamma(d, b) \quad \mathrm{for} \quad d \geq b\,.
+\end{cases}
+\end{equation}
+This value accounts for the direction of neighbouring fluctuations by looking at the
+overall excess or deficit in the region.
+
+For every possible window along the mass spectrum, $t$ is calculated. The possible windows are found by looping over all widths between a minimum and a maximum number of bins. The BumpHunter statistic describing the overall spectrum is defined as the negative log of the smallest probability obtained for any window, defined as:
+\begin{equation}
+t_{0} = -\log t_\mathrm{min}\,.
+\end{equation}
+
+Once the test statistic is determined, the $p$-value can be calculated through generating many pseudo-data which can be derived by a randomly draw in each bin from a Poisson distribution with parameter equal to the expected bin content from the background spectrum.
+The selected test statistic is then calculated for each pseudo-data.
+The fraction of these cases for which the test statistic is more than that in observed data can be easily computed, $p$-value.
+The full procedure to calculate the $p$-value obtained from a selected test statistic can be summarised as:
+\begin{itemize}
+        \item Calculate the value of the test statistic $t_{0}$ which compares background-only hypothesis to observed data, $t_{0}$,
+        \item Generate a collection of pseudo-data from background to represent a range of possible experimental outcomes in the case the background-only hypothesis is correct,
+        \item Compare each pseudo-data with background to calculate the test statistic value for each pseudo data, $t_{i}$,
+        \item Calculate the fraction of $t_{i}$ for which $T > t_{0}$, this fraction is the $p$-value obtained from the test statistic $t$.
+\end{itemize}
+
+\subsection{The BumpHunter algorithm}
+The BumpHunter algorithm compares the background with the observed data in intervals of varying widths formed by combining neighboring bins. 
+It scans across the entire distribution with the window width varying from 2 up to half of the number of the bins. 
+For each window in the scan, it computes the significance of the difference between the observed data and the background. 
+The most significant departure from the background spectrum is defined by the set of bins that has the smallest probability of arising from a Poisson background fluctuation. 
+If the measured $p$-value obtained from the BumpHunter statistic is less than 0.01, it may mean the existence of new physics. 
+
+As the pseudo-experiments are drawn from the background, the random fluctuations in the background-only hypothesis would create an excess anywhere in the spectrum at least as significant as the one observed, so the BumpHunter algorithm also accounts for the look-elsewhere effect.
+
+The $p$-value got in BumpHunter is used to quantify the discrepancy between observed data and background. 
+The residual in each bin can also been quantified by a $p$-value and described in detail in \cite{Choudalakis:2011bh}. 
+In each bin, a measured $p$-value is defined as the probability of measuring a discrepancy between data and background at least as large as the one observed. 
+The $p$-value is then translated into a $z$-value defined as the number of standard deviations to the right of the mean of the normal distribution:
+\begin{equation}
+p\mathrm{-value} = \int_{z\mathrm{-value}}^{\infty}\frac{}{\sqrt{2\pi}}e^{-\frac{x^{2}}{2}}dx\,.
+\end{equation}
+Bins with a $z$-value less than zero show no difference of any interest, while those with a $z$-value of more than two or three indicate a significant discrepancy. 
+For clarity of interpretation, one would like the sign of the $z$-value drawn in residual plots to depend on whether the data falls above or below the hypothesis. 
+Therefore, in the plots, any bins with a negative $z$-value are set to zero, while those with a positive $z$-value are drawn positive or negative depending on whether an excess or a deficit is observed.

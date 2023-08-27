@@ -1,0 +1,123 @@
+%\label{sec:signal_modeling}
+
+This section discusses the modeling of different signals: Strings and H prime.
+
+
+\subsection{Fitting string signal shapes}
+
+The initial shape studies suggested convolution between a Gaussian and a low-mass exponential (Gaussian-convoluted-exponential) as the best function to fit the string signal shapes (details in Appendix \ref{sec:StrMorphShapeStudies}). But, the latest studies point out a different fitting function which is more suitable than the previous one. The new function is the addition of another Gaussian to the already used Gaussian-convoluted-exponential \textit{i.e.,}
+
+\begin{equation}
+ f*\text{Gauss}(m_{jj}, \text{gmean}, \text{gwidth}) + (1-f) * (e^{-c~(-(m_{jj}-b)-\frac{d^{2}c}{2})}[1+\mathrm{erf}(\frac{-(m_{jj}-b)-d^{2}c}{d\sqrt{2}})])
+%\label{eq:PDF}
+\end{equation}
+
+where, $b$ -- Gaussian mean (offset), $c$ -- exponential specific parameter, $d$ -- Gaussian width (sigma), gmean -- the mean of another Gaussian, gwidth -- the width of another Gaussian, and $f$ -- the fraction used to add another Gaussian and Gaussian-convoluted-exponential. 
+
+This PDF above is then wrapped in \href{https://root.cern/doc/v624/classRooBinSamplingPdf.html}{RooBinSamplingPdf}, and the integrated-PDF (wrapped in RooBinSamplingPdf) is used to fit the string signal shapes. The advantages of using RooBinSamplingPdf are (i) the PDF is integrated in each bin using an adaptive integrator, and (ii) sampling biases in the binned fits are eliminated. RooBinSamplingPdf transforms continuous PDFs into binned PDFs by integrating the former in each bin and dividing the result by the bin width. The resulting PDF is constant in each bin and evaluates to the average probability density in a bin (instead of the probability density at the bin center). Therefore, RooBinSamplingPdf allows for fitting continuous PDFs to binned data or adding binned and continuous PDFs to create sum models \cite{Gligorov:2021}. 
+
+There are five string signal samples available based on the string scale ($M_{s}$) they are produced with: 7.0, 7.5, 8.0, 8.5 and 9.0 TeV. The inclusive selection criteria are applied on these string signal samples \textit{i.e.,} $|\Delta\phi_{jj}|>1.0$, $|y^*|<0.8$, and $m_{jj}>1200$ GeV. Also, each string signal shape is scaled to 139 fb$^{-1}$. 
+
+After performing the fits on different shapes (nominal as well as the jet uncertainty shapes) of $M_{s}$ = 7 TeV and studying the behavior of the fit parameters, the value of the fraction ($f$) is fixed to 0.15 for all $M_{s}$ samples (see Figure \ref{fig:fracBehavior}).
+
+With the value of $f$ fixed, the total number of floating parameters becomes five. Gaussian-convoluted-exponential has mean, exponential specific, and width as floating parameters, whereas the other Gaussian has mean and width. Therefore, the modified form the function becomes:
+
+\begin{equation}
+ 0.15*\text{Gauss}(m_{jj}, \text{gmean}, \text{gwidth}) + (1-0.15) * (e^{-c~(-(m_{jj}-b)-\frac{d^{2}c}{2})}[1+\mathrm{erf}(\frac{-(m_{jj}-b)-d^{2}c}{d\sqrt{2}})])
+\label{eq:mod-PDF}
+\end{equation}
+
+\pagebreak
+
+\begin{figure}[!htb]
+ \centering
+\includegraphics[width=0.85\textwidth]{figures/07-SignalModeling/BehaviorPlot_Ms7TeVnomJES_IntPdf_fraction.png}
+\caption{Behavior plot of $f$.}  
+\label{fig:fracBehavior}
+\end{figure}  
+
+\vspace{50pt}
+Figures \ref{fig:Ms7TeVnom}-\ref{fig:Ms9TeVnom} contain the string signal shape, the fit to the string signal shape using Equation \ref{eq:mod-PDF}, and the pull 
+distribution of the corresponding fit for $M_{s}$ = 7.0, 7.5, 8.0, 8.5, and 9.0 TeV samples. All the string shapes seem to be well modelled with the successful 
+fits. The reduced-$\chi^2$ values ($\sim 1.5-2.0$) have also improved by a factor of $\sim$ 2 as compared to the previous fits when Gaussian-convoluted-exponential function was used ($\sim 4.0-6.0$).
+
+\pagebreak
+
+%% Ms = 7.0 TeV
+\begin{figure}[!htb]
+  \centering
+%  \subfigure[$M_{s} = 7.0$ TeV shape.]{
+%  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/Ms7TeV_LogY.png} }
+%  \vspace{2pt} 
+  \subfigure[Fit to $M_{s} = 7.0$ TeV; reduced-$\chi^2$ = 1.39677.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/fit_Ms7TeVnom_IntPdf_highestBin.png} }
+  \vspace{2pt}	
+  \subfigure[Pull distribution of fit to $M_{s} = 7.0$ TeV shape.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/pull_Ms7TeVnom_IntPdf_highestBin.png} }
+  \caption{$M_{s}$ = 7.0 TeV. The pull distribution is obtained via \href{https://root.cern.ch/doc/master/classRooPlot.html\#aed57408d2abd31d2a00619bf26bb5539}{pullHist()}, which uses \href{https://root.cern.ch/doc/master/classRooPlot.html\#a155077d893bbff4ee72495cce69195e6}{residHist()} (\href{https://root.cern.ch/doc/v608/RooHist_8cxx_source.html}{line 701 of RooHist\_8cxx\_source.html}).}
+  \label{fig:Ms7TeVnom}
+\end{figure}
+ 
+
+%% Ms = 7.5 TeV
+\begin{figure}[!htb]
+  \centering
+%  \subfigure[$M_{s} = 7.5$ TeV shape.]{
+%  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/Ms7p5TeV_LogY.png} }
+%  \vspace{2pt} 
+  \subfigure[Fit to $M_{s} = 7.5$ TeV; reduced-$\chi^2$ = 1.41603.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/fit_Ms7p5TeVnom_IntPdf_highestBin.png} }
+  \vspace{2pt}  
+  \subfigure[Pull distribution of fit to $M_{s} = 7.5$ TeV shape.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/pull_Ms7p5TeVnom_IntPdf_highestBin.png} }
+  \caption{$M_{s}$ = 7.5 TeV. The pull distribution is obtained via \href{https://root.cern.ch/doc/master/classRooPlot.html\#aed57408d2abd31d2a00619bf26bb5539}{pullHist()}, which uses \href{https://root.cern.ch/doc/master/classRooPlot.html\#a155077d893bbff4ee72495cce69195e6}{residHist()} (\href{https://root.cern.ch/doc/v608/RooHist_8cxx_source.html}{line 701 of RooHist\_8cxx\_source.html}).}
+%  \label{fig:Ms7p5TeVnom}
+\end{figure}
+
+
+%% Ms = 8.0 TeV
+\begin{figure}[!htb]
+  \centering
+%  \subfigure[$M_{s} = 8.0$ TeV shape.]{
+%  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/Ms8TeV_LogY.png} }
+%  \vspace{2pt} 
+  \subfigure[Fit to $M_{s} = 8.0$ TeV; reduced-$\chi^2$ = 1.5814.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/fit_Ms8TeVnom_IntPdf_highestBin.png} }
+  \vspace{2pt}  
+  \subfigure[Pull distribution of fit to $M_{s} = 8.0$ TeV shape.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/pull_Ms8TeVnom_IntPdf_highestBin.png} }
+  \caption{$M_{s}$ = 8.0 TeV. The pull distribution is obtained via \href{https://root.cern.ch/doc/master/classRooPlot.html\#aed57408d2abd31d2a00619bf26bb5539}{pullHist()}, which uses \href{https://root.cern.ch/doc/master/classRooPlot.html\#a155077d893bbff4ee72495cce69195e6}{residHist()} (\href{https://root.cern.ch/doc/v608/RooHist_8cxx_source.html}{line 701 of RooHist\_8cxx\_source.html}).}
+%  \label{fig:Ms8TeVnom}
+\end{figure}
+
+
+%% Ms = 8.5 TeV
+\begin{figure}[!htb]
+  \centering
+%  \subfigure[$M_{s} = 8.5$ TeV shape.]{
+%  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/Ms8p5TeV_LogY.png} }
+%  \vspace{2pt} 
+  \subfigure[Fit to $M_{s} = 8.5$ TeV; reduced-$\chi^2$ = 1.42824.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/fit_Ms8p5TeVnom_IntPdf_highestBin.png} }
+  \vspace{2pt}  
+  \subfigure[Pull distribution of fit to $M_{s} = 8.5$ TeV shape.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/pull_Ms8p5TeVnom_IntPdf_highestBin.png} }
+  \caption{$M_{s}$ = 8.5 TeV. The pull distribution is obtained via \href{https://root.cern.ch/doc/master/classRooPlot.html\#aed57408d2abd31d2a00619bf26bb5539}{pullHist()}, which uses \href{https://root.cern.ch/doc/master/classRooPlot.html\#a155077d893bbff4ee72495cce69195e6}{residHist()} (\href{https://root.cern.ch/doc/v608/RooHist_8cxx_source.html}{line 701 of RooHist\_8cxx\_source.html}).}
+%  \label{fig:Ms8p5TeVnom}
+\end{figure}
+
+
+%% Ms = 9.0 TeV
+\begin{figure}[!htb]
+  \centering
+%  \subfigure[$M_{s} = 9.0$ TeV shape.]{
+%  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/Ms9TeV_LogY.png} }
+%  \vspace{2pt} 
+  \subfigure[Fit to $M_{s} = 9.0$ TeV; reduced-$\chi^2$ = 1.62653.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/fit_Ms9TeVnom_IntPdf_highestBin.png} }
+  \vspace{2pt}  
+  \subfigure[Pull distribution of fit to $M_{s} = 9.0$ TeV shape.]{
+  \includegraphics[width=0.65\textwidth]{figures/07-SignalModeling/pull_Ms9TeVnom_IntPdf_highestBin.png} }
+  \caption{$M_{s}$ = 9.0 TeV. The pull distribution is obtained via \href{https://root.cern.ch/doc/master/classRooPlot.html\#aed57408d2abd31d2a00619bf26bb5539}{pullHist()}, which uses \href{https://root.cern.ch/doc/master/classRooPlot.html\#a155077d893bbff4ee72495cce69195e6}{residHist()} (\href{https://root.cern.ch/doc/v608/RooHist_8cxx_source.html}{line 701 of RooHist\_8cxx\_source.html}).}
+  \label{fig:Ms9TeVnom}
+\end{figure}

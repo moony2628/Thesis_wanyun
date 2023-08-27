@@ -1,0 +1,77 @@
+%\label{sec:limitsetting} % uncomment if label used.
+
+The limit setting phase is performed in case no significant deviations from the
+background-only hypothesis are reported in the search phase. While the search
+phase only depends on the BKG
+distribution and its (dis)agreement with data, the limit setting phase performs
+exclusion limits given certain theory models. In the following a more detailed
+description on the statistical machinery used to set limits will be given.
+
+\subsection{Limit setting using the dijet mass distribution}
+
+Exclusion limits were calculated using the CL$_\mathrm{s}$ method with a binned profile likelihood ratio as the test
+statistic using the \texttt{HistFitter} \cite{HistFitter:2014} framework.
+The limit is extracted from adjusting the normalization $\mu_{s}$ of a template that represents the shape of the nominal signal model in question.
+By scanning over values of $\mu_{s}$ until a CL$_\mathrm{s}$ p-value of 0.05 is found,
+a 95\% confidence upper limit on this normalization parameter can be found.
+The obtained upper limit on signal strength is then converted into an upper limit of cross section
+corresponds to given luminosity and the observed data.
+The limit on $\sigma\times {\cal A} \times BR$ from data is interpolated logarithmically
+between mass points to create a continuous curve in \mjj{}.
+The exclusion limit on the mass (or energy scale) of the
+given new physics resonant signal occurs at the value of \mjj{} where the limit
+on $\sigma\times {\cal A} \times BR$ from data is the same as the
+theoretical value, which is derived from the interpolation between
+the generated mass values.
+
+Expected limits on the signal model are calculated by using an asymptotic approximation. A major benefit
+of using a binned likelihood approach such as used with this \texttt{HistFitter} approach is it's
+computational speed, particularly due to the asymptotic approximation.
+The \texttt{HistFitter} method has calculated expected and observed limit for each mass point around 30 seconds.
+This is compared to hours or days using the Bayesian approach for very similar results.
+%
+%
+%\subsection{Limit setting using the dijet mass distribution}
+%
+%For each benchmark process under study in the resonance analysis, Monte Carlo samples have been
+%simulated at a number of selected mass points, $m_{\textrm{R}}$.
+%The Bayesian method documented in ref.~\cite{Aad:2011aj}
+%is applied to data at these same mass points to set a
+%95\% CL limit on the cross section times acceptance times branching ratio,
+%$\sigma\times {\cal A} \times BR$, for the new physics resonant signal as a function of
+%$m_{\textrm{R}}$, using a prior constant in signal strength.  The one exception is QBH, which has limits set on $\sigma\times {\cal A}$.
+%The limit on $\sigma\times {\cal A} \times BR$ from data is interpolated logarithmically
+%between mass points to create a continuous curve in \mjj{}.
+%The exclusion limit on the mass (or energy scale) of the
+%given new physics resonant signal occurs at the value of \mjj{} where the limit
+%on $\sigma\times {\cal A} \times BR$ from data is the same as the
+%theoretical value, which is derived from the interpolation between
+%the generated mass values.
+
+This form of analysis is applicable to all resonant phenomena
+where the new physics resonance couplings are strong compared to the scale of perturbative QCD
+at the signal mass, so that interference with QCD terms can be neglected.
+The acceptance calculation includes all reconstruction steps and analysis cuts.
+%is described in Section~\ref{sec:res_selection}.
+
+The background prediction used in this calculation is obtained from a
+simultaneous S+B fit.
+
+The effects of the systematic uncertainties on the data-driven background together with the systematic uncertainties
+on the signal samples
+%, described in Section~\ref{sec:systematicUncertainties}, 
+are considered in the limit-setting procedure.
+These uncertainties are incorporated into the LH formalism by varying all sources according
+to Gaussian probability distributions.
+%The templates are linearly interpolated
+%between 1$\sigma$ and -1$\sigma$ and exptrapolated to reach 3$\sigma$ with an exponential function
+%for points above that interval according to the recomandation of the stat.forum.
+Confidence intervals are then calculated from the resulting profile of
+the parameter-of-interest of the LH.
+
+In order to validate the limit setting machinery, results have been compared
+with
+the Bayesian limits used in previous iteration of the analysis. In addition, a
+validation of the asymptotic approximation has been checked comparing limits
+derived from toys. 
+%Both studies are described in Appendix~\ref{sec:HF_val}.

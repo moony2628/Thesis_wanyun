@@ -1,0 +1,5 @@
+[0] Config.pm:304> INFO - This is Biber 2.14
+[1] Config.pm:307> INFO - Logfile is 'Thesis_Wanyun.blg'
+[140] biber-darwin:322> INFO - === Mon Feb 13, 2023, 20:58:10
+[176] Utils.pm:320> ERROR - Thesis_Wanyun.bcf is malformed, last biblatex run probably failed. Deleted Thesis_Wanyun.bbl
+[176] Biber.pm:132> INFO - ERRORS: 1

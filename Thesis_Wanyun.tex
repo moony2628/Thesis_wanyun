@@ -1,0 +1,1323 @@
+
+%!TEX program = xelatex
+\documentclass[UTF8,12pt]{ctexart}
+%\documentclass{sjtuthesis}
+%\setmainfont{Latin Modern Math}%Times New Roman
+\usepackage{geometry}
+%\geometry{left=3.cm,right=3.cm,bottom=2cm}
+\geometry{%
+	paper      = a4paper,
+	top        = 3.5cm,
+	bottom     = 4.0cm,
+	left       = 3.3cm,
+	right      = 2.8cm,
+	headheight = 1.0cm,
+	headsep    = 0.5cm,
+}
+\usepackage{ctex}
+\usepackage{verbatim}
+\usepackage{csvsimple}
+\usepackage{placeins}
+\usepackage{amsmath}
+\usepackage{bm}
+\numberwithin{equation}{section}
+\allowdisplaybreaks[4]
+\usepackage{array}
+\usepackage{booktabs}
+\usepackage[font=small,font=bf,labelsep=none]{caption}
+\usepackage{amssymb}
+\usepackage{tikz}
+\usepackage{amsthm}
+\usepackage{mathrsfs}
+\usepackage{dutchcal}
+\usepackage{color}
+\usepackage{graphicx}    
+\usepackage{times}
+\usepackage{mathptmx}
+\usepackage{fancyhdr} 
+\usepackage{tensor}
+\usepackage{multirow}
+\usepackage{enumitem}
+\usepackage{ytableau}
+\usepackage{calrsfs}
+\usepackage{float}
+\usepackage{slashed}
+\usepackage{booktabs}%加粗的表格线
+\usepackage{etoolbox}
+\usepackage{lipsum}
+\usepackage{appendix}
+\usepackage{caption}
+\usepackage{tocloft} 
+\usepackage[T1]{fontenc}%英文字体加粗
+\usepackage{cite}
+\usepackage{stmaryrd}
+\usepackage{lineno}
+%%%%%
+\DeclareMathAlphabet{\pazocal}{OMS}{zplm}{m}{n}
+\SetMathAlphabet\pazocal{bold}{OMS}{zplm}{bx}{n}
+%%%%%%%%
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot[C]{\thepage}
+\usepackage{setspace}
+\setlength{\baselineskip}{20pt}
+\newcommand*{\circled}[1]{\lower.7ex\hbox{\tikz\draw (0pt, 0pt)%
+		circle (.5em) node {\makebox[1em][c]{\small #1}};}}
+\usepackage[linktocpage=true]{hyperref}  %目录
+\hypersetup{colorlinks=true,linkcolor=black}
+\renewcommand {\thefigure} {\thesection{}.\arabic{figure}}%设定图片的编号。这样设置的实现效果为图1.1
+\renewcommand{\figurename}{Figure}
+\renewcommand {\thetable} {\thesection{}.\arabic{table}}
+\renewcommand{\tablename}{Table}
+\captionsetup{font={small},labelsep=quad}%文字5号，之间空一个汉字符位。
+%\captionsetup[table]{font={bf}} %表格表号与表题加粗
+%%%%%%%%
+\renewcommand{\cftsecleader}{\cftdotfill{\cftdotsep}} %为目录中section补上引导点
+\usepackage{titletoc}
+\titlecontents{section}[0pt]{\addvspace{6pt}\filright\bf}%
+{\contentspush{\thecontentslabel \quad}}%
+{}{\titlerule*[8pt]{.}\contentspage}
+\makeatletter %双线页眉
+\def\headrule{{\if@fancyplain\let\headrulewidth\plainheadrulewidth\fi%
+		\hrule\@height 1.5pt \@width\headwidth\vskip1.5pt%上面线为1pt粗
+		\hrule\@height 0.5pt\@width\headwidth  %下面0.5pt粗
+		\vskip-2\headrulewidth\vskip-1pt}      %两条线的距离1pt
+	\vspace{6mm}}%双线与下面正文之间的垂直间距
+\makeatother
+%\CTEXsetup[format={\heiti \zihao{3} \bfseries \center}]{section}
+%\CTEXsetup[number={第\chinese{section}章}]{section} 
+\usepackage[explicit]{titlesec}
+\titlespacing*{\section}{0pt}{24pt plus .24pt minus .24pt}{18pt plus .0ex}
+%%%%%%%%%%%%%%%%
+\hypersetup{
+	colorlinks=true,
+	citecolor=blue,
+	linkcolor=blue,
+	urlcolor=blue,
+	pdfauthor={},
+	pdftitle={},
+	pdfsubject={}
+}
+%\usepackage[noabbrev,nameinlink]{cleveref} 
+\setcounter{secnumdepth}{4}
+\setcounter{tocdepth}{4}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%===== New Commands ==========
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{lineno}
+
+\makeatletter
+\newsavebox\myboxA
+\newsavebox\myboxB
+\newlength\mylenA
+\newcommand*\xoverline[2][0.7]{%
+	\sbox{\myboxA}{$\m@th#2$}%
+	\setbox\myboxB\null% Phantom box
+	\ht\myboxB=\ht\myboxA%
+	\dp\myboxB=\dp\myboxA%
+	\wd\myboxB=#1\wd\myboxA% Scale phantom
+	\sbox\myboxB{$\m@th\overline{\copy\myboxB}$}%  Overlined phantom
+	\setlength\mylenA{\the\wd\myboxA}%   calc width diff
+	\addtolength\mylenA{-\the\wd\myboxB}%
+	\ifdim\wd\myboxB<\wd\myboxA%
+	\rlap{\hskip 0.8\mylenA\usebox\myboxB}{\usebox\myboxA}%
+	\else
+	\hskip -0.5\mylenA\rlap{\usebox\myboxA}{\hskip 0.5\mylenA\usebox\myboxB}%
+	\fi}
+%%%%%%
+\newcommand{\alpgen}{\textsc{ALPGEN}}
+\newcommand{\powheg}{\textsc{Powheg~}}
+\newcommand{\prospino}{\textsc{PROSPINO}}
+\newcommand{\herwig}{\textsc{Herwig~}}
+\newcommand{\herwigpp}{\textsc{Herwig++~}}
+\newcommand{\pythia}{\textsc{Pythia~}}
+\newcommand{\mcatnlo}{\textsc{MC@NLO}}
+\newcommand{\fewz}{\textsc{FEWZ}}
+\newcommand{\mcfm}{\textsc{MCFM}}
+\newcommand{\isajet}{\textsc{ISAJET}}
+\newcommand{\madgraph}{\textsc{MADGRAPH}}
+\newcommand{\isasugra}{\textsc{ISASUGRA}}
+\newcommand{\isasusy}{\textsc{ISASUSY}}
+\newcommand{\jimmy}{\textsc{JIMMY}}
+\newcommand{\sherpa}{\textsc{Sherpa~}}
+\newcommand{\cteqVER}[1]{\textsc{CTEQ#1}}
+\newcommand{\mrstVER}[1]{\textsc{MRST#1}}
+\newcommand{\cteq}{\textsc{CTEQ6.6~}}
+\newcommand{\mstw}{\textsc{MSTW2008}}
+\newcommand{\AcerMC}{{\textsc{AcerMC}}}
+\newcommand{\Madgraph}{{\textsc{Madgraph}}}
+\newcommand{\Tauola}{{\tt TAUOLA}}
+\newcommand{\nnpdf}{{\textsc{NNPDF3.0}}}
+\newcommand{\annpdf}{\textsc{A14NNPDF2.3~}}
+\newcommand{\nnpdftwo}{\textsc{NNPDF2.3~}}
+\newcommand{\ctten}{{\textsc{CT10~}}}
+\newcommand{\ctfourteen}{{\textsc{CT14~}}}
+\newcommand{\mmht}{{\textsc{MMHT~}}}
+\newcommand{\red}{\color{red}}
+\newcommand{\blu}{\color{blue}}
+\newcommand{\magg}{\color{magenta}}
+\definecolor{Green}{RGB}{199,238,206}
+%%%%%%%%%%%%%%%%%%
+\newcommand{\abo}{\setlength{\abovedisplayskip}{4.2mm}}
+\newcommand{\bel}{\setlength{\belowdisplayskip}{4.2mm}}
+\newcommand{\nod}[1]{:\!{#1}\!:}
+%%%%%%%%%%%%%
+\setlength{\belowdisplayskip}{3mm}
+\renewcommand{\thefootnote}{\arabic{footnote}}
+%\newcommand{\eqrefe}{Eq.\eqref}
+\newcommand{\eqrefe}{公式\,\eqref}
+\newcommand{\beq}{\begin{equation}}
+	\newcommand{\eeq}{\end{equation}}
+\newcommand{\ba}{\begin{array}}
+	\newcommand{\ea}{\end{array}}
+\newcommand{\beqa}{\begin{eqnarray}}
+	\newcommand{\eeqa}{\end{eqnarray}}
+\newcommand{\beqs}{\begin{subequations}}
+	\newcommand{\eeqs}{\end{subequations}}
+\def\dis{\displaystyle}
+\newcommand{\la}{\langle}
+\newcommand{\ra}{\rangle}
+\newcommand{\bla}{\big\langle}  
+\newcommand{\bra}{\big\rangle}
+\newcommand{\fr}[2]{\mbox{$\frac{\,{#1}\,}{#2}$}}
+\renewcommand{\rm}{\mathrm}
+\newcommand{\Njet}{\ensuremath{N_{\mrm{jet}}}\xspace}
+\newcommand{\metsig}{\ensuremath{\met/\sqrt{H_{\mrm T}}}\xspace}
+\newcommand{\metomeff}[1]{\ensuremath{\met/\meff(#1)}\xspace}
+\newcommand{\metomeffQ}{\ensuremath{\met/\meff(4\mathrm{j})}\xspace}
+\newcommand{\dPhi}{\ensuremath{\ourdeltaphishort(\textrm{jet}_{1,2,(3)},\ourvecptmiss)_\mathrm{min}}\xspace}
+\newcommand{\dPhiR}{\ensuremath{\ourdeltaphishort(\textrm{jet}_{i>3},\ourvecptmiss)_\mathrm{min}}\xspace}
+\newcommand{\wtrk}{\ensuremath{W_{\mathrm{trk}}}\xspace}
+\newcommand{\ntrk}{\ensuremath{N_{\mathrm{trk}}}\xspace}
+\newcommand{\cbeta}{\ensuremath{C_{1}^{\beta=0.2}}\xspace}
+\newcommand{\pttrk}{\ensuremath{p_{\mathrm{T,trk}}}\xspace}
+\newcommand{\ptgamma}{\ensuremath{p_{\mathrm{T}}^{\gamma}}}
+\newcommand{\pt}{\ensuremath{p_{\mathrm{T}}\xspace}}
+\newcommand{\DMass}{\ensuremath{\Delta M(\SUSY{g},\XNF)}\xspace}
+\newcommand{\Poiss}{\ensuremath{\mathcal{P}}\xspace}
+\usepackage{float}
+\usepackage{morefloats}
+\usepackage{subfig}
+%\newcommand{\nod}[1]{:\!{#1}\!:}
+%\newcommand{\ehmd}[2]{\hat{k}_{#1} \cdot\hspace*{0.5mm}\hat{k}_{#2}}
+%%%%%%%
+\def\abseta{$|$$\eta$$|$~}
+\def\ptlone{\ensuremath{p_{\mathrm{T}}^{\ell_1}}\xspace}
+\def\ptltwo{\ensuremath{p_{\mathrm{T}}^{\ell_2}}\xspace}
+%\def\ptj{\ensuremath{p_{\mathrm{T}}^{jet}}\xspace}
+\def\Re{\mathfrak{Re}}
+\def\Im{\mathfrak{Im}}
+\def\deg{\circ}
+\def\leqq{\leqslant}
+\def\geqq{\geqslant}
+\def\({\left(}
+\def\){\right)}
+\def\[{\left[}
+\def\]{\right]}
+\def\LB{\left\{}
+\def\RB{\right\}}
+\def\nn{\nonumber}
+\def\pd{\partial}
+\def\pp{\prime}
+\def\to{\rightarrow}
+\def\ito{\!\rightarrow\!}
+\def\To{\Rightarrow}
+\def\under{\underline}
+\def\over{\overline}
+%%%%%%%%%%%%%%%%%%%%%%
+\def\Tr{\text{Tr}}
+\def\tr{\text{tr}}
+\def\diag{\text{diag}}
+\def\MP{M_{\text{Pl}}^{}}
+\def\MPm{M_{\text{Pl}}^{-1}}
+\def\MPP{M_{\text{Pl}}^2}
+\def\op{\text{op}}
+\def\cl{\text{cl}}
+\def\sgn{\text{sgn}}
+%%%%%%%%%%%%%%%%%%%%
+%== Latin letters ==
+%%%%%%%%%%%%%%%%%%%%
+\def\ba{\bar{a}}
+\def\hA{\hat{A}}
+\def\A{\pazocal{A}}
+\def\bfA{\mathbf{A}}
+\def\whA{\widehat{A}}
+\def\aj{a_j^{}}
+\def\bj{b_j^{}}
+\def\bb{\bar{b}}
+\def\B{\pazocal{B}}
+\def\bc{\bar{c}}
+\def\CC{\pazocal{C}}
+\def\D{\pazocal{D}}
+\def\td{\rm{d}}
+\def\bE{\bar{E}}
+\def\EE{\pazocal{E}}
+\def\hF{\hat{F}}
+\def\F{\pazocal{F}}
+\def\bfF{\bold{F}}
+\def\FFn{\pazocal{F}_n^{}}
+\def\FF{\pazocal{F}}
+\def\hg{\hat{g}}
+%\def\tdh{\tilde{h}}
+\def\th{\tilde{h}}
+%\def\th{\tensor{h}}
+\def\thh{\tensor{\hat{h}}}
+\def\hh{\hat{h}}
+\def\hP{h_{\rm{P}}^{}}
+\def\ii{\text{i}}
+\def\iii{\text{i}\hspace*{0.3mm}}
+\def\KK{\pazocal{K}}
+\def\KKt{\widetilde{\pazocal{K}}}
+\def\dKK{\delta\pazocal{K}}
+\def\dKKt{\delta\widetilde{\pazocal{K}}}
+\def\hk{\hat{k}}
+\def\La{\pazocal{L}}
+\def\bM{\xoverline{\pazocal{M}}}
+\def\M{\pazocal{M}}
+\def\MT{\widetilde{\pazocal{M}}}
+\def\dM{\delta\pazocal{M}}
+\def\dMT{\delta\widetilde{\pazocal{M}}}
+\def\NN{\pazocal{N}}
+\def\NNt{\widetilde{\pazocal{N}}}
+\def\dNN{\delta\pazocal{N}}
+\def\dNNt{\delta\widetilde{\pazocal{N}}}
+\def\hNN{\widehat{\pazocal{N}}}
+\def\tN{\widetilde{N}}
+\def\mO{\pazocal{O}}
+\def\bP{\bar{P}}
+\def\slp{\slashed{p}}
+\def\Qt{\widetilde{Q}}
+\def\bQ{\bar{Q}}
+\def\bR{\mathbb{R}}
+\def\bs{\bar{s}}
+\def\hSS{\hat{\pazocal{S}}}
+\def\mS{\pazocal{S}}
+\def\tS{\widetilde{S}}
+\def\SS{\pazocal{S}}
+\def\Sb{\mathbb{S}}  
+\def\hT{\hat{T}}
+\def\dT{\delta\pazocal{T}}
+\def\TT{\pazocal{T}}
+\def\tT{\widetilde{\pazocal{T}}}
+\def\bu{\bar{u}}
+\def\bv{\bar{v}}
+\def\vnt{\tilde{v}_n^{}}
+\def\vt{\tilde{v}}
+\def\VV{\pazocal{V}}
+\def\VT{\widetilde{V}}
+\def\tX{\widetilde{X}}
+\def\mX{\pazocal{X}}
+\def\XX{\mathbb{X}}
+\def\mY{\pazocal{Y}}
+\def\bZZ{\mathbb{Z}_2^{}}
+\def\ZZ{\mathbb{Z}}
+\def\zT{\tilde{z}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%== Greek letters ==
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\def\vrhohat{\widehat{\varrho}}
+\def\chit{\widetilde{\chi}}
+\def\bOme{\overline{\Omega}}
+\def\DEn{\widetilde{\Delta}_n^{}}
+\def\DEt{\widetilde{\Delta}}
+\def\vth{\vartheta}
+\def\al{\alpha}
+\def\alp{\alpha^\prime}
+\def\alpz{\alpha^\prime \rightarrow 0}
+\def\be{\beta}
+\def\ga{\gamma}
+\def\Ga{\Gamma}
+\def\thG{\tensor{\hat{\Gamma}}}
+\def\ka{\kappa}
+\def\ab{\alpha\beta}
+\def\hab{\hat\alpha\hat\beta}
+\def\abg{\alpha\beta\gamma}
+\def\mn{\mu\nu}
+\def\hmn{\hat\mu\hat\nu}
+\def\mnr{\mu\nu\rho}
+\def\dnm{\delta_{nm}^{}}
+\def\da{\delta}
+\def\heta{\hat{\eta}}
+\def\ep{\epsilon}
+\def\vep{\varepsilon}
+\def\lam{\lambda}
+\def\tGa{\tensor{\Gamma}}
+%\def\hka{\hat{\kappa}}
+\def\si{\sigma}
+\def\slp{\slashed{p}}
+\def\hka{\hat{\kappa}}
+\def\phin{\phi_{n}^{}}
+\def\phih{\hat{\phi}}
+\def\xin{\xi_n^{}}
+%%%%%%%%%%%%%%%%%%
+%== Kinematics ==
+%%%%%%%%%%%%%%%%%
+\def\ct{c_\theta^{}}
+\def\st{s_\theta^{}}
+\def\cht{c_{\theta/2}^{}}
+\def\sht{s_{\theta/2}^{}}
+\def\cct{c_\theta^2}
+\def\sst{s_\theta^2}
+\def\cctt{c_{2\theta}^2}
+\def\sstt{s_{2\theta}^2}
+\def\ctt{c_{2\theta}^{}}
+\def\cttt{c_{3\theta}^{}}
+\def\ctf{c_{4\theta}^{}}
+\def\ctfv{c_{5\theta}^{}}
+\def\cts{c_{6\theta}^{}}
+\def\stt{s_{2\theta}^{}}
+\def\sttt{s_{3\theta}^{}}
+\def\stf{s_{4\theta}^{}}
+\def\stfv{s_{5\theta}^{}}
+\def\sts{s_{6\theta}^{}}
+%%%%%%%%%%%%%%%%%%
+\def\sz{s_0^{}}
+\def\tz{t_0^{}}
+\def\uz{u_0^{}}
+\def\bsz{\bar{s}_0}
+\def\btz{\bar{t}_0}
+\def\buz{\bar{u}_0}
+\def\rp{r_{\!+}^{}}
+\def\rrp{r_{\!+}^2}
+\def\rmm{r_{\!-}^{}}
+\def\rrm{r_{\!-}^2}
+\def\qb{\bar{q}}
+\def\qqbp{\bar{q}^{\prime 2}}
+\def\ppbnm{\bar{p}_{nm}^2}
+\def\ppppbnm{\bar{p}_{nm}^4}
+%%%%%%%%%%%%%%%%%
+%== 5D ET ==
+\def\hLn{h_{\text{L}}^n}
+\def\ALn{A_{\text{L}}^n}
+\def\Afn{A_5^n}
+\def\Mn{M_n}
+\def\Mnn{M_n^2}
+\def\MD{\pazocal{M}_{\Delta}^{}}
+% === CS ====
+%%%%%%%%%%%%%%
+\def\sp{\mathfrak{s}}
+\def\epT{\epsilon_{\text{T}}}
+\def\epP{\epsilon_{\text{P}}}
+\def\epL{\epsilon_{\text{L}}}
+\def\epS{\epsilon_{\text{S}}}
+\def\epX{\epsilon_{\text{X}}}
+\def\zeT{\zeta_{\text{T}}}
+\def\zeP{\zeta_{\text{P}}}
+\def\zeL{\zeta_{\text{L}}}
+\def\zeS{\zeta_{\text{S}}}
+\def\zeX{\zeta_{\text{X}}}
+\def\tGa{\tensor{\Gamma}}
+\def\mt{\widetilde{m}}
+\def\P{\rm{P}}
+\def\L{\rm{L}}
+\def\T{\rm{T}}
+\def\S{\rm{S}}
+\def\E{\rm{E}}
+\def\APP{A_{\rm{P}}^{}}
+\def\ATT{A_{\rm{T}}^{}}
+\def\AP{A^a_{\rm{P}}}
+\def\AL{A^a_{\rm{L}}}
+\def\AT{A^a_{\rm{T}}}
+\def\ASa{A^a_{\rm{S}}}
+\def\ASS{A^{}_{\rm{S}}}
+\def\AX{A^a_{\rm{X}}}
+\def\Ap{A_{\rm{P}}}
+\def\At{A_{\rm{T}}}
+\def\tdA{\tilde{A}}
+\def\tdAT{\tilde{A}^a_{\rm{T}}}
+\def\tdATT{\tilde{A}^{}_{\rm{T}}}
+%%%
+\def\An{\pazocal{A}_n^\mu}
+\def\ASs{A_{\text{S}}^a}
+\def\AS{\pazocal{A}_n^{\text{S}}}
+\def\AST{\tilde{\pazocal{A}}_n^\text{S}}
+\def\ASST{\widetilde{\pazocal{A}}^\text{S}}
+\def\OmBn{\overline{\Omega}_n^{}}
+\def\bOme{\overline{\Omega}}
+%%%%%
+\def\hs{\hspace*{0.3mm}}
+\def\hsx{\hspace*{0.5mm}}
+\def\hsm{\hspace*{-0.3mm}}
+\def\hsmx{\hspace*{-0.5mm}}
+\def\hf{\frac{1}{2}}
+\def\vs{\vspace*{1mm}}
+\def\mjj{$m_{jj}$ }
+\def\ifb{fb$^{-1}$ }
+%%%%%%
+%%%%
+\def\ALnnnn{A^{an}_\L A^{bn}_\L \to A^{cn}_\L A^{dn}_\L}
+\def\Afnnnn{A^{an}_{5}A^{bn}_{5} \to A^{cn}_{5} A^{dn}_{5}}
+%%%%
+\def\ALnnmm{A^{an}_\L A^{bn}_\L \to A^{cm}_\L A^{dm}_\L}
+\def\Afnnmm{A^{an}_{5}A^{bn}_{5} \to A^{cm}_{5} A^{dm}_{5}}
+%%%%%\
+\def\ALnkml{A^{an}_\L A^{bk}_\L \to A^{cm}_\L A^{d\ell}_\L}
+\def\Afnkml{A^{an}_{5}A^{bk}_{5} \to A^{cm}_{5} A^{d\ell}_{5}}
+%%%%
+%%%%
+\def\hLnnnn{h^{n}_\L h^{n}_\L \to h^{n}_\L h^{n}_\L}
+\def\pnnnn{\phi_n^{}\phi_n^{} \to \phi_n^{}\phi_n^{} }
+%%%%
+\def\hLnnmm{h^{n}_\L h^{n}_\L \to h^{m}_\L h^{m}_\L}
+\def\pnnmm{\phi_n^{}\phi_n^{}  \to \phi_m^{}\phi_m^{} }
+%%%%%
+\def\hLnkml{h^{n}_\L h^{k}_\L \to h^{m}_\L h^{\ell}_\L}
+\def\pnkml{\phi_n^{}\phi_k^{} \to \phi_m^{}\phi_{\ell}^{}}
+%%%%%%
+%%%%%%
+\def\whN{\widehat{\pazocal{N}}}
+\def\fA{\mathsf{A}}
+\def\fB{\mathsf{B}} 
+\def\fC{\mathsf{C}}
+\def\fP{\mathsf{P}}
+\def\hsi{\hat{\sigma}}
+\def\hlam{\hat{\lambda}}
+\def\hze{\hat{\zeta}}
+\def\sh{\hat{s}}
+%\def\ht{\hat{t}}
+\def\uh{\hat{u}}
+\def\sj{s_{\hsm j}^{}}
+\def\hn{\hat{n}}
+\def\bn{\mathfrak{n}}
+\def\HighestDijetMass{8.12~\TeV\xspace}
+\def\HighestJetPt{3.79~\TeV\xspace}
+\def\integLumi{139.0~\ifb\xspace}
+
+
+\def\BlackMax{BlackMax\xspace}
+\def\Geant{{\textsc{Geant4}\xspace}}
+\def\CalcHEP{CalcHEP\xspace}
+\def\NLOJET{{\textsc{NLOJET++}\xspace}}
+\def\BumpHunter{{\textsc{BumpHunter}\xspace}}
+
+\def\mFchi{F_{\chi}\xspace}
+\def\Fchi{$\mFchi$}
+\def\mFchimjj{F_{\chi}(m_{12})\xspace}
+\def\Fchimjj{$\mFchimjj$}
+\def\ystar{\ensuremath{y^\ast}\xspace}
+\def\yB{\ensuremath{y_\mathrm{B}}\xspace}
+\def\qstar{\ensuremath{q^\ast}\xspace}
+\def\bstar{\ensuremath{b^\ast}\xspace}
+\def\Wstar{\ensuremath{W^\ast}\xspace}
+\def\Wprime{\ensuremath{W'}\xspace}
+\def\Zprime{\ensuremath{Z'}\xspace}
+\def\qbar{$\overline{q}$\xspace}
+\def\qqbar{$q\overline{q}$\xspace}
+\def\bbar{$\overline{b}$\xspace}
+\def\bbbar{$b\overline{b}$\xspace}
+\def\s{\ensuremath{\sqrt{s}}\xspace}
+
+\def\ptsubl{\ensuremath{p_{\mathrm T}^{sublead}}}
+\def\Acc{\ensuremath{\cal A}}
+\def\thetanp{\ensuremath{\theta_{np}}}
+\def\Nev{\ensuremath{{N_{ev}}}}
+\def\npv{\ensuremath{N_{\mathrm PV}}}
+\def\mm{\ensuremath{\langle\mu\rangle}}
+\def\as{\ensuremath{\alpha_{s}}}
+
+\def\akt{anti-\ensuremath{k_{\mathrm t}}\xspace}
+\def\Akt{Anti-\ensuremath{k_{\mathrm t}}\xspace}
+
+\def\sigmu{\ensuremath{\mu}}
+\def\qmu{\ensuremath{q_\mu}}
+\def\nuipar{\ensuremath{\theta}}
+\def\etaLL{\ensuremath{\eta_{LL}}}
+
+\newcommand*{\SM}{\textsc{sm}\xspace}
+\newcommand*{\CI}{\textsc{ci}\xspace}
+
+\newcommand{\gDM}{\ensuremath{g_{\chiDM}}\xspace}
+\newcommand{\gdm}{\gDM}
+\newcommand{\gq}{\ensuremath{g_{\mathrm q}}\xspace}
+\newcommand{\mmed}{\mMed}
+\newcommand{\Mmed}{\mMed}
+\newcommand{\mMed}{\ensuremath{M_{\mathrm{med}}}\xspace}
+\newcommand{\mdm}{\ensuremath{m_{\chiDM}}\xspace}
+\newcommand{\mDM}{\mdm}
+\newcommand{\chiDM}{\ensuremath{\chi}\xspace}
+
+% Search-phase related
+\def\resonanceFitRange{\ensuremath{1.1\text{--}8.1}~\TeV\xspace}
+\def\bumpHunterSignalInterval{\ensuremath{XX\text{--}XX}~\TeV\xspace}
+\def\bhpval{0.89}
+
+\def\resonanceFitRangeWstar{\ensuremath{1.7\text{--}8.1}~\TeV\xspace}
+\def\bumpHunterSignalIntervalWstar{\ensuremath{XX\text{--}XX}~\TeV\xspace}
+\def\bhpvalWstar{0.88}
+
+\def\bhpvalOneb{0.69}
+\def\bhpvalTwob{0.83}
+
+% Qstar related
+\def\qstarLim{6.7}
+\def\qstarLimExp{6.4}
+
+% QBH/BM related
+\def\resBMLim{9.4}
+\def\resBMLimExp{9.4}
+
+% Wstar related
+\def\WstarLim{3.9}
+\def\WstarLimExp{4.1}
+
+% Wprime related
+\def\wprimeLim{4.0}
+\def\wprimeLimExp{4.2}
+
+% HVT related
+\def\HVTLim{XX}
+\def\HVTLimExp{XX}
+
+% Bstar related
+\def\bstarLim{3.2}
+\def\bstarLimExp{3.1}
+
+% ZPrimebb Related
+\def\SSMZPrimeLim{2.7}
+\def\SSMZPrimeLimExp{2.7}
+\def\DMZPrimeLim{2.9}
+\def\DMZPrimeLimExp{3.0}
+
+% KKGraviton Related
+\def\KKGravitonLim{2.8}
+\def\KKGravitonLimExp{2.9}
+
+% QG Tagging Related
+\newcommand*{\nqg}{\ensuremath{n_{\textrm{qg}}}\xspace}
+\newcommand*{\nq}{\ensuremath{n_{\textrm{q}}}\xspace}
+\newcommand*{\ngluon}{\ensuremath{n_{\textrm{g}}}\xspace}
+
+\def\QQ{{\textbf{QQ}}}
+\def\QG{{\textbf{QG}}}
+\def\GG{{\textbf{GG}}}
+\def\JJ{{\textbf{JJ}}}
+\def\JG{{\textbf{JG}}}
+
+
+\def\s{\ensuremath{\sqrt{s}}}
+\def\BlackMax{BlackMax}
+\def\Wprime{\ensuremath{W^\prime}}
+\def\Wstar{\ensuremath{W^\ast}}
+\def\Zprime{\ensuremath{Z^\prime}}
+\def\Hprime{\ensuremath{H^\prime}}
+\newcommand*{\QCD}{QCD\xspace}
+\def\qstar{\ensuremath{q^\ast}}
+\def\QBH{{\textsc qbh}}
+
+\def\Geant{{\textsc{Geant4}}}
+
+%\def\pT{\ensuremath{p_{\mathrm T}}}
+\def\yB{\ensuremath{y_B}}
+\def\ystar{\ensuremath{y^\ast}}
+
+% Strings
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Ms}{\ensuremath{M_\mathrm{s}}\xspace}
+\newcommand{\str}{\textsc{Strings}\xspace}
+%%%%%%%%%%%%%%%%%%%%%
+%==BEGIN DOCUMENT==%%
+%%%%%%%%%%%%%%%%%%%%%
+%\pagecolor{Green}
+\begin{document}
+	\linenumbers
+	\thispagestyle{empty}
+	
+	\renewcommand{\headrulewidth}{0pt}
+	\begin{figure}[htb] 
+		%\center{\includegraphics[width=12cm]{./fig/logo/tdli-logo.png}} 
+		\center{\includegraphics[width=5cm]{./fig/logo/logo.png}} 
+	\end{figure}
+	
+	
+	
+	\begin{center}
+		\zihao{4}
+		\textbf{
+			A Dissertation Submitted to \\
+			Shanghai Jiao Tong University for the degree of \\
+			Doctor of Philosophy in Physics}
+	\end{center}
+	~\\
+	\begin{center}
+		\zihao{-2}\textbf{
+			Search for new phenomena in dijet events with quark/gluon tagger using the ATLAS detector}
+	\end{center}
+	%英文论文标题：大写，Times New Roman，加粗，14 points，居中
+	~\\
+	~\\
+	~\\
+	\begin{center}
+		\zihao{3} 
+		Wanyun Su\\
+		%Supervisor:  Shu Li
+	\end{center}
+	~\\
+	~\\
+	~\\
+	\begin{center}
+		\zihao{3} 
+		Tsung-Dao Lee Institute\\ %\& School of Physics and Astronomy\\
+		Shanghai Jiao Tong University \\
+		Shanghai, P.R.China \\
+		%{\red June 28th, 2022} 
+		\ctexset{today=old}
+		\today
+		%\today
+	\end{center}
+	
+	
+	\newpage
+	\thispagestyle{empty}
+	~\\
+	
+	\begin{figure}[htb] 
+		%\center{\includegraphics[width=12cm]{./fig/logo/tdli-logo.png}} 
+		\center{\includegraphics[width=5cm]{./fig/logo/logo.png}} 
+	\end{figure}
+	
+	\begin{center}
+		\songti \zihao{3} 申请上海交通大学博士学位论文
+	\end{center}
+	%该页为中文扉页。无需页眉页脚，纸质论文应装订在右侧
+	~\\[0mm]
+	\begin{center}
+		\songti \zihao{1} \textbf{在 ATLAS 双喷注末态中利用\\
+			夸克/胶子标定寻找新粒子
+		}
+		%(申请上海交通大学理学博士学位论文)
+	\end{center}
+	%中文论文标题，1行或2行，宋体，加粗，二号，居中。论文题目不得超过36个汉字
+	~\\
+
+	\begin{center}
+		\zihao{3}\textbf{
+			作者：苏琬云\\
+			导师：李数、Shih-Chieh Hsu (University of Washington, Seattle)\\
+			\vspace{6mm}
+			李政道研究所\\
+			上海交通大学}
+		%\begin{tabular}{l}
+		%\textbf{苏琬云}\\
+		%\textbf{学\quad 号：018072910082}\\
+		%\textbf{导\quad 师：李数\\
+			%\textbf{ 李政道研究所}\\
+			%\textbf{学科/专业名称：粒子物理}\\
+			%\textbf{申请学位层次：博士研究生}\\
+			%\iffalse
+			%\textbf{博\ 士\ 研\ 究\ 生：苏琬云}\\
+			%\%textbf{学\quad\quad\quad\quad 号：018072910082}\\
+			%\textbf{导\quad\quad\quad\quad 师：李数}\\
+			%\textbf{所\quad 在\quad 学\quad 院： 李政道研究所}\\
+			%\textbf{学科/专业名称：粒子物理}\\
+			%\textbf{授予学位单位：博士研究生}\\
+			%\fi
+			%\end{tabular}
+		\end{center}
+		~\\
+		\begin{center}
+			%\songti \zihao{4} \textbf{2022年06月}
+			\songti \zihao{4} \textbf{\today}
+		\end{center}
+		
+		\newpage
+		\thispagestyle{empty}
+		\begin{center}
+			\heiti \zihao{3}\textbf{
+				上海交通大学\\
+				学位论文原创性声明}
+		\end{center}
+		
+		\zihao{-4}
+		本人郑重声明：所呈交的学位论文，是本人在导师的指导下，独立进行研究工作所取得的成果。除文中已经注明引用的内容外，本论文不包含任何其他个人或集体已经发表或撰写过的作品成果。对本文的研究做出重要贡献的个人和集体，均已在文中以明确方式标明。本人完全知晓本声明的法律后果由本人承担。
+		
+		\begin{flushright}
+			\begin{tabular}{l}
+				\zihao{4}
+				学位论文作者签名：\hspace{20mm}\qquad\\
+				\zihao{4}
+				日期：\qquad 年\qquad 月\qquad 日
+			\end{tabular}
+		\end{flushright}
+		
+		~\\
+		\begin{center}
+			\heiti \zihao{3}\textbf{
+				上海交通大学\\
+				学位论文使用授权书}
+		\end{center}
+		
+		本人同意学校保留并向国家有关部门或机构送交论文的复印件和电子版，允许论文被查阅和借阅。\\
+		本学位论文属于 ：\par
+		$\square$公开论文\par
+		$\square$内部论文，保密$\square~$1年~/~$\square~$2年~/~$\square~$3年，过保密期后适用本授权书。\par
+		$\square$秘密论文，保密\_\_\_年（不超过10年），过保密期后适用本授权书。\par
+		$\square$机密论文，保密\_\_\_年（不超过20年），过保密期后适用本授权书。\par
+		（请在以上方框内选择打``$\surd$''）\\
+		
+		\begin{flushright}
+			\zihao{4}
+			\begin{tabular}{l l}
+				学位论文作者签名：\hspace{10mm}\qquad \hspace{100mm}&指导教师签名：\qquad\\
+				日期：\qquad 年\qquad 月\qquad 日 &日期：\qquad 年\qquad 月\qquad 日\\
+			\end{tabular}
+		\end{flushright}
+		
+		\newpage
+		\pagenumbering{Roman}
+		\pagestyle{fancy}
+		\fancyhf{}
+		\cfoot{$\bm{-\,\rm{\thepage}\,-}$}
+		
+		
+		\fancyhead[C]{摘\quad 要}
+		
+		%\addcontentsline{toc}{section}{摘\quad 要}
+		\section*{摘\quad 要}
+		%摘要：二字间空一格，黑体16磅加粗居中，单倍行距，段前24磅，段后18磅。
+		
+		%\hspace{8mm}
+		
+		
+		
+		%\\
+		%~\\
+		\textbf{关键词}：
+		\\
+		%关键字：宋体12磅，行距20磅，段前段后0磅，关键字之间用逗号隔开,关键词三个字加粗。
+		
+		
+		
+
+
+\newpage
+%\addcontentsline{toc}{section}{ABSTRACT}
+\fancyhead[C]{ABSTRACT}
+
+
+\section*{\textbf{ABSTRACT}}
+%ABSTRCT：Arial 16磅加粗居中，单倍行距，段前24磅，段后18磅
+
+\hspace{8mm}
+
+The physics analyses presented in this PhD dissertation search for new physics beyond the Standard Model (BSM) in the dijet mass distribution using an integrated luminosity of 140 \ifb of proton-proton collisions with a centre-of-mass energy at 13 TeV recorded by the ATLAS detector. This analysis aims at searching for the evidence of the BSM resonances in three different spectra: the untagged dijet invariant mass, one gluon-tagged and two gluon-tagged channels. In order to increase the sensitivity to observe new resonances that preferentially decaying to one or more gluons, a gluon-tag method based on the number of associated particle tracks is employed. Jets originating from quarks and gluons can be identified using quark/gluon tagger. Two taggers are investigated: one tagger based on the number of charged tracks associated with the jets, while the other employs a boosted decision tree to combine various jet substructure observables. Differences between data and Monte Carlo simulation of tagging efficiency are provided. A matrix method is performed on data to retrieve the quark/gluon fraction from quark/gluon-enriched subsamples, defined by the pseudorapidity of the jet. In the analysis, the quantum chromodynamics (QCD) background is estimated by the statistical framework which parameterised the dijet mass spectrum. Upper limits then are set at the 95\% confidence level on a variety of theories of BSM physics and a model-independent generic Gaussian shape signal.
+
+%\vs
+
+
+%\vspace*{1mm}
+
+
+%英文摘要内容：Times New Roman 12磅，行距20磅段前段后0磅
+~\\ 
+\textbf{KEY WORDS}: 
+Standard Model, ATLAS, calibration, jet tagging
+
+%Keywords：Times New Roman 12磅，行距20磅， “key words” 两词加粗
+%\thispagestyle{fancy}
+%\fancyhead [RO, LE] {\normalsize{\songti 第一章\quad 绪论}}
+%\fancyhead [LO, RE] {\normalsize{\songti 上海交通大学学位论文}}
+
+\newpage 
+
+
+\begin{center}
+%\fancypagestyle{plain}{%
+%\fancyhf{}
+%\fancyhead[C]{Contents}
+%\cfoot{$\bm{-\,\rm{\thepage}\,-}$}
+%}
+\fancyhead[C]{Contents}
+
+\renewcommand\contentsname{\textbf{Contents}}
+
+
+\tableofcontents\thispagestyle{fancy}
+
+
+\end{center}
+
+
+\newpage
+\pagenumbering{arabic}
+
+\pagestyle{fancy}
+\fancyhf{}
+\cfoot{$\bm{-\thepage-}$}
+
+%\linenumbers 
+
+
+\fancyhead[C]{Introduction}
+
+\section{Introduction}
+\label{sec:1}
+
+
+\hspace{8mm}
+Over the past seventy years, the theories and discoveries of thousands of physicists have developed a notable insight into the fundamental structure of matters, called fundamental particles, which are governed by four fundamental forces. One of the best understandings of how these particles and three of the forces interact with each other is encapsulated in the Standard Model (SM) of particle physics. Developed in the early 1970s, it has been successfully proved by almost all experimental results. The huge success of the discovery of Higgs Boson in 2012 predicted by the SM was awarded the Nobel Prize in Physics in 2013. The SM has become established as a well-tested physics theory.
+
+Although the SM accurately describes the phenomena within its domain, there are still theoretical flaws that prevent some fundamental physical phenomena from being fully explained by the SM. First of all, the model contains many parameters that cannot be derived from calculations alone but must be determined by experiment. 
+In 1998, the Japanese Super Kamioka neutrino detector published results on neutrino oscillations that suggested the neutrinos have a non-zero rest mass, which did not match the prediction made by the SM. Besides, the existence of gravity and dark matter has not yet been described by the SM theory.
+
+Many models of physics beyond the Standard Model (BSM) predict the presence of new particles that couple to quarks and/or gluons. Such particles could be produced in proton-proton collisions at the Large Hadron Collider (LHC) and then decay into quarks and gluons, during this process two hadronic jets are created, which then can be seen by the detector. The new energy regime ($\sqrt{s}$ = 13 TeV) with an integrated luminosity of 140 \ifb provided by the LHC opens a window to search for BSM particles. 
+
+In the SM, these dijet events are generated mainly by quantum chromodynamic (QCD) processes and appeared to be a smoothly decreasing invariant mass (\mjj) distribution, however, a new particle that decays into quarks or gluons could appear as a resonance in the \mjj spectrum. If the resonant samples can be classified based on the type of parton that initiated the jets, the sensitivity of the search for such resonances could be largely increased. Hence, classifying jets as initiated from a quark or a gluon can be effective for improving SM measurements and searches for BSM physics. 
+
+Recent developments in quark/gluon ($q/g$) tagging have resulted from advances in the theoretical, phenomenological and experimental understanding of $q/g$ tagging as well as the development of powerful machine learning techniques that can utilize the entire jet internal radiation pattern. The calibration of $q/g$ taggers is performed to account for the systematics of searching results. 
+
+
+This thesis is structured as follows. Chapter \ref{sec:2}. describes the theoretical framework of the SM, its limitations and various potential extensions beyond it. An introduction to the LHC and the ATLAS detector is given in Chapter \ref{sec:3}. Jet reconstructions and calibrations are briefly described in Chapter \ref{sec:4}. The quark/gluon tagger definitions and the selection criteria used to generate the various event samples employed in the discriminant extraction, the method and the scale factor results are presented in Chapter \ref{sec:5}. The details of the search for new resonances in the dijet spectrum and the limit setting results are shown in Chapter \ref{sec:6}. In the end, the conclusion and outlook of the research are presented in Chapter \ref{sec:7}.
+
+
+
+
+
+
+
+\newpage
+\fancyhead[C]{The theory framework}
+\section{The theory framework}
+\label{sec:2}
+\subsection{The Standard Model}
+\label{sec:2.1}
+
+The Standard Model of particle physics, which describes the three fundamental interactions - strong, weak and electromagnetic interactions - and the fundamental particles that make up all matter, is the most successful theory of particle physics known.
+The SM divides particles into two categories, fermions and bosons, based on the values of their spin: fermions are the particles that makeup matter, such as electrons in leptons, quarks and neutrinos, which have half-integer spin; bosons are the particles that transmit forces, such as photons and mesons that transmit electromagnetic forces, gluons that transmit strong nuclear forces, $W$ and $Z$ that transmit weak nuclear forces, have integer spin.  Different properties shown in fermions and bosons are due to the difference in spin. According to the spin-statistics theorem, fermions obey the Pauli exclusion principle, whereas bosons do not, thus bosons do not have a theoretical limit on their spatial density.
+
+The SM is a paradigm of a quantum field theory which provides the mathematical framework for it. The Lagrangian controlled the dynamics and kinematics of the system satisfies the $SU(3)$ x $SU(2)$$_L$ x $U(1)$$_Y$ gauge symmetry, in which $U(1)$$_Y$ corresponds to a particle $B$ with weak hypercharge $Y$. $SU(2)$$_L$ corresponds to particles $W$$_\alpha$ ($\alpha$ = 1, 2, 3) with weak isospin $T$ and only left-handed chiral particles. The electroweak force which unifies the electromagnetism and the weak interaction as a Yang-Mills field is represented by the group $SU(2)$$_L$ x $U(1)$$_Y$, mathematically. In SM, the $Z$$^0$ boson and the photon ($\ga$) are given by: 
+
+\begin{equation}
+\left(\begin{array}{c}\gamma \\ Z^{0}\end{array}\right)=\left(\begin{array}{cc}\cos \theta_{\mathrm{W}} & \sin \theta_{\mathrm{W}} \\ -\sin \theta_{\mathrm{W}} & \cos \theta_{\mathrm{W}}\end{array}\right)\left(\begin{array}{c}B \\ W_{3}\end{array}\right)
+\end{equation}
+where $\theta_{\mathrm{W}}$ is the weak mixing angle. 
+
+The charged massive bosons $W$$^\pm$ are given by $W$$_1$ and $W$$_2$:
+
+
+\begin{equation}
+W^{\pm}=\frac{1}{\sqrt{2}}\left(W_{1} \mp i W_{2}\right)
+ \end{equation}
+
+$SU(3)$ corresponds to eight vector fields $A$$^\alpha$($\alpha$ = 1, 2, ...,8) representing gluon fields, which are vector gauge bosons that carry the colour charge of the strong interaction and mediate between quarks in QCD.
+The Higgs boson, unlike all other known bosons such as the photon, is a scalar boson and has a non-zero average value in vacuum. It is resulted from the process of spontaneous symmetry breaking. The Higgs mechanism explains the generation of the property "mass" for gauge bosons. At a critical temperature, the Higgs field introduces a vacuum expectation value that causes spontaneous symmetry breaking during interactions, leads the bosons it interacts with acquire masses. A Yukawa coupling is used in the SM to describe the interaction between the Higgs field and fundamental fermions, explain the generation of the masses of fermions. 
+
+
+
+This chapter therefore focuses on the present SM, various extensions and variants of the SM that have been proposed by theoretical physicists are explored in Section.\ref{sec:2.2}.
+
+\subsubsection{Quantum chromodynamics}
+\label{sec:2.1.1}
+
+QCD is the theory of the strong interaction between quarks and gluons, and it is a fundamental component of the SM of particle physics. Satisfying the $SU(3)$ symmetry group invariant, QCD is a non-abelian gauge theory, over the years, QCD has collected a huge body of experimental evidence, proved that it has been a successful application from a quantum field theory.
+
+The Lagrangian of QCD can be expressed as:
+\begin{equation}
+\mathcal{L}_{\mathrm{QCD}}=\bar{\psi}_{i}\left(i \gamma^{\mu}\left(D_{\mu}\right)_{i j}-m \delta_{i j}\right) \psi_{j}-\frac{1}{4} G_{\mu \nu}^{a} G_{a}^{\mu \nu}
+\end{equation}
+where $\psi_{i}$ is the quark field in the fundamental representation of the $SU(3)$ gauge group, indexed by $i$ and $j$ running from 1 to3; $m$ corresponds to the quark mass; the $\gamma^{\mu}$ are Dirac matrices relating the spinor representation to the vector representation of the Lorentz group.
+
+$D$$_{\mu}$ is defined as the gauge covariant derivative:
+
+\begin{equation}
+\left(D_{\mu}\right)_{i j}=\partial_{\mu} \delta_{i j}-i g_s\left(T_{a}\right)_{i j} \mathcal{A}_{\mu}^{a}
+\end{equation}
+which couples the quark field with a coupling strength $g$$_s$ to the gluon fields via the infinitesimal $SU(3)$ generators $T$$_{a}$. By including the Gell-Mann matrices $\lambda _{a}$ (a=1...8), an explicit representation of $T$$_{a}$ is defined by $T$$_{a}$=$\lambda _{a}$/2.
+
+The gauge invariant gluon field strength tensor $G$$_{\mu \nu}^{a}$ is given by:
+\begin{equation}
+G_{\mu \nu}^{a}=\partial_{\mu} \mathcal{A}_{\nu}^{a}-\partial_{\nu} \mathcal{A}_{\mu}^{a}+g_s f^{a b c} \mathcal{A}_{\mu}^{b} \mathcal{A}_{\nu}^{c}
+\end{equation}
+
+where $\mathcal{A}$$_{\mu}^{\alpha}$ are the gluon fields, indexed by $a$, $b$ and $c$ running from 1 to 8; $f$$^{a b c}$ are the structure constants of $SU(3)$. The coupling strength $g$$_s$ can be referred to strong coupling constant $\alpha_{s}$:
+
+\begin{equation}
+\alpha_{s}=\frac{g_{s}^{2}}{4 \pi}
+\end{equation}
+
+
+There are some salient properties that QCD exhibits:
+\begin{description}
+\item[Colour confinement] \mbox{} \\
+	This is a consequence of the force between two colour-charged particles that can not be isolated in a condition that below the Hagedorn temperature of approximately 2 terakelvin. To separate two quarks in a hadron, extremely high energy is required, leading to the creation of a quark-antiquark pair that formed a pair of hadrons rather than a single hadron. In addition, glueballs which are formed only of gluons are colourless and also consistent with confinement, causing difficulty in identification in experiments. 
+	
+	
+	
+
+\item[Asymptotic freedom and the running coupling] \mbox{} \\
+	This is a feature of QCD that demonstrates the strong interactions between quarks and gluons become asymptotically weaker as the energy scale of them increases and the corresponding length scale decreases. This is opposite to the behaviour of colour-charged particles at low energies where the confinement of quarks and gluons exhibits. At high energy, the coupling decreases logarithmically as a function of momentum transfer $Q$:
+
+		\begin{equation}
+		\alpha_{\mathrm{s}}\left(Q^{2}\right) \stackrel{\text { def }}{=} \frac{g_{\mathrm{s}}^{2}\left(Q^{2}\right)}{4 \pi} \approx \frac{1}{\beta_{0} \ln \left(Q^{2} / \Lambda^{2}\right)}
+		\end{equation}
+		
+where $\beta_{0}$ is a one-loop beta function in QCD and has the dependence of the coupling parameter $g$$_\mathrm{s}$. The quantity $\Lambda$ is referred to QCD scale that is measured in processes where the strong coupling constant and other measurables vary with momentum transfer $Q$.
+However, this is only effective at leading order (LO). By including higher order terms, the calculation expanded in order of $\alpha_{s}$ resulted in more complexity and less significance as the scale of $Q$ increases. On the other hand, as $Q$ tends to be infinite large, the coupling strength becomes zero thus the behaviors of quarks are asymptotically free. These variation of coupling $\alpha_{s}$ under the different scales of energy in QCD is described as the running coupling.
+
+
+
+%\item[Chiral symmetry breaking] \mbox{} \\
+%	There are no known phase transition lines separating these two properties; confinement is dominant in the lower energy scales, but, as energy increases, asymptotic freedom becomes dominant.
+	
+\end{description}
+
+The calculation of matrix element in QCD can be rather complex as more and more perturbative contributions are considered, which requires the application of complicated integrals over a large number of variables. A Feynman diagram is used as a representation of the expressions of these integrals pictorially and an improvement of undertaking the critical calculations.
+
+\begin{figure}[htb] 
+	\centering  
+   \subfloat[]{
+	\label{Fig.sub.1}
+	\includegraphics[width=4cm]{./fig/f1.png}}
+	\subfloat[]{
+	\label{Fig.sub.2}
+	\includegraphics[width=4cm]{./fig/f2.png}}
+	\subfloat[]{
+	\label{Fig.sub.3}
+	\includegraphics[width=4cm]{./fig/f3.png}}
+ 	\caption{Feynman diagrams of strong interaction in top-antitop quarks production via \subref{Fig.sub.1} one gluon exchange in quark-antiquark annihilation, gluon-gluon fusion in \subref{Fig.sub.2} t-channel and \subref{Fig.sub.3} s-channel.}
+\end{figure}
+
+With more interactions points involved in, more complicated the calculations become. The effects of self-interactions between particles themselves can happen by producing a virtual particle which is restricted by the uncertainty principle, represented as a loop in a Feynman diagram. The accuracy of the calculation has dependency on the coupling $\alpha_{s}$ and is contributed to a fraction at each order. By including an infinite number of virtual particles, the calculations are led to divergent and infinite.
+A set of techniques named renormalization are employed in solving the infinities showed up in the calculations, by which the infinite self-interactions are parameterized by re-scaling them as finite values to compensate the effects. The ultraviolet divergence that occurs from integrating the contributions at extreme high energy is represented by renormalization scale $\mu_R$, on the contrast,  $\mu_F$ represents the condition of an integral diverges at infinitesimal energy.
+
+
+
+\subsection{Physics beyond the Standard Model}
+\label{sec:2.2}
+\subsubsection{$H^\prime$}
+%\label{sec:2.2.2}
+
+Many extensions of the SM predict the existence of new heavy Higgs-boson-like particles. 2HDMs are a wide set of models in which the couplings scale with Yukawa couplings thus leads to a relatively small branching ratio of the scale $H$ or pseudoscalar $A$ to gluons. New particles that decay into photons are also predicted by BSM and have a branching ratio to gluons.  Besides, some classes of models predicted the new particle decaying into photons with a branching ratio to gluons, where the relative branching ratio of photons to gluons is model-dependent. Models with new heavy fermions through scalar decays to gluons are also exist.
+
+The motivation of a model-independent di-gluon resonances is that the \mjj background is dominated by valence quark scattering at high energy, which leads gluon tagging particularly effective. At higher energy, there is higher jet constituent multiplicity that makes gluon tagging becomes more effective, thus the search in this analysis could gain the most from gluon tagging.
+
+For this analysis, a high mass simulated $SU(3)$ singlet scalar $H^\prime$ decaying into a pair of gluons is used. The physical width in practice is set to be narrow to be model-dependent and thus the \mjj width is set by the detector resolution.
+
+\subsubsection{String}
+%\label{sec:2.2.1}
+
+
+A mathematical framework named string theory has contributed to a variety of problems in the SM such as the existence of gravity, it offers a unified description of particle physics and gravity. String theory handles point-like particles as one-dimensional objects called strings and demonstrates the behaviours of these strings propagating through time and space. By regarding particles as infinitesimal vibrating strings, the charge, mass, and other properties of them are determined by the vibration or twist of the strings. A dynamical object called brane is employed to generalize the representation of a point particle to higher dimensions such that a string can be regarded as a brane of dimension one and can propagate through time and space under the principles of quantum mechanics. Among them, a so-called Dirichlet membrane (D-brane) is widely used as the open strings satisfy the Dirichlet boundary conditions.
+
+In this analysis, we consider type-II string theory which includes a D-brane localized in $p$ + 3 partial dimension: D$p$-brane, compactified on a six-dimensional torus. The choice of the string mass scale $M_s$ is to be smaller than the 4-dimensional Planck scale to keep the coupling small, at the expense of introducing 9 - $p$ large transverse dimensions felt only by gravity. Only the fundamental string scale in the TeV range is what this analysis is interested in.
+
+
+By considering the main subprocesses in dijet production that are independent of the details of the compactification. Amplitudes, which include 2$\to$2 scattering processes involving two gluons and two quarks, or four gluons,  are independent of the details of the compactification such as the configuration of branes. This model independence makes it possible to compute the string corrections to QCD dijet processes.
+
+
+\subsubsection{Quantum Black Holes}
+\label{sec:2.2.3}
+
+Quantum Black Holes (QBH), also called micro black holes, are regarded as hypothetical mini (less than a solar mass unit) black holes that dominated by quantum mechanical effects. Some hypotheses predict that QBH could be produced at energies as low as the TeV range, which can be generated in particle accelerators such as the LHC and can be observed through the particles that are emitted by the process of Hawking radiation.
+
+
+In the simplest scenario, the decay of QBH via Hawking radiation can be approximately described as isotropic decay to a many-particle final state.  The threshold of quantum-gravity energy scale $M_D$ is set to be well below the 
+the actual thermal black hole production threshold for gravitational interactions so that two-body states in final states are the dominant, a resonance-like result is expected in predominantly two-body final states as jets near $M_D$. Such isotropic final states is aimed as probes of quantum gravitational effects in this dijet analysis.
+
+
+
+%\subsubsection{Graviton}
+%\label{sec:2.2.4}
+%
+%Graviton is at the heart of arguably the biggest challenge in theoretical physics, over decades, physicists have struggled to combine Einstein’s theory of gravity, known as General Relativity, with quantum field theory.
+%Graviton is believed to be the carrier of the gravitational field, which means it is the hypothetical elementary particle that mediates the gravitational interactions in the theories of quantum gravity. Graviton is presumed to be massless due to the long range of gravitational interaction and propagates forces and energies at the speed of light as photons.
+%There are difficulties in the detection of individual gravitons because of the extremely low cross-section of gravitational interaction with matter. Although gravity affects all particles, its strength at the scale of quarks is predicted to be 10$^{-41}$ relative to electromagnetic force. However, observations such as LIGO and Virgo interferometer have successfully detected cosmic gravitational waves in 2016 and were awarded the Nobel Prize in Physics in 2017.
+%Despite the fact that so far no individual graviton has been detected, these experiments still might probe some properties of the graviton. Recent observations of gravitational waves have put an upper bound of  6$\times$10$^{-32}$ eV/c$^2$ on the mass of a graviton.
+%
+%
+
+
+
+\newpage
+\fancyhead[C]{The ATLAS Experiment}
+\section{The ATLAS Experiment}
+\label{sec:3}
+
+\subsection{The Large Hadron Collider}
+\label{sec:3.1}
+
+The LHC, built by European Organization for Nuclear Research (CERN) located in Geneva, Switzerland, is the largest circular particle accelerator in the world. The goal of it is to probe the various theoretical predictions made by physicists.
+  
+It consists superconducting magnets that construct a 27-kilometer ring lying in the tunnel under the ground. Inside the LHC, two beams made of protons or ions are accelerated to extreme high speed in opposite direction in individual vacuum pipes then made into collision by a strong magnetic field within the structures.
+
+The LHC is the last section of the CERN accelerator complex where a series of machines accelerates the particles to increasingly higher and higher energies. The highest energies of beams are reached at the LHC.
+
+
+ \begin{figure}[htb] 
+ 	\centering  
+ 		\includegraphics[width=14cm]{./fig/2022.png}
+ 		\caption{The CERN accelerator complex}
+\end{figure}
+ 
+
+ Seven detectors are placed around four collision points in the collider. Different types of particles are accelerated according to the research, the main beams are protons, but the LHC also run beams of heavy ions as lead–lead collision or proton-lead collisions.
+ 
+ The energy of particles is increased by a series of processes before being injected into the main accelerator. For a proton-proton collision, negative hydrogen ions are generated by the linear particle accelerator Linac4 at 160 MeV then injected into the Proton Synchrotron Booster, where protons are obtained by stripping electrons away from the atom and accelerated to 2 GeV. After entered the Proton Synchrotron the energy of the protons is 26 GeV, and then their energies are increased in Super Proton Synchrotron to 450 GeV before they are finally injected into the main ring. 
+
+  
+One of the characteristics that defines the power of an accelerator is the centre-of-mass energy, which represents the total momentum of the system and thus indicates the total mass of potential new particles as well as probes the internal structure of known particles under the law of energy invariant within the system. In 2010, the first collisions were made at an energy of 3.5 TeV each beam, later in 2018, an energy of 6.5 TeV per beam was achieved, resulted in the centre-of-mass energy of 13 TeV where the protons moved at a 99.9\% speed of light. It took less than 90 $\mu$s for photons to go through the whole LHC ring. 
+
+Other quantities such as luminosity, denoted as $\mathcal{L}$, also represents the performance of an accelerator. It is the rate of interactions during a certain period of time and can be expressed as:
+
+\begin{equation}
+\mathcal{L}=\frac{N^2 f_{r e v}}{4 \pi \sigma_x \sigma_y} 
+\end{equation}
+where $N$ is the number of particles in a bunch, in the case that a beam has Gaussian distribution and has brunches crossing frecuency $f_{rev}$. $\sigma_x$ and $\sigma_y$ denote as transverse beam widths in the x- and y-plane. The luminosity takes the units of cm$^{-2}$·s$^{-1}$.
+
+The total number of physics events detected can be express as:
+
+\begin{equation}
+N_{\text {event }}=\sigma_{\text {event }} \cdot \int \mathcal{L} d t \equiv \sigma_{\text {event }} \cdot L
+\end{equation}
+
+where $L$ is the integrated luminosity with respect to time, $\sigma_{\text {event }}$ is referred to the cross section of a specific physics process. The integrated luminosity takes the units of cm$^{-2}$ which equals to the unit femtobarn (fb).
+
+ At the LHC, thousands of magnets around the accelerator are operated at a very low temperature of ‑271.3\textcelsius \ to maintain its superconducting state which allow them to conduct electricity without loss of energy. Hence, a system of liquid helium is used for cooling the accelerator and supply services.
+
+Besides, superconducting radio frequency cavities which resonate electromagnetic fields are employed to accelerate the protons. Instead of having continuous beams, the protons are made into bunches, so that the collisions are taken place at discrete intervals between two beams with 115 billion protons per bunch at the frequency of 25 ns.
+
+
+\subsection{The ATLAS detector}
+\label{sec:3.2}
+
+The ATLAS detector is the largest volume detector ever constructed for general-purpose particle research at the LHC. It has the shape of a cylinder with 44 meters long, 7000 tonnes in weight and 25 meters in diameter, sitting in a cavern underground. It is designed to collect evidence of the properties of SM and search for new predictions made by particle physics beyond the SM.
+
+To record the energy, momentum and trajectory of particles after collisions, the detector consisting of 6 different detecting subsystems  placed in layers surrounding the interaction point to measure them individually and effectively. 
+
+ \begin{figure}[htb] 
+	\centering  
+	\includegraphics[width=14cm]{./fig/atlas.png}
+	\caption{Cut-away view of the ATLAS detector}
+	\label{Fig.atlas}
+\end{figure}
+An overall layout of the ATLAS detector is shown in Figure~\ref{Fig.atlas}.
+
+\subsubsection{Inner detector}
+\label{sec:3.2.1}
+
+Charged particles above a certain \pt~threshold are detected by the ATLAS Inner Detector (ID) which immersed in a 2 T solenoidal field, covered the pseudorapidity range \abseta < 2.5.
+Appearing as tracks in the ID, an excellent momentum resolution as well as both primary and secondary vertex of them are provided by the ID.  Within the range \abseta < 2.0,  electron identification is also provided.
+
+The layout of the ID is shown in Figure~\ref{Fig.id} in cylindrical coordinate: $r=\sqrt{x^2+y^2}$, where $x$-axis alongside the LHC ring and $y$-axis is perpendicular to the $x$-axis.
+\begin{figure}[htb] 
+	\centering  
+	\includegraphics[width=13cm]{./fig/id.png}	\caption{Cut-away view of the ATLAS ID. Sensors and structural elements traversed by a charged track of 10 GeV \pt~in the barrel inner detector along with their envelopes in $r$.}
+	\label{Fig.id}
+\end{figure}
+
+A cylindrical container around the ID has a length of 3512 mm each way and a radius of 1150 mm, tracks of 10 GeV traverse the sensors and structural elements in the barrel and end-cap regions, respectively.
+
+Within the inner region, a series of discrete space points provided by the silicon pixel detector and stereo pairs of silicon microstrip semiconductor tracking (SCT) layers gives high-resolution pattern recognition abilities. By increasing radial distances, the transition radiation tracker (TRT) provides extra pattern recognition and momentum resolution capabilities.
+
+\begin{description}
+ \item[The pixel detector] \mbox{} \\
+A series of high-granularity measurements is provided by the pixel detector which is composed of the innermost sub-detector of the ID, it is designed as close to the interaction point as possible. Three sub-sections: two end-cap perpendicular to the beam axis and a barrel alongside the beam axis as a concentric cylinder with four layers (average radii of 33.25, 50.5, 88.5 and 122.5 mm, respectively) in it. 
+
+The innermost pixel layer (or B-layer, IBL) is essential to b-tagging performance and supersymmetry searches as it cover the full acceptance of short-lived particles such as B hadrons and $\tau$ leptons from the beginning of Run-2 to enhance the measurement of the secondary vertex. Besides, a new readout sensor and chip responsible for higher radiation demage and higher hit rate, respectively, is employed in the IBL compared to the other three layers in the barrel region. A new  n-in-n planar and 3D silicon sensors with hit efficiency of greater than 97\% is developed as well. The better impact parameter resolution is achieved by reducing the pixel size of the chip down to 50 $\times$ 250 $\mu$m$^2$.  Around 80 million readout sections counting them all provide the great  hit resolution of 10 $\mu$m in radius plane and 115 $\mu$m alongside the z-axis in the pixel detector.
+
+ \item[The semiconductor tracker] \mbox{} \\
+ Surrounding the pixel detector is the SCT which encompasses silicon based semiconductor sensing components in barrel and end-cap geometries. Four silicon microstrip layers, located at radii of 300, 373, 447 and 520 mm, in the barrel region of the SCT provide high granularity points. The mean size of each strip pitch is 80 $\mu$m for the rectangular barrel sensors as daisy-chained with 6 cm-long. For the end-cap sensors, nine disks cover \abseta  < 2.5 are chosen. As a results, there are thus 768 readout strips with 6.36 $\times$ 6.40  cm$^2$ in size in total, with additional two strips at the edge of the sensor. 6.1 m$^2$ of silicon detectors with 6.2 million readout channels as a whole intergrated the SCT. 
+ 
+ \item[The transition radiation tracker] \mbox{} \\
+ The outermost layer of the ID is the TRT which encompasses polyimide drift(straw) tubes that designed to enable as much less wall thickness and material as possible while maintaining the good experimental properties. With 4 mm in diameter and 150 cm in length, 73 layers of 144 cm alongside the beam with 50 thousands tubes and 37 cm tubes consisting 160 tubes planes in the end-cap with 320 thousands radial tubes.
+ 
+ The xenon-based gas filled up in a given tube provides the track hit of a particle as it ionized as the emitting electrons drifting to the center wire of the tube volume. An average of 36 hits per charged-particle track is given by the TRT, 
+ The resulting electrical signals are obtained by converting the drifting charge currents. In total 420 thousands of electronics channels in which a good spatial resolution and drift-time measurement are provided by the TRT, enhancing the precision measurements of momentum in the ID.  
+ 
+
+\end{description}
+
+\subsubsection{Calorimeters}
+\label{sec:3.2.2}
+
+Outside of the ID lies the ATLAS calorimeters system which is designed to obtain the energy lost of the particles that travel through the detector components. Multiple layers of high-density material are placed to consume the energy of the incoming particles inside the materials and stop them from further moving.  An “active” medium is left inside the layers that allows experimental physicists measure the energy of those particles.
+
+Two types of calorimeters are employed in the ATLAS calorimeters system: the energy of electrons and photons are measured by the electromagnetic calorimeters as they create reaction with matter. Hadronic showers that created by the interaction between hadrons and atomic nuclei, are sampled by the hadronic calorimeters. Muons and neutrinos can not be stopped by the calorimeters as they interact only weak force but the track footprints could be seem in the calorimeters. The layout of the calorimeters is shown in Figure~\ref{Fig.calo1}.
+
+\begin{figure}[htb] 
+	\centering  
+	\includegraphics[width=15cm]{./fig/calo1.jpg}	\caption{Outline of the ATLAS Run 2 trigger and data-acquisition system.}
+	\label{Fig.calo1}
+\end{figure}
+
+The electromagnetic (EM) calorimeter covers a range of  \abseta < 3.2 by combining the one barrel and two end-cap modules as cylindrical cryostat, with an outer radius of 2.25 m, an end-cap thickness of 0.632 m and a length of 3.17 m. The hadronic calorimeter covers the central barrel region of \abseta < 1.0 and two extended barrels in a region of 0.8 < \abseta < 1.7. with a radius of 2.28 m at the inside and 4.25 m at the outside. Figure~\ref{Fig.calo2} demonstrates the positions of the end-cap of the calorimeters including the EM and Hadronic calorimeters.
+
+
+
+\begin{figure}[htb] 
+	\centering  
+	\includegraphics[width=15cm]{./fig/calo2.png}	\caption{Cut-away view of an end-cap cryostat of the ATLAS calorimeter system.}
+	\label{Fig.calo2}
+\end{figure}
+
+
+
+\begin{description}
+	\item[The electromagnetic calorimeter] \mbox{} \\
+The EM calorimeter that surrounding the ATLAS ID is designed for the high-granularity measurements of the energy of photons, electrons and hadrons with Liquid Argon (LAr) sandwiched between the multiple layers ionised. It converts the incoming particles into electric currents by absorbing the energy of these particles as they interact with the metal with the bremsstrahlung phenomenon. A pair of electron-positron produced by an electron radiation in the EM calorimeter can initiate further electron-positron pairs (as showers) until the energy of the particles fall below the certain threshold, the dominate process thus become ionisation in the LAr where drifting electrons are produced. Furthermore, the missing transverse energy can be obtained by subtracting the total energy of the known particles, which contributes to the analysis of neutrinos and new particles.
+
+At -184 \textcelsius~where the argon exists in liquid form, the calorimeter is kept as the cables that transverse electronic signals are sealed in vacuum and connected to the warmer area where located the readout system.
+
+
+
+
+\item[The hadronic calorimeter] \mbox{} \\
+Surrounded the EM calorimeter, lies the tile hadronic calorimeter where hadrons that contain strong force thus could not fully deposit their relatively large energy in the EM calorimeter are absorbed by the tile calorimeter. Steel and plastic scintillating tiles are placed in layers in order to record the trajectories of incoming particles as hadronic showers are formed by the interactions of the particles with the materials and emitting particles continue interacting with materials in the hadronic calorimeter and more particles are produced in steel layers. On the other hand, photons are produced by the plastic scintillators where electric currents are gained according to the energy of the particle.
+
+By enveloping the EM calorimeter, a hadronic shower that contained EM showers can be fully absorbed by the great thickness in the hadronic calorimeter. Around 420 thousands of plastic scintillator tiles are placed in sync, leading a weight of 2.9 thousands tonne in total.
+
+\begin{figure}[htb] 
+	\centering  
+	\includegraphics[width=11cm]{./fig/tile11.png}	\caption{A schematic view of a tile calorimeter components of optical readout tiles and scintillating tiles.}
+	\label{Fig.Tile1}
+\end{figure}
+
+As illustrated in Figure~\ref{Fig.Tile1},  photomultiplier tubes (PMT) are placed around the outer radii of the tile calorimeter and connected with wavelength-shifting fibres by which scintillation light is transferred. Projective geometry is designed for the whole readout system as the energy of most hadronic showers is deposited in the first or last two layers.  Though the coarser granularity of the readout cells of hadronic calorimeter has been compared to the EM calorimeter, the hadronic calorimeter is qualified for the measurement of transverse momentum and jet reconstruction.
+
+In the forward regions, the hadronic calorimeters are integrated with LAr calorimeters due to higher radiation exposition compared to the barrel regions. There are two calorimeters that were developed to tackle such issue: the hadronic end-cap calorimeter (HEC) that covers 1.5 < \abseta < 3.2 and the forward calorimeter (FCal) that covers 3.1 < \abseta < 4.9.
+
+The HEC located further beside the EM end-cap calorimeter has two wheels in each end-cap.  LAr is used for filling up 8.5 mm between copper layers in the HEC, by which the active medium is provided. The readout electrodes are provided in separate drift zones in order to secure the stability of the whole system.  The FCal has three wheels placed alongside the z-direction: one electromagnetic layer (FCal 1) and two hadronic layers (FCal 2 and FCal 3). LAr is also used as an active medium in all of the layers. As for the absorber, copper is employed in FCal 1 as it has heat removal properties.  Tungsten is used in both FCal 2 and FCal 3 in order to constrain the lateral spread of hadronic showers. 
+\end{description}
+
+
+\subsubsection{Muon spectrometer}
+\label{sec:3.2.3}
+
+The muon spectrometer (MS), specially designed for the muon detection is located in the outermost section of the ATLAS in order to provide sufficient measurement of high-momentum muons which are almost "invisible" to the ID and calorimeters due to little energy deposit when traveled through the them. By deflecting the trajectories of muons, the MS employs the magnetic field by a barrel toroid magnet system in \abseta < 1.4 and end-cap toriod systems in 1.6 < \abseta < 2.7. 
+
+Four subsections of the MS: add up to 4000 separate muon chambers. Thin Gap Chambers (TGC) and Resistive Plate Chambers (RPC) account for triggering and the second coordinate measurement of muons. TGC is set at the end of the detector whereas RPC which provides 5,000 V/mm electric field is placed in the central region. Monitored Drift Tubes (MDT) is designed for the curve of muon tracks measurement with fine tube resolution of 80 $\mu$m. Cathode Strip Chambers (CSC) accounts for measuring coordinates precisely located at ends of detector with a fine resolution of 60 $\mu$m. Figure~\ref{Fig.ms} demonstrates the MS with all four subsections. In total three separate points within the muon trajectory are measured to reconstruct the momentum of the muon.
+
+
+\begin{figure}[htb] 
+	\centering  
+	\includegraphics[width=14cm]{./fig/muon.jpg}	\caption{Cut-away view of the ATLAS Muons Spectrometer with subsections labeled.}
+	\label{Fig.ms}
+\end{figure}
+
+\subsubsection{Trigger and data acquisition}
+\label{sec:3.2.4}
+
+At the LHC, approximately 1.7 billion proton-proton collisions occur per second at an integrated luminosity of 140 \ifb. However, many of these collisions are unlikely to produce characteristics of interest. As a result, large numbers of events can be discarded without affecting the search for new physics. The trigger and data acquisition systems are introduced to eliminate the irrelevant data so that only events of suitable quality and quantity are recorded.
+
+\begin{figure}[htb] 
+	\centering  
+	\includegraphics[width=16cm]{./fig/dq.png}	\caption{illustration of the ATLAS  Run 2 trigger and data acquisition system.}
+	\label{Fig.dq}
+\end{figure}
+
+During the year of 2015-2018, the trigger system in ATLAS selected significant events in a two staged process, as illustrated in Figure~\ref{Fig.dq}: The first-level (L1) trigger is implemented on hardware, and reduced event rates from 40 MHz to 100 kHz in less than 2.5 $\mu$s right after the data happened. Working with the electrical information provided by the calorimeters and the MS, the L1 trigger employs custom-made electronics to filter and store the events in the readout sections as buffers before passing them to the High-Level trigger (HLT). Certain physics objects such as photons, jets and leptons are identified in the L1 trigger, in which energy depositions of electrons and photons in the EM calorimeter and jets in the hadronic calorimeter are provided. Information of tracks in high-momentum muons is recorded in the layers of the MS and forwarded to the L1 trigger.
+
+The events are further reduced from 100 kHz to 1 kHz in merely 250 microseconds by the second level trigger: HLT. Based on the offline software, the HLT utilize fast selection algorithms to analyse and reject events in the early stage, resulting in better precision and intense CPU usage of about 1.6 GB per second.  The accepted data from the HLT will be passed to permanent storage at CERN via Data Logger. 
+
+
+
+\newpage
+\fancyhead[C]{Jets in ATLAS}
+\section{Jets in ATLAS}
+\label{sec:4}
+
+
+In the LHC, a large number of quarks and gluons are produced during the inelastic proton-proton collisions, resulting in jets. These collimated outcome particles are hadronised because of colour confinement in the QCD process. As a result of this, only colour-neutral jets clustered by particles can be seen in the detector.
+
+The information of jets is crucial to most of the analysis such as the measurements of the SM particles and searches for the BSM phenomena. Good qualities of jets, for example the high efficiency of jet reconstruction, jet energy calibration including energy scale and energy resolution, are thus important to the analysis.
+
+\input{Texfiles/jet}
+
+
+%  Since the momentum is conserved throughout the showering and the hadronization process, a parton with large momentum will thus product particles which also have a signification fraction of their momenta in that direction. These final-state hadrons can be grouped into a spray of particles in the same region of the detector. A jet can thus be form by gathering the final-state particles and their energies into a single object. The finding of a jet goes back to a seminal work done by G. Sterman and S. Weinberg [68]. No standardized procedure for the jet finding algorithms exist, but there are a set of properties considered to be important [69]:
+
+%Jets in ATLAS can be defined using a variety of objects. Truth-particle jets are formed using stable particles with lifetimes longer than 10 ps excluding muons and neutrinos from the event generator. Track jets are built from charged particle tracks in inner-detector. They are insensitive to the effect of pile-up. And last the calorimeter jets which are used most commonly by analysis, use the topocluster for reconstructions [70].
+%In this chapter, two algorithms employed in the ATLAS will be discussed following the reconstruction. A brief introduction to the jet calibration will also be presented.
+
+\newpage
+\fancyhead[C]{The calibration of quark/gluon jets taggers}
+\section{The calibration of quark/gluon jets taggers}
+\label{sec:5}
+\input{Texfiles/calibration}
+
+
+\newpage
+\fancyhead[C]{Search for new phenomena in dijet events}
+\section{Search for new phenomena in dijet events}
+\label{sec:6}
+\input{Texfiles/dijet}
+
+
+\newpage
+\fancyhead[C]{Conclusions}
+\section{Conclusions}
+\label{sec:7}
+
+From 2015 to 2018, the proton-proton collision at the LHC have achieved an unprecedented centre-of-mass energy of $\sqrt{s}$ = 13 TeV, with a a total integrated luminosity of 140 \ifb that have been recorded by the ATLAS experiment. Such huge amount of collision data allow scientists test models beyond the SM in a more efficient way, leading a deeper understanding of physics beyond the SM.
+
+In this thesis, jet taggers are built using the charged multiplicity information provided by the ID to distinguish quark-initiated and gluon-initiated jets. In order to compensate the data and MC difference, a calibration procedure has been done using matrix method. Four working points of 50\%, 60\%, 70\%, 80\% together with all systematics are provided so that analyses can use it based on their own interest.
+
+This thesis presents the search for new resonances that potentially decay into a pair of jets using the data collected by the ATLAS detector during 2015-2018. Resonances predicted by the BSM can decay into quarks and/or gluons, by introducing jet taggers, the sensitivity of the search could be significantly increased. In this analysis, searches are performed on \mjj spectrum. Benchmark models \Hprime, String, and QBH are tested, as well as model-independent Gaussians. Because no significant excess in data are found, a upper limit is set to each model.
+
+
+
+
+\newpage
+\fancyhead[C]{REFERENCES}
+\phantomsection
+\addcontentsline{toc}{section}{REFERENCES}
+\renewcommand\refname{REFERENCES}
+
+%\bibliographystyle{utphys}
+%\bibliographystyle{unsrt}
+%\bibliographystyle{ieeetran}
+%\bibliography{Thesisref}
+%\bibliography{bib/ATLAS}
+%\bibliography{bib/CMS}
+%\bibliography{bib/ConfNotes}
+%\bibliography{bib/PubNotes}
+%\bibliography{bib/ATLAS-useful}
+
+
+
+\printbibliography
+
+
+
+
+
+
+\newpage
+%\appendix
+
+\fancyhead[C]{Appendix A}
+
+\addtocontents{toc}
+{\string\renewcommand\string\l@section{\string\@dottedtocline{1}{1.5em}{7em}}}
+\renewcommand*{\thesection}{\appendixname\space\thechapter~\Alph{section}~~}%
+\section*{Appendix A}%\thesection~
+\phantomsection
+\addcontentsline{toc}{section}{Appendix A} \renewcommand\refname{{Appendix A}
+%\renewcommand*{\thesection}{\thechapter.\Alph{section}}%
+\label{app:A}
+%%%%%%%%%%%%%%%%%%%%%%%%
+\setcounter{equation}{0}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+
+\makeatletter
+\renewcommand{\theequation}{A.\arabic{equation}}
+\renewcommand{\thefigure}{A.\arabic{figure}}
+\renewcommand{\thetable}{A\arabic{table}}
+\renewcommand{\thesubsection}{A.\arabic{subsection}}
+
+
+
+
+
+\newpage
+\fancyhead[C]{Acknowledgements}
+\phantomsection
+\addcontentsline{toc}{section}{Acknowledgements}
+\section{Acknowledgements}
+
+。
+%\maketitle % <==========================================================
+
+\end{document} 
+
+

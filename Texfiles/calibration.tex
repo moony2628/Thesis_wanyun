@@ -1,0 +1,331 @@
+The classification of jets originated from a quark or a gluon is useful for improving the SM measurements and searches for BSM physics at the LHC.  According to the QCD,  gluons are in the adjoint representation of the $SU(3)$ gauge group thus carry both colour and anti-colour quantum numbers, whereas quarks are in the fundamental representation and have only a single colour number. As a result, a gluon-initiated jet (gluon-jet) tend to have more constituents and a broader radiation pattern than a quark-initiated jet (quark-jets). 
+
+The manifestation of colour charges is intrinsic to quarks and gluons; however, the confinement phenomenon inherent in QCD theory indicates that only colour neutral hadrons can be observed in the detector. Such principle brings significant challenges for the identification of quark- or gluon-jets in ATLAS. The identification method relies on the number of charged tracks within the jets and the reconstruction algorithm for it. The calibration described in this paper demonstrates the measurement of the tagging efficiencies of the aforementioned jet taggers. The more advanced boosted decision tree (BDT) algorithm is employed to constructed the jet tagging variable based on the charge multiplicity inside jets. A matrix method is established with the use of quark/gluon fraction in quark-/gluon-enriched subsamples, defined by the pseudorapidity of jets. The scale factors extracted from the difference between data and simulation are provided for tagger working points corresponding to 50\%, 60\%, 70\% and 80\% fixed quark-jet efficiencies for both quark- and gluon-jets, respectively.
+  
+
+\subsection{Data and Monte Carlo samples}
+\label{sec:Data-MC}
+\input{Texfiles/sample}
+
+\subsection{Object and Event selection}
+\label{sec:Obj-event}
+\input{Texfiles/object}
+
+\subsection{Quark/gluon tagging variables}
+\label{sec:QG-var}
+\input{Texfiles/QGvar}
+
+\subsection{Matrix Method}
+\label{sec:QG-method}
+\input{Texfiles/method}
+
+\subsection{MC non-closure}
+\label{sec:QG-closure}
+\input{Texfiles/MCclosure}
+
+\subsection{Scale factor}
+\label{sec:QG-SF}
+\input{Texfiles/SF}
+
+\subsection{Systematic uncertainties}
+\label{sec:QG-syst}
+\input{Texfiles/systematic-cali}
+
+\subsection{Results}
+
+Overall, both the \ntrk-only tagger and the BDT-tagger exhibit commendable performance, and can effectively distinguish quark-jet from gluon-jet with high efficiency. The SFs for both quark- and gluon-jet  fall within the range of approximately 0.9 to 1, indicating a reasonable agreement. The systematic uncertainty for quark-jet SFs hovers around 10\%, while for gluon-jet SFs it's approximately 20\%.  Detailed of each uncertainty are shown in Section \ref{sec:QG-syst}. The BDT-tagger showcases a slightly superior performance compared to the {\ntrk} only tagger, i.e. higher gluon-jet rejection at the same WP.
+
+The uncertainties of SF for each source of WP are estimated in each jet \pt~range are given from Table~\ref{tab:Quark0.5-ntrk} to Table~\ref{tab:Quark0.8-bdt} for quark-jets. Table~\ref{tab:Gluon0.5-ntrk} to Table~\ref{tab:Gluon0.8-bdt} show the uncertainties of SF at each WP for gluon-jets. All systematics are ordered from largest to smallest in \pt~range 500 - 600 GeV. the systematic uncertainties associated with quark-jet scale factors tend to be smaller than those linked to gluon-jet scale factors. Notably, for both quark- and gluon-jets, these uncertainties are primarily governed by the source of uncertainty stemming from parton showering.
+
+%The Quark and Gluon scale factors with uncertainty for each source of different quark \ntrk or BDT working points are estimated.  \Tab{tab:Quark0.5-ntrk} to \Tab{tab:Quark0.8-ntrk} show the quark scale factors for quark 50\% , 60\% , 70\% , 80\% \ntrk working point. \Tab{tab:Quark0.5-bdt} to \Tab{tab:Quark0.8-bdt} show the quark scale factors for quark 50\% , 60\% , 70\% , 80\% BDT working point. \Tab{tab:Gluon0.5-ntrk} to \Tab{tab:Gluon0.8-ntrk} show the gluon scale factors for quark 50\% , 60\% , 70\% , 80\% \ntrk working point. \Tab{tab:Gluon0.5-bdt} to \Tab{tab:Gluon0.8-bdt} show the gluon scale factors for quark 50\% , 60\% , 70\% , 80\% BDT working point. In general the systematic uncertainty for quark-jets SFs are smaller than that for gluon-jets, and both of them are dominated by the uncertainty due to parton showering. More details are shown in next section. 
+
+
+\begin{table}[thp]
+	\centering
+	\caption{The quark scale factor (nominal) and the difference between the nominal and systematic variation results for 50\% quark tag efficiency from \ntrk tagger }
+	\label{tab:Quark0.5-ntrk}
+	\resizebox{0.95\textwidth}{!}{
+		% \csvautobooktabular{fig/Method1/pythia/working-point-compare/Quark0.5-ntrk.csv}}
+	\csvautobooktabular{fig/csv/syst_jet_nTracks_Quark_0.5.csv}}
+\end{table}{}
+
+%\begin{sidewaystable}[thp]
+\begin{table}[thp]
+\centering
+\caption{The quark scale factor (nominal) and the difference between the nominal and systematic variation results for 60\% quark tag efficiency from \ntrk tagger }
+\label{tab:Quark0.6-ntrk}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_jet_nTracks_Quark_0.6.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{ The quark scale factor (nominal) and the difference between the nominal and systematic variation results for 70\% quark tag efficiency from \ntrk tagger}
+\label{tab:Quark0.7-ntrk}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_jet_nTracks_Quark_0.7.csv}}
+\end{table}{}
+
+
+\begin{table}[thp]
+\centering
+\caption{ The quark scale factor (nominal) and the difference between the nominal and systematic variation results for 80\% quark tag efficiency from \ntrk tagger}
+\label{tab:Quark0.8-ntrk}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_jet_nTracks_Quark_0.8.csv}}
+\end{table}{}
+
+
+\begin{table}[thp]
+\centering
+\caption{The quark scale factor (nominal) and the difference between the nominal and systematic variation results for 50\% quark tag efficiency from BDT tagger}
+\label{tab:Quark0.5-bdt}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_GBDT_newScore_Quark_0.5.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{ The quark scale factor (nominal) and the difference between the nominal and systematic variation results for 60\% quark tag efficiency from BDT tagger}
+\label{tab:Quark0.6-bdt}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_GBDT_newScore_Quark_0.6.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{ The quark scale factor (nominal) and the difference between the nominal and systematic variation results for 70\% quark tag efficiency from BDT tagger}
+\label{tab:Quark0.7-bdt}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_GBDT_newScore_Quark_0.7.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{ The quark scale factor (nominal) and the difference between the nominal and systematic variation results for 80\% quark tag efficiency from BDT tagger}
+\label{tab:Quark0.8-bdt}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_GBDT_newScore_Quark_0.8.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{The gluon scale factor (nominal) and the difference between the nominal and systematic variation results for 50\% gluon tag efficiency from \ntrk tagger }
+\label{tab:Gluon0.5-ntrk}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_jet_nTracks_Gluon_0.5.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{The gluon scale factor (nominal) and the difference between the nominal and systematic variation results for 60\% gluon tag efficiency from \ntrk tagger }
+\label{tab:Gluon0.6-ntrk}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_jet_nTracks_Gluon_0.6.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{ The gluon scale factor (nominal) and the difference between the nominal and systematic variation results for 70\% gluon tag efficiency from \ntrk tagger}
+\label{tab:Gluon0.7-ntrk}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_jet_nTracks_Gluon_0.7.csv}}
+\end{table}{}
+
+
+\begin{table}[thp]
+\centering
+\caption{The gluon scale factor (nominal) and the difference between the nominal and systematic variation results for 80\% gluon tag efficiency from \ntrk tagger }
+\label{tab:Gluon0.8-ntrk}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_jet_nTracks_Gluon_0.8.csv}}
+\end{table}{}
+
+
+\begin{table}[thp]
+\centering
+\caption{The gluon scale factor (nominal) and the difference between the nominal and systematic variation results for 50\% gluon tag efficiency from BDT tagger  }
+\label{tab:Gluon0.5-bdt}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_GBDT_newScore_Gluon_0.5.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{The gluon scale factor (nominal) and the difference between the nominal and systematic variation results for 60\% gluon tag efficiency from BDT tagger  }
+\label{tab:Gluon0.6-bdt}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_GBDT_newScore_Gluon_0.6.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{The gluon scale factor (nominal) and the difference between the nominal and systematic variation results for 70\% gluon tag efficiency from BDT tagger  }
+\label{tab:Gluon0.7-bdt}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_GBDT_newScore_Gluon_0.7.csv}}
+\end{table}{}
+
+\begin{table}[thp]
+\centering
+\caption{The gluon scale factor (nominal) and the difference between the nominal and systematic variation results for 80\% gluon tag efficiency from BDT tagger  }
+\label{tab:Gluon0.8-bdt}
+\resizebox{0.95\textwidth}{!}{
+	\csvautobooktabular{fig/csv/syst_GBDT_newScore_Gluon_0.8.csv}}
+\end{table}{}
+\FloatBarrier
+
+
+Figure~\ref{fig:QG-pythia-Unc_Ntrk21c1} to Figure~\ref{fig:QG-pythia-Unc_BDT21c1} show the leading uncertainties with SFs for both tagger.
+The SFs for quark-jets and gluon-jets corresponding to the 50\% quark-jets efficiency working point (WP) fall within the range of 0.92 to 1.02, while being subject to an aggregate systematic uncertainty of approximately 20\%. Among the various sources of systematic uncertainty, theoretical modelling emerges as the dominant factor contributing to the total uncertainty.
+
+To ascertain the robustness of the findings, tests are conducted to assess the stability of results across different regions of jet \abseta. The SF measurements are recomputed through the normalization of jet \abseta in the quark-/gluon-enriched subsamples. The alternate results obtained in this manner are determined to be consistent with the nominal outcome, falling within the full range of reported uncertainties.
+
+Given the variations in the usage of different MC samples, a MC-to-MC SF is computed. his involves employing each alternative MC sample while treating the \pythia~MC samples as pseudodata. This approach accommodates discrepancies arising from modelling difference between the \pythia~and alternative MC samples. The MC-to-MC SFs for both jet taggers at each WP are shown in Figure~\ref{fig:QG-pythia-Unc_gen} to Figure~\ref{fig:QG-pythia-Unc_gen8}. Notably, there exists a large difference in gluon modelling between the \herwig Dipole parton shower MC and the \pythia~MC. This discrepancy is reflected in the relatively significant MC-to-MC SF, indicating substantial differences between these models.
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_Ntrkc}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/jet_nTracks_WP0.5_Quark_ther.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrkc}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/jet_nTracks_WP0.6_Quark_ther.pdf}}\\
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_Ntrk7c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/jet_nTracks_WP0.7_Quark_ther.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk8c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/jet_nTracks_WP0.8_Quark_ther.pdf}}	
+	\caption[]{
+		The SF with total and leading systematic uncertainty on the jet tagging variable \ntrk~obtained by \pythia8~MCs as a function of jet \pt~%
+		for quark-jets at each WP.
+		\label{fig:QG-pythia-Unc_Ntrk21c1}
+	}
+\end{figure}
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_Ntrk1c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/jet_nTracks_WP0.5_Gluon_ther.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk1c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/jet_nTracks_WP0.6_Gluon_ther.pdf}}\\
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_Ntrk71c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/jet_nTracks_WP0.7_Gluon_ther.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk81c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/jet_nTracks_WP0.8_Gluon_ther.pdf}}	
+	\caption[]{
+		The SF with total and leading systematic uncertainty on the jet tagging variable \ntrk~obtained by \pythia8~MCs as a function of jet \pt~%
+		for gluon-jets at each WP.
+		\label{fig:QG-pythia-Unc_Ntrk2c11}
+	}
+\end{figure}
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_BDTc}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/GBDT_newScore_WP0.5_Quark_ther.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_BDTc}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/GBDT_newScore_WP0.6_Quark_ther.pdf}}\\
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_BDT7c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/GBDT_newScore_WP0.7_Quark_ther.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_BDT8c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/GBDT_newScore_WP0.8_Quark_ther.pdf}}	
+	\caption[]{
+		The SF with total and leading systematic uncertainty on the jet tagging variable BDT~obtained by \pythia8~MCs as a function of jet \pt~%
+		for quark-jets at each WP.
+		\label{fig:QG-pythia-Unc_BDT21c}
+	}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_BDT1c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/GBDT_newScore_WP0.5_Gluon_ther.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_BDT1c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/GBDT_newScore_WP0.6_Gluon_ther.pdf}}\\
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_BDT71c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/GBDT_newScore_WP0.7_Gluon_ther.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_BDT81c}\includegraphics[width=0.45\textwidth]{fig/syst_uncertainties_note/GBDT_newScore_WP0.8_Gluon_ther.pdf}}	
+	\caption[]{
+		The SF with total and leading systematic uncertainty on the jet tagging variable BDT~obtained by \pythia8~MCs as a function of jet \pt~%
+		for gluon-jets at each WP.
+		\label{fig:QG-pythia-Unc_BDT21c1}
+	}
+\end{figure}
+
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[]{\label{fig:QG-pythia-UncPythiaQa_Ntrk1}\includegraphics[width=0.45\textwidth]{fig/eff_gen/jet_nTracks_WP0.5_Quark_gen.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk1}\includegraphics[width=0.45\textwidth]{fig/eff_gen/jet_nTracks_WP0.5_Gluon_gen.pdf}}\\
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_Ntrk71}\includegraphics[width=0.45\textwidth]{fig/eff_gen/GBDT_newScore_WP0.5_Quark_gen.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk81}\includegraphics[width=0.45\textwidth]{fig/eff_gen/GBDT_newScore_WP0.5_Gluon_gen.pdf}}	
+	
+	\caption[]{
+		The MC-to-MC SF of the \ntrk, \subref{fig:QG-pythia-UncPythiaQa_Ntrk1} and \subref{fig:QG-pythia-UncPythiaQb_Ntrk1}, and BDT, \subref{fig:QG-pythia-UncPythiaQa_Ntrk71} and \subref{fig:QG-pythia-UncPythiaQb_Ntrk81}, as a function of jet \pt~for quark-jets (left) and gluon-jets (right) at the 50\% WP. The vertical error bars show the statistical uncertainty. %
+		\label{fig:QG-pythia-Unc_gen}
+	}
+\end{figure}
+
+\begin{figure}[htbp]
+	\centering
+	\subfloat[]{\label{fig:QG-pythia-UncPythiaQa_Ntrk1}\includegraphics[width=0.45\textwidth]{fig/eff_gen/jet_nTracks_WP0.6_Quark_gen.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk1}\includegraphics[width=0.45\textwidth]{fig/eff_gen/jet_nTracks_WP0.6_Gluon_gen.pdf}}\\
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_Ntrk71}\includegraphics[width=0.45\textwidth]{fig/eff_gen/GBDT_newScore_WP0.6_Quark_gen.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk81}\includegraphics[width=0.45\textwidth]{fig/eff_gen/GBDT_newScore_WP0.6_Gluon_gen.pdf}}	
+	
+	\caption[]{
+		The MC-to-MC SF of the \ntrk, \subref{fig:QG-pythia-UncPythiaQa_Ntrk1} and \subref{fig:QG-pythia-UncPythiaQb_Ntrk1}, and BDT, \subref{fig:QG-pythia-UncPythiaQa_Ntrk71} and \subref{fig:QG-pythia-UncPythiaQb_Ntrk81}, as a function of jet \pt~for quark-jets (left) and gluon-jets (right) at the 60\% WP. The vertical error bars show the statistical uncertainty. %
+		\label{fig:QG-pythia-Unc_gen6}
+	}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\subfloat[]{\label{fig:QG-pythia-UncPythiaQa_Ntrk1}\includegraphics[width=0.45\textwidth]{fig/eff_gen/jet_nTracks_WP0.7_Quark_gen.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk1}\includegraphics[width=0.45\textwidth]{fig/eff_gen/jet_nTracks_WP0.7_Gluon_gen.pdf}}\\
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_Ntrk71}\includegraphics[width=0.45\textwidth]{fig/eff_gen/GBDT_newScore_WP0.7_Quark_gen.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk81}\includegraphics[width=0.45\textwidth]{fig/eff_gen/GBDT_newScore_WP0.7_Gluon_gen.pdf}}	
+	
+	\caption[]{
+		The MC-to-MC SF of the \ntrk, \subref{fig:QG-pythia-UncPythiaQa_Ntrk1} and \subref{fig:QG-pythia-UncPythiaQb_Ntrk1}, and BDT, \subref{fig:QG-pythia-UncPythiaQa_Ntrk71} and \subref{fig:QG-pythia-UncPythiaQb_Ntrk81}, as a function of jet \pt~for quark-jets (left) and gluon-jets (right) at the 70\% WP. The vertical error bars show the statistical uncertainty. %
+		\label{fig:QG-pythia-Unc_gen7}
+	}
+\end{figure}
+\begin{figure}[htbp]
+	\centering
+	\subfloat[]{\label{fig:QG-pythia-UncPythiaQa_Ntrk1}\includegraphics[width=0.45\textwidth]{fig/eff_gen/jet_nTracks_WP0.8_Quark_gen.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk1}\includegraphics[width=0.45\textwidth]{fig/eff_gen/jet_nTracks_WP0.8_Gluon_gen.pdf}}\\
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQa_Ntrk71}\includegraphics[width=0.45\textwidth]{fig/eff_gen/GBDT_newScore_WP0.8_Quark_gen.pdf}}\quad
+	\subfloat[
+	]{\label{fig:QG-pythia-UncPythiaQb_Ntrk81}\includegraphics[width=0.45\textwidth]{fig/eff_gen/GBDT_newScore_WP0.8_Gluon_gen.pdf}}	
+	
+	\caption[]{
+		The MC-to-MC SF of the \ntrk, \subref{fig:QG-pythia-UncPythiaQa_Ntrk1} and \subref{fig:QG-pythia-UncPythiaQb_Ntrk1}, and BDT, \subref{fig:QG-pythia-UncPythiaQa_Ntrk71} and \subref{fig:QG-pythia-UncPythiaQb_Ntrk81}, as a function of jet \pt~for quark-jets (left) and gluon-jets (right) at the 80\% WP. The vertical error bars show the statistical uncertainty. %
+		\label{fig:QG-pythia-Unc_gen8}
+	}
+\end{figure}
+
+\FloatBarrier
+\subsection{Conclusions}
+The analysis focuses on evaluating the performance of jet taggers for quark- and gluon-jets using a dataset of 140 fb$^{-1}$ obtained from $pp$ collisions at a centre-of-mass energy of $\sqrt{s} = 13$ TeV, gathered by the ATLAS detector at the LHC. This study leverages the extensive dataset recorded between 2015 and 2018 to extend the taggers' applicability to high-energy jets. Two distinct jet tagging methods are explored: a tagger centred on the charged-particle jet constituent multiplicity (\ntrk), and a BDT-based tagger, which integrates various individual jet substructure observables. 
+
+The matrix method is adopted to estimate the distribution shapes of the tagging variables for quark- and gluon-jets. This entails combining information from samples enriched with quark- and gluon-jets, acquired from a selection of dijet events characterized by jet \pt~ranging from 500 GeV to 2 TeV. The considered variables exhibit a satisfactory agreement with the MC simulations, with discrepancies relative to data measurements being less than 25\% across various defined regions. 
+
+The BDT-tagger demonstrates superior performance over the \ntrk-only tagger in distinguishing quark-jets from gluon-jets within the jet \pt~range of 500 GeV to 1200 GeV. Above this range, the performance of the two taggers becomes comparable. 
+
+The evaluation of tagger performance differences between data and MC samples is facilitated through the data-to-MC SFs. These factors are measured across varying jet-\pt~intervals, exhibiting a range from 0.92 to 1.02, with a cumulative uncertainty of approximately 20\%. The primary contributor to this uncertainty stems from divergent modelling choices within MC simulations, constituting approximately 18\% for both taggers. To account for variations between different MC generators, MC-to-MC SFs are also presented, ranging from 0.9 to 1.1 for the majority of MC samples.
+
+The $q/g$ taggers developed in this study and the associated measurement of their SFs hold relevance for various analyses. These applications encompass SM measurements that rely on accurate jet origin identification, as well as BSM physics searches that can capitalize on heightened sensitivity to the presence of new particles.
+

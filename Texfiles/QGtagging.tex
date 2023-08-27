@@ -1,0 +1,818 @@
+
+%\begin{figure}[htb]
+%  \centering
+%  \subfloat[]{\label{fig:QG-ROCa}\includegraphics[width=0.45\textwidth]{Figures/JetHL_ROC/jetWtrk_TightPt500_Pt0100-0150_ROC}} \quad
+%  \subfloat[]{\label{fig:QG-ROCb}\includegraphics[width=0.45\textwidth]{Figures/JetHL_ROC/jetWtrk_TightPt500_Pt0800-1000_ROC}}
+%  \caption[]{
+%    \label{fig:QG-ROC}
+%    }
+%\end{figure}
+
+\section{Quark/gluon separation variable}
+\label{sec:QG-var}
+
+In order to distinguish quarks from gluons, %
+the information of the track activity inside a jet is important %
+because the color factor of gluons is larger than that of quarks by factor 9/4~("Casimir ratio"), %
+which makes gluons emit more particles in the hadronization than quarks. %
+Thus, a gluon has more charged tracks in its jet and the jet width is larger than that of a quark-jet.
+
+Here, jet width computed from the associated tracks \wtrk is used as a quark/gluon separation~("q/g separation") variable, %
+which is a track-\pt-weighted width of the jet divided by the scalar sum of track transverse momenta. %
+It is defined as %
+\begin{equation}
+  \wtrk = \frac{ \sum_{\mrm{trk}\in\mrm{jet}}\pttrk\Delta R_{\mrm{track,jet}} }{ \sum_{\mrm{trk}\in\mrm{jet}}\pttrk },
+\end{equation}
+where \pttrk is a \pt of a charged track reconstructed by the inner detector~(ID) and %
+$\Delta R_{\mrm{track,jet}}$ is a distance in the \eta-\phi plane between the track and the jet axis. %
+This variable is insensitive to the track inefficiency because it is defined as a ratio. %only and it has only small \eta dependency. %
+The charged tracks used here are required to have $\pttrk>1\GeV$ and identified by the "TightPrimary" criteria~\cite{TrackPerformance} %
+in order to remove fake tracks which make \etaX-dependence in \wtrk because high \eta range is under severer pileup environment %
+and more fake tracks can be reproduced there. %
+
+The calibration for this variable and estimation of its uncertainties are necessary %
+since such a jet substructure information is not used in the conventional SUSY searches and %
+the mis-modeling of the simulation, especially in a gluon, is known in the previous study for q/g separation in Run1~\cite{QGRun1}. %
+The calibration of the q/g separation variable is performed by applying binned scale factor in the simulation for each quark and gluon jets, respectively.
+The scale factor is obtained from the \wtrk distributions in quark and gluon jets from data in order to match the shape of the simulation to that of the data, %
+in which the shape is obtained in each jet \pt range because it depends on jet \pt strongly. %
+The jet used in this calibration is restricted to jets with $\pt>40\GeV$ and $\abseta<2.1$. %
+The slightly tighter \abseta requirement than an usual jet identification~($\abseta<2.8$) is %
+in order to avoid \abseta dependence of \wtrk caused by the ID coverage~(\abseta<2.5). %
+
+\section{Method to extract quark/gluon from data}
+\label{sec:QG-method}
+
+To extract the shape of \wtrk distributions for quark jets and gluon jets from data separately, %
+a "matrix method" of two samples with different quark/gluon fractions is used. %
+The matrix method can extract pure quark or gluon jets from quark-enriched and gluon-enriched samples %
+under the assumption that the two sample have the same shape of \wtrk distributions in each of quark and gluon jets. %
+The matrix method is performed for each \pt bin defined in \Tab{tab:QG-ptbinning} and %
+the quark-enriched and gluon-enriched samples are different between lower \pt ranges and higher \pt ranges. %
+
+\begin{table}[hptb]
+\centering
+\caption{
+  The \pt range division for the calibration of \wtrk and samples used in extraction of pure quark and gluon jets. %
+}
+\begin{tabular}{|c|c|c|c|c|c|c|c|c|c|c|c|c|c|}
+ \hline
+ \multicolumn{14}{|c|}{Lower \pt bin boundary [\GeVX] } \\ \hline
+  40 & 60 & 100 & 150 & 200 & 300 & 400        & 500 & 600 & 800 & 1000 & 1200 & 1500 & 2000 \\ \hline
+ \multicolumn{7}{|c}{Z+jets \& multi-jet samples} & \multicolumn{7}{|c|}{\multirow{2}{*}{Higher \& lower |\etaX| jet samples in multi-jet}} \\ 
+ \multicolumn{7}{|c}{(2-process extraction)} & \multicolumn{7}{|c|}{} \\ \hline
+\end{tabular}
+\label{tab:QG-ptbinning}
+\end{table}
+
+%For the lower \pt ranges~(40--500\GeV), the quark-enriched sample is obtained from the leading \pt jet in Z+jets events %
+%and the gluon-enriched sample is obtained from the leading \pt jet in multi-jet events. %
+%The quark in Z+jets is an associated quark in the Feynman diagram given in \Figss{fig:bkg-V}. %
+%The gluon in multi-jet comes from a gluon emission in QCD process. %
+%This extraction method is referred to as "2-process extraction" hereafter. %
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[]{\label{fig:bkg-Vb}\includegraphics[width=0.3\textwidth]{Figures/Feynman/V+q_tchan}}
+  \quad
+  \subfloat[]{\label{fig:bkg-Va}\includegraphics[width=0.3\textwidth]{Figures/Feynman/V+q}}
+  \caption[]{
+    Main process of one vector boson~($V=Z$) plus one parton~(quark~$q$ or gluon~$g$) at tree-level. %
+    }
+  \label{fig:bkg-V}
+\end{figure}
+
+
+
+For the higher \pt ranges~(500--2000\GeV), the quark-enriched sample is obtained from higher \abseta jet of the leading two jets in multi-jet events %
+and the gluon-enriched sample is obtained from lower \abseta jet of the leading two jets in the multi-jet events. %
+The higher \abseta jet comes from high $x$~(momentum fraction) of a PDF. %
+Since the PDF in the high-$x$ range has high probability of valence-quarks, %
+the higher \abseta jet sample has more quarks. %
+In contrast, the lower \abseta jet has lower $x$ and more gluons. %
+
+The matrix in 2-process extraction is given as 
+\begin{eqnarray}
+\label{eq:QG-matrix}
+\left(\begin{array}{c} 
+    p_{\mrm{Z+jets}}(\wtrk)\\ 
+    p_{\mrm{Multi-jet}}(\wtrk)\\ 
+    \end{array}\right)
+    &=&
+    \underbrace{
+\left(\begin{array}{cc}
+    f_{\mrm{Z+jets,Q}}&f_{\mrm{Z+jets,G}}\\
+    f_{\mrm{Multi-jet,Q}}&f_{\mrm{Multi-jet,G}}\\
+    \end{array}\right)
+  }_{\scalebox{1}{$\equiv F$}}
+\left(\begin{array}{c} 
+    p_\mrm{Q}(\wtrk)\\ 
+    p_\mrm{G}(\wtrk)\\ 
+    \end{array}\right)
+    \\
+\label{eq:QG-invmatrix}
+\Leftrightarrow
+\left(\begin{array}{c} 
+    p_\mrm{Q}(\wtrk)\\ 
+    p_\mrm{G}(\wtrk)\\ 
+    \end{array}\right)
+    &=& F^{-1}
+\left(\begin{array}{c} 
+    p_{\mrm{Z+jets}}(\wtrk)\\ 
+    p_{\mrm{Multi-jet}}(\wtrk)\\ 
+    \end{array}\right),
+\end{eqnarray}
+and the matrix using the higher and lower \abseta jets is 
+\begin{eqnarray}
+\label{eq:QG-matrix2}
+\left(\begin{array}{c} 
+    p_{\mrm{H}}(\wtrk)\\ 
+    p_{\mrm{L}}(\wtrk)\\ 
+    \end{array}\right)
+    &=&
+    \underbrace{
+\left(\begin{array}{cc}
+    f_{\mrm{H,Q}}&f_{\mrm{H,G}}\\
+    f_{\mrm{L,Q}}&f_{\mrm{L,G}}\\
+    \end{array}\right)
+  }_{\scalebox{1}{$\equiv F$}}
+\left(\begin{array}{c} 
+    p_\mrm{Q}(\wtrk)\\ 
+    p_\mrm{G}(\wtrk)\\ 
+    \end{array}\right)
+    \\
+\label{eq:QG-invmatrix2}
+\Leftrightarrow
+\left(\begin{array}{c} 
+    p_\mrm{Q}(\wtrk)\\ 
+    p_\mrm{G}(\wtrk)\\ 
+    \end{array}\right)
+    &=& F^{-1}
+\left(\begin{array}{c} 
+    p_{\mrm{H}}(\wtrk)\\ 
+    p_{\mrm{L}}(\wtrk)\\ 
+    \end{array}\right),
+\end{eqnarray}
+where $p_{\mrm{Q,G}}(\wtrk)$ show \wtrk distributions in pure quark and gluon-jet samples, 
+$p_{\mrm{Z+jets/Multi-jet/H/L}}(\wtrk)$ show \wtrk distributions in Z+jets, multi-jet, higher \abseta jet, and lower \abseta jet samples, respectively, 
+and $f_{\mrm{X,Q/G}}$ are fractions of quark and gluon in a sample X. %
+Between \Eqns{eq:QG-matrix}{eq:QG-invmatrix} or \Eqns{eq:QG-matrix2}{eq:QG-invmatrix2}, %
+the inverse matrix of $F$ is calculated and used to extract pure quark/gluon~($p_{\mrm{Q,G}}$). %
+The distribution of quark/gluon-enriched sample is obtained from data and the fraction of quarks and gluons in them are obtained from simulations. %
+This matrix is computed in each \wtrk bin and each jet \pt range.
+
+To avoid a systematic uncertainty coming from the parton shower modeling, %
+this calibration is performed for \pythia8 and \sherpa~separately. %
+%For \pythia8, both of the $Z$+jets and multi-jet MCs are \pythia8. %
+For \sherpa, the $Z$+jets MC is \sherpa2.2.1 and the multi-jet MC is \sherpa2.1.1. %
+This difference will be taken into account in the systematic uncertainties. %
+In \Sectrange{sec:QG-method}{sec:QG-SF}, the figures using \pythia8~(\sherpa) show results %
+with  NNPDF30~(NNPDF30) and NNPDF23LO~(CT10) PDF sets for 2-process extraction and for higher/lower \abseta jet extraction, respectively. %
+
+%In \Sectrange{sec:QG-var}{sec:QG-SF}, the figures show the result with the \pythia8 parton shower modeling
+%and the NNPDF30 PDF set for 2-process extraction or NNPDF23LO set for higher/lower \abseta jet. %
+%A14 tuned NNPDF23LO set. %
+
+The selections for all the samples used here are summarized in \Tab{tab:QG-sample}. %
+The pure Z+jets events are obtained by requirements of two opposite charge leptons %
+and Z mass cut between 75\GeV and 105\GeV in the invariant mass of the two leptons. %
+The multi-jet sample consists of no-lepton events. %
+%There is $\abseta<2.1$ requirement because the further higher \abseta jet has \eta dependence in \wtrk %
+%and the ID is covered up to $\abseta=2.5$. %
+There is $\abseta<2.1$ requirement because the ID covers \abseta up to $2.5$. %
+
+
+\begin{table}[hptb]
+\centering
+\caption{
+  The selections to retrieve quark/gluon-enriched samples.
+  The requirements in the upper half are in order to obtain Z+jets/multi-jet events.
+  The ones in the lower half are to enrich quark jets or gluon jets.
+  "$j_i$" represents the $i$-th jet in \ptX-ordering.
+}
+\begin{tabular}{l|l|c|c|cc}
+ \hline
+ \multicolumn{2}{l|}{\multirow{3}{*}{Selection}}& \multirow{3}{*}{Z+jets sample} & \multicolumn{3}{c}{Multi-jet sample}  \\ 
+ \hhline{~~~---}
+ \multicolumn{2}{l|}{} &                        & For 2-process & Higher |\etaX| & Lower |\etaX| \\ 
+ \multicolumn{2}{l|}{} &                        & extraction    & jet sample  & jet sample \\ \hline
+\parbox[t]{2mm}{\multirow{7}{*}{\rotatebox[origin=c]{90}{Preselection}}}
+ & Trigger   & Single lepton trigger & \multicolumn{3}{c}{Or of single jet triggers} \\ 
+ & Object    & Two opposite charge leptons & \multicolumn{3}{c}{No lepton}        \\ 
+ & $\mll$        & $75<\mll<105 \GeV$ & \multicolumn{3}{c}{-} \\
+ & Number of jets        &  $\geq1$ & \multicolumn{3}{c}{$\geq2$} \\ \hhline{~~~---}
+ & $b$-veto              & $j_1\neq b$-jet   & $j_1\neq b$-jet & \multicolumn{2}{c}{$j_1\neq b$-jet and $j_2\neq b$-jet} \\ 
+ & $|\eta(j_1)|$         &  $<2.1$  & $<2.1$ & \multicolumn{2}{c}{$<2.1$}   \\ 
+ & $|\eta(j_2)|$         &  -       & -      & \multicolumn{2}{c}{$<2.1$}   \\ \hline
+\parbox[t]{2mm}{\multirow{8}{*}{\rotatebox[origin=c]{90}{Quark/gluon enhance}}}
+ & Target parton         &  Quark   & Gluon  & Quark  & Gluon       \\ \hhline{~-----}
+ & $\pt(Z)/\pt(j_2)$     &  <1.5    & -    & \multicolumn{2}{c}{-}       \\ 
+ & $\pt(j_1)/\pt(j_2)$   &  -       & -    & \multicolumn{2}{c}{$<1.5$} \\ 
+ & $\pt(j_2)$            &  $<$max$\kakko{30\GeV, 0.5\pt(Z)}$ & $>20\GeV$ & \multicolumn{2}{c}{$>20\GeV$}  \\
+ & $\Delta\phi(Z,j_1)$   &  $>2.5$  & -    & \multicolumn{2}{c}{-}  \\ 
+ & $\Delta\phi(j_1,j_2)$ &  -       & $>2.5$         & \multicolumn{2}{c}{-}  \\ 
+ & $|\eta(j_1)|$         &  -       & $<|\eta(j_2)|$ & \multicolumn{2}{c}{-}  \\ 
+ & Used jet in $j_1$ or $j_2$ & Only $j_1$ & Only $j_1$ & Higher $|\etaX|$ jet & Lower $|\etaX|$ jet \\
+ \hline
+\end{tabular}
+\label{tab:QG-sample}
+\end{table}
+
+The jet \pt distribution for each sample with \pythia8 is shown in \Figs{fig:QG-2samplePt}{fig:QG-jetHLPt}. %
+The partonic flavor label~(quark[$u$, $d$, $s$, or $c$], gluon, $b$-quark or "other") of a jet in the simulation is defined %
+by a flavor of the highest-energy parton in the parton shower %
+within $\Delta R=0.4$, which is equal to the radius parameter of the jet algorithm, with the jet.
+The fractions of quarks and gluons in each sample are shown in \Figss{fig:QG-Fmc}.
+In a low \pt range~($<500\GeV$), the quark fraction of Z+jets is high~($\sim75\%$) %
+and the difference between the quark fractions in Z+jets and multi-jet is large~($30$--$50\%$), %
+but the quark fraction of higher \abseta jet is low~($\lesssim 50\%$). % 
+Thus, the Z+jets and multi-jet are used as quark/gluon-enriched samples in the low \pt range. %
+In a high \pt range~($>500\GeVX$), higher \abseta jet has a large fraction of quarks~($>60\%$). %
+Thus, in the low \pt range, the higher/lower \abseta jet samples are used\footnote{
+The low statistics of Z+jets sample in the higher \pt range is another reason to use the higher/lower \abseta jet samples. %
+}. %
+%The fractions are obtained from \pythia8 and \sherpa, separately. %
+The difference between the MC event generators in the fractions is known to be small in the previous study~\cite{ref21}. %
+In the whole \pt range, $b$-quark jets and jets labeled "other" exist, %
+but it is suppressed to be lower than a few \%, which can be ignored. %
+The jets labeled "other" are jets mainly originating from pileup. % or a jet that unable to be labeled. %
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Z+jets~(\pythia8)   ]{\label{fig:QG-2samplePta}\includegraphics[width=0.45\textwidth]{Figures/ZCut0_jetPt0B}} \quad
+  \subfloat[Multi+jet~(\pythia8)]{\label{fig:QG-2samplePtb}\includegraphics[width=0.45\textwidth]{Figures/dijetCut0_jetPt0B}}
+  \caption[]{
+    The \pt distribution of the leading jets with \pythia8 MC in \subref{fig:QG-2samplePta} Z+jets 
+    and \subref{fig:QG-2samplePtb} multi-jet for 2-sample process extraction. %
+    Data for \subref{fig:QG-2samplePta} is 32.9\ifb in 2016 and that for \subref{fig:QG-2samplePtb} is 3.2\ifb in 2015.
+    The normalization of the simulation is decided by cross-section.
+    \label{fig:QG-2samplePt}
+    }
+\end{figure}
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Higher \abseta jet~(\pythia8)]{\label{fig:QG-jetHLPta}\includegraphics[width=0.45\textwidth]{Figures/jetHLNoSkimCut_jetPtH}} \quad
+  \subfloat[Lower \abseta jet~(\pythia8) ]{\label{fig:QG-jetHLPtb}\includegraphics[width=0.45\textwidth]{Figures/jetHLNoSkimCut_jetPtL}}
+  \caption[]{
+    The \pt distribution of \subref{fig:QG-jetHLPta} the higher \abseta jet %
+    and \subref{fig:QG-jetHLPtb} the lower \abseta jet in multi-jet events with \pythia8 MC . %
+    Data for both figures are 32.9\ifb in 2016. %
+    In the low \pt range~($<100\GeV$), number of data is much smaller than the simulation due to the \pt skimming only on data in the data processing, %
+    but the low \pt range is not used for the calibration.
+    The normalization of the simulation is decided by cross-section.
+    \label{fig:QG-jetHLPt}
+    }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[For 2-process extraction~(\pythia8)               ]{\label{fig:QG-Fmca}\includegraphics[width=0.45\textwidth]{Figures/2sample_Fmc}} \quad
+  \subfloat[For higher/lower \abseta jet extraction~(\pythia8)]{\label{fig:QG-Fmcb}\includegraphics[width=0.45\textwidth]{Figures/JetHL_Fmc}} 
+  \\\subfloat[For 2-process extraction~(\sherpa)              ]{\label{fig:QG-Fmcc}\includegraphics[width=0.45\textwidth]{Figures/2sampleSherpa_Fmc}} \quad
+  \subfloat[For higher/lower \abseta jet extraction~(\sherpa) ]{\label{fig:QG-Fmcd}\includegraphics[width=0.45\textwidth]{Figures/JetHLSherpa_Fmc}}
+  \caption[]{
+    Fractions of quark jets and gluon jets in each of \subref{fig:QG-Fmca}\subref{fig:QG-Fmcc} Z+jets and multi-jet for 2-process extraction %
+    and \subref{fig:QG-Fmcb}\subref{fig:QG-Fmcd} higher \abseta jet and lower \abseta jet.~(H and L represent higher and lower \abseta jets.) %
+    \pythia8 and \sherpa~MCs are used in the top and bottom figures, respectively.
+    These values are used as elements in $F$ matrix in \Eqn{eq:QG-matrix}(\ref{eq:QG-matrix2}). %
+    \label{fig:QG-Fmc}
+    }
+\end{figure}
+
+
+%\begin{figure}[htb]
+%  \centering
+%  \subfloat[For 2-process extraction~(\pythia8)               ]{\label{fig:QG-Finversea}\includegraphics[width=0.45\textwidth]{Figures/2sample_Finverse}} \quad
+%  \subfloat[For higher/lower \abseta jet extraction~(\pythia8)]{\label{fig:QG-Finverseb}\includegraphics[width=0.45\textwidth]{Figures/JetHL_Finverse}} 
+%  \\\subfloat[For 2-process extraction~(\sherpa)                ]{\label{fig:QG-Finversea}\includegraphics[width=0.45\textwidth]{Figures/2sampleSherpa_Finverse}} \quad
+%  \subfloat[For higher/lower \abseta jet extraction~(\sherpa) ]{\label{fig:QG-Finverseb}\includegraphics[width=0.45\textwidth]{Figures/JetHLSherpa_Finverse}}
+%  \caption[]{
+%    The fractions of quark jets and gluon jets in each of \subref{fig:QG-Fmca} Z+jets and multi-jet for 2-process extraction %
+%    and \subref{fig:QG-Fmcb} higher \abseta jet and lower \abseta jet.~(H and L represent higher and lower \abseta jet, respectively.) %
+%    These values are used as the elements in $F$ matrix in \Eqn{eq:QG-matrix}. %
+%    \label{fig:QG-Fmc}
+%    }
+%\end{figure}
+
+
+\FloatBarrier
+
+\section{MC closure}
+\label{sec:QG-closure}
+
+%The matrix method is valid only if the shape of \wtrk in each of quark and gluon is the same between two samples %
+%used in inputs of the matrix method~\Eqn{eq:QG-invmatrix}. %
+The matrix method (\Eqn{eq:QG-invmatrix}) is valid only if the shape of the \wtrk distributions is the same between the quark/gluon-enriched samples, %
+respectively for quark and gluon jets. %
+The validation of this assumption is performed in the MC simulation by injecting the MC samples as $p_{\mrm{Q/G-rich}}(\wtrk)$ in \Eqn{eq:QG-invmatrix}. %
+The difference between pure quark/gluon samples defined by the partonic flavor label in the MC %
+and the extracted pure quark/gluon samples by \Eqn{eq:QG-invmatrix} is defined as an MC non-closure. %
+Since there is a bit difference between Z+jets and multi-jet or between higher \abseta and lower \abseta jets in the MC~(\Figss{fig:QG-WtrkMC}), %
+there is $10\%$ MC non-closure at maximum in the mean of \wtrk in both of \pythia8 and \sherpa~as shown in \Figss{fig:QG-WtrkClosure}. %
+In \pythia8, the maximum MC non-closure exists in quark \wtrk in the jet \pt range between 300 and 400\GeV in the 2-process extraction. %
+In this range, the gluon \wtrk in multi-jet is lower than that in Z+jets as shown in \Fig{fig:QG-WtrkMC2sample}. %
+This difference causes the MC non-closure in the extraction. %
+Overall, the MC non-closure in \sherpa~is larger than that in \pythia8. %
+%In the matrix method, pure quark jet is obtained by the subtraction of gluon component in Z+jets by gluon component in multi-jet. %
+%From this subtraction, the mean of the extracted pure quark by the matrix method has larger \wtrk than the pure quark defined by the parton label. %
+%The comparison in the mean of \wtrk in each jet \pt bins between pure quark/gluon extracted by the label and that extracted by the matrix method is shown in \Figss{fig:QG-WtrkClosure}. %
+This MC non-closure is taken into account as a systematic uncertainty in \Sect{sec:QG-syst}.
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Z+jets v.s. Multi-jet~(\pythia8)            ]{\label{fig:QG-WtrkMC2sample}\includegraphics[width=0.45\textwidth]{Figures/2sample_MCHLcompare/jetWtrk_TightPt500_Pt0200-0300_HL_nonlog}} \quad
+  \subfloat[Higher \abseta v.s. Lower \abseta~(\pythia8)]{\label{fig:QG-WtrkMCJetHL}  \includegraphics[width=0.45\textwidth]{Figures/JetHL_MCHLcompare/jetWtrk_TightPt500_Pt0500-0600_MCHLQG_nonlog}}
+  \caption[]{
+    Comparisons in the shape of \wtrk distributions in quark or gluon jets %
+    between \subref{fig:QG-WtrkMC2sample} the leading jets of Z+jets events and multi-jet events in the jet \pt range of 200--300\GeV, and %
+    between \subref{fig:QG-WtrkMCJetHL} higher \abseta and lower \abseta jets in the jet \pt range of 500--600\GeV. %
+    The two samples in the comparison are equalized in the total number of events. %
+    The MC is \pythia8.
+    \label{fig:QG-WtrkMC}
+    }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[For 2-process extraction~(\pythia8)               ]{\label{fig:QG-MCclosure2sample_Ntrk}\includegraphics[width=0.45\textwidth]{Figures/2sample_jetPt0B__compareProfile_Ntrk}} \quad
+  \subfloat[For higher/lower \abseta jet extraction~(\pythia8)]{\label{fig:QG-MCclosureJetHL_Ntrk}  \includegraphics[width=0.45\textwidth]{Figures/JetHL_jetPtHL__compareProfile_Ntrk}}
+  \\\subfloat[For 2-process extraction~(\sherpa)              ]{\label{fig:QG-MCclosure2sampleS_Ntrk}\includegraphics[width=0.45\textwidth]{Figures/2sampleSherpa_jetPt0B__compareProfile_Ntrk}} \quad
+  \subfloat[For higher/lower \abseta jet extraction~(\sherpa) ]{\label{fig:QG-MCclosureJetHLS_Ntrk}  \includegraphics[width=0.45\textwidth]{Figures/JetHLSherpa_jetPtHL__compareProfile_Ntrk}}
+  \caption[]{
+    The difference in the mean of \ntrk between the pure quark or gluon jets defined by the partonic flavor label %
+    and the extracted pure quark or gluon jets by the matrix method in each \pt bins. %
+    \subref{fig:QG-MCclosure2sample_Ntrk}\subref{fig:QG-MCclosure2sampleS_Ntrk} are comparisons in 2-process extraction, 
+    which is used in the lower jet \pt range below 500\GeV.
+    \subref{fig:QG-MCclosureJetHL_Ntrk}\subref{fig:QG-MCclosureJetHLS_Ntrk} are comparisons in the matrix method %
+    using the higher and lower \abseta jets, 
+    which is used in the higher jet \pt range above 500\GeV.
+    \pythia8 and \sherpa~MC simulations are used in the top and bottom figures, respectively.
+    \label{fig:QG-NtrkClosure}
+    }
+\end{figure}
+
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[For 2-process extraction~(\pythia8)               ]{\label{fig:QG-MCclosure2sample_Wtrk}\includegraphics[width=0.45\textwidth]{Figures/2sample_jetPt0B__compareProfile_Wtrk}} \quad
+  \subfloat[For higher/lower \abseta jet extraction~(\pythia8)]{\label{fig:QG-MCclosureJetHL_Wtrk}  \includegraphics[width=0.45\textwidth]{Figures/JetHL_jetPtHL__compareProfile_Wtrk}}
+  \\\subfloat[For 2-process extraction~(\sherpa)              ]{\label{fig:QG-MCclosure2sampleS_Wtrk}\includegraphics[width=0.45\textwidth]{Figures/2sampleSherpa_jetPt0B__compareProfile_Wtrk}} \quad
+  \subfloat[For higher/lower \abseta jet extraction~(\sherpa) ]{\label{fig:QG-MCclosureJetHLS_Wtrk}  \includegraphics[width=0.45\textwidth]{Figures/JetHLSherpa_jetPtHL__compareProfile_Wtrk}}
+  \caption[]{
+    The difference in the mean of \wtrk between the pure quark or gluon jets defined by the partonic flavor label %
+    and the extracted pure quark or gluon jets by the matrix method in each \pt bins. %
+    \subref{fig:QG-MCclosure2sample_Wtrk}\subref{fig:QG-MCclosure2sampleS_Wtrk} are comparisons in 2-process extraction, 
+    which is used in the lower jet \pt range below 500\GeV.
+    \subref{fig:QG-MCclosureJetHL_Wtrk}\subref{fig:QG-MCclosureJetHLS_Wtrk} are comparisons in the matrix method %
+    using the higher and lower \abseta jets, 
+    which is used in the higher jet \pt range above 500\GeV.
+    \pythia8 and \sherpa~MC simulations are used in the top and bottom figures, respectively.
+    \label{fig:QG-WtrkClosure}
+    }
+\end{figure}
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[For 2-process extraction~(\pythia8)               ]{\label{fig:QG-MCclosure2sample_C1B02}\includegraphics[width=0.45\textwidth]{Figures/2sample_jetPt0B__compareProfile_C1B02}} \quad
+  \subfloat[For higher/lower \abseta jet extraction~(\pythia8)]{\label{fig:QG-MCclosureJetHL_C1B02}  \includegraphics[width=0.45\textwidth]{Figures/JetHL_jetPtHL__compareProfile_C1B02}}
+  \\\subfloat[For 2-process extraction~(\sherpa)              ]{\label{fig:QG-MCclosure2sampleS_C1B02}\includegraphics[width=0.45\textwidth]{Figures/2sampleSherpa_jetPt0B__compareProfile_C1B02}} \quad
+  \subfloat[For higher/lower \abseta jet extraction~(\sherpa) ]{\label{fig:QG-MCclosureJetHLS_C1B02}  \includegraphics[width=0.45\textwidth]{Figures/JetHLSherpa_jetPtHL__compareProfile_C1B02}}
+  \caption[]{
+    The difference in the mean of \cbeta between the pure quark or gluon jets defined by the partonic flavor label %
+    and the extracted pure quark or gluon jets by the matrix method in each \pt bins. %
+    \subref{fig:QG-MCclosure2sample_C1B02}\subref{fig:QG-MCclosure2sampleS_C1B02} are comparisons in 2-process extraction, 
+    which is used in the lower jet \pt range below 500\GeV.
+    \subref{fig:QG-MCclosureJetHL_C1B02}\subref{fig:QG-MCclosureJetHLS_C1B02} are comparisons in the matrix method %
+    using the higher and lower \abseta jets, 
+    which is used in the higher jet \pt range above 500\GeV.
+    \pythia8 and \sherpa~MC simulations are used in the top and bottom figures, respectively.
+    \label{fig:QG-C1B02Closure}
+    }
+\end{figure}
+
+
+\FloatBarrier
+
+\section{Scale factor}
+\label{sec:QG-SF}
+
+The extracted pure-quark/gluon distributions are shown in \Figss{fig:QG-WtrkData}. %
+The "scale factor"~("SF") in each \wtrk bin and in each \pt bin for quark and gluon jets is respectively calculated from these distributions %
+in order to correct the shape of \wtrk distributions. %
+The SF for a quark/gluon jet with a \pt and \wtrk is given as %
+\begin{equation}
+  SF_{\mrm{Q/G}}\kakko{\wtrk;p_{\text{T,j}}} = \frac{ p_{\mrm{Q/G,~Ext.Data}}\kakko{\wtrk;p_{\text{T,j}}} }{ p_{\mrm{Q/G,~Ext.MC}}\kakko{\wtrk;p_{\text{T,j}}}  }, 
+  \label{eq:QG-SF}
+\end{equation}
+where Q/G indicates quark or gluon, $p_{\text{T,j}}$ represents the $j$-th jet \pt bin, %
+and $p_{\mrm{Q/G,~Ext.Data/MC}}$ is a distribution of the pure extracted quark or gluon jet from data or MC shown as in \Figss{fig:QG-WtrkData}. %
+The denominator on the right-hand side is the distribution of the extracted quark or gluon jet from the MC by the same matrix method %
+in order to suppress the influence of the MC non-closure. %
+This SF is used as a weight for jet in the analysis when the \wtrk of the jet is used in the selection. %
+Systematic uncertainties are considered as "SF up/down" with an up/down variation from the nominal SF. %
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-NtrkDataQa}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuark/jetNtrk_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeQuark}} \quad
+  \subfloat[Gluon: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-NtrkDataGa}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluon/jetNtrk_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeGluon}} \\
+  \subfloat[Quark: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-NtrkDataQb}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuark/jetNtrk_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeQuark}} \quad
+  \subfloat[Gluon: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-NtrkDataGb}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluon/jetNtrk_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeGluon}}
+  \caption[]{
+    The \ntrk distributions of pure \subref{fig:QG-NtrkDataQa}\subref{fig:QG-NtrkDataQb} quark jets and %
+    \subref{fig:QG-NtrkDataGa}\subref{fig:QG-NtrkDataGb} gluon jets %
+    extracted by the matrix method from the data and MC. %
+    The top two figures show \ntrk in the jet \pt range between 100 and 150\GeV, and %
+    the bottom two figures show \ntrk in the jet \pt range between 800 and 1000\GeV. %
+    Solid-line histograms show the \ntrk distributions of quark or gluon jets defined by the jet parton flavor label in the MC.
+    A bottom panel in each figure shows the ratio of the extracted data to the extracted MC by the matrix method~(break line) %
+    or the MC defined by the parton label~(solid line). %
+    \label{fig:QG-NtrkData}
+    }
+\end{figure}
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-WtrkDataQa}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuark/jetWtrk_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeQuark}} \quad
+  \subfloat[Gluon: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-WtrkDataGa}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluon/jetWtrk_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeGluon}} \\
+  \subfloat[Quark: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-WtrkDataQb}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuark/jetWtrk_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeQuark}} \quad
+  \subfloat[Gluon: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-WtrkDataGb}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluon/jetWtrk_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeGluon}}
+  \caption[]{
+    The \wtrk distributions of pure \subref{fig:QG-WtrkDataQa}\subref{fig:QG-WtrkDataQb} quark jets and %
+    \subref{fig:QG-WtrkDataGa}\subref{fig:QG-WtrkDataGb} gluon jets %
+    extracted by the matrix method from the data and MC. %
+    The top two figures show \wtrk in the jet \pt range between 100 and 150\GeV, and %
+    the bottom two figures show \wtrk in the jet \pt range between 800 and 1000\GeV. %
+    Solid-line histograms show the \wtrk distributions of quark or gluon jets defined by the jet parton flavor label in the MC.
+    A bottom panel in each figure shows the ratio of the extracted data to the extracted MC by the matrix method~(break line) %
+    or the MC defined by the parton label~(solid line). %
+    \label{fig:QG-WtrkData}
+    }
+\end{figure}
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-C1B02DataQa}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuark/jetC1B02_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeQuark}} \quad
+  \subfloat[Gluon: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-C1B02DataGa}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluon/jetC1B02_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeGluon}} \\
+  \subfloat[Quark: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-C1B02DataQb}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuark/jetC1B02_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeQuark}} \quad
+  \subfloat[Gluon: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-C1B02DataGb}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluon/jetC1B02_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeGluon}}
+  \caption[]{
+    The \cbeta distributions of pure \subref{fig:QG-C1B02DataQa}\subref{fig:QG-C1B02DataQb} quark jets and %
+    \subref{fig:QG-C1B02DataGa}\subref{fig:QG-C1B02DataGb} gluon jets %
+    extracted by the matrix method from the data and MC. %
+    The top two figures show \cbeta in the jet \pt range between 100 and 150\GeV, and %
+    the bottom two figures show \cbeta in the jet \pt range between 800 and 1000\GeV. %
+    Solid-line histograms show the \cbeta distributions of quark or gluon jets defined by the jet parton flavor label in the MC.
+    A bottom panel in each figure shows the ratio of the extracted data to the extracted MC by the matrix method~(break line) %
+    or the MC defined by the parton label~(solid line). %
+    \label{fig:QG-C1B02Data}
+    }
+\end{figure}
+
+
+\section{Systematic uncertainties}
+\label{sec:QG-syst}
+
+The systematic uncertainties are listed below:
+\begin{itemize}
+  \item (Parton shower modeling)
+  \item The MC non-closure
+  \item PDF uncertainties
+  \item Tracking uncertainties
+  \item Data statistical uncertainty
+\end{itemize}
+To avoid an additional systematic uncertainty coming from the parton shower modeling, %
+this calibration is performed for \pythia8~and \sherpa~separately~as described before. %
+The MC non-closure is the difference between the MC defined by the jet parton label and the extracted MC described in \Sect{sec:QG-closure}. %
+The half of it is added as a systematic uncertainty to the SF up/down symmetrically. % 
+PDF uncertainties are obtained by using \textsc{LHAPDF-6.1.5} package~\cite{LHAPDF}, which provides other PDF sets and the PDF internal variations for each PDF set %
+as weight variations depending on the momentum fraction~$x$ and the partonic flavor of a reacted parton in the collided protons. %
+By changing a nominal PDF weight to the systematic variation, %
+the MC inputs with the PDF variation are obtained. %
+The variation on the SF from the PDF uncertainties is calculated from the difference between the nominal SF and %
+the SF computed from the MC inputs with the PDF variation weight. %
+The MC inputs are $F$ matrix in \Eqns{eq:QG-matrix}{eq:QG-matrix2}, and $p_{\mrm{Q/G, Ext. MC}}$ in \Eqn{eq:QG-SF}. %
+Here, \nnpdf~\cite{NNPDF30}, \ctten~\cite{CT10}, and \mmht~\cite{MMHT2014} PDF sets and their internal systematic variations are considered. %
+The total up and down variations coming from all of the PDF uncertainties are determined from the envelope of the three PDF set variations. %
+For the tracking uncertainties, there are five sources of systematic uncertainties: %
+\begin{description}
+  \item[Track reconstruction efficiency]  \mbox{} \\
+    The uncertainty on the track reconstruction efficiency caused by the uncertainty of the ID material distributions, which is less than 1\% in the efficiency.
+    % TRK_EFF_TIGHT_GLOBAL/IBL/PP0/PHYSMODEL
+  \item[Fake track rate]  \mbox{} \\
+    The uncertainty on the rate of reconstructed fake tracks passing the track ID selection. %, which is relative 27\% uncertainty. %(for LOOSE : but there is only loose fake rate systematics.)
+    % TRK_FAKE_RATE_LOOSE (There is only LOOSE)
+  \item[Impact parameter resolution] \mbox{} \\
+    The uncertainty on the transverse~($d_0$) and longitudinal~($z_0$) impact parameter resolution. This reflects the difference in the resolution between the data and MC. %
+    % TRK_RES_D0/Z0_MEAS/DEAD
+  \item[Detector distortion] \mbox{} \\
+    The uncertainty on the reconstructed $Q/p$~(charge over momentum), $d_0$, and $z_0$ caused by the detector distortion that is not able to be considered in the alignment of the ID. %
+    % TRK_BIAS _D0/Z0_WM / _QOVERP_SAGITTA_WM
+  \item[Lost track in a dense environment] \mbox{} \\
+    The uncertainty on the probability of losing a track in a core of jets %
+    due to the track-dense environment inside the jets. 
+    % TRK_EFF_LOOSE_TIDE (There is only LOOSE)
+\end{description}
+These uncertainties are considered by randomly dropping a track or changing its parameter before \wtrk computation. %
+
+The total uncertainty of the above~(quadrature sum of them) and the total systematic uncertainties on the SF using \pythia8 %
+are shown in \Figss{fig:QG-SystShapePythia}, %
+and also the breakdown of the systematic uncertainties for \pythia8 is shown in \Figss{fig:QG-UncPythia}. %
+In \pythia8, up or down uncertainty at the peak of \wtrk is $\sim 10\%$ for both of quark and gluon jets in the \pt range between 100--150\GeV %
+and for gluon jets in the \pt rage of 800--1000\GeV. It is mainly caused by the MC non-closure. %
+For quark jets with \pt between 800 and 1000\GeV, the uncertainty at the peak is $\sim 5\%$ mainly contributed by the PDF uncertainties.
+The uncertainties obtained by \sherpa~are shown in \Figss{fig:QG-SystShapeSherpa} and \Figss{fig:QG-UncSherpa}. %
+%The $Z$+jets in the 2-process method is generated by \sherpa~2.2.1 and multi-jet events are generated by \sherpa~2.1.1. %
+If \sherpa~samples are used, there is also 5--10\% uncertainties as in \pythia8. %
+
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-SystShapePythiaQa_Ntrk}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuarkSyst/jetNtrk_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-SystShapePythiaGa_Ntrk}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluonSyst/jetNtrk_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeGluonSyst}} \\
+  \subfloat[Quark: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-SystShapePythiaQb_Ntrk}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuarkSyst/jetNtrk_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-SystShapePythiaGb_Ntrk}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluonSyst/jetNtrk_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeGluonSyst}}
+  \caption[]{
+    The \ntrk distributions of the extracted \subref{fig:QG-SystShapePythiaQa_Ntrk}\subref{fig:QG-SystShapePythiaQb_Ntrk} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_Ntrk}\subref{fig:QG-SystShapePythiaGb_Ntrk} gluon jets from the data and MC %
+    with the total uncertainties and total systematic uncertainties obtained by \pythia8 MCs. %
+    The top two figures show the distributions in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The lower panel in each figure shows the extracted data divided by the extracted MC in the upper panels, %
+    which corresponds to the \ntrk SF. %
+    \label{fig:QG-SystShapePythia_Ntrk}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark : $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-UncPythiaQa_Ntrk}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesQ/jetNtrk_TightPt500_Pt0100-0150uncScale100_Pythia_UncertaintiesQ}}
+  \subfloat[Gluon : $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-UncPythiaGa_Ntrk}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesG/jetNtrk_TightPt500_Pt0100-0150uncScale100_Pythia_UncertaintiesG}} \\
+  \subfloat[Quark : $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-UncPythiaQb_Ntrk}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesQ/jetNtrk_TightPt500_Pt0800-1000uncScale100_Pythia_UncertaintiesQ}}
+  \subfloat[Gluon : $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-UncPythiaGb_Ntrk}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesG/jetNtrk_TightPt500_Pt0800-1000uncScale100_Pythia_UncertaintiesG}}
+  \caption[]{
+    The fraction of each uncertainty on the jet tagging variable obtained by \pythia8 MCs as a function of \ntrk %
+    for \subref{fig:QG-SystShapePythiaQa_Ntrk}\subref{fig:QG-SystShapePythiaQb_Ntrk} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_Ntrk}\subref{fig:QG-SystShapePythiaGb_Ntrk} gluon jets. %
+    The top two figures show the uncertainties in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The PDF up/down shows the envelope of all of the PDF uncertainties. %
+    The track systematic up/down shows the quadrature sum of five sources of track systematic uncertainties. %
+    \label{fig:QG-UncPythia_Ntrk}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-SystShapeSherpaQa}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeQuarkSyst/jetNtrk_TightPt500_Pt0100-0150uncScale100_Sherpa_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-SystShapeSherpaGa}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeGluonSyst/jetNtrk_TightPt500_Pt0100-0150uncScale100_Sherpa_ShapeGluonSyst}} \\
+  \subfloat[Quark : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-SystShapeSherpaQb}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeQuarkSyst/jetNtrk_TightPt500_Pt0800-1000uncScale100_Sherpa_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-SystShapeSherpaGb}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeGluonSyst/jetNtrk_TightPt500_Pt0800-1000uncScale100_Sherpa_ShapeGluonSyst}}
+  \caption[]{
+    The \ntrk distribution of the extracted \subref{fig:QG-SystShapePythiaQa_Ntrk}\subref{fig:QG-SystShapePythiaQb_Ntrk} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_Ntrk}\subref{fig:QG-SystShapePythiaGb_Ntrk} gluon jets from data and MC %
+    with the total uncertainties and the total systematic uncertainties obtained by \sherpa~MCs. %
+    The top two figures show the distribution in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The lower panel in each figure shows the extracted data divided by the extracted MC in the upper panels, %
+    which corresponds to the \ntrk SF. %
+    \label{fig:QG-SystShapeSherpa_Ntrk}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-UncSherpaQa_Ntrk}\includegraphics[width=0.5\textwidth]{Figures/Method2/uncertainty/SF_plots_ntrk/quark_100_0_sherpa_SF_ntrk.pdf}}
+  \subfloat[Gluon : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-UncSherpaGa_Ntrk}\includegraphics[width=0.5\textwidth]{Figures/Method2/uncertainty/SF_plots_ntrk/gluon_100_0_sherpa_SF_ntrk.pdf}} \\
+  \subfloat[Quark : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-UncSherpaQb_Ntrk}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesQ/jetNtrk_TightPt500_Pt0800-1000uncScale100_Sherpa_UncertaintiesQ}}
+  \subfloat[Gluon : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-UncSherpaGb_Ntrk}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesG/jetNtrk_TightPt500_Pt0800-1000uncScale100_Sherpa_UncertaintiesG}}
+  \caption[]{
+    The fraction of each uncertainty on the jet tagging variable obtained by \sherpa~MCs as a function of \ntrk %
+    for \subref{fig:QG-SystShapePythiaQa_Ntrk}\subref{fig:QG-SystShapePythiaQb_Ntrk} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_Ntrk}\subref{fig:QG-SystShapePythiaGb_Ntrk} gluon jets. %
+    The top two figures show the uncertainties in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The PDF up/down shows the envelope of all of the PDF uncertainties. %
+    The track systematic up/down shows the quadrature sum of five sources of track systematic uncertainties. %
+    \label{fig:QG-UncSherpa_Ntrk}
+  }
+\end{figure}
+
+
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-SystShapePythiaQa_Wtrk}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuarkSyst/jetWtrk_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-SystShapePythiaGa_Wtrk}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluonSyst/jetWtrk_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeGluonSyst}} \\
+  \subfloat[Quark: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-SystShapePythiaQb_Wtrk}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuarkSyst/jetWtrk_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-SystShapePythiaGb_Wtrk}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluonSyst/jetWtrk_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeGluonSyst}}
+  \caption[]{
+    The \wtrk distributions of the extracted \subref{fig:QG-SystShapePythiaQa_Wtrk}\subref{fig:QG-SystShapePythiaQb_Wtrk} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_Wtrk}\subref{fig:QG-SystShapePythiaGb_Wtrk} gluon jets from the data and MC %
+    with the total uncertainties and total systematic uncertainties obtained by \pythia8 MCs. %
+    The top two figures show the distributions in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The lower panel in each figure shows the extracted data divided by the extracted MC in the upper panels, %
+    which corresponds to the \wtrk SF. %
+    \label{fig:QG-SystShapePythia_Wtrk}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark : $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-UncPythiaQa_Wtrk}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesQ/jetWtrk_TightPt500_Pt0100-0150uncScale100_Pythia_UncertaintiesQ}}
+  \subfloat[Gluon : $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-UncPythiaGa_Wtrk}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesG/jetWtrk_TightPt500_Pt0100-0150uncScale100_Pythia_UncertaintiesG}} \\
+  \subfloat[Quark : $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-UncPythiaQb_Wtrk}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesQ/jetWtrk_TightPt500_Pt0800-1000uncScale100_Pythia_UncertaintiesQ}}
+  \subfloat[Gluon : $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-UncPythiaGb_Wtrk}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesG/jetWtrk_TightPt500_Pt0800-1000uncScale100_Pythia_UncertaintiesG}}
+  \caption[]{
+    The fraction of each uncertainty on the jet tagging variable obtained by \pythia8 MCs as a function of \wtrk %
+    for \subref{fig:QG-SystShapePythiaQa_Wtrk}\subref{fig:QG-SystShapePythiaQb_Wtrk} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_Wtrk}\subref{fig:QG-SystShapePythiaGb_Wtrk} gluon jets. %
+    The top two figures show the uncertainties in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The PDF up/down shows the envelope of all of the PDF uncertainties. %
+    The track systematic up/down shows the quadrature sum of five sources of track systematic uncertainties. %
+    \label{fig:QG-UncPythia_Wtrk}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-SystShapeSherpaQa}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeQuarkSyst/jetWtrk_TightPt500_Pt0100-0150uncScale100_Sherpa_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-SystShapeSherpaGa}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeGluonSyst/jetWtrk_TightPt500_Pt0100-0150uncScale100_Sherpa_ShapeGluonSyst}} \\
+  \subfloat[Quark : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-SystShapeSherpaQb}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeQuarkSyst/jetWtrk_TightPt500_Pt0800-1000uncScale100_Sherpa_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-SystShapeSherpaGb}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeGluonSyst/jetWtrk_TightPt500_Pt0800-1000uncScale100_Sherpa_ShapeGluonSyst}}
+  \caption[]{
+    The \wtrk distribution of the extracted \subref{fig:QG-SystShapePythiaQa_Wtrk}\subref{fig:QG-SystShapePythiaQb_Wtrk} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_Wtrk}\subref{fig:QG-SystShapePythiaGb_Wtrk} gluon jets from data and MC %
+    with the total uncertainties and the total systematic uncertainties obtained by \sherpa~MCs. %
+    The top two figures show the distribution in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The lower panel in each figure shows the extracted data divided by the extracted MC in the upper panels, %
+    which corresponds to the \wtrk SF. %
+    \label{fig:QG-SystShapeSherpa_Wtrk}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-UncSherpaQa_Wtrk}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesQ/jetWtrk_TightPt500_Pt0100-0150uncScale100_Sherpa_UncertaintiesQ}}
+  \subfloat[Gluon : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-UncSherpaGa_Wtrk}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesG/jetWtrk_TightPt500_Pt0100-0150uncScale100_Sherpa_UncertaintiesG}} \\
+  \subfloat[Quark : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-UncSherpaQb_Wtrk}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesQ/jetWtrk_TightPt500_Pt0800-1000uncScale100_Sherpa_UncertaintiesQ}}
+  \subfloat[Gluon : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-UncSherpaGb_Wtrk}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesG/jetWtrk_TightPt500_Pt0800-1000uncScale100_Sherpa_UncertaintiesG}}
+  \caption[]{
+    The fraction of each uncertainty on the jet tagging variable obtained by \sherpa~MCs as a function of \wtrk %
+    for \subref{fig:QG-SystShapePythiaQa_Wtrk}\subref{fig:QG-SystShapePythiaQb_Wtrk} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_Wtrk}\subref{fig:QG-SystShapePythiaGb_Wtrk} gluon jets. %
+    The top two figures show the uncertainties in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The PDF up/down shows the envelope of all of the PDF uncertainties. %
+    The track systematic up/down shows the quadrature sum of five sources of track systematic uncertainties. %
+    \label{fig:QG-UncSherpa_Wtrk}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-SystShapePythiaQa_C1B02}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuarkSyst/jetC1B02_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon: $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-SystShapePythiaGa_C1B02}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluonSyst/jetC1B02_TightPt500_Pt0100-0150uncScale100_Pythia_ShapeGluonSyst}} \\
+  \subfloat[Quark: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-SystShapePythiaQb_C1B02}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeQuarkSyst/jetC1B02_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon: $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-SystShapePythiaGb_C1B02}\includegraphics[width=0.45\textwidth]{Figures/Pythia_ShapeGluonSyst/jetC1B02_TightPt500_Pt0800-1000uncScale100_Pythia_ShapeGluonSyst}}
+  \caption[]{
+    The \cbeta distributions of the extracted \subref{fig:QG-SystShapePythiaQa_C1B02}\subref{fig:QG-SystShapePythiaQb_C1B02} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_C1B02}\subref{fig:QG-SystShapePythiaGb_C1B02} gluon jets from the data and MC %
+    with the total uncertainties and total systematic uncertainties obtained by \pythia8 MCs. %
+    The top two figures show the distributions in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The lower panel in each figure shows the extracted data divided by the extracted MC in the upper panels, %
+    which corresponds to the \cbeta SF. %
+    \label{fig:QG-SystShapePythia_C1B02}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark : $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-UncPythiaQa_C1B02}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesQ/jetC1B02_TightPt500_Pt0100-0150uncScale100_Pythia_UncertaintiesQ}}
+  \subfloat[Gluon : $100<\pt<150\GeV$~(\pythia8) ]{\label{fig:QG-UncPythiaGa_C1B02}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesG/jetC1B02_TightPt500_Pt0100-0150uncScale100_Pythia_UncertaintiesG}} \\
+  \subfloat[Quark : $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-UncPythiaQb_C1B02}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesQ/jetC1B02_TightPt500_Pt0800-1000uncScale100_Pythia_UncertaintiesQ}}
+  \subfloat[Gluon : $800<\pt<1000\GeV$~(\pythia8)]{\label{fig:QG-UncPythiaGb_C1B02}\includegraphics[width=0.5\textwidth]{Figures/Pythia_UncertaintiesG/jetC1B02_TightPt500_Pt0800-1000uncScale100_Pythia_UncertaintiesG}}
+  \caption[]{
+    The fraction of each uncertainty on the jet tagging variable obtained by \pythia8 MCs as a function of \cbeta %
+    for \subref{fig:QG-SystShapePythiaQa_C1B02}\subref{fig:QG-SystShapePythiaQb_C1B02} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_C1B02}\subref{fig:QG-SystShapePythiaGb_C1B02} gluon jets. %
+    The top two figures show the uncertainties in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The PDF up/down shows the envelope of all of the PDF uncertainties. %
+    The track systematic up/down shows the quadrature sum of five sources of track systematic uncertainties. %
+    \label{fig:QG-UncPythia_C1B02}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-SystShapeSherpaQa}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeQuarkSyst/jetC1B02_TightPt500_Pt0100-0150uncScale100_Sherpa_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-SystShapeSherpaGa}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeGluonSyst/jetC1B02_TightPt500_Pt0100-0150uncScale100_Sherpa_ShapeGluonSyst}} \\
+  \subfloat[Quark : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-SystShapeSherpaQb}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeQuarkSyst/jetC1B02_TightPt500_Pt0800-1000uncScale100_Sherpa_ShapeQuarkSyst}} \quad
+  \subfloat[Gluon : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-SystShapeSherpaGb}\includegraphics[width=0.45\textwidth]{Figures/Sherpa_ShapeGluonSyst/jetC1B02_TightPt500_Pt0800-1000uncScale100_Sherpa_ShapeGluonSyst}}
+  \caption[]{
+    The \cbeta distribution of the extracted \subref{fig:QG-SystShapePythiaQa_C1B02}\subref{fig:QG-SystShapePythiaQb_C1B02} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_C1B02}\subref{fig:QG-SystShapePythiaGb_C1B02} gluon jets from data and MC %
+    with the total uncertainties and the total systematic uncertainties obtained by \sherpa~MCs. %
+    The top two figures show the distribution in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The lower panel in each figure shows the extracted data divided by the extracted MC in the upper panels, %
+    which corresponds to the \cbeta SF. %
+    \label{fig:QG-SystShapeSherpa_C1B02}
+  }
+\end{figure}
+
+
+\begin{figure}[htb]
+  \centering
+  \subfloat[Quark : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-UncSherpaQa_C1B02}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesQ/jetC1B02_TightPt500_Pt0100-0150uncScale100_Sherpa_UncertaintiesQ}}
+  \subfloat[Gluon : $100<\pt<150\GeV$~(\sherpa) ]{\label{fig:QG-UncSherpaGa_C1B02}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesG/jetC1B02_TightPt500_Pt0100-0150uncScale100_Sherpa_UncertaintiesG}} \\
+  \subfloat[Quark : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-UncSherpaQb_C1B02}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesQ/jetC1B02_TightPt500_Pt0800-1000uncScale100_Sherpa_UncertaintiesQ}}
+  \subfloat[Gluon : $800<\pt<1000\GeV$~(\sherpa)]{\label{fig:QG-UncSherpaGb_C1B02}\includegraphics[width=0.5\textwidth]{Figures/Sherpa_UncertaintiesG/jetC1B02_TightPt500_Pt0800-1000uncScale100_Sherpa_UncertaintiesG}}
+  \caption[]{
+    The fraction of each uncertainty on the jet tagging variable obtained by \sherpa~MCs as a function of \cbeta %
+    for \subref{fig:QG-SystShapePythiaQa_C1B02}\subref{fig:QG-SystShapePythiaQb_C1B02} quark jets and %
+    \subref{fig:QG-SystShapePythiaGa_C1B02}\subref{fig:QG-SystShapePythiaGb_C1B02} gluon jets. %
+    The top two figures show the uncertainties in the jet \pt range between 100 and 150\GeV. %
+    The bottom two show that in the jet \pt range between 800 and 1000\GeV. %
+    The PDF up/down shows the envelope of all of the PDF uncertainties. %
+    The track systematic up/down shows the quadrature sum of five sources of track systematic uncertainties. %
+    \label{fig:QG-UncSherpa_C1B02}
+  }
+\end{figure}
+
+
+
+
+\begin{comment}
+
+For \pythia8, the obtained calibrations are valid only for quark and gluon jets. %
+For \sherpa~in the lower \pt ranges, the calibrations are valid only for quark jets in \sherpa2.2.1 and gluon jets in \sherpa2.1.1 %
+because the quark and gluon enriched samples are \sherpa2.2.1 Z+jets MC and \sherpa2.1.1 multi-jet MC, respectively. %
+In the higher \pt ranges, both of the quarks and gluons are valid only for \sherpa2.1.1. %
+Therefore, the calibrations cannot be used for $b$-quark jets and jets labeled "other" and also for the other parton shower modelings. %
+Hence, for the other parton flavors~($b$-quark or label of "other") or the other shower modelings, %
+only the uncertainties are defined and the nominal SF is set to 1. %
+The uncertainty for the $b$-quarks is defined by the envelope of the uncertainties for the quarks and gluons.
+The uncertainty for a different-version shower modeling~(\pythia6 for \pythia8, \sherpa2.2.1 for \sherpa2.1.1, and \sherpa2.1.1 for \sherpa2.2.1) %
+is defined by the envelope of 1 and SF up/down of the obtained calibration for the corresponding shower modeling~(\pythia8 or \sherpa). %
+The computation algorithms for the calibrations and the uncertainties on \wtrk SF %
+for each parton flavor and each parton shower modelings %
+are summarized in \Tab{tab:QG-SF}. %
+
+
+\begin{table}[htb]
+  \centering
+  \caption{
+    The summary of computation algorithms of \wtrk scale factor~(SF) and its up/down variations. %
+    P or S means the value obtained in the calibration for \pythia8 or \sherpa~ is used. %
+    In case that nominal SF is 1 and SF up/down is P or S, the SF up and down are obtained %
+    from the envelope of 1 and SF up/down of the obtained calibration for \pythia8 or \sherpa. %
+    The Q or G means the SF up and down is defined by the envelope of the SF ups and SF downs calculated for quark jets and gluon jets. %
+    The P or S means the SF up and down is defined by the envelope of the SF ups and SF downs calculated with \pythia8 and \sherpa. %
+    The jets labeled "other" have 100\% uncertainties on the SF.
+  }
+  \begin{tabular}{ll|c|c|c|c}
+    \hline
+    \multicolumn{2}{l|}{Parton flavor}          & Quark  & Gluon & $b$-quark         & Other   \\
+    \hline                                                                               
+    \multirow{2}{*}{\pythia8}  & Nominal SF & P  & P &  1.               & 1.       \\ \cdashline{2-6}
+                               & SF up/down & P  & P &  Q or G & 2/0      \\ \hline
+    \multirow{2}{*}{\pythia6}  & Nominal SF & 1.     & 1.    &  1.               & 1.       \\ \cdashline{2-6}
+                               & SF up/down & P  & P &  Q or G & 2/0      \\ \hline
+    \sherpa~2.2.1              & Nominal SF & S  & 1.    &  1.               & 1.       \\ \cdashline{2-6}
+    (In the lower \pt ranges)  & SF up/down & S  & S &  Q or G & 2/0      \\ \hline
+    \sherpa~2.1.1              & Nominal SF & 1.     & S &  1.               & 1.       \\ \cdashline{2-6}
+    (In the lower \pt ranges)  & SF up/down & S  & S &  Q or G & 2/0      \\ \hline
+    \sherpa~2.2.1              & Nominal SF & 1.     & 1.    &  1.               & 1.       \\ \cdashline{2-6}
+    (In the higher \pt ranges) & SF up/down & S  & S &  Q or G & 2/0      \\ \hline
+    \sherpa~2.1.1              & Nominal SF & S  & S &  1.               & 1.       \\ \cdashline{2-6}
+    (In the higher \pt ranges) & SF up/down & S  & S &  Q or G & 2/0      \\ \hline
+    \multirow{2}{*}{Others}    & Nominal SF & 1.     & 1.    &  1.               & 1.       \\ \cdashline{2-6}
+                               & SF up/down & P or S & P or S & Q or G $\times$ P or S & 2/0 \\ 
+    \hline
+  \end{tabular}
+  \label{tab:QG-SF}
+\end{table}
+
+\FloatBarrier
+
+\end{comment}

@@ -1,0 +1,121 @@
+The MC and data events are divided into three categories to perform the search: the untagged dijet invariant mass spectrum, one-gluon tagged spectrum, and two-gluon tagged spectrum. The evidence of BSM resonances would appear as peaks in the \mjj~spectrum formed by two highest \pt~jets in the events. A series of specific cuts is applied to improved the sensitivity of the searches.
+
+
+\subsubsection{Observables and Kinematic Variables}
+%\label{sec:observables}
+The predominant source of dijet
+events in the SM is two-to-two scattering though the QCD processes. This search exams two key properties of the QCD background:
+\begin{itemize}
+	\item The background at high \mjj~appears as a smooth and continuously falling spectrum.
+	\item The background at high energy strongly peaks in the forward region as a result of Rutherford $t$- and $u$-channel poles in the cross sections
+for certain scattering processes \cite{Harris:2011bh}.
+\end{itemize}
+
+Resonances of interest have $\cos{\theta}$ distributions in the detector, which in contrast to Rutherford scattering, are either isotropic or have polynomial behaviour in $\cos{\theta}$~\footnote{See Ref.~\cite{Harris:2011bh} p15 for a summary.}, thus a angular distribution appears. This search therefore defines a \ystar to indicate the angle separation of the jets in the selected events:
+\begin{equation}
+ \ystar = (y_1-y_2)/2
+\end{equation}
+to improve the sensitivity to higher energies where new phenomena are expected. The variables $y_1, y_2$ represent the rapidity of the leading and subleading jet. The value of the \ystar\ cut on events is optimized for each signal as discussed in Section~.\ref{section:ystarCutOptimization}.
+
+
+In this analysis, jets are reconstructed with the \akt~algorithm
+% \cite{Cacciari:2008gp}
+with a radius parameter R = 0.4, as implemented in the \textsc{FastJet}
+package~\cite{Cacciari:2011ma}.  The EMTopo jets, reconstructed from topological clusters via procedures described in Section.~\ref{sec:4.1}, are used. The standard \textit{Loose} cut is applied to jet quality as well as jet cleaning. The summarized jet criteria are shown in Table~\ref{tab:jetCalibration}.
+
+\begin{table}[ht]
+	\centering
+		\begin{tabular}{clc}
+			\hline
+			Parameter / Observable & Requirement \\
+			\hline
+			Algorithm & \akt \\
+			R-parameter & 0.4 \\
+			Input Constituent & EMTopo\\
+			\pt & $>$150 GeV \\
+			\textbar$\eta$\textbar & $<$2.1 \\
+			\hline
+	\end{tabular}
+\caption{Jet selection criteria used in this analysis.}
+\label{tab:jetCalibration}
+\end{table}
+
+
+\subsubsection{Baseline selection}
+\label{sec:base_selection}
+
+
+The triggers used in this analysis is HLT\_j420. Besides, two single-jet trigger HLT\_j225\_gsc420\_boffperf\_split is also used as the unprescaled trigger for full Run 2 data. Both triggers have the threshold of $\pt > 420$ GeV of the jets, while the GSC is applied to the HLT\_j225\_gsc420\_boffperf\_split to the trigger turn-on improvement. A turn-on based on the \mjj~spectrum is found to be much powerful than the cut requirement of the leading jet \pt, where the \mjj~cut imposes a soft cut on the leading and subleading jet, respectively. More details are shown in Section.~\ref{section:dijetmassturn-on}. 
+
+
+
+%The two triggers were found to be very similar in performance in Ref.~\cite{Nishu:2646455}; we used HLT\_j420 trigger. It was also found in Ref.~\cite{Nishu:2646455} that obtaining the turn-on directly from \mjj\ provides a much power turn-on than from requiring a specific cut on the leading jet \pT\.
+
+The baseline event selection is applied for all categories. The GRL and various flags that indicate the status of detector when taking data are provided by the ATLAS Data Quality (DQ) group, are applied to ensure the data integrity. Primary vertex requirement is also included to ensure good quality jets. The  
+
+
+\begin{itemize}
+\item All jets with $\pt > 150$ GeV pass \textit{Loose} cleaning cuts
+\item Passes the lowest unprescaled single-jet trigger: HLT\_j420
+\item Jet multiplicity $\ge 2$
+\item Leading jet $\pt > 380$ GeV and subeading jet $\pt > 150$ GeV
+\item Leading jet \abseta~< 2.1 and subeading jet \abseta~< 2.1 
+\item $|\Delta\phi|$ between two jets: $|\Delta\phi| > 1.0$
+\item \mjj > 1100 GeV
+\end{itemize}
+
+Additional kinematic criteria are applied according to the distributions of signals, in order to optimize the
+search potential, are then discussed in Section~\ref{section:ystarCutOptimization}.
+
+
+
+\begin{comment}
+\subsection{Analysis cutflow}
+%\label{sec:data_cutflow}
+
+This section and the next present the analysis cutflows. Cutflows obtained on
+Run~2 data are presented in Tables~\ref{tab:cutFlow_resonance_run2} and 
+\ref{tab:cutFlow_wstar_run2}.
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{l|c|c}
+		\hline\hline
+		Selection criteria & $N_{events}$ & rel. decrease (\%) \\
+		\hline
+		all      &	4738142726	&	0.00	\\
+		Apply GRL 	& 	4442605390        & 	-6.24	 \\
+		Cleaning	 & 	4379077017	 & 	-1.43	 \\
+		HLT j420	 & 	266104885	 & 	-93.9	 \\
+		jet pre-selection	 &     259157844         &      -2.61    \\
+		$|\Delta\phi| > 1.0$	 & 		 & 		 \\
+		$|\ystar| < 0.6$	 & 		 & 		 \\
+		$\mjj>1100~\GeV$	 & 		 & 		 \\
+		\hline\hline
+	\end{tabular}
+	\caption{Cutflow for
+		events with H$^\prime$ cuts:  $\mjj>1100~\GeV$, and $|\ystar|<0.6$. .
+		\label{tab:cutFlow_resonance_run2} }
+\end{table}
+
+\begin{table}[htbp]
+	\centering
+	\begin{tabular}{l|c|c}
+		\hline\hline
+		Selection criteria & $N_{events}$ & rel. decrease (\%) \\
+		\hline
+		all      &	4738142726	&	0.00	\\
+		Apply GRL 	& 	4442605390        & 	-6.24	 \\
+		Cleaning	 & 	4379077017	 & 	-1.43	 \\
+		HLT j420	 & 	266104885	 & 	-93.9	 \\
+		jet pre-selection	 &     259157844        &      -2.61    \\
+		$|\Delta\phi| > 1.0$	 & 		 & 		 \\
+		$|\ystar| < 0.8$	 & 		 & 	 \\
+		$\mjj>1133~\GeV$	 & 		 & 	 \\
+		\hline\hline
+	\end{tabular}
+	\caption{Cutflow for
+		events with string resonance cuts:  $\mjj>1133~\GeV$, and $|\ystar|<0.8$. .
+		\label{tab:cutFlow_wstar_run2} }
+\end{table}
+\end{comment}
