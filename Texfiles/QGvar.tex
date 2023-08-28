@@ -1,6 +1,6 @@
-According to QCD, the colour factor of gluons is larger than that of quarks by factor 9/4 ("Casimir ratio"), which makes gluons emit more particles in the hadronisation than quarks. As a result, a gluon-initiated jet has more charged multiplicity associated and its width is larger than that of a quark-initiated jet. Therefore, the information of the track multiplicity inside a jet is crucial to distinguish quarks from gluons.
+According to QCD, the colour factor of gluons is larger than that of quarks by factor 9/4 ("Casimir ratio")~\cite{ALTARELLI1977298}, which makes gluons emit more particles in the hadronisation than quarks. As a result, a gluon-initiated jet has more charged multiplicity associated and its width is larger than that of a quark-initiated jet. Therefore, the information of the track multiplicity inside a jet is crucial to distinguish quarks from gluons.
 
-The $q/g$ tagging variables used in this study are based on the track multiplicity and are specified as : number of tracks ($\ntrk$), jet width (\wtrk), and two point energy correlation function (\cbeta) computed from the associated tracks. The expressions are defined as follows:
+The $q/g$ tagging variables used in this study are based on the track multiplicity and are specified as : number of tracks ($\ntrk$), jet width (\wtrk)~\cite{Aad_2014,PhysRevLett.110.212001}, and two point energy correlation function (\cbeta)~\cite{Moult:2016cvt,Larkoski:2013eya} computed from the associated tracks. The expressions are defined as follows:
 
 \begin{description}
 
@@ -37,7 +37,7 @@ Multivariate Analysis (MVA) is a technique introduced to discriminate signal fro
 
 \begin{figure}[htb] 
 	\centering  
-	\includegraphics[width=12cm]{./fig/bdt.png}
+	\includegraphics[width=11cm]{./fig/bdt.png}
 	\caption{A scheme of a single decision tree with a depth of three}
 	\label{Fig.bdt}
 \end{figure}
@@ -49,12 +49,12 @@ The BDT tagger is trained using the LGBMClassifier from lightGBM~\cite{NIPS2017_
 
 An individual score is allocated to each BDT within the boosting procedure, factoring in its error rate.  This BDT score serves as the criterion for classifying a given jet as either a quark-jet or a gluon-jet. 
 
-\paragraph{Feature selections\\}
+\paragraph{Feature selections}\mbox{}\par
 Drawing upon the features employed during the training process, an exploration of the correlation matrix is undertaken to assess the interdependence among jet attributes, including \pt, \abseta, and jet substructure variables \ntrk, \wtrk, \cbeta, and the BDT. Figure~\ref{fig:weighted_corr} shows \ntrk, \wtrk~and \cbeta exhibit notable interrelationships among themselves, displaying relatively robust correlations. In contrast, \pt~and $\eta$ display a diminished level of correlation. The distributions of all single jet substructure variables and BDT score with systematic uncertainty in forward and central regions are shown in Figure~\ref{fig:QG-pythia-Unc_Ntrk-wp11}. The distributions of all single jet substructure variables and BDT score with systematic uncertainty of quark- and gluon-jets in different \pt~ranges from the MC simulation are shown in Figure~\ref{fig:QG-pythia-Unc_Ntrk-wp11q}.
 
 \begin{figure}[htb]
 	\centering
-	\includegraphics[width=0.5\textwidth]{fig/ADE/new_GBDT/corr.pdf}
+	\includegraphics[width=0.65\textwidth]{fig/ADE/new_GBDT/corr.pdf}
 	\caption{correlation matrix of jet variables.}
 	\label{fig:weighted_corr}
 \end{figure}
@@ -108,7 +108,7 @@ At detector-level, however, the observed radiation pattern within jets no longer
 	}
 \end{figure}
 
-\paragraph{Training weights\\}
+\paragraph{Training weights}\mbox{}\par
 An additional data processing step is conducted to modify the event weights, such that a flat distribution of the \pt~spectrum is given. 
 This adjustment is motivated by the observation that higher \pt~jets have less probability to occur, so the training on the higher \pt~jets need to be emphasise. This newly introduced weight, referred to as the "flat \pt-weight" within this context, is exclusively employed during the training process. Conversely, for other scenarios, such as assessing tagger performance on validation datasets and subsequent calibration endeavours, the original event weights based on physical considerations remain employed.
 
@@ -122,7 +122,7 @@ This adjustment is motivated by the observation that higher \pt~jets have less p
 	}
 \end{figure}
 
-\paragraph{Training Configuration\\}
+\paragraph{Training Configuration}\mbox{}\par
 
 Approximately 30\% of the data from each period of the MC \pythia8 A, D, E is randomly allocated for the training investigation, constituting an aggregate of roughly 60 million jets. 
 The dataset division for training, validation, and testing is structured in a ratio of 80\% for training, 10\% for validation, and 10\% for testing.

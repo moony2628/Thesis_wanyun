@@ -13,7 +13,7 @@ Jets from the MC simulation are defined as truth-particle jets which have lifeti
 
 There are several types of jets aim for different analysis depended on the constituents and algorithm used for reconstructing the jets. ATLAS previously used topo-cluster jets, which is a group of topological related cells in calorimeter with significantly high energy deposits. A pile-up suppressed algorithm is applied to select certain cells with low noise. Cell above certain signal-to-noise (S/N) threshold (usually by four times its standard deviation) are used to seed the algorithm. By neighbouring the seed a topo-cluster is defined. In the hard-scatter process, jets of interest are expected to produced from the primary interaction point (known as vertex). The primary vertex is defined if there are at least two tracks with the highest sum of squared track momentum associated to it.
 
-Jets are constructed from any set of four-vectors. EMTopo jets are the jets that use topo-cluster initially calibrated to electromagnetic (EM) scale in the calorimeters. A local cluster weighting (LCW) scale is also used for calibrating hadronic clusters by applying weights for low hadronic interaction response. Besides, particle flow (PFlow) jets are built by combining the information from both the ID and the calorimeter, where the energy deposited from the calorimeter are removed by the momentum in the ID by a cell-based energy subtraction algorithm. The inputs to the particle flow algorithm are the separate topo-clusters with local energy maxima, respectively. 
+Jets are constructed from any set of four-vectors. EMTopo jets are the jets that use topo-cluster initially calibrated to electromagnetic (EM) scale in the calorimeters. A local cluster weighting (LCW) scale is also used for calibrating hadronic clusters by applying weights for low hadronic interaction response. Besides, particle flow (PFlow)~\cite{PERF-2015-09} jets are built by combining the information from both the ID and the calorimeter, where the energy deposited from the calorimeter are removed by the momentum in the ID by a cell-based energy subtraction algorithm. The inputs to the particle flow algorithm are the separate topo-clusters with local energy maxima, respectively. 
 
 A recombination algorithm called anti-$k_t$ algorithm is employed to build the jets with a radius parameter $R$ in rapidity-azimuth $(y-\phi)$ plane around a cluster. The algorithms are defined as follows:
 
@@ -34,7 +34,7 @@ When $p$ is set to 0,  the Cambridge-Aachen (CA) algorithm is given as the dista
 
 For the $k_t$ algorithm, $p$ is set to 1 so that the distance $d_{i j}$ is dominated by the minimum $k_t$. This algorithm is preferred for clusters that are soft and collinear splits are merged first, resulted in irregular footprint with the most interesting splits.
 
-The  \antikt~algorithm on the other hand set $p$ = -1, leaving the distance $d_{i j} \propto \min \left(\frac{1}{k_{t i}^2}, \frac{1}{k_{t j}^2}\right)$ shorten as the transverse momenta of two particles increase. This is widely used in the LHC for hard clustering as it is less vulnerable to the effects from the pile-up and resulted in circular footprint as shown in Figure~\ref{Fig.kt} for $R = 1.0$.
+The  \antikt~algorithm~\cite{Cacciari:2008gp} on the other hand set $p$ = -1, leaving the distance $d_{i j} \propto \min \left(\frac{1}{k_{t i}^2}, \frac{1}{k_{t j}^2}\right)$ shorten as the transverse momenta of two particles increase. This is widely used in the LHC for hard clustering as it is less vulnerable to the effects from the pile-up and resulted in circular footprint as shown in Figure~\ref{Fig.kt} for $R = 1.0$.
 
 \begin{figure}[htb] 
 	\centering  
@@ -51,7 +51,7 @@ The \antikt~$R = 0.4$ PLow jets are used in the quark/gluon taggers calibration 
 \subsection{Jet calibration and cleaning}
 \label{sec:4.2}
 
-The motivation of jet calibration is to correct the translation from received signals to initial partons for several detector effects, including energy deposited in dead or beyond areas in the detectors, low response to hadronic reactions, pile-up, radiations that outside jet cone, etc. The calibration process is thus needed to account for the energy of jets to that of MC simulated jets at particle-level.
+The motivation of jet calibration~\cite{ATLAS:2020cli,PhysRevD.96.072002} is to correct the translation from received signals to initial partons for several detector effects, including energy deposited in dead or beyond areas in the detectors, low response to hadronic reactions, pile-up, radiations that outside jet cone, etc. The calibration process is thus needed to account for the energy of jets to that of MC simulated jets at particle-level.
 
 Calibration is performed to topological clusters at the EM scale where the sum of the energies in all constituent cell are taken, or at the LCW scale where low hadronic response in the ATLAS calorimeters is taken into account. The diagrams~\ref{Fig.calib} shows the calibration scheme for small-$R$ jets.
 

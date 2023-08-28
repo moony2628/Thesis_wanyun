@@ -1,5 +1,63 @@
 [0] Config.pm:304> INFO - This is Biber 2.14
-[1] Config.pm:307> INFO - Logfile is 'Thesis_Wanyun.blg'
-[140] biber-darwin:322> INFO - === Mon Feb 13, 2023, 20:58:10
-[176] Utils.pm:320> ERROR - Thesis_Wanyun.bcf is malformed, last biblatex run probably failed. Deleted Thesis_Wanyun.bbl
-[176] Biber.pm:132> INFO - ERRORS: 1
+[0] Config.pm:307> INFO - Logfile is 'Thesis_Wanyun.blg'
+[45] biber-darwin:322> INFO - === Mon Aug 28, 2023, 16:59:06
+[55] Biber.pm:415> INFO - Reading 'Thesis_Wanyun.bcf'
+[104] Biber.pm:943> INFO - Found 87 citekeys in bib section 0
+[114] Biber.pm:4256> INFO - Processing section 0
+[114] Utils.pm:75> INFO - Globbing data source 'bib/ANA-JETM-2020-02-PAPER.bib'
+[114] Utils.pm:91> INFO - Globbed data source 'bib/ANA-JETM-2020-02-PAPER.bib' to bib/ANA-JETM-2020-02-PAPER.bib
+[114] Utils.pm:75> INFO - Globbing data source 'bib/ATLAS.bib'
+[114] Utils.pm:91> INFO - Globbed data source 'bib/ATLAS.bib' to bib/ATLAS.bib
+[114] Utils.pm:75> INFO - Globbing data source 'bib/CMS.bib'
+[114] Utils.pm:91> INFO - Globbed data source 'bib/CMS.bib' to bib/CMS.bib
+[114] Utils.pm:75> INFO - Globbing data source 'bib/ConfNotes.bib'
+[114] Utils.pm:91> INFO - Globbed data source 'bib/ConfNotes.bib' to bib/ConfNotes.bib
+[114] Utils.pm:75> INFO - Globbing data source 'bib/PubNotes.bib'
+[114] Utils.pm:91> INFO - Globbed data source 'bib/PubNotes.bib' to bib/PubNotes.bib
+[114] Utils.pm:75> INFO - Globbing data source 'bib/ATLAS-useful.bib'
+[114] Utils.pm:91> INFO - Globbed data source 'bib/ATLAS-useful.bib' to bib/ATLAS-useful.bib
+[114] Utils.pm:75> INFO - Globbing data source 'bib/ANA-EXOT-2019-32-INT1.bib'
+[115] Utils.pm:91> INFO - Globbed data source 'bib/ANA-EXOT-2019-32-INT1.bib' to bib/ANA-EXOT-2019-32-INT1.bib
+[121] Biber.pm:4455> INFO - Looking for bibtex format file 'bib/ANA-JETM-2020-02-PAPER.bib' for section 0
+[123] bibtex.pm:1653> INFO - LaTeX decoding ...
+[191] bibtex.pm:1471> INFO - Found BibTeX data source 'bib/ANA-JETM-2020-02-PAPER.bib'
+[261] Utils.pm:304> WARN - month field 'Oct' in entry 'PhysRevD.96.072002' is not an integer - this will probably not sort properly.
+[283] Utils.pm:304> WARN - month field 'May' in entry 'PhysRevLett.110.212001' is not an integer - this will probably not sort properly.
+[303] Biber.pm:4455> INFO - Looking for bibtex format file 'bib/ATLAS.bib' for section 0
+[337] bibtex.pm:1653> INFO - LaTeX decoding ...
+[1397] bibtex.pm:1471> INFO - Found BibTeX data source 'bib/ATLAS.bib'
+[1473] Biber.pm:4455> INFO - Looking for bibtex format file 'bib/CMS.bib' for section 0
+[1505] bibtex.pm:1653> INFO - LaTeX decoding ...
+[2561] bibtex.pm:1471> INFO - Found BibTeX data source 'bib/CMS.bib'
+[2623] Biber.pm:4455> INFO - Looking for bibtex format file 'bib/ConfNotes.bib' for section 0
+[2647] bibtex.pm:1653> INFO - LaTeX decoding ...
+[3221] bibtex.pm:1471> INFO - Found BibTeX data source 'bib/ConfNotes.bib'
+[3274] Biber.pm:4455> INFO - Looking for bibtex format file 'bib/PubNotes.bib' for section 0
+[3284] bibtex.pm:1653> INFO - LaTeX decoding ...
+[3463] bibtex.pm:1471> INFO - Found BibTeX data source 'bib/PubNotes.bib'
+[3470] Utils.pm:304> WARN - Duplicate entry key: 'ATL-PHYS-PUB-2015-051' in file 'bib/PubNotes.bib', skipping ...
+[3472] Utils.pm:304> WARN - Duplicate entry key: 'ATL-PHYS-PUB-2017-009' in file 'bib/PubNotes.bib', skipping ...
+[3484] Biber.pm:4455> INFO - Looking for bibtex format file 'bib/ATLAS-useful.bib' for section 0
+[3490] bibtex.pm:1653> INFO - LaTeX decoding ...
+[3633] bibtex.pm:1471> INFO - Found BibTeX data source 'bib/ATLAS-useful.bib'
+[3633] Utils.pm:304> WARN - Duplicate entry key: 'Evans:2008zzb' in file 'bib/ATLAS-useful.bib', skipping ...
+[3634] Utils.pm:304> WARN - Duplicate entry key: 'Mrenna:2016sih' in file 'bib/ATLAS-useful.bib', skipping ...
+[3691] Biber.pm:4455> INFO - Looking for bibtex format file 'bib/ANA-EXOT-2019-32-INT1.bib' for section 0
+[3695] bibtex.pm:1653> INFO - LaTeX decoding ...
+[3757] bibtex.pm:1471> INFO - Found BibTeX data source 'bib/ANA-EXOT-2019-32-INT1.bib'
+[3757] Utils.pm:304> WARN - Duplicate entry key: 'Cacciari:2008gp' in file 'bib/ANA-EXOT-2019-32-INT1.bib', skipping ...
+[3760] Utils.pm:304> WARN - Duplicate entry key: 'Sjostrand:2014zea' in file 'bib/ANA-EXOT-2019-32-INT1.bib', skipping ...
+[3760] Utils.pm:304> WARN - Duplicate entry key: 'Pumplin:2002vw' in file 'bib/ANA-EXOT-2019-32-INT1.bib', skipping ...
+[3760] Utils.pm:304> WARN - Duplicate entry key: 'Lange:2001uf' in file 'bib/ANA-EXOT-2019-32-INT1.bib', skipping ...
+[3760] Utils.pm:304> WARN - Duplicate entry key: 'Ball:2012cx' in file 'bib/ANA-EXOT-2019-32-INT1.bib', skipping ...
+[3760] Utils.pm:304> WARN - Duplicate entry key: 'Alwall:2006yp' in file 'bib/ANA-EXOT-2019-32-INT1.bib', skipping ...
+[3761] Utils.pm:304> WARN - Duplicate entry key: 'Brun:1997' in file 'bib/ANA-EXOT-2019-32-INT1.bib', skipping ...
+[3761] Utils.pm:304> WARN - Duplicate entry key: 'RooFit' in file 'bib/ANA-EXOT-2019-32-INT1.bib', skipping ...
+[3805] Utils.pm:304> WARN - I didn't find a database entry for 'ref21' (section 0)
+[3859] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[3859] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[3859] Biber.pm:4084> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
+[3859] Biber.pm:4090> INFO - No sort tailoring available for locale 'en-US'
+[3912] bbl.pm:652> INFO - Writing 'Thesis_Wanyun.bbl' with encoding 'UTF-8'
+[3934] bbl.pm:755> INFO - Output to Thesis_Wanyun.bbl
+[3934] Biber.pm:128> INFO - WARNINGS: 15

@@ -65,7 +65,7 @@ The quickFit framework~\cite{quickFit} that based on RooFit data fitting package
 
 In this analysis, the discriminating variable is set to the dijet invariant mass $m_{jj}$, and the distribution of it is used as  a probability density function (pdf) to build the likelihood function.
 
-\paragraph{Parametric background models\\}
+\paragraph{Parametric background models}\mbox{}\par
 %\subsubsection{Parametric background and signal models}
 
 %The string signals are parameterized as the convolution of an
@@ -128,7 +128,7 @@ $\varepsilon$ represent the nominal luminosity and total acceptance times
 efficiency, respectively.
 
 
-\paragraph{Uncertainties\\}
+\paragraph{Uncertainties}\mbox{}\par
 
 In this analysis, there are six sources of systematic uncertainties on the signal studied: 
 
@@ -156,7 +156,7 @@ $\theta_b$, $\theta_L$, $\theta_\varepsilon$, $\theta_t$,
 $\theta_{E_\mathrm{JER}}$, $\theta_{E_\mathrm{JES}}$, $\theta_S$, respectively.
 
 
-\paragraph{Likelihood function definition\\}
+\paragraph{Likelihood function definition}\mbox{}\par
 
 A binned likelihood is used in this analysis. Consider the $m_{jj}$ histogram of $\bm{n} = (n_1, \ldots, n_N)$
 events, the likelihood function without uncertainties is built as:
@@ -221,7 +221,7 @@ The simplified likelihood function is written as:
 \end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\paragraph{Statistical Method\\}
+\paragraph{Statistical Method}\mbox{}\par
 
 A hypothesis test is used for estimating the compatibility between data and a theoretical hypothesis, where the pseudo datasets are generated according to a given hypothesis, and compared to the tested dataset in terms of a test statistic.
 
@@ -231,7 +231,7 @@ The statistical measurement's p-value serves as a quantification of the degree o
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\paragraph{Test statistic and p-value definitions\\}
+\paragraph{Test statistic and p-value definitions}\mbox{}\par
 
 A binned maximum likelihood (ML) fitting method is used to extract the signal, together with profile likelihood ratio test statistic. The test statistics used for claiming a positive signal is defined as:
 
@@ -283,7 +283,7 @@ f(\tilde{q}_\mu|\mu = \mu^\prime) dq_\mu\, ,
 the term $\tilde{q}_{\mu^\prime,\mathrm{obs}}$ represents the computed value of the test statistic based on the dataset being tested. These p-values are also referred to as $p_{s+b}$, which signifies that they are associated with the signal plus background hypothesis.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\paragraph{Generation of pseudo-data\\}
+\paragraph{Generation of pseudo-data}\mbox{}\par
 
 The PDF of a certain model is used for generating the pseudo datasets. Signal + background pseudo datasets are utilized to estimate the observed confidence level (CL) of a signal + background hypothesis, while background-only pseudo datasets are employed for expected CL estimations.
 
@@ -293,7 +293,7 @@ During the generation of pseudo datasets, all parameters in the PDF are set to t
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\paragraph{Definition of exclusion limit\\}
+\paragraph{Definition of exclusion limit}\mbox{}\par
 
 The data is interpreted by the modified frequentest method ($CL_S$ method), where p-value is modified to take into account
 downward background fluctuations and quoted as
@@ -310,7 +310,7 @@ from zero to $\tilde{q}_\mu^\mathrm{obs}$.
 Thus $1 - p_b$ is also referred to as the confidence level of the
 background-only hypothesis ($CL_b$). The $CL_s$ limit claims exclusion at 95\% CL when $CL_s = 0.05$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\paragraph{Implementation\\}
+\paragraph{Implementation}\mbox{}\par
 The statistical approach employed in this analysis differs slightly from previous dijet analyses and aligns with the current trigger-level analysis. In previous approaches, a background model devoid of NPs was fitted to the data, and the resulting background fit parameters were employed (and held constant) in subsequent likelihood fits involving nuisance parameters. However, in this analysis, the background fit parameters are treated as unconstrained NPs within the complete likelihood framework used in all fits.
 
 To create the RooFit workspaces, the XML Analytic Workspace Builder is utilized. The xRooFit tool processes these workspaces and performs operations like setting limits, among others, using classes from the RooFit and RooStats libraries.

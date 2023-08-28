@@ -1,6 +1,17 @@
 
 %!TEX program = xelatex
 \documentclass[UTF8,12pt]{ctexart}
+
+\usepackage{biblatex}
+\addbibresource{bib/ANA-JETM-2020-02-PAPER.bib}
+\addbibresource{bib/ATLAS.bib}
+\addbibresource{bib/CMS.bib}
+\addbibresource{bib/ConfNotes.bib}
+\addbibresource{bib/PubNotes.bib}
+\addbibresource{bib/ATLAS-useful.bib}
+\addbibresource{bib/ANA-EXOT-2019-32-INT1.bib}
+
+
 %\documentclass{sjtuthesis}
 %\setmainfont{Latin Modern Math}%Times New Roman
 \usepackage{geometry}
@@ -49,7 +60,6 @@
 \usepackage{caption}
 \usepackage{tocloft} 
 \usepackage[T1]{fontenc}%英文字体加粗
-\usepackage{cite}
 \usepackage{stmaryrd}
 \usepackage{lineno}
 %%%%%
@@ -99,12 +109,11 @@
 	pdfsubject={}
 }
 %\usepackage[noabbrev,nameinlink]{cleveref} 
-\setcounter{secnumdepth}{4}
-\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %===== New Commands ==========
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\usepackage{lineno}
 
 \makeatletter
 \newsavebox\myboxA
@@ -168,10 +177,10 @@
 \newcommand{\eqrefe}{公式\,\eqref}
 \newcommand{\beq}{\begin{equation}}
 	\newcommand{\eeq}{\end{equation}}
-\newcommand{\ba}{\begin{array}}
-	\newcommand{\ea}{\end{array}}
-\newcommand{\beqa}{\begin{eqnarray}}
-	\newcommand{\eeqa}{\end{eqnarray}}
+%\newcommand{\ba}{\begin{array}}
+%	\newcommand{\ea}{\end{array}}
+%\newcommand{\beqa}{\begin{eqnarray}}
+%	\newcommand{\eeqa}{\end{eqnarray}}
 \newcommand{\beqs}{\begin{subequations}}
 	\newcommand{\eeqs}{\end{subequations}}
 \def\dis{\displaystyle}
@@ -775,14 +784,14 @@
 		\section*{摘\quad 要}
 		%摘要：二字间空一格，黑体16磅加粗居中，单倍行距，段前24磅，段后18磅。
 		
-		%\hspace{8mm}
-		
+\hspace{8mm}
+这篇论文中所呈现的物理分析旨在寻找标准模型之外的新物理现象，使用积分亮度为140 $fb^{-1}$，中心质心能量为13 TeV，由ATLAS探测器记录的质子-质子碰撞数据。该分析在三个不同的谱中寻找超越标准模型的新共振体证据：未标记双喷注不变质量、一个胶子标记和两个胶子标记信道。为了增加观察新共振体的灵敏度，该分析采用了一种基于关联粒子轨迹数量的胶子标记方法，以优选地寻找一个或多个胶子衰变的共振体迹象。由于来自夸克和胶子的喷注可以使用夸克/胶子标记器进行识别，因此本研究调查了两种标记器：一种基于与喷注关联的带电轨迹数目，而另一种则采用增强决策树来结合各种喷注次级结构可观测量，同时提供了标记效率的数据与蒙特卡洛模拟之间的差异。在数据上执行矩阵方法，从夸克/胶子丰富子样本中获取夸克/胶子分数，该样本由喷注的赝快度定义。在分析中，利用了将量子色动力学背景估计为参数化双喷注质量谱的统计框架。然后在95\%的置信水平上，针对多种超越标准模型物理理论以及一个独立于模型的通用高斯形状信号，设置了上限。		
 		
 		
 		%\\
-		%~\\
-		\textbf{关键词}：
-		\\
+~\\
+\textbf{关键词}：标准模型，ATLAS探测器，喷注标定
+
 		%关键字：宋体12磅，行距20磅，段前段后0磅，关键字之间用逗号隔开,关键词三个字加粗。
 		
 		
@@ -820,9 +829,9 @@ Standard Model, ATLAS, calibration, jet tagging
 \newpage 
 
 
-\begin{center}
+%\begin{center}
 %\fancypagestyle{plain}{%
-%\fancyhf{}
+
 %\fancyhead[C]{Contents}
 %\cfoot{$\bm{-\,\rm{\thepage}\,-}$}
 %}
@@ -834,7 +843,7 @@ Standard Model, ATLAS, calibration, jet tagging
 \tableofcontents\thispagestyle{fancy}
 
 
-\end{center}
+
 
 
 \newpage
@@ -854,22 +863,19 @@ Standard Model, ATLAS, calibration, jet tagging
 
 
 \hspace{8mm}
-Over the past seventy years, the theories and discoveries of thousands of physicists have developed a notable insight into the fundamental structure of matters, called fundamental particles, which are governed by four fundamental forces. One of the best understandings of how these particles and three of the forces interact with each other is encapsulated in the Standard Model (SM) of particle physics. Developed in the early 1970s, it has been successfully proved by almost all experimental results. The huge success of the discovery of Higgs Boson in 2012 predicted by the SM was awarded the Nobel Prize in Physics in 2013. The SM has become established as a well-tested physics theory.
+Over the past seventy years, the theories and discoveries of thousands of physicists have developed a notable insight into the fundamental structure of matters, called fundamental particles, which are governed by four fundamental forces. One of the best understandings of how these particles and three of the forces interact with each other is encapsulated in the Standard Model (SM)~\cite{ref1,ref8} of particle physics. Developed in the early 1970s, it has been successfully proved by almost all experimental results. The huge success of the discovery of Higgs Boson in 2012 predicted by the SM was awarded the Nobel Prize in Physics in 2013. The SM has become established as a well-tested physics theory.
 
 Although the SM accurately describes the phenomena within its domain, there are still theoretical flaws that prevent some fundamental physical phenomena from being fully explained by the SM. First of all, the model contains many parameters that cannot be derived from calculations alone but must be determined by experiment. 
 In 1998, the Japanese Super Kamioka neutrino detector published results on neutrino oscillations that suggested the neutrinos have a non-zero rest mass, which did not match the prediction made by the SM. Besides, the existence of gravity and dark matter has not yet been described by the SM theory.
 
-Many models of physics beyond the Standard Model (BSM) predict the presence of new particles that couple to quarks and/or gluons. Such particles could be produced in proton-proton collisions at the Large Hadron Collider (LHC) and then decay into quarks and gluons, during this process two hadronic jets are created, which then can be seen by the detector. The new energy regime ($\sqrt{s}$ = 13 TeV) with an integrated luminosity of 140 \ifb provided by the LHC opens a window to search for BSM particles. 
+Many models of physics beyond the Standard Model (BSM)~\cite{ref9} predict the presence of new particles that couple to quarks and/or gluons. Such particles could be produced in proton-proton collisions at the Large Hadron Collider (LHC)~\cite{Evans:2008zzb} and then decay into quarks and gluons, during this process two hadronic jets are created, which then can be seen by the detector. The new energy regime ($\sqrt{s}$ = 13 TeV) with an integrated luminosity of 140 \ifb provided by the LHC opens a window to search for BSM particles. 
 
 In the SM, these dijet events are generated mainly by quantum chromodynamic (QCD) processes and appeared to be a smoothly decreasing invariant mass (\mjj) distribution, however, a new particle that decays into quarks or gluons could appear as a resonance in the \mjj spectrum. If the resonant samples can be classified based on the type of parton that initiated the jets, the sensitivity of the search for such resonances could be largely increased. Hence, classifying jets as initiated from a quark or a gluon can be effective for improving SM measurements and searches for BSM physics. 
 
-Recent developments in quark/gluon ($q/g$) tagging have resulted from advances in the theoretical, phenomenological and experimental understanding of $q/g$ tagging as well as the development of powerful machine learning techniques that can utilize the entire jet internal radiation pattern. The calibration of $q/g$ taggers is performed to account for the systematics of searching results. 
+Recent developments~\cite{CMS:2021iwu,ref22,CMS:2017yer,CMS:2013kfv,CMS:2017pcy,PhysRevD.98.092014,CMS:2018vzn,Altheimer:2012mn,Andersen:2016qtm,Larkoski:2014pca,CDF:2005prv,OPAL:1999jkz,CLEO:2007tqf,DELPHI:1999gah,ZEUS:2004gcp,ref24,Komiske:2016rsd} in quark/gluon ($q/g$) tagging have resulted from advances in the theoretical~\cite{ref16}, phenomenological~\cite{ref17, ref18, Gras:2017jty, Komiske:2018vkc} and experimental understanding of $q/g$ tagging as well as the development of powerful machine learning techniques that can utilize the entire jet internal radiation pattern. The calibration of $q/g$ taggers is performed to account for the systematics of searching results. 
 
 
 This thesis is structured as follows. Chapter \ref{sec:2}. describes the theoretical framework of the SM, its limitations and various potential extensions beyond it. An introduction to the LHC and the ATLAS detector is given in Chapter \ref{sec:3}. Jet reconstructions and calibrations are briefly described in Chapter \ref{sec:4}. The quark/gluon tagger definitions and the selection criteria used to generate the various event samples employed in the discriminant extraction, the method and the scale factor results are presented in Chapter \ref{sec:5}. The details of the search for new resonances in the dijet spectrum and the limit setting results are shown in Chapter \ref{sec:6}. In the end, the conclusion and outlook of the research are presented in Chapter \ref{sec:7}.
-
-
-
 
 
 
@@ -966,18 +972,18 @@ The calculation of matrix element in QCD can be rather complex as more and more 
 	\centering  
    \subfloat[]{
 	\label{Fig.sub.1}
-	\includegraphics[width=4cm]{./fig/f1.png}}
+	\includegraphics[width=4cm]{fig/f1.png}}
 	\subfloat[]{
 	\label{Fig.sub.2}
-	\includegraphics[width=4cm]{./fig/f2.png}}
+	\includegraphics[width=4cm]{fig/f2.png}}
 	\subfloat[]{
 	\label{Fig.sub.3}
-	\includegraphics[width=4cm]{./fig/f3.png}}
- 	\caption{Feynman diagrams of strong interaction in top-antitop quarks production via \subref{Fig.sub.1} one gluon exchange in quark-antiquark annihilation, gluon-gluon fusion in \subref{Fig.sub.2} t-channel and \subref{Fig.sub.3} s-channel.}
+	\includegraphics[width=4cm]{fig/f3.png}}
+ 	\caption[]{Feynman diagrams of strong interaction in top-antitop quarks production via \subref{Fig.sub.1} one gluon exchange in quark-antiquark annihilation, gluon-gluon fusion in \subref{Fig.sub.2} t-channel and \subref{Fig.sub.3} s-channel.}
 \end{figure}
 
 With more interactions points involved in, more complicated the calculations become. The effects of self-interactions between particles themselves can happen by producing a virtual particle which is restricted by the uncertainty principle, represented as a loop in a Feynman diagram. The accuracy of the calculation has dependency on the coupling $\alpha_{s}$ and is contributed to a fraction at each order. By including an infinite number of virtual particles, the calculations are led to divergent and infinite.
-A set of techniques named renormalization are employed in solving the infinities showed up in the calculations, by which the infinite self-interactions are parameterized by re-scaling them as finite values to compensate the effects. The ultraviolet divergence that occurs from integrating the contributions at extreme high energy is represented by renormalization scale $\mu_R$, on the contrast,  $\mu_F$ represents the condition of an integral diverges at infinitesimal energy.
+A set of techniques named renormalization are employed in solving the infinities showed up in the calculations, by which the infinite self-interactions are parameterised by re-scaling them as finite values to compensate the effects. The ultraviolet divergence that occurs from integrating the contributions at extreme high energy is represented by renormalization scale $\mu_R$, on the contrast,  $\mu_F$ represents the condition of an integral diverges at infinitesimal energy.
 
 
 
@@ -1079,7 +1085,7 @@ Besides, superconducting radio frequency cavities which resonate electromagnetic
 \subsection{The ATLAS detector}
 \label{sec:3.2}
 
-The ATLAS detector is the largest volume detector ever constructed for general-purpose particle research at the LHC. It has the shape of a cylinder with 44 meters long, 7000 tonnes in weight and 25 meters in diameter, sitting in a cavern underground. It is designed to collect evidence of the properties of SM and search for new predictions made by particle physics beyond the SM.
+The ATLAS detector~\cite{PERF-2007-01} is the largest volume detector ever constructed for general-purpose particle research at the LHC. It has the shape of a cylinder with 44 meters long, 7000 tonnes in weight and 25 meters in diameter, sitting in a cavern underground. It is designed to collect evidence of the properties of SM and search for new predictions made by particle physics beyond the SM.
 
 To record the energy, momentum and trajectory of particles after collisions, the detector consisting of 6 different detecting subsystems  placed in layers surrounding the interaction point to measure them individually and effectively. 
 
@@ -1110,7 +1116,7 @@ Within the inner region, a series of discrete space points provided by the silic
 
 \begin{description}
  \item[The pixel detector] \mbox{} \\
-A series of high-granularity measurements is provided by the pixel detector which is composed of the innermost sub-detector of the ID, it is designed as close to the interaction point as possible. Three sub-sections: two end-cap perpendicular to the beam axis and a barrel alongside the beam axis as a concentric cylinder with four layers (average radii of 33.25, 50.5, 88.5 and 122.5 mm, respectively) in it. 
+A series of high-granularity measurements is provided by the pixel detector~\cite{PIX-2018-001} which is composed of the innermost sub-detector of the ID, it is designed as close to the interaction point as possible. Three sub-sections: two end-cap perpendicular to the beam axis and a barrel alongside the beam axis as a concentric cylinder with four layers (average radii of 33.25, 50.5, 88.5 and 122.5 mm, respectively) in it. 
 
 The innermost pixel layer (or B-layer, IBL) is essential to b-tagging performance and supersymmetry searches as it cover the full acceptance of short-lived particles such as B hadrons and $\tau$ leptons from the beginning of Run-2 to enhance the measurement of the secondary vertex. Besides, a new readout sensor and chip responsible for higher radiation demage and higher hit rate, respectively, is employed in the IBL compared to the other three layers in the barrel region. A new  n-in-n planar and 3D silicon sensors with hit efficiency of greater than 97\% is developed as well. The better impact parameter resolution is achieved by reducing the pixel size of the chip down to 50 $\times$ 250 $\mu$m$^2$.  Around 80 million readout sections counting them all provide the great  hit resolution of 10 $\mu$m in radius plane and 115 $\mu$m alongside the z-axis in the pixel detector.
 
@@ -1204,9 +1210,9 @@ At the LHC, approximately 1.7 billion proton-proton collisions occur per second 
 	\label{Fig.dq}
 \end{figure}
 
-During the year of 2015-2018, the trigger system in ATLAS selected significant events in a two staged process, as illustrated in Figure~\ref{Fig.dq}: The first-level (L1) trigger is implemented on hardware, and reduced event rates from 40 MHz to 100 kHz in less than 2.5 $\mu$s right after the data happened. Working with the electrical information provided by the calorimeters and the MS, the L1 trigger employs custom-made electronics to filter and store the events in the readout sections as buffers before passing them to the High-Level trigger (HLT). Certain physics objects such as photons, jets and leptons are identified in the L1 trigger, in which energy depositions of electrons and photons in the EM calorimeter and jets in the hadronic calorimeter are provided. Information of tracks in high-momentum muons is recorded in the layers of the MS and forwarded to the L1 trigger.
+During the year of 2015-2018, the trigger system in ATLAS selected significant events in a two staged process, as illustrated in Figure~\ref{Fig.dq}: The first-level (L1) trigger is implemented on hardware, and reduced event rates from 40 MHz to 100 kHz in less than 2.5 $\mu$s right after the data happened. Working with the electrical information provided by the calorimeters and the MS, the L1 trigger employs custom-made electronics to filter and store the events in the readout sections as buffers before passing them to the High-Level trigger (HLT)~\cite{TRIG-2016-01}. Certain physics objects such as photons, jets and leptons are identified in the L1 trigger, in which energy depositions of electrons and photons in the EM calorimeter and jets in the hadronic calorimeter are provided. Information of tracks in high-momentum muons is recorded in the layers of the MS and forwarded to the L1 trigger.
 
-The events are further reduced from 100 kHz to 1 kHz in merely 250 microseconds by the second level trigger: HLT. Based on the offline software, the HLT utilize fast selection algorithms to analyse and reject events in the early stage, resulting in better precision and intense CPU usage of about 1.6 GB per second.  The accepted data from the HLT will be passed to permanent storage at CERN via Data Logger. 
+The events are further reduced from 100 kHz to 1 kHz in merely 250 microseconds by the second level trigger: HLT. Based on the offline software, the HLT utilize fast selection algorithms to analyse and reject events in the early stage, resulting in better precision and intense CPU usage of about 1.6 GB per second.  The accepted data from the HLT will be passed to permanent storage at CERN via Data Logger~\cite{ATL-SOFT-PUB-2021-001}. 
 
 
 
@@ -1259,18 +1265,8 @@ This thesis presents the search for new resonances that potentially decay into a
 \newpage
 \fancyhead[C]{REFERENCES}
 \phantomsection
-\addcontentsline{toc}{section}{REFERENCES}
+%\addcontentsline{toc}{section}{REFERENCES}
 \renewcommand\refname{REFERENCES}
-
-%\bibliographystyle{utphys}
-%\bibliographystyle{unsrt}
-%\bibliographystyle{ieeetran}
-%\bibliography{Thesisref}
-%\bibliography{bib/ATLAS}
-%\bibliography{bib/CMS}
-%\bibliography{bib/ConfNotes}
-%\bibliography{bib/PubNotes}
-%\bibliography{bib/ATLAS-useful}
 
 
 
@@ -1281,38 +1277,37 @@ This thesis presents the search for new resonances that potentially decay into a
 
 
 
-\newpage
-%\appendix
-
-\fancyhead[C]{Appendix A}
-
-\addtocontents{toc}
-{\string\renewcommand\string\l@section{\string\@dottedtocline{1}{1.5em}{7em}}}
-\renewcommand*{\thesection}{\appendixname\space\thechapter~\Alph{section}~~}%
-\section*{Appendix A}%\thesection~
-\phantomsection
-\addcontentsline{toc}{section}{Appendix A} \renewcommand\refname{{Appendix A}
-%\renewcommand*{\thesection}{\thechapter.\Alph{section}}%
-\label{app:A}
-%%%%%%%%%%%%%%%%%%%%%%%%
-\setcounter{equation}{0}
-\setcounter{figure}{0}
-\setcounter{table}{0}
-
-\makeatletter
-\renewcommand{\theequation}{A.\arabic{equation}}
-\renewcommand{\thefigure}{A.\arabic{figure}}
-\renewcommand{\thetable}{A\arabic{table}}
-\renewcommand{\thesubsection}{A.\arabic{subsection}}
-
-
-
+%\newpage
+%%\appendix
+%
+%\fancyhead[C]{Appendix A}
+%
+%%\addtocontents{toc}
+%{\string\renewcommand\string\l@section{\string\@dottedtocline{1}{1.5em}{7em}}}
+%\renewcommand*{\thesection}{\appendixname\space\thechapter~\Alph{section}~~}%
+%\section*{Appendix A}%\thesection~
+%\phantomsection
+%%\addcontentsline{toc}{section}{Appendix A} \renewcommand\refname{{Appendix A}
+%%\renewcommand*{\thesection}{\thechapter.\Alph{section}}%
+%\label{app:A}
+%%%%%%%%%%%%%%%%%%%%%%%%%
+%\setcounter{equation}{0}
+%\setcounter{figure}{0}
+%\setcounter{table}{0}
+%
+%\makeatletter
+%\renewcommand{\theequation}{A.\arabic{equation}}
+%\renewcommand{\thefigure}{A.\arabic{figure}}
+%\renewcommand{\thetable}{A\arabic{table}}
+%\renewcommand{\thesubsection}{A.\arabic{subsection}}
+%
+%
+%
 
 
 \newpage
 \fancyhead[C]{Acknowledgements}
 \phantomsection
-\addcontentsline{toc}{section}{Acknowledgements}
 \section{Acknowledgements}
 
 。

@@ -2179,25 +2179,152 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
+    <bcf:datasource type="file" datatype="bibtex">bib/ANA-JETM-2020-02-PAPER.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/ATLAS.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/CMS.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/ConfNotes.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/PubNotes.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/ATLAS-useful.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex">bib/ANA-EXOT-2019-32-INT1.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">Harris:2011bh</bcf:citekey>
-    <bcf:citekey order="2">Harris:2011bh</bcf:citekey>
-    <bcf:citekey order="3">Cacciari:2011ma</bcf:citekey>
-    <bcf:citekey order="4">ATL-PHYS-PUB-2017-009</bcf:citekey>
-    <bcf:citekey order="5">ATL-PHYS-PUB-2017-009</bcf:citekey>
-    <bcf:citekey order="6">xmlAnaWSBuilder</bcf:citekey>
-    <bcf:citekey order="7">RooFit</bcf:citekey>
-    <bcf:citekey order="8">quickFit</bcf:citekey>
-    <bcf:citekey order="9">gligorov2021avoiding</bcf:citekey>
-    <bcf:citekey order="10">Bagnaia:1984ip</bcf:citekey>
-    <bcf:citekey order="10">PhysRevD.79.112002</bcf:citekey>
-    <bcf:citekey order="10">EXOT-2010-01</bcf:citekey>
-    <bcf:citekey order="10">CMS-EXO-10-010</bcf:citekey>
-    <bcf:citekey order="10">EXOT-2010-07</bcf:citekey>
-    <bcf:citekey order="10">EXOT-2013-11</bcf:citekey>
-    <bcf:citekey order="11">EXOT-2019-03</bcf:citekey>
-    <bcf:citekey order="11">Nishu:2646455</bcf:citekey>
-    <bcf:citekey order="12">Alitti:1990kw</bcf:citekey>
-    <bcf:citekey order="12">Alitti:1993pn</bcf:citekey>
-    <bcf:citekey order="13">Nishu:2646455</bcf:citekey>
+    <bcf:citekey order="1">ref1</bcf:citekey>
+    <bcf:citekey order="1">ref8</bcf:citekey>
+    <bcf:citekey order="2">ref9</bcf:citekey>
+    <bcf:citekey order="3">Evans:2008zzb</bcf:citekey>
+    <bcf:citekey order="4">CMS:2021iwu</bcf:citekey>
+    <bcf:citekey order="4">ref22</bcf:citekey>
+    <bcf:citekey order="4">CMS:2017yer</bcf:citekey>
+    <bcf:citekey order="4">CMS:2013kfv</bcf:citekey>
+    <bcf:citekey order="4">CMS:2017pcy</bcf:citekey>
+    <bcf:citekey order="4">PhysRevD.98.092014</bcf:citekey>
+    <bcf:citekey order="4">CMS:2018vzn</bcf:citekey>
+    <bcf:citekey order="4">Altheimer:2012mn</bcf:citekey>
+    <bcf:citekey order="4">Andersen:2016qtm</bcf:citekey>
+    <bcf:citekey order="4">Larkoski:2014pca</bcf:citekey>
+    <bcf:citekey order="4">CDF:2005prv</bcf:citekey>
+    <bcf:citekey order="4">OPAL:1999jkz</bcf:citekey>
+    <bcf:citekey order="4">CLEO:2007tqf</bcf:citekey>
+    <bcf:citekey order="4">DELPHI:1999gah</bcf:citekey>
+    <bcf:citekey order="4">ZEUS:2004gcp</bcf:citekey>
+    <bcf:citekey order="4">ref24</bcf:citekey>
+    <bcf:citekey order="4">Komiske:2016rsd</bcf:citekey>
+    <bcf:citekey order="5">ref16</bcf:citekey>
+    <bcf:citekey order="6">ref17</bcf:citekey>
+    <bcf:citekey order="6">ref18</bcf:citekey>
+    <bcf:citekey order="6">Gras:2017jty</bcf:citekey>
+    <bcf:citekey order="6">Komiske:2018vkc</bcf:citekey>
+    <bcf:citekey order="7">PERF-2007-01</bcf:citekey>
+    <bcf:citekey order="8">PIX-2018-001</bcf:citekey>
+    <bcf:citekey order="9">TRIG-2016-01</bcf:citekey>
+    <bcf:citekey order="10">ATL-SOFT-PUB-2021-001</bcf:citekey>
+    <bcf:citekey order="11">PERF-2015-09</bcf:citekey>
+    <bcf:citekey order="12">Cacciari:2008gp</bcf:citekey>
+    <bcf:citekey order="13">ATLAS:2020cli</bcf:citekey>
+    <bcf:citekey order="13">PhysRevD.96.072002</bcf:citekey>
+    <bcf:citekey order="14">ALTARELLI1977298</bcf:citekey>
+    <bcf:citekey order="15">Aad_2014</bcf:citekey>
+    <bcf:citekey order="15">ATL-PHYS-PUB-2017-009</bcf:citekey>
+    <bcf:citekey order="16">ATLAS:2022hro1</bcf:citekey>
+    <bcf:citekey order="17">ATLAS:2019fst</bcf:citekey>
+    <bcf:citekey order="18">Sjostrand:2014zea</bcf:citekey>
+    <bcf:citekey order="19">Ball:2012cx</bcf:citekey>
+    <bcf:citekey order="20">ATL-PHYS-PUB-2014-021</bcf:citekey>
+    <bcf:citekey order="21">Bothmann:2019yzt</bcf:citekey>
+    <bcf:citekey order="22">Schumann:2007mg</bcf:citekey>
+    <bcf:citekey order="22">Winter:2003tt</bcf:citekey>
+    <bcf:citekey order="23">Dulat:2015mca</bcf:citekey>
+    <bcf:citekey order="24">Sjostrand:2006za</bcf:citekey>
+    <bcf:citekey order="25">Bellm:2015jjp</bcf:citekey>
+    <bcf:citekey order="26">Harland-Lang:2014zoa</bcf:citekey>
+    <bcf:citekey order="27">Nason:2004rx</bcf:citekey>
+    <bcf:citekey order="27">Frixione:2007vw</bcf:citekey>
+    <bcf:citekey order="27">Alioli:2010xd</bcf:citekey>
+    <bcf:citekey order="28">Ball:2014uwa</bcf:citekey>
+    <bcf:citekey order="29">ATLAS:2017kyn</bcf:citekey>
+    <bcf:citekey order="30">CACCIARI2008119</bcf:citekey>
+    <bcf:citekey order="31">ATLAS:2020cli</bcf:citekey>
+    <bcf:citekey order="32">Aad_2014</bcf:citekey>
+    <bcf:citekey order="32">ATL-PHYS-PUB-2017-009</bcf:citekey>
+    <bcf:citekey order="33">CDF:2008ixu</bcf:citekey>
+    <bcf:citekey order="33">ATLAS:2013uet</bcf:citekey>
+    <bcf:citekey order="34">ATLAS:2012mwf</bcf:citekey>
+    <bcf:citekey order="35">ATLAS:2015rlw</bcf:citekey>
+    <bcf:citekey order="36">ALTARELLI1977298</bcf:citekey>
+    <bcf:citekey order="37">Aad_2014</bcf:citekey>
+    <bcf:citekey order="37">PhysRevLett.110.212001</bcf:citekey>
+    <bcf:citekey order="38">Moult:2016cvt</bcf:citekey>
+    <bcf:citekey order="38">Larkoski:2013eya</bcf:citekey>
+    <bcf:citekey order="39">NIPS2017_6449f44a</bcf:citekey>
+    <bcf:citekey order="40">akiba2019optuna</bcf:citekey>
+    <bcf:citekey order="41">ATL-PHYS-PUB-2017-009</bcf:citekey>
+    <bcf:citekey order="42">ATL-PHYS-PUB-2017-009</bcf:citekey>
+    <bcf:citekey order="43">ref21</bcf:citekey>
+    <bcf:citekey order="44">LHAPDF</bcf:citekey>
+    <bcf:citekey order="45">Mrenna:2016sih</bcf:citekey>
+    <bcf:citekey order="46">ATLAS:2017kyn</bcf:citekey>
+    <bcf:citekey order="47">Vakilipourtakalou:2018pfo</bcf:citekey>
+    <bcf:citekey order="48">Pumplin:2002vw</bcf:citekey>
+    <bcf:citekey order="49">Dai:2007ki</bcf:citekey>
+    <bcf:citekey order="50">Harris:2011bh</bcf:citekey>
+    <bcf:citekey order="51">Harris:2011bh</bcf:citekey>
+    <bcf:citekey order="52">Cacciari:2011ma</bcf:citekey>
+    <bcf:citekey order="53">ATL-PHYS-PUB-2017-009</bcf:citekey>
+    <bcf:citekey order="54">ATL-PHYS-PUB-2017-009</bcf:citekey>
+    <bcf:citekey order="55">xmlAnaWSBuilder</bcf:citekey>
+    <bcf:citekey order="56">RooFit</bcf:citekey>
+    <bcf:citekey order="57">quickFit</bcf:citekey>
+    <bcf:citekey order="58">gligorov2021avoiding</bcf:citekey>
+    <bcf:citekey order="59">Bagnaia:1984ip</bcf:citekey>
+    <bcf:citekey order="59">PhysRevD.79.112002</bcf:citekey>
+    <bcf:citekey order="59">EXOT-2010-01</bcf:citekey>
+    <bcf:citekey order="59">CMS-EXO-10-010</bcf:citekey>
+    <bcf:citekey order="59">EXOT-2010-07</bcf:citekey>
+    <bcf:citekey order="59">EXOT-2013-11</bcf:citekey>
+    <bcf:citekey order="60">EXOT-2019-03</bcf:citekey>
+    <bcf:citekey order="60">Nishu:2646455</bcf:citekey>
+    <bcf:citekey order="61">Alitti:1990kw</bcf:citekey>
+    <bcf:citekey order="61">Alitti:1993pn</bcf:citekey>
+    <bcf:citekey order="62">ATL-PHYS-PUB-2020-028</bcf:citekey>
+    <bcf:citekey order="63">ATL-PHYS-PUB-2017-009</bcf:citekey>
+  </bcf:section>
+  <!-- SORTING TEMPLATES -->
+  <bcf:sortingtemplate name="nty">
+    <bcf:sort order="1">
+      <bcf:sortitem order="1">presort</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="2" final="1">
+      <bcf:sortitem order="1">sortkey</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="3">
+      <bcf:sortitem order="1">sortname</bcf:sortitem>
+      <bcf:sortitem order="2">author</bcf:sortitem>
+      <bcf:sortitem order="3">editor</bcf:sortitem>
+      <bcf:sortitem order="4">translator</bcf:sortitem>
+      <bcf:sortitem order="5">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="6">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="4">
+      <bcf:sortitem order="1">sorttitle</bcf:sortitem>
+      <bcf:sortitem order="2">title</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="5">
+      <bcf:sortitem order="1">sortyear</bcf:sortitem>
+      <bcf:sortitem order="2">year</bcf:sortitem>
+    </bcf:sort>
+    <bcf:sort order="6">
+      <bcf:sortitem order="1">volume</bcf:sortitem>
+      <bcf:sortitem literal="1" order="2">0</bcf:sortitem>
+    </bcf:sort>
+  </bcf:sortingtemplate>
+  <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nty/global//global/global"
+                type="entry"
+                sortingtemplatename="nty"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global">
+  </bcf:datalist>
+</bcf:controlfile>
