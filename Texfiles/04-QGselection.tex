@@ -13,7 +13,7 @@ events (green) and gluon-gluon events (red) in simulated data.  \label{fig:quark
 \end{figure}
 
 
-Previous study in ATLAS has shown that the jets can be tagged quark or gluon jets based on the number of charged tracks associated with the jets with \pt~above 500 MeV. Samples with enhanced fractions of quark or gluon initiated jets can be created by using a selection based on the charged-particle constituent multiplicity \ntrk. As shown in Fig.~\ref{fig:jet_pt_quark_gluon}, where \pythia8 generator~is used for MC to ensure a good agreement with the distribution of \ntrk~in data within the ID acceptance $|\eta|<2.1$.
+Previous study in ATLAS has shown that the jets can be tagged quark or gluon jets based on the number of charged tracks associated with the jets with \pt~above 500 MeV. Samples with enhanced fractions of quark or gluon initiated jets can be created by using a selection based on the charged-particle constituent multiplicity \ntrk. As shown in Figure~\ref{fig:jet_pt_quark_gluon}, where \pythia8 generator~is used for MC to ensure a good agreement with the distribution of \ntrk~in data within the ID acceptance $|\eta|<2.1$.
 
 \begin{figure}[htb]
  \centering
@@ -22,6 +22,7 @@ Previous study in ATLAS has shown that the jets can be tagged quark or gluon jet
  different \pt\ ranges with the \pythia~8 MC samples and processes with a full simulation of the
  ATLAS detector. Tracks are required to have $\pt~> 500$ MeV and pass
   quality criteria described in Ref.~\cite{ATL-PHYS-PUB-2017-009}. }
+\label{fig:jet_pt_quark_gluon}
 \end{figure}
 
 
@@ -223,7 +224,7 @@ Tables~\ref{table:truthQuarkSelectionEfficiencies_app} and \ref{table:truthGluon
 
 \begin{table}[h]
 	\centering 
-	
+	\resizebox{1\textwidth}{!}{
 	\begin{tabular}{SSSSS}
 	\toprule
 \multicolumn{1}{c}{Truth-$q$ selection efficiency}   & \multicolumn{1}{c}{Truth-$g$ selection efficiency} &  \multicolumn{1}{c}{$c$}  &  \multicolumn{1}{c}{$m$} &  \multicolumn{1}{c}{$n$} \\
@@ -232,7 +233,7 @@ Tables~\ref{table:truthQuarkSelectionEfficiencies_app} and \ref{table:truthGluon
 0.75 & 0.278 & -128.174 & -11.001 & 86.141 \\
 0.70 & 0.221 & -128.255 & -11.755 & 87.604 \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 	\caption{ Values of constants $m$ and $c$ from Equation~\ref{eq:nqg3} such that $ \ntrk  \le \nq $ 
 	for truth quark jets for a range of efficiencies  from 70 to 80\%. 
 	\label{table:truthQuarkSelectionEfficiencies2}

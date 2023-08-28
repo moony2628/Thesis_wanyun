@@ -131,9 +131,9 @@ Figure.~\ref{fig: graviton significance as a function of y* cut} shows the signi
 Figure.~\ref{fig: qbh significance as a function of y* cut} shows the significance of QBH signal as a function of \ystar\ cut. The maximum significance is at about 0.9, so the optimal cut for the QBH search is $|\ystar| < 0.9$. Table.~\ref{tab:ystarqbh} shows the \ystar\ cut corresponding to the peak significance value for the QBH at each mass point, and the range in \ystar\ cut around the peak that gives a significance $\geq$ 0.99
 \begin{figure}[!htb]
         \centering
-        \subfloat[Inclusive]{\includegraphics[width=0.35\columnwidth]{fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_jj.pdf}}
-        \subfloat[$\geq$1 g-tag]{\includegraphics[width=0.35\columnwidth]{fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gj.pdf}}
-        \subfloat[2 g-tag]{\includegraphics[width=0.35\columnwidth]{fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf}}
+        \subfloat[Inclusive]{\includegraphics[width=0.45\columnwidth]{fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_jj.pdf}}
+        \subfloat[$\geq$1 g-tag]{\includegraphics[width=0.45\columnwidth]{fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gj.pdf}}\\
+        \subfloat[2 g-tag]{\includegraphics[width=0.45\columnwidth]{fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf}}
         \caption{QBH significance as a function \ystar\ cut in the case of (a) Inclusive, (b) $\geq$1 g-tag, (c) 2 g-tag.}
         \label{fig: qbh significance as a function of y* cut}
 \end{figure}
@@ -199,7 +199,7 @@ for $|\ystar|<0.6$ is applied. For $|\ystar|<0.8$, a cut of 1200\,\GeV\ is appli
 
 \begin{table}[h]
 	\centering 
-	
+	\resizebox{0.95\textwidth}{!}{
 	\begin{tabular}{SSSSS}
 		\toprule
 		\multicolumn{1}{c}{Data Taking Period}  &  \multicolumn{2}{c}{Mass turn on $|\ystar|<0.6$ } &  \multicolumn{2}{c}{Mass turn on $|\ystar|<0.8$ } \\
@@ -212,8 +212,8 @@ for $|\ystar|<0.6$ is applied. For $|\ystar|<0.8$, a cut of 1200\,\GeV\ is appli
 		2018  & 1000 & 1010  & 1110 & 1120 \\
 		\multicolumn{1}{c}{Run~2} & 1020 & 1030 & 1120 & 1120 \\
 		\bottomrule
-	\end{tabular}
-	\caption{ The \mjj\ value of the start of the plateau ($\geq$99.5\%) for each period of data taking. 
+	\end{tabular}}
+	\caption{ The \mjj value of the start of the plateau ($\geq$99.5\%) for each period of data taking. 
 		\label{table:massTurnOns}
 	}
 \end{table}
@@ -224,28 +224,19 @@ for $|\ystar|<0.6$ is applied. For $|\ystar|<0.8$, a cut of 1200\,\GeV\ is appli
 
 In addition to the baseline selection described in Section~\ref{sec:base_selection}, optimized cuts are  applied to different tagging regions to improve the search potential with good tracking efficiency. 
 
-The following additional cuts are applied to the \Hprime~resonance search.
+The following additional cuts are applied for the the inclusive samples.
 \begin{itemize}
-\item |\ystar| < 0.6
-\item \mjj > 1100 GeV
+	\item $|\ystar| < 0.8$
+	\item \mjj > 1200 GeV
 \end{itemize}
 
-The following additional cuts are applied to the String resonance search.
+The following additional cuts are for quark-gluon tagging.
 \begin{itemize}
-\item $|\ystar| < 0.8$
-\item \mjj > 1200 GeV
+	\item $|\eta| < 2.1$ (both jets) for track acceptance
+	\item $\ge 1$ gluon tagged (75\% working point)
+	\item 2 gluons tagged (75\% working point)
 \end{itemize}
-For the inclusive samples.
-
-The following additional cuts are defined for quark-gluon tagging regions.
-\begin{itemize}
-\item $|\eta| < 2.1$ (both jets) for track acceptance
-\item $\ge 1$ gluon tagged (75\% working point)
-\item = 2 gluons tagged (75\% working point)
-\end{itemize}
-
-\noindent
-where the 75\% gluon selection criteria is applied as: $n_\mathrm{track} > -7.3 +
+where the 75\% gluon selection criteria is applied as: $\ntrk~> -7.3 +
 4.2\ln(\pt)$, with jet \pt\ in GeV.
 
 

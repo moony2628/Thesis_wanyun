@@ -2,12 +2,12 @@
 
 \subsubsection{Fitting Framework}
 
-The fitting framework used to parameterize QCD background is based on XML Analytic Workspace Builder~\cite{xmlAnaWSBuilder} (xmlAnaWSBuilder), which employs one-dimensional 
+The fitting framework used to parameterise QCD background is based on XML Analytic Workspace Builder~\cite{xmlAnaWSBuilder} (xmlAnaWSBuilder), which employs one-dimensional 
 observables to create RooFit~\cite{RooFit} workspaces. The workflow of the framework is summarised in Figure~\ref{fig:xmlAnaWSBuilderworkflow}.
 
 \begin{figure}[htb]
  \centering
-\includegraphics[width=0.65\textwidth]{fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow}
+\includegraphics[width=0.75\textwidth]{fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow}
 \caption{Workflow of the XmlAnaWSBuilder.  \label{fig:xmlAnaWSBuilderworkflow}}
 \end{figure}
 
@@ -107,9 +107,7 @@ pseudo data), and $\sqrt{s} = 13$~TeV.
 In some cases, $p_5 = 0$ is taken. 
 We will assume Equation~(\ref{pdfb}) is normalized to unity as needed.
 
-Since we use a binned likelihood and are dealing with histograms,
-we need the mean number of entries in the $i$th bin from signal and
-background:
+Given that we are employing a binned likelihood approach and working with histograms, it becomes essential to determine the average count of events in the $i$th bin, arising from both the signal and background contributions:
 
 \begin{eqnarray}
 s_i & = & s_\mathrm{tot} \int_{\mathrm{bin}\ i} f_s(m_{jj};\bm{p}_s)
@@ -120,14 +118,13 @@ b_i & = & b_\mathrm{tot} \int_{\mathrm{bin}\ i} f_b(m_{jj};\bm{p}_b) dm_{jj}\, ,
 \noindent
 where $f_s$ and $f_b$ are pdfs of $m_{jj}$ for the signal and
 background, respectively. 
-The quantities $s_\mathrm{tot}$ and $b_\mathrm{tot}$ are the total mean
+The quantities $s_\mathrm{tot}$ and $b_\mathrm{tot}$ represent the total mean
 numbers of signal and background events.
 The variable $b_\mathrm{tot}$ is an additional nuisance parameter.
-The signal normalization $s_\mathrm{tot}$ is not an adjustable parameter
-but rather is fixed to the value predicted by the nominal signal model.
-The parameter can be written as $s_\mathrm{tot} = \sigma L \varepsilon$,
+The signal normalization $s_\mathrm{tot}$ is  not treated as a parameter that can be adjusted, but rather is set to the value determined by the nominal signal model. 
+The parameter can be expressed as $s_\mathrm{tot} = \sigma L \varepsilon$,
 where $\sigma$ is fixed by the model cross section, and $L$ and
-$\varepsilon$ at the nominal luminosity and total acceptance times
+$\varepsilon$ represent the nominal luminosity and total acceptance times
 efficiency, respectively.
 
 
@@ -228,15 +225,9 @@ The simplified likelihood function is written as:
 
 A hypothesis test is used for estimating the compatibility between data and a theoretical hypothesis, where the pseudo datasets are generated according to a given hypothesis, and compared to the tested dataset in terms of a test statistic.
 
-The procedure is demonstrated as follows: first, the compatibility
-between data and the null hypothesis is evaluated bu a hypothesis test. The null hypothesis ($\mu = 0$) in this analysis is the assumption of the SM only background. When there is no existence of any significant excess in
-data in such hypothesis test, an exclusion limit will be
-set on the desired signal model on the \mjj resonance cross section. In that case, the hypothesis becomes a signal + background  assumption, hence the test statistic is built
-on the signal + background PDF of the discriminating variable.
+The procedure is demonstrated as follows: first, the agreement between the collected data and the null hypothesis is evaluated through a hypothesis test. The null hypothesis ($\mu = 0$) posits that only the SM background is present. If the data does not exhibit any substantial excess under this hypothesis test, the subsequent step involves establishing an exclusion limit for the targeted signal model on the resonance cross section for \mjj. In this scenario, the hypothesis transforms into a signal + background assumption, leading to the construction of a test statistic based on the signal + background PDF of the discriminating variable.
 
-A statistical measurement p-value is employed to quantify the agreement or discrepancy of a hypothesis against observed data. It is defined as the the integrated value of the distribution of test statistic from the test
-statistic value of the dataset tested to infinity, thus it can measures the probability of obtaining the observed results on the assumption of null hypothesis. The lower the p-value, the greater the greater the statistical significance of the incompatibility. When the p-value of the data is less than 0.05, means the possibility that the
-observed data are consistent with that hypothesis is less than 5\%, and that hypothesis is claimed to be exclude at the 95\% confidence level (CL).
+The statistical measurement's p-value serves as a quantification of the degree of agreement or discrepancy between a hypothesis and the observed data. Mathematically, it represents the integral of the distribution of the test statistic from the value obtained for the dataset in question to infinity. This value characterizes the probability of achieving the observed outcomes assuming the null hypothesis. A lower p-value indicates a higher degree of statistical significance for the observed incompatibility. For instance, if the p-value of the data is below 0.05, it signifies that the likelihood of the observed data aligning with the hypothesis is less than 5\%. This prompts the assertion that the hypothesis can be excluded at the 95\% confidence level (CL).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
@@ -273,19 +264,15 @@ and the test statistic used for evaluating the upper limits is given as:
 \end{equation}
 
 \noindent
-where parameter $\mu$ is the signal strength of the tested hypothesis. ML
-estimators that maximize $\mathcal{L}$ unconditionally are denoted as parameters $\hat{\mu}$ and $\hat{\bm\alpha}$. The parameter $\hat{\hat{\bm\alpha}}$ is the conditional ML estimator
-of $\bm\alpha$ that maximizes $\mathcal{L}$ for the specified $\mu$.
+where the parameter $\mu$ represents the signal strength associated with the hypothesis being tested. The maximum likelihood (ML) estimators that optimize the likelihood function $\mathcal{L}$ without constraints are referred to as $\hat{\mu}$ for the signal strength and $\hat{\bm\alpha}$ for the other parameters. The parameter $\hat{\hat{\bm\alpha}}$ represents the conditional ML estimator of $\bm\alpha$ that maximizes $\mathcal{L}$ while considering a specific value of $\mu$.
 
-The p-value of the background-only model is denoted as:
+The p-value corresponding to the background-only hypothesis is expressed as:
 \begin{equation}
 p_0 = \int_{q_{0,\mathrm{obs}}}^\infty
 f(q_0|0) dq_0\, .
 \end{equation}
 
-The values of
-$\tilde{q}_\mu$ are calculated various values of $\mu$ after fitting a dataset, where pseudo data denoted as $\mu^\prime$. The calculation of $\tilde{q}_\mu$ is performed for for each pseudo datase at each chosen signal mass point, results in a distribution of $\tilde{q}_\mu$,
-$f(\tilde{q}_\mu|\mu = \mu^\prime)$. Thus a p-value for the tested dataset is defined as:
+The values of $\tilde{q}_\mu$ are calculated for different values of $\mu$ by fitting a dataset where the pseudo data is represented by $\mu^\prime$. This calculation of $\tilde{q}_\mu$ is conducted for each pseudo dataset at various selected signal mass points, resulting in a distribution of $\tilde{q}_\mu$ denoted as $f(\tilde{q}_\mu|\mu = \mu^\prime)$. As a result, a p-value for the tested dataset is determined based on this distribution:
 
 \begin{equation}
 p_{\mu^\prime} = \int_{\tilde{q}^\prime_{\mu,\mathrm{obs}}}^\infty
@@ -293,19 +280,14 @@ f(\tilde{q}_\mu|\mu = \mu^\prime) dq_\mu\, ,
 \end{equation}
 
 \noindent
-where $\tilde{q}_{\mu^\prime,\mathrm{obs}}$ is the test statistic value
-calculated from the tested dataset. 
-Such p-values are also called $p_{s+b}$.
+the term $\tilde{q}_{\mu^\prime,\mathrm{obs}}$ represents the computed value of the test statistic based on the dataset being tested. These p-values are also referred to as $p_{s+b}$, which signifies that they are associated with the signal plus background hypothesis.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \paragraph{Generation of pseudo-data\\}
 
-The PDF of a certain model is used for generating the pseudo datasets. The signal + background pseudo datasets are used for estimating the observed CL of a signal + background hypothesis, whereas background-only pseudo
-datasets are used for expected CL estimations.
+The PDF of a certain model is used for generating the pseudo datasets. Signal + background pseudo datasets are utilized to estimate the observed confidence level (CL) of a signal + background hypothesis, while background-only pseudo datasets are employed for expected CL estimations.
 
-All parameters in the PDF are fixed to their nominal values when the corresponding pseudo dataset is generated. The expected numbers of events follow the Poisson distribution in each bin. The nuisance parameters (NPs) are used as systematic uncertainties follows the ``unconditional ensemble'' prescription: for each pseudo
-dataset the $\alpha_i$ are drawn from their constraint terms, and these
-values are used in calculations of $\mathcal{L}$ and $\tilde{q}_\mu$.
+During the generation of pseudo datasets, all parameters in the PDF are set to their nominal values. The expected event counts in each bin follow a Poisson distribution. Nuisance parameters (NPs), which represent systematic uncertainties, are treated according to the "unconditional ensemble" approach: for each pseudo dataset, the values of $\alpha_i$ (associated with the NPs) are drawn from their respective constraint terms, and these values are used in both the likelihood $\mathcal{L}$ and the computation of $\tilde{q}_\mu$.
 
 
 
@@ -329,23 +311,14 @@ Thus $1 - p_b$ is also referred to as the confidence level of the
 background-only hypothesis ($CL_b$). The $CL_s$ limit claims exclusion at 95\% CL when $CL_s = 0.05$.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 \paragraph{Implementation\\}
-The statistical implementation in this analysis treats parameters from background fit as unconstrained NPs in the full likelihood fits. The RooFit workspaces are created by the XML Analytic Workspace
-Builder and processed by the Quickfit and Quicklimit packages together with classes from RooFit and RooStats.  
+The statistical approach employed in this analysis differs slightly from previous dijet analyses and aligns with the current trigger-level analysis. In previous approaches, a background model devoid of NPs was fitted to the data, and the resulting background fit parameters were employed (and held constant) in subsequent likelihood fits involving nuisance parameters. However, in this analysis, the background fit parameters are treated as unconstrained NPs within the complete likelihood framework used in all fits.
 
-
-%The statistical implementation is a bit different than previous dijet
-%analyses and is in agreement with the current trigger-level analysis.
-%Previously, a background model without nuisance parameters was fit to
-%the data, and the resulting background fit parameters were used (and
-%fixed) in the subsequent likelihood fits with nuisance parameters. In
-
-
+To create the RooFit workspaces, the XML Analytic Workspace Builder is utilized. The xRooFit tool processes these workspaces and performs operations like setting limits, among others, using classes from the RooFit and RooStats libraries.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
 \subsubsection{Background Estimation}
 
-In the resonant search the SM background of the \mjj\ spectrum is determined by a functional fit to the data.
-Previous searches, from ATLAS and other experiments (such as Refs.~\cite{Bagnaia:1984ip,PhysRevD.79.112002,EXOT-2010-01,CMS-EXO-10-010,EXOT-2010-07,EXOT-2013-11})
+In the resonant search the SM background of the \mjj\ spectrum is established through a functional fitting procedure applied to the data. Refs.~\cite{Bagnaia:1984ip,PhysRevD.79.112002,EXOT-2010-01,CMS-EXO-10-010,EXOT-2010-07,EXOT-2013-11})
 have found that a parametric function of the form
 \begin{equation}
   f(x) = p_1 (1 - x)^{p_2} x^{p_3 + p_4\ln x + p_5 (\ln x)^2},
@@ -356,9 +329,7 @@ QCD Monte Carlo. In the ATLAS Run~2 analysis with \integLumi\ of data  \cite{EXO
 version of the function ($p_5 = 0$) was found to sufficiently described the data.  
 The introduction of  gluon tagging may require more  parameters to properly describe the full invariant mass spectrum.
 
-To ensure that a bias is not introduced by the choice of background function, we require an alternative functional 
-form which is based on that used by UA2 \cite{Alitti:1990kw, Alitti:1993pn} in its observation of the $W$ and $Z$ decaying 
-to two jets and subsequent search
+To avoid introducing any potential bias due to the selection of a specific background function, an alternative functional form is employed. This alternative form is inspired by the one used by the UA2 experiment \cite{Alitti:1990kw, Alitti:1993pn} when observing the decay of $W$ and $Z$ bosons into two jets, followed by a subsequent search.
 \begin{equation}
   f(x) = p_1 x^{p_2} \exp\left({p_3 x + p_4  x^2 }\right).
 %\label{Eq:fitfunction2}% uncomment if label used. 
@@ -366,16 +337,13 @@ to two jets and subsequent search
 
 \subsubsection{Analysis Strategy}
 
-The analysis starts from the skimmed ntuples obtained after
-applied the event selections discussed in Section~\ref{sec:analysiscuts}. These ntuples are then used to create pseudo-data as background only model. A 4-parameter ($p_5$ = 0) fit function in Equation~\ref{Eq:fitfunction} is used to fit this pseudo-data and is considered to be good if the fit to the data passes the following condition:
+The analysis begins with the utilization of skimmed ntuples, which are the result of applying the event selection criteria outlined in Section~\ref{sec:analysiscuts}. These ntuples serve as the basis for generating pseudo-data using the background-only model. Subsequently, a 4-parameter ($p_5$ = 0) fit function described by Equation~\ref{Eq:fitfunction} is employed to fit this pseudo-data. The fit to the data is deemed satisfactory if it meets the following criterion:
 
 \begin{itemize}
 	\item Global $\chi^2$ $p$-value > 0.05
 \end{itemize}
 
-The background is selected for upper limit estimations if the criteria above is met. If the criteria fails, the 5-parameter version of Equation~\ref{Eq:fitfunction} is
-used for background fit and test with the same criteria. 
-
+If the conditions mentioned above are satisfied, the background is chosen for the purpose of upper limit estimations. Conversely, if the criteria are not met, the 5-parameter version of Equation~\ref{Eq:fitfunction} is employed for background fitting and is subjected to the same selection criterion. If the fit using the 5-parameter function also fails to meet the criteria, the analysis reduces the range of the window and repeats the fitting process with the 5-parameter function to see if a satisfactory fit can be achieved. If this attempt still does not meet the criteria, the analysis switches to an alternative option for generating pseudo-data. Once a fit satisfying the criteria is obtained, the fit function undergoes various validation tests to ensure the appropriateness of the fit strategy. The flowchart of Figure~\ref{eflow} shows the analysis strategy.
 
  
 \begin{figure}[htb]
@@ -557,14 +525,9 @@ The spurious signal test is designed to estimate the difference between the sign
  S_\mathrm{spur} = S_\mathrm{fit} - S_\mathrm{template}
 \end{equation}
 
-It is important to ensure that the fit is stable on a background only distribution, i.e. that no signal injection to the yields thus the number of extracted signal events should be zero. The spurious signal $S_\mathrm{spur}$ in this test is given by fitting a signal + background model on a background only template, together with the associated uncertainty from the fit $\sigma_\mathrm{fit}$. Both spurious signal $S_\mathrm{spur}$ and its  $\sigma_\mathrm{fit}$ are considered to be consistent with zero.
+It is crucial to verify the stability of the fit when applied to a background-only distribution. In this context, no signal is intentionally introduced into the yields, ensuring that the extracted number of signal events remains zero. In the spurious signal test, $S_\mathrm{spur}$ is determined by fitting a model comprising both signal and background components onto a background-only template. The corresponding uncertainty from the fit is denoted as $\sigma_\mathrm{fit}$. Both the spurious signal $S_\mathrm{spur}$ and its associated uncertainty $\sigma_\mathrm{fit}$ are expected to be consistent with zero.
 
-The template described in Section~\ref{section:pseudo-data} is used to generate pseudo-experiments (toys). 
-The spurious signal is thus estimated using these pseudo-experiments and take the mean value of the per-experiment, in total 100 pseudo-experiments have been used.
-
-For each signal hypothesis, the spurious signals are tested individually and perfomed at each mass point. The results for the Gaussian signals as model independent tests at different masses and widths are summarized in Table~\ref{tab:Sspur_Gauss_1gtag} for the 1 gluon 
-tagged category and in Table ~\ref{tab:Sspur_Gauss_2gtag} for the 2 gluon tagged category.
-The results for the string signals with different string scales are shown in Table~\ref{tab:Sspur_String_1gtag}. 
+The estimation of the spurious signal is consequently conducted through these pseudo-experiments. The mean value across all experiments is calculated, and a total of 100 pseudo-experiments have been employed. For each individual signal hypothesis, the assessment of spurious signals is conducted at various mass points. This is done individually for each signal hypothesis and at each mass point. The outcomes of the model-independent tests for Gaussian signals, considering different masses and widths, are consolidated in Table~\ref{tab:Sspur_Gauss_1gtag} for the 1 gluon-tagged category and in Table~\ref{tab:Sspur_Gauss_2gtag} for the 2 gluon-tagged category. Correspondingly, the findings for string signals characterized by different string scales are presented in Table~\ref{tab:Sspur_String_1gtag}.
 
 \begin{table}[ht]
 \begin{center}
@@ -664,13 +627,14 @@ The idea criteria is when the spurious signal satisfy: $S_\mathrm{spur}$ < 30\% 
 \FloatBarrier
 
 \subsubsection{Fit Stability Tests}
-The fit stability tests is used to demonstrate the background fit function behavior on the background only template and signal + background template. The fit results from these two templates are compared to each other. The idea background fit function should give the same results in both cases. The results for these fit stability tests are shown in Table~\ref{tab:FitStab_Gauss_1gtag}-~\ref{tab:FitStab_Gauss_2gtag} for different signal strengths and mass points. 
-The background estimated from signal + background fit ($B_1$) is consistent with the background estimated from
-background-only fit ($B_2$).
+The fit stability tests are employed to assess the behaviour of the background fit function under different scenarios: when applied to the background-only template and the signal + background template. A comparison is made between the fit results obtained from these two templates. Ideally, the background fit function should yield consistent outcomes in both cases. The results of these fit stability tests are presented in Table~\ref{tab:FitStab_Gauss_1gtag} through Table~\ref{tab:FitStab_Gauss_2gtag}, encompassing various signal strengths and mass points.
+
+Notably, the background estimation derived from the signal + background fit ($B_1$) aligns with the background estimation obtained from the background-only fit ($B_2$), indicating good agreement between the two approaches.
 
 \begin{table}[ht]
 \begin{center}
 \renewcommand{\arraystretch}{1.4}
+\resizebox{0.95\textwidth}{!}{
 \begin{tabular}{cccl@{\,}@{$\pm$}@{\,}ll@{\,}@{$\pm$}@{\,}c}
 \toprule
 Mass & Width & Signal  & \multicolumn{2}{c}{$B_1$ from S+B fit} & \multicolumn{2}{c}{$B_2$ from B-only fit} \\
@@ -689,7 +653,7 @@ Mass & Width & Signal  & \multicolumn{2}{c}{$B_1$ from S+B fit} & \multicolumn{2
 7  & 5  & 3 & \numRP{20062422.56}{2} & \numRP{4002.86}{2} & \numRP{20062432.08}{2} & \numRP{4003.08}{2} \\
 7  & 5  & 5 & \numRP{20062422.86}{2} & \numRP{4002.98}{2} & \numRP{20062444.09}{2} & \numRP{4003.20}{2} \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \end{center}
 \caption{Fit Stability tests using Gaussian signals for 1 gluon tagged category.}
 \label{tab:FitStab_Gauss_1gtag}
@@ -698,6 +662,7 @@ Mass & Width & Signal  & \multicolumn{2}{c}{$B_1$ from S+B fit} & \multicolumn{2
 \begin{table}[ht]
 \begin{center}
 \renewcommand{\arraystretch}{1.4}
+\resizebox{0.95\textwidth}{!}{
 \begin{tabular}{cccl@{\,}@{$\pm$}@{\,}ll@{\,}@{$\pm$}@{\,}c}
 \toprule
 Mass & Width & Signal  & \multicolumn{2}{c}{$B_1$ from S+B fit} & \multicolumn{2}{c}{$B_2$ from B-only fit}  \\
@@ -716,7 +681,7 @@ Mass & Width & Signal  & \multicolumn{2}{c}{$B_1$ from S+B fit} & \multicolumn{2
 7  & 5  & 3 & \numRP{3901540.72}{2} & \numRP{2068.73}{2} & \numRP{3901542.75}{2} & \numRP{2048.46}{2} \\
 7  & 5  & 5 & \numRP{3901533.13}{2} & \numRP{2052.64}{2} & \numRP{3901540.09}{2} & \numRP{2048.94}{2}  \\
 \bottomrule
-\end{tabular}
+\end{tabular}}
 \end{center}
 \caption{Fit Stability tests using Gaussian signals for 2 gluon tagged category.}
 \label{tab:FitStab_Gauss_2gtag}
