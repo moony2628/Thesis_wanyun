@@ -258,3 +258,6 @@ mktextfm STFangsong/OT
 mktextfm STFangsong/I/OT
 mktextfm STFangsong/OT
 mktextfm STFangsong/OT
+mktexpk --mfmode / --bdpi 600 --mag 1+123/600 --dpi 723 cyberb20
+mktexpk --mfmode / --bdpi 600 --mag 1+123/600 --dpi 723 cyberb20
+mktexpk --mfmode / --bdpi 600 --mag 1+123/600 --dpi 723 cyberb20

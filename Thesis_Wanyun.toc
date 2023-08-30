@@ -90,107 +90,105 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.7.5}Scale variation uncertainty}{62}{subsubsection.5.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.8}Splitting-Kernel variation uncertainty}{63}{subsection.5.8}%
+\contentsline {subsubsection}{\numberline {5.7.6}Splitting-Kernel variation uncertainty}{63}{subsubsection.5.7.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.9}Tracking uncertainty}{63}{subsection.5.9}%
+\contentsline {subsubsection}{\numberline {5.7.7}Tracking uncertainty}{63}{subsubsection.5.7.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.10}JES /JER uncertainty }{63}{subsection.5.10}%
+\contentsline {subsubsection}{\numberline {5.7.8}JES /JER uncertainty }{63}{subsubsection.5.7.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.10.1}{\ensuremath {N_{\mathrm {trk}}}} / BDT re-weighting}{64}{subsubsection.5.10.1}%
+\contentsline {subsubsection}{\numberline {5.7.9}{\ensuremath {N_{\mathrm {trk}}}} / BDT re-weighting}{64}{subsubsection.5.7.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.10.2}The MC non-closure}{68}{subsubsection.5.10.2}%
+\contentsline {subsubsection}{\numberline {5.7.10}The MC non-closure}{68}{subsubsection.5.7.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.10.3}Statistical uncertainty}{68}{subsubsection.5.10.3}%
+\contentsline {subsubsection}{\numberline {5.7.11}Statistical uncertainty}{68}{subsubsection.5.7.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.11}Results}{69}{subsection.5.11}%
+\contentsline {subsection}{\numberline {5.8}Results}{69}{subsection.5.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.12}Conclusions}{87}{subsection.5.12}%
+\contentsline {section}{\numberline {6}Search for new phenomena in dijet events}{87}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Search for new phenomena in dijet events}{88}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Monte Carlo models}{88}{subsection.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Monte Carlo models}{89}{subsection.6.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}QCD background}{88}{subsubsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.1}QCD background}{89}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}\ensuremath {H^\prime }}{88}{subsubsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.2}\ensuremath {H^\prime }}{89}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Strings}{89}{subsubsection.6.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.3}Strings}{90}{subsubsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}Quantum Black Holes}{91}{subsubsection.6.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.4}Quantum Black Holes}{92}{subsubsection.6.1.4}%
+\contentsline {subsection}{\numberline {6.2}Events selections}{93}{subsection.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Events selections}{94}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Observables and Kinematic Variables}{93}{subsubsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.1}Observables and Kinematic Variables}{94}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Baseline selection}{94}{subsubsection.6.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.2}Baseline selection}{95}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.3}Quark-Gluon Sample Selection}{95}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Quark-Gluon Sample Selection}{96}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Expected Signal Significance}{96}{subsubsection.6.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.3.1}Expected Signal Significance}{97}{subsubsection.6.3.1}%
+\contentsline {paragraph}{\numberline {6.3.1.1}Resonances that decay to quark-quark}{96}{paragraph.6.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.3.1.1}Resonances that decay to quark-quark}{97}{paragraph.6.3.1.1}%
+\contentsline {paragraph}{\numberline {6.3.1.2}Signals that decay to gluon-gluon}{97}{paragraph.6.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.3.1.2}Signals that decay to gluon-gluon}{98}{paragraph.6.3.1.2}%
+\contentsline {paragraph}{\numberline {6.3.1.3}Signals that decay to quark-gluon}{98}{paragraph.6.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.3.1.3}Signals that decay to quark-gluon}{99}{paragraph.6.3.1.3}%
+\contentsline {subsubsection}{\numberline {6.3.2}Selection Criteria}{100}{subsubsection.6.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.3.2}Selection Criteria}{101}{subsubsection.6.3.2}%
+\contentsline {paragraph}{\numberline {6.3.2.1}Signal Selection Efficiencies}{105}{paragraph.6.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.3.2.1}Signal Selection Efficiencies}{106}{paragraph.6.3.2.1}%
+\contentsline {subsection}{\numberline {6.4}Signal Optimisation}{107}{subsection.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Signal Optimisation}{108}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}\ensuremath {y^\ast }\ Cut Optimisation}{107}{subsubsection.6.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.1}\ensuremath {y^\ast }\ Cut Optimisation}{108}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Dijet Mass Turn-on}{112}{subsubsection.6.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.2}Dijet Mass Turn-on}{113}{subsubsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.3}Optimised Selection}{115}{subsubsection.6.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.3}Optimised Selection}{116}{subsubsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.4}Selected Kinematic Plots}{116}{subsubsection.6.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.4}Selected Kinematic Plots}{117}{subsubsection.6.4.4}%
+\contentsline {subsection}{\numberline {6.5}Statistical Framework}{119}{subsection.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Statistical Framework}{120}{subsection.6.5}%
+\contentsline {subsubsection}{\numberline {6.5.1}Fitting Framework}{119}{subsubsection.6.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.1}Fitting Framework}{120}{subsubsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.2}Statistical Method}{120}{subsubsection.6.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.2}Statistical Method}{121}{subsubsection.6.5.2}%
+\contentsline {paragraph}{\numberline {6.5.2.1}Parametric background models}{120}{paragraph.6.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.1}Parametric background models}{121}{paragraph.6.5.2.1}%
+\contentsline {paragraph}{\numberline {6.5.2.2}Uncertainties}{121}{paragraph.6.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.2}Uncertainties}{122}{paragraph.6.5.2.2}%
+\contentsline {paragraph}{\numberline {6.5.2.3}Likelihood function definition}{121}{paragraph.6.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.3}Likelihood function definition}{122}{paragraph.6.5.2.3}%
+\contentsline {paragraph}{\numberline {6.5.2.4}Statistical Method}{122}{paragraph.6.5.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.4}Statistical Method}{123}{paragraph.6.5.2.4}%
+\contentsline {paragraph}{\numberline {6.5.2.5}Test statistic and p-value definitions}{123}{paragraph.6.5.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.5}Test statistic and p-value definitions}{124}{paragraph.6.5.2.5}%
+\contentsline {paragraph}{\numberline {6.5.2.6}Generation of pseudo-data}{124}{paragraph.6.5.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.6}Generation of pseudo-data}{125}{paragraph.6.5.2.6}%
+\contentsline {paragraph}{\numberline {6.5.2.7}Definition of exclusion limit}{124}{paragraph.6.5.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.7}Definition of exclusion limit}{125}{paragraph.6.5.2.7}%
+\contentsline {paragraph}{\numberline {6.5.2.8}Implementation}{125}{paragraph.6.5.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.8}Implementation}{126}{paragraph.6.5.2.8}%
+\contentsline {subsubsection}{\numberline {6.5.3}Background Estimation}{125}{subsubsection.6.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.3}Background Estimation}{126}{subsubsection.6.5.3}%
+\contentsline {subsubsection}{\numberline {6.5.4}Analysis Strategy}{125}{subsubsection.6.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.4}Analysis Strategy}{126}{subsubsection.6.5.4}%
+\contentsline {subsubsection}{\numberline {6.5.5}Spurious Signal Tests}{126}{subsubsection.6.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.5}Spurious Signal Tests}{127}{subsubsection.6.5.5}%
+\contentsline {subsubsection}{\numberline {6.5.6}Fit Stability Tests}{131}{subsubsection.6.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.6}Fit Stability Tests}{132}{subsubsection.6.5.6}%
+\contentsline {subsection}{\numberline {6.6}Systematic uncertainties}{133}{subsection.6.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Systematic uncertainties}{134}{subsection.6.6}%
+\contentsline {subsubsection}{\numberline {6.6.1}String resonsnace systematic uncertainties}{133}{subsubsection.6.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.6.1}String resonsnace systematic uncertainties}{134}{subsubsection.6.6.1}%
+\contentsline {subsubsection}{\numberline {6.6.2}q/g tagging Systematics}{135}{subsubsection.6.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.6.2}q/g tagging Systematics}{136}{subsubsection.6.6.2}%
+\contentsline {paragraph}{\numberline {6.6.2.1}Pure MC Systematics}{135}{paragraph.6.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.6.2.1}Pure MC Systematics}{136}{paragraph.6.6.2.1}%
+\contentsline {subsection}{\numberline {6.7}Results}{137}{subsection.6.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7}Results}{138}{subsection.6.7}%
+\contentsline {subsubsection}{\numberline {6.7.1}Untagged Resonances: Model-independent Gaussian Limits}{137}{subsubsection.6.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.7.1}Untagged Resonances: Model-independent Gaussian Limits}{138}{subsubsection.6.7.1}%
+\contentsline {section}{\numberline {7}Conclusions}{141}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions}{142}{section.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Acknowledgements}{153}{section.8}%
+\contentsline {section}{\numberline {8}Acknowledgements}{154}{section.8}%
 \contentsfinish 

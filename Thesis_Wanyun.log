@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  28 AUG 2023 17:00
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  30 AUG 2023 13:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1970,11 +1970,11 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 Package mathptmx Warning: There are no bold math fonts on input line 801.
 
-[1] [2] (./Thesis_Wanyun.toc [3] [4] [5])
+[1] [2] (./Thesis_Wanyun.toc [3] [4])
 \tf@toc=\write7
 \openout7 = `Thesis_Wanyun.toc'.
 
- [6] [1] [2] [3] [4] [5]
+ [5] [1] [2] [3] [4] [5]
 File: fig/f1.png Graphic file (type bmp)
 <fig/f1.png>
 File: fig/f2.png Graphic file (type bmp)
@@ -2010,7 +2010,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 [10]
 Overfull \hbox (1.28625pt too wide) in paragraph at lines 1088--1089
-[]\T1/ptm/m/n/12.045 The AT-LAS de-tec-tor [[][]32[][]] is the largest vol-ume 
+[]\T1/ptm/m/n/12.045 The AT-LAS de-tec-tor [[][]36[][]] is the largest vol-ume 
 de-tec-tor ever con-structed for general-
  []
 
@@ -2121,7 +2121,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (9.99313pt too wide) in paragraph at lines 37--38
-[]\T1/ptm/m/n/12.045 The  al-go-rithm [[][]39[][]] on the other hand set $\OML/
+[]\T1/ptm/m/n/12.045 The  al-go-rithm [[][]44[][]] on the other hand set $\OML/
 ztmcm/m/it/12.045 p$ \T1/ptm/m/n/12.045 = -1, leav-ing the dis-tance $\OML/ztmc
 m/m/it/12.045 d[] \OMS/ztmcm/m/n/12.045 / [] []$
  []
@@ -6321,63 +6321,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[78] [79] [80] [81] [82] [83] [84] [85] [86]
-! Undefined control sequence.
-\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
-                                               
-l.322 ...ticle jet constituent multiplicity (\ntrk
-                                                  ), and a BDT-based tagger,...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.324 ... of dijet events characterized by jet \pt
-                                                  ~ranging from 500 GeV to 2...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
-                                               
-l.326 ...rates superior performance over the \ntrk
-                                                  -only tagger in distinguis...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.326 ...k-jets from gluon-jets within the jet \pt
-                                                  ~range of 500 GeV to 1200 ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.328 ...ctors are measured across varying jet-\pt
-                                                  ~intervals, exhibiting a r...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-) [87] (./Texfiles/dijet.tex
+[78] [79] [80] [81] [82] [83] [84] [85] [86]) (./Texfiles/dijet.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6389,7 +6333,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[88] (./Texfiles/02-benchmark_signals.tex
+[87] (./Texfiles/02-benchmark_signals.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6443,7 +6387,7 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 
 File: fig/benchmark_signals/SignalShape-Hprime.pdf Graphic file (type pdf)
 <use fig/benchmark_signals/SignalShape-Hprime.pdf>
- [89]
+ [88]
 ! Undefined control sequence.
 \Ms ->\ensuremath {M_\mathrm {s}}\xspace 
                                          
@@ -6699,7 +6643,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[90]
+[89]
 File: fig/benchmark_signals/SignalShape-strings.pdf Graphic file (type pdf)
 <use fig/benchmark_signals/SignalShape-strings.pdf>
 
@@ -6725,7 +6669,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[91]
+[90]
 ! Undefined control sequence.
 \Ms ->\ensuremath {M_\mathrm {s}}\xspace 
                                          
@@ -6781,7 +6725,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[92]) [93] (./Texfiles/03-event_selection.tex
+[91]) [92] (./Texfiles/03-event_selection.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6826,7 +6770,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[94
+[93
 
 ]
 ! Undefined control sequence.
@@ -6884,7 +6828,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [95] (./Texfiles/04-QGselection.tex
+) [94] (./Texfiles/04-QGselection.tex
 ! Undefined control sequence.
 l.5 ...g the full Run~2 $\sqrt{s} = 13$~TeV\xspace
                                                    dataset with quark and gl...
@@ -7030,7 +6974,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[96
+[95
 
 ]
 ! Undefined control sequence.
@@ -7042,16 +6986,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[97]
+[96]
 File: fig/tagging/QuarkSignalSignificance.png Graphic file (type bmp)
 <fig/tagging/QuarkSignalSignificance.png>
- [98]
+ [97]
 File: fig/tagging/GluonSignalSignificance.png Graphic file (type bmp)
 <fig/tagging/GluonSignalSignificance.png>
- [99]
+ [98]
 File: fig/tagging/QuarkGluonSignalSignificance3.png Graphic file (type bmp)
 <fig/tagging/QuarkGluonSignalSignificance3.png>
- [100]
+ [99]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -7261,7 +7205,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[101]
+[100]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -7419,7 +7363,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[102]
+[101]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -8083,7 +8027,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[103] [104] [105]
+[102] [103] [104]
 
 ! Package array Error:  Illegal pream-token (S): `c' used.
 
@@ -8149,7 +8093,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-) [106] [107] (./Texfiles/05-Optimisation.tex
+) [105] [106] (./Texfiles/05-Optimisation.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 1.
@@ -8185,13 +8129,13 @@ aphic file (type pdf)
 File: fig/yStarOptimization/New_Plots/Significance_Graviton_mc16a+d+e_gg.pdf Gr
 aphic file (type pdf)
 <use fig/yStarOptimization/New_Plots/Significance_Graviton_mc16a+d+e_gg.pdf>
-[108
+[107
 
 ]
 
-LaTeX Warning: Text page 109 contains only floats.
+LaTeX Warning: Text page 108 contains only floats.
 
-[109]
+[108]
 File: fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_jj.pdf Graphic
  file (type pdf)
 <use fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_jj.pdf>
@@ -8201,11 +8145,11 @@ File: fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gj.pdf Graphic
 File: fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf Graphic
  file (type pdf)
 <use fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf>
- [110]
+ [109]
 
-LaTeX Warning: Text page 111 contains only floats.
+LaTeX Warning: Text page 110 contains only floats.
 
-[111] [112]
+[110] [111]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -8321,7 +8265,7 @@ l.215 ^^I\end{tabular}}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[113] [114] [115]
+[112] [113] [114]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -8359,7 +8303,7 @@ File: fig/benchmark_signals/AccxEff_Hprime.pdf Graphic file (type pdf)
 <use fig/benchmark_signals/AccxEff_Hprime.pdf>
 File: fig/benchmark_signals/AccxEff_strings.pdf Graphic file (type pdf)
 <use fig/benchmark_signals/AccxEff_strings.pdf>
-[116]
+[115]
 File: fig/monitoring/GG/newStudy_HT_logY_v01.pdf Graphic file (type pdf)
 <use fig/monitoring/GG/newStudy_HT_logY_v01.pdf>
 File: fig/monitoring/GG/newStudy_NPV_logY_v01.pdf Graphic file (type pdf)
@@ -8449,15 +8393,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[117] [118] [119]) (./Texfiles/06-StatisticalFramework.tex
+[116] [117] [118]) (./Texfiles/06-StatisticalFramework.tex
 File: fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow.png Graphic file (ty
 pe bmp)
 <fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow.png>
- [120
+ [119
 
 
-] [121] [122]
-[123] [124] [125]
+] [120] [121]
+[122] [123] [124]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -8485,7 +8429,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[126]
+[125]
 Overfull \hbox (0.24991pt too wide) in paragraph at lines 346--347
 \T1/ptm/m/n/12.045 pur-pose of up-per limit es-ti-ma-tions. Con-versely, if the
  cri-te-ria are not met, the 5-parameter
@@ -8504,7 +8448,7 @@ Overfull \hbox (10.04335pt too wide) in paragraph at lines 530--531
 tly con-ducted through these pseudo-
  []
 
-[127]
+[126]
 ! Undefined control sequence.
 l.540 2  & 5  & \numRP
                       {0.19    }{2} & \numRP{802.85 }{2}    & \numRP{2.36E-0...
@@ -9612,7 +9556,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[128] [129] [130] [131]
+[127] [128] [129] [130]
 ! Undefined control sequence.
 <argument> ...Rms} \\ \midrule 2 & 5 & 1 & \numRP 
                                                   {20062716.45}{2} & \numRP ...
@@ -10669,9 +10613,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[132
+[131
 
-]) [133] (./Texfiles/systematics.tex (./Texfiles/stringsJES.tex
+]) [132] (./Texfiles/systematics.tex (./Texfiles/stringsJES.tex
 ! Undefined control sequence.
 \Ms ->\ensuremath {M_\mathrm {s}}\xspace 
                                          
@@ -10742,9 +10686,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[134
+[133
 
-] [135]) (./Texfiles/MCSystematics.tex
+] [134]) (./Texfiles/MCSystematics.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -10767,7 +10711,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[136]
+[135]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -10878,7 +10822,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)) [137] (./Texfiles/09-Results.tex
+)) [136] (./Texfiles/09-Results.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -10973,15 +10917,85 @@ File: fig/app-SignalIndependentLimits/Gauss_Limits_yStar0p8_Tag2_WidthPercent15
 _1200to8000_sigma.pdf Graphic file (type pdf)
 <use fig/app-SignalIndependentLimits/Gauss_Limits_yStar0p8_Tag2_WidthPercent15_
 1200to8000_sigma.pdf>
-) [138
+) [137
 
-] [139] [140] [141]) [142
+] [138] [139] [140])
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.1258 ...icle jet constituent multiplicity (\ntrk
+                                                  ), and a BDT-based tagger,...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-]
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.1260 ...of dijet events characterized by jet \pt
+                                                  ~ranging from 500 GeV to 2...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.1262 ...ates superior performance over the \ntrk
+                                                  -only tagger in distinguis...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.1262 ...-jets from gluon-jets within the jet \pt
+                                                  ~range of 500 GeV to 1200 ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.1262 ...tors are measured across varying jet-\pt
+                                                  ~intervals, exhibiting a r...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[141
+
+] [142]
+Overfull \hbox (6.7272pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 Ex-tra Di-men-sion''. In: \T1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 11
+ (2020), p. 109. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1
+007 / JHEP11(2020 )
+ []
+
+
+Overfull \hbox (4.27821pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 p. 043. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
+10 . 1007 / JHEP06(2010 ) 043$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
+002 . 2581$ [hep-ph][][]\T1/ptm/m/n/12 . 
+ []
+
+[143]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10989,7 +11003,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...\) measured with the ATLAS detector}
                                                   
-l.1274 
+l.1281 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -11000,7 +11014,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11011,7 +11025,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11019,8 +11033,8 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[143]
-Overfull \hbox (1.74095pt too wide) in paragraph at lines 1274--1274
+
+Overfull \hbox (7.74095pt too wide) in paragraph at lines 1281--1281
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``AT-LAS data qual-ity op-er-a-tions 
 and per-for-mance for 2015 |\TU/FandolSong-Regular(0)/m/n/12 –|
  []
@@ -11028,7 +11042,7 @@ and per-for-mance for 2015 |\TU/FandolSong-Regular(0)/m/n/12 –|
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -11036,7 +11050,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...a~8 tunes to \(7~\text {TeV}\) data}
                                                   
-l.1274 
+l.1281 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -11047,7 +11061,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11058,7 +11072,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11066,23 +11080,22 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-
-Overfull \hbox (15.61258pt too wide) in paragraph at lines 1274--1274
-\T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1140 / epjc / s100
-52 -[] 014 -[] 3023 -[] z$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1405 
-. 6583$ [hep-ex][][]\T1/ptm/m/n/12 . 
- []
-
-[144]
-Overfull \hbox (6.14688pt too wide) in paragraph at lines 1274--1274
+[144] [145]
+Overfull \hbox (12.14688pt too wide) in paragraph at lines 1281--1281
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. \T1/ptm/m/it/12 Rec-om-men-da-tions f
 or the Mod-el-ing of Smooth Back-grounds\T1/ptm/m/n/12 .
+ []
+
+
+Overfull \hbox (3.60066pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 ATL-PHYS-PUB-2020-028. 2020. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 :
+ [][]$\T1/pcr/m/n/12 https : / / cds . cern . ch / record /
  []
 
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -11090,7 +11103,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ... with the ATLAS Detector at the LHC}
                                                   
-l.1274 
+l.1281 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -11101,7 +11114,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11112,7 +11125,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11121,22 +11134,15 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (47.56429pt too wide) in paragraph at lines 1274--1274
+Overfull \hbox (53.56429pt too wide) in paragraph at lines 1281--1281
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``Search for New Par-ti-cles in Two-J
 et Fi-nal States in $[] \OML/ztmcm/m/it/12 Proton \OMS/ztmcm/m/n/12 ^^@
  []
 
-
-Overfull \hbox (20.41408pt too wide) in paragraph at lines 1274--1274
-\OMS/ztmcm/m/n/12 ^^@\OML/ztmcm/m/it/12 ProtonCollisionswiththeATLASDetectoratt
-heLHC$\T1/ptm/m/n/12 ''. In: \T1/ptm/m/it/12 Phys. Rev. Lett. \T1/ptm/m/n/12 10
-5 (2010),
- []
-
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -11144,7 +11150,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ext {TeV}\) with the ATLAS detector}
                                                   
-l.1274 
+l.1281 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -11155,7 +11161,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11166,7 +11172,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11174,11 +11180,10 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[145]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -11186,7 +11191,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ext {TeV}\) with the ATLAS detector}
                                                   
-l.1274 
+l.1281 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -11197,7 +11202,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11208,7 +11213,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11217,22 +11222,22 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (7.62364pt too wide) in paragraph at lines 1274--1274
+Overfull \hbox (13.62364pt too wide) in paragraph at lines 1281--1281
 \T1/ptm/m/n/12 pairs us-ing $[] \OML/ztmcm/m/it/12 of [] collisionsat [] withth
 eATLASdetector$\T1/ptm/m/n/12 ''.
  []
 
-
-Overfull \hbox (5.18187pt too wide) in paragraph at lines 1274--1274
-\T1/ptm/m/n/12 quark/gluon dis-crim-i-na-tion with count-ing ob-serv-ables''. I
-n: \T1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 09 (2017), p. 083.
+[146]
+Overfull \hbox (11.47821pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 p. 083. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
+10 . 1007 / JHEP09(2017 ) 083$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
+704 . 06266$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
 
-[146]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -11240,7 +11245,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...-\(k_{t}\) jet clustering algorithm}
                                                   
-l.1274 
+l.1281 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -11251,7 +11256,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11262,7 +11267,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11271,7 +11276,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (51.75603pt too wide) in paragraph at lines 1274--1274
+Overfull \hbox (57.75603pt too wide) in paragraph at lines 1281--1281
 []\T1/ptm/m/n/12 Matteo Cac-ciari, Gavin P. Salam, and Gre-gory Soyez. ``The an
 ti-$[] \OML/ztmcm/m/it/12 jetclusteringalgorithm$\T1/ptm/m/n/12 ''.
  []
@@ -11279,7 +11284,7 @@ ti-$[] \OML/ztmcm/m/it/12 jetclusteringalgorithm$\T1/ptm/m/n/12 ''.
 ! Undefined control sequence.
 <argument> ...llisions at $\sqrt {s} = 1.96$~\TeV 
                                                   }
-l.1274 
+l.1281 
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -11287,18 +11292,17 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-Overfull \hbox (18.119pt too wide) in paragraph at lines 1274--1274
-\T1/ptm/m/n/12 from proton-proton col-li-sions at $[] \OT1/ztmcm/m/n/12 = 13[][
-][]$\T1/ptm/m/n/12 ''. In: \T1/ptm/m/it/12 Phys. Rev. D \T1/ptm/m/n/12 98 (2018
-), p. 092014.
+[147]
+Overfull \hbox (20.43512pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 sions at $[] \OT1/ztmcm/m/n/12 = 8$ \T1/ptm/m/n/12 TeV''. In: \T
+1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 10 (2017), p. 131. \T1/ptm/m/sc/12 doi\T1/ptm
+/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1007 / JHEP10(2017 )
  []
 
-[147]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -11306,7 +11310,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...xt {TeV}\) \(pp\) Collisions at CMS}
                                                   
-l.1274 
+l.1281 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -11317,7 +11321,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11328,7 +11332,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1274 
+l.1281 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -11337,59 +11341,78 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (15.20854pt too wide) in paragraph at lines 1274--1274
+Overfull \hbox (21.20854pt too wide) in paragraph at lines 1281--1281
 []\T1/ptm/m/n/12 CMS Col-lab-o-ra-tion. ``Search for Di-jet Res-o-nances in $[]
  [] \OML/ztmcm/m/it/12 CollisionsatCMS$\T1/ptm/m/n/12 ''.
  []
 
 [148]
-Overfull \hbox (5.47821pt too wide) in paragraph at lines 1274--1274
+Overfull \hbox (121.0458pt too wide) in paragraph at lines 1281--1281
+\T1/pcr/m/n/12 twiki . cern . ch / twiki / bin / view / AtlasProtected / Deriva
+tionframeworkExotics$[][]\T1/ptm/m/n/12 . 
+ []
+
+[149]
+Overfull \hbox (11.47821pt too wide) in paragraph at lines 1281--1281
 \T1/ptm/m/n/12 p. 091. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 10 . 1007 / JHEP07(2017 ) 091$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
 704 . 03878$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
 
 
-Overfull \hbox (47.74583pt too wide) in paragraph at lines 1274--1274
+Overfull \hbox (2.4521pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 PDFs''. In: \T1/ptm/m/it/12 Eur. Phys. J. C \T1/ptm/m/n/12 75.5 
+(2015), p. 204. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 11
+40 / epjc / s10052 -[]
+ []
+
+
+Overfull \hbox (53.74583pt too wide) in paragraph at lines 1281--1281
 \T1/pcr/m/n/12 paper _ files / paper / 2017 / file / 6449f44a102fde848669bdd9eb
 6b76fa -[]
  []
 
-[149]
-Overfull \hbox (34.61462pt too wide) in paragraph at lines 1274--1274
+[150]
+Overfull \hbox (40.61462pt too wide) in paragraph at lines 1281--1281
 \T1/ptm/m/n/12 tions for jet sub-struc-ture''. In: \T1/ptm/m/it/12 JHEP \T1/ptm
 /m/n/12 06 (2013), p. 108. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n
 /12 10 . 1007 / JHEP06(2013 )
  []
 
-[150]
-Overfull \hbox (2.12695pt too wide) in paragraph at lines 1274--1274
+
+Overfull \hbox (2.27623pt too wide) in paragraph at lines 1281--1281
+[]\T1/ptm/m/n/12 Dieter Lust, Stephan Stieberger, and Tomasz R. Tay-lor. ``The 
+LHC String Hunter's
+ []
+
+[151]
+Overfull \hbox (8.12695pt too wide) in paragraph at lines 1281--1281
 []\T1/ptm/m/n/12 Steffen Schu-mann and Frank Krauss. ``A par-ton shower al-go-r
 ithm based on Catani--
  []
 
-
-Overfull \hbox (3.01572pt too wide) in paragraph at lines 1274--1274
+[152]
+Overfull \hbox (9.01572pt too wide) in paragraph at lines 1281--1281
 []\T1/ptm/m/n/12 Hongtao Yang. \T1/ptm/m/it/12 XML An-a-lytic Workspace Builder
 \T1/ptm/m/n/12 . 2021. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 https : / / twiki .
  []
 
 
-Overfull \hbox (18.44585pt too wide) in paragraph at lines 1274--1274
+Overfull \hbox (24.44585pt too wide) in paragraph at lines 1281--1281
 \T1/pcr/m/n/12 cern . ch / twiki / bin / viewauth / AtlasProtected / XmlAnaWSBu
 ilder$[][]
  []
 
-[151] [152] [153]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1316.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1316.
+[153] [154]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1323.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1323.
  (./Thesis_Wanyun.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1316.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1316.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1323.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1323.
 
 Package rerunfilecheck Info: File `Thesis_Wanyun.out' has not changed.
-(rerunfilecheck)             Checksum: AEEF5C9377669462EA03BFFE1A2B93D5;17569.
+(rerunfilecheck)             Checksum: 6BB6D562A4D702081627E4E017533A88;17479.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -11406,12 +11429,12 @@ Package logreq Info: Writing requests to 'Thesis_Wanyun.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40689 strings out of 479418
- 895781 string characters out of 5884585
- 1645520 words of memory out of 5000000
- 57187 multiletter control sequences out of 15000+600000
+ 40719 strings out of 479418
+ 897232 string characters out of 5884585
+ 1646433 words of memory out of 5000000
+ 57217 multiletter control sequences out of 15000+600000
  652678 words of font info for 240 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,20n,91p,1540b,4806s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,20n,91p,1540b,4804s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Thesis_Wanyun.pdf (162 pages).
