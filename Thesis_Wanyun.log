@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  30 AUG 2023 14:27
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  30 AUG 2023 19:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2010,7 +2010,7 @@ File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
 [10]
 Overfull \hbox (1.28625pt too wide) in paragraph at lines 1088--1089
-[]\T1/ptm/m/n/12.045 The AT-LAS de-tec-tor [[][]36[][]] is the largest vol-ume 
+[]\T1/ptm/m/n/12.045 The AT-LAS de-tec-tor [[][]37[][]] is the largest vol-ume 
 de-tec-tor ever con-structed for general-
  []
 
@@ -2121,7 +2121,7 @@ and I'll forget about whatever was undefined.
 
 
 Overfull \hbox (9.99313pt too wide) in paragraph at lines 37--38
-[]\T1/ptm/m/n/12.045 The  al-go-rithm [[][]44[][]] on the other hand set $\OML/
+[]\T1/ptm/m/n/12.045 The  al-go-rithm [[][]42[][]] on the other hand set $\OML/
 ztmcm/m/it/12.045 p$ \T1/ptm/m/n/12.045 = -1, leav-ing the dis-tance $\OML/ztmc
 m/m/it/12.045 d[] \OMS/ztmcm/m/n/12.045 / [] []$
  []
@@ -10978,6 +10978,27 @@ and I'll forget about whatever was undefined.
 [141
 
 ] [142]
+Overfull \hbox (20.43512pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 sions at $[] \OT1/ztmcm/m/n/12 = 8$ \T1/ptm/m/n/12 TeV''. In: \T
+1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 10 (2017), p. 131. \T1/ptm/m/sc/12 doi\T1/ptm
+/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1007 / JHEP10(2017 )
+ []
+
+[143] [144]
+Overfull \hbox (11.47821pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 p. 083. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
+10 . 1007 / JHEP09(2017 ) 083$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
+704 . 06266$ [hep-ph][][]\T1/ptm/m/n/12 . 
+ []
+
+
+Overfull \hbox (11.47821pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 p. 091. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
+10 . 1007 / JHEP07(2017 ) 091$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
+704 . 03878$ [hep-ph][][]\T1/ptm/m/n/12 . 
+ []
+
+[145]
 Overfull \hbox (6.7272pt too wide) in paragraph at lines 1281--1281
 \T1/ptm/m/n/12 Ex-tra Di-men-sion''. In: \T1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 11
  (2020), p. 109. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1
@@ -10985,13 +11006,12 @@ Overfull \hbox (6.7272pt too wide) in paragraph at lines 1281--1281
  []
 
 
-Overfull \hbox (4.27821pt too wide) in paragraph at lines 1281--1281
-\T1/ptm/m/n/12 p. 043. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
-10 . 1007 / JHEP06(2010 ) 043$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
-002 . 2581$ [hep-ph][][]\T1/ptm/m/n/12 . 
+Overfull \hbox (2.27623pt too wide) in paragraph at lines 1281--1281
+[]\T1/ptm/m/n/12 Dieter Lust, Stephan Stieberger, and Tomasz R. Tay-lor. ``The 
+LHC String Hunter's
  []
 
-[143]
+[146]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -11001,7 +11021,7 @@ I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
 
 ! Extra }, or forgotten $.
-<argument> ...\) measured with the ATLAS detector}
+<argument> ...-\(k_{t}\) jet clustering algorithm}
                                                   
 l.1281 
        
@@ -11034,6 +11054,12 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
+Overfull \hbox (57.75603pt too wide) in paragraph at lines 1281--1281
+[]\T1/ptm/m/n/12 Matteo Cac-ciari, Gavin P. Salam, and Gre-gory Soyez. ``The an
+ti-$[] \OML/ztmcm/m/it/12 jetclusteringalgorithm$\T1/ptm/m/n/12 ''.
+ []
+
+[147]
 Overfull \hbox (7.74095pt too wide) in paragraph at lines 1281--1281
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``AT-LAS data qual-ity op-er-a-tions 
 and per-for-mance for 2015 |\TU/FandolSong-Regular(0)/m/n/12 –|
@@ -11080,17 +11106,68 @@ With luck, this will get me unwedged. But if you
 really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
-[144] [145]
-Overfull \hbox (12.14688pt too wide) in paragraph at lines 1281--1281
-[]\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. \T1/ptm/m/it/12 Rec-om-men-da-tions f
-or the Mod-el-ing of Smooth Back-grounds\T1/ptm/m/n/12 .
+
+Overfull \hbox (8.12695pt too wide) in paragraph at lines 1281--1281
+[]\T1/ptm/m/n/12 Steffen Schu-mann and Frank Krauss. ``A par-ton shower al-go-r
+ithm based on Catani--
+ []
+
+[148]
+Overfull \hbox (2.4521pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 PDFs''. In: \T1/ptm/m/it/12 Eur. Phys. J. C \T1/ptm/m/n/12 75.5 
+(2015), p. 204. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 11
+40 / epjc / s10052 -[]
  []
 
 
-Overfull \hbox (3.60066pt too wide) in paragraph at lines 1281--1281
-\T1/ptm/m/n/12 ATL-PHYS-PUB-2020-028. 2020. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 :
- [][]$\T1/pcr/m/n/12 https : / / cds . cern . ch / record /
+Overfull \hbox (4.27821pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 p. 043. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
+10 . 1007 / JHEP06(2010 ) 043$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
+002 . 2581$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
+
+[149]
+Overfull \hbox (40.61462pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 tions for jet sub-struc-ture''. In: \T1/ptm/m/it/12 JHEP \T1/ptm
+/m/n/12 06 (2013), p. 108. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n
+/12 10 . 1007 / JHEP06(2013 )
+ []
+
+
+Overfull \hbox (53.74583pt too wide) in paragraph at lines 1281--1281
+\T1/pcr/m/n/12 paper _ files / paper / 2017 / file / 6449f44a102fde848669bdd9eb
+6b76fa -[]
+ []
+
+[150]
+Overfull \hbox (121.0458pt too wide) in paragraph at lines 1281--1281
+\T1/pcr/m/n/12 twiki . cern . ch / twiki / bin / view / AtlasProtected / Deriva
+tionframeworkExotics$[][]\T1/ptm/m/n/12 . 
+ []
+
+[151]
+Overfull \hbox (9.01572pt too wide) in paragraph at lines 1281--1281
+[]\T1/ptm/m/n/12 Hongtao Yang. \T1/ptm/m/it/12 XML An-a-lytic Workspace Builder
+\T1/ptm/m/n/12 . 2021. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
+https : / / twiki .
+ []
+
+
+Overfull \hbox (24.44585pt too wide) in paragraph at lines 1281--1281
+\T1/pcr/m/n/12 cern . ch / twiki / bin / viewauth / AtlasProtected / XmlAnaWSBu
+ilder$[][]
+ []
+
+! Undefined control sequence.
+<argument> ...llisions at $\sqrt {s} = 1.96$~\TeV 
+                                                  }
+l.1281 
+       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -11138,6 +11215,95 @@ Overfull \hbox (53.56429pt too wide) in paragraph at lines 1281--1281
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``Search for New Par-ti-cles in Two-J
 et Fi-nal States in $[] \OML/ztmcm/m/it/12 Proton \OMS/ztmcm/m/n/12 ^^@
  []
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1281 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...xt {TeV}\) \(pp\) Collisions at CMS}
+                                                  
+l.1281 
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1281 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1281 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+
+Overfull \hbox (21.20854pt too wide) in paragraph at lines 1281--1281
+[]\T1/ptm/m/n/12 CMS Col-lab-o-ra-tion. ``Search for Di-jet Res-o-nances in $[]
+ [] \OML/ztmcm/m/it/12 CollisionsatCMS$\T1/ptm/m/n/12 ''.
+ []
+
+[152]
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1281 
+       
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+! Extra }, or forgotten $.
+<argument> ...\) measured with the ATLAS detector}
+                                                  
+l.1281 
+       
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+! Missing $ inserted.
+<inserted text> 
+                $
+l.1281 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
+
+! Missing } inserted.
+<inserted text> 
+                }
+l.1281 
+       
+I've inserted something that you may have forgotten.
+(See the <inserted text> above.)
+With luck, this will get me unwedged. But if you
+really didn't forget anything, try typing `2' now; then
+my insertion and my current dilemma will both disappear.
 
 ! Missing $ inserted.
 <inserted text> 
@@ -11227,181 +11393,16 @@ Overfull \hbox (13.62364pt too wide) in paragraph at lines 1281--1281
 eATLASdetector$\T1/ptm/m/n/12 ''.
  []
 
-[146]
-Overfull \hbox (11.47821pt too wide) in paragraph at lines 1281--1281
-\T1/ptm/m/n/12 p. 083. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
-10 . 1007 / JHEP09(2017 ) 083$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
-704 . 06266$ [hep-ph][][]\T1/ptm/m/n/12 . 
- []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1281 
-       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...-\(k_{t}\) jet clustering algorithm}
-                                                  
-l.1281 
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1281 
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1281 
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (57.75603pt too wide) in paragraph at lines 1281--1281
-[]\T1/ptm/m/n/12 Matteo Cac-ciari, Gavin P. Salam, and Gre-gory Soyez. ``The an
-ti-$[] \OML/ztmcm/m/it/12 jetclusteringalgorithm$\T1/ptm/m/n/12 ''.
- []
-
-! Undefined control sequence.
-<argument> ...llisions at $\sqrt {s} = 1.96$~\TeV 
-                                                  }
-l.1281 
-       
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[147]
-Overfull \hbox (20.43512pt too wide) in paragraph at lines 1281--1281
-\T1/ptm/m/n/12 sions at $[] \OT1/ztmcm/m/n/12 = 8$ \T1/ptm/m/n/12 TeV''. In: \T
-1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 10 (2017), p. 131. \T1/ptm/m/sc/12 doi\T1/ptm
-/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1007 / JHEP10(2017 )
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1281 
-       
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Extra }, or forgotten $.
-<argument> ...xt {TeV}\) \(pp\) Collisions at CMS}
-                                                  
-l.1281 
-       
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.1281 
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-! Missing } inserted.
-<inserted text> 
-                }
-l.1281 
-       
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (21.20854pt too wide) in paragraph at lines 1281--1281
-[]\T1/ptm/m/n/12 CMS Col-lab-o-ra-tion. ``Search for Di-jet Res-o-nances in $[]
- [] \OML/ztmcm/m/it/12 CollisionsatCMS$\T1/ptm/m/n/12 ''.
- []
-
-[148]
-Overfull \hbox (121.0458pt too wide) in paragraph at lines 1281--1281
-\T1/pcr/m/n/12 twiki . cern . ch / twiki / bin / view / AtlasProtected / Deriva
-tionframeworkExotics$[][]\T1/ptm/m/n/12 . 
- []
-
-[149]
-Overfull \hbox (11.47821pt too wide) in paragraph at lines 1281--1281
-\T1/ptm/m/n/12 p. 091. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
-10 . 1007 / JHEP07(2017 ) 091$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
-704 . 03878$ [hep-ph][][]\T1/ptm/m/n/12 . 
+Overfull \hbox (12.14688pt too wide) in paragraph at lines 1281--1281
+[]\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. \T1/ptm/m/it/12 Rec-om-men-da-tions f
+or the Mod-el-ing of Smooth Back-grounds\T1/ptm/m/n/12 .
  []
 
 
-Overfull \hbox (2.4521pt too wide) in paragraph at lines 1281--1281
-\T1/ptm/m/n/12 PDFs''. In: \T1/ptm/m/it/12 Eur. Phys. J. C \T1/ptm/m/n/12 75.5 
-(2015), p. 204. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 11
-40 / epjc / s10052 -[]
- []
-
-
-Overfull \hbox (53.74583pt too wide) in paragraph at lines 1281--1281
-\T1/pcr/m/n/12 paper _ files / paper / 2017 / file / 6449f44a102fde848669bdd9eb
-6b76fa -[]
- []
-
-[150]
-Overfull \hbox (40.61462pt too wide) in paragraph at lines 1281--1281
-\T1/ptm/m/n/12 tions for jet sub-struc-ture''. In: \T1/ptm/m/it/12 JHEP \T1/ptm
-/m/n/12 06 (2013), p. 108. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n
-/12 10 . 1007 / JHEP06(2013 )
- []
-
-
-Overfull \hbox (2.27623pt too wide) in paragraph at lines 1281--1281
-[]\T1/ptm/m/n/12 Dieter Lust, Stephan Stieberger, and Tomasz R. Tay-lor. ``The 
-LHC String Hunter's
- []
-
-[151]
-Overfull \hbox (8.12695pt too wide) in paragraph at lines 1281--1281
-[]\T1/ptm/m/n/12 Steffen Schu-mann and Frank Krauss. ``A par-ton shower al-go-r
-ithm based on Catani--
- []
-
-[152]
-Overfull \hbox (9.01572pt too wide) in paragraph at lines 1281--1281
-[]\T1/ptm/m/n/12 Hongtao Yang. \T1/ptm/m/it/12 XML An-a-lytic Workspace Builder
-\T1/ptm/m/n/12 . 2021. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
-https : / / twiki .
- []
-
-
-Overfull \hbox (24.44585pt too wide) in paragraph at lines 1281--1281
-\T1/pcr/m/n/12 cern . ch / twiki / bin / viewauth / AtlasProtected / XmlAnaWSBu
-ilder$[][]
+Overfull \hbox (3.60066pt too wide) in paragraph at lines 1281--1281
+\T1/ptm/m/n/12 ATL-PHYS-PUB-2020-028. 2020. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 :
+ [][]$\T1/pcr/m/n/12 https : / / cds . cern . ch / record /
  []
 
 [153] [154]
@@ -11429,12 +11430,12 @@ Package logreq Info: Writing requests to 'Thesis_Wanyun.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40719 strings out of 479418
- 897232 string characters out of 5884585
- 1646433 words of memory out of 5000000
- 57217 multiletter control sequences out of 15000+600000
+ 40720 strings out of 479418
+ 897350 string characters out of 5884585
+ 1644756 words of memory out of 5000000
+ 57218 multiletter control sequences out of 15000+600000
  652678 words of font info for 240 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,20n,91p,1540b,4804s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,20n,91p,1540b,4809s stack positions out of 5000i,500n,10000p,200000b,80000s
 
 Output written on Thesis_Wanyun.pdf (162 pages).
