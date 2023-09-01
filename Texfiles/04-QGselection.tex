@@ -25,103 +25,103 @@ Previous study in ATLAS has shown that the jets can be tagged quark or gluon jet
 \label{fig:jet_pt_quark_gluon}
 \end{figure}
 
-
-\subsubsection{Expected Signal Significance}
-%\label{sec:ExpectedSig}
-
-The shape of \mjj from QCD is complex and rapidly changing according to the fractions of events that originate from quark-quark, quark-gluon and gluon-gluon scattering. The QCD background is presented in Section~\ref{qcdsamps}. The MC simulated signals and background is thus used for estimating the expected signal significance.
-
-
-\paragraph{Resonances that decay to quark-quark}\mbox{}\par
-
-The statistical significance associated with signals decaying into quark-antiquark pairs is assessed using \Zprime\ models using 
-\begin{equation}
-	S = N_S \sum_i{ \dfrac{ f_{qq,i}\epsilon_{qQ}^2 + f_{qg,i}\epsilon_{qQ}\epsilon_{gQ} + f_{gg.i}\epsilon_{gQ}^2  } {\sqrt{ B_{qq,i}\epsilon_{qQ}^2 + B_{qg,i}\epsilon_{qQ}\epsilon_{gQ} + B_{gg,i}\epsilon_{gQ}^2  }}}
-\end{equation}
-where $N_S$ is the number of signal events, $f_{qq,i}$ is fraction of signal events that result in the two 
-highest \pT\ jets that where initiated by quarks in bin $i$ ( $f_{qg,i}$ are quark-gluon jets, and $f_{gg,i}$ is two gluon jets), 
-$\epsilon_{qQ}$ is the efficiency of a quark initiated jet passing the quark selection criteria, 
-$\epsilon_{gQ}$ is the efficiency of a gluon initiated jet passing the quark selection criteria, 
-and $B_{xx,i}$ is the expected number of background events with quark-quark, quark-gluon or gluon-gluon initiated jets. 
-
-
-The statistical significance is computed for \Zprime\ particles mass values within the range of 1500 to 4000 GeV, and for quark-jet selection efficiencies ranging from 30\% to 90\%. The obtained significance values are presented in Figure~\ref{fig:QuarkSignalSignificance}. The depicted results illustrate a trend of diminishing significance when any quark-selection criteria is imposed on the data. This decline in significance can be attributed to the dominant presence of quark-quark events within the data, where the selection process concurrently diminishes both background and signal contributions to a comparable extent.
-
-\begin{figure}[htb]
-	\centering
-	\includegraphics[width=0.75\textwidth]{fig/tagging/QuarkSignalSignificance.png}
-	\caption{ The significance for observing a \Zprime\ with masses from 1500 to 4000 GeV
-		for $\epsilon_{qQ}$ ranging from 90 to 30\% compared to the significance calculated with no quark selection applied. The key gives pairs of efficiencies ($\epsilon_{qQ}$, $\epsilon_{gQ}$).
-		\label{fig:QuarkSignalSignificance}}
-\end{figure}
-
-
-\paragraph{Signals that decay to gluon-gluon}\mbox{}\par
-The significance for signals that decay to a gluon-gluon pair are using \Hprime\ models, estimated by:
-\begin{equation}
-S = N_S \sum_i{ \dfrac{ f_{qq,_i}\epsilon_{qG}^2 + f_{qg,i}\epsilon_{qG}\epsilon_{gG} + f_{gg,i}\epsilon_{gG}^2  } {\sqrt{ B_{qq,i}\epsilon_{qG}^2 + B_{qg,i}\epsilon_{qG}\epsilon_{gG} + B_{gg,i}\epsilon_{gG}^2  }}}
-\end{equation}
-where  
-$\epsilon_{qG}$ is the efficiency of a quark initiated jet passing the gluon selection criteria, 
-$\epsilon_{gG}$ is the efficiency of a gluon initiated jet passing the gluon selection criteria. 
-
-The computation of significance involves the utilization of simulated \Hprime signals, with masses ranging from 2000 to 7000 GeV. The efficiencies of gluon tagged are varied across from 60\% to 90\%. The resulting significances, depicted as functions of \Hprime masses, are presented in Figure~\ref{fig:GluonSignalSignificance}. The observed trend reveals a gradual increase in significance, with values ascending from approximately 1.2 at 2 TeV to around 1.6 at 7 TeV. Notably, the most substantial enhancements occur at a gluon efficiency of 75\%.
-
-
-\begin{figure}[htb]
- \centering
-\includegraphics[width=0.75\textwidth]{fig/tagging/GluonSignalSignificance.png}
-\caption{ The significance for observing a \Hprime\ with masses from 2000 to 7000 GeV
-for $\epsilon_{gG}$ ranging from 90 to 60\% compared to the significance calculated with no gluon selection applied. The key gives pairs of efficiencies ($\epsilon_{gG}$, $\epsilon_{qG}$).
-  \label{fig:GluonSignalSignificance}}
-\end{figure}
-
-
-\paragraph{Signals that decay to quark-gluon}\mbox{}\par
-
-Calculating the significance for signals involving quark-gluon decays, such as string decays, poses increased complexity due to the potential overlap in the selection criteria between decaying jets that satisfy both quark and gluon criteria. In this context, it becomes imperative to establish distinct efficiencies exclusively tailored for quark- and gluon-jets. Thus the efficiencies are needed to be defined exclusively for quark- and gluon-jets.
-
-The efficiencies for quark-jets are defined as:
-
-\begin{itemize}
-\item $\epsilon_{qQ}$ The efficiency that a quark-jet is identified only as a quark-jet. 
-\item $\epsilon_{qQG}$ The efficiency that a quark-jet is identified as a quark- and a gluon-jet.
-\item $\epsilon_{qG}$ The efficiency that a quark-jet is identified only as a gluon-jet.  
-\end{itemize}
-where $\epsilon_{qQ} + \epsilon_{qQG} + \epsilon_{qG} = 1$. 
-
-Another set of efficiencies that is measured for gluon-jets are:
-\begin{itemize}
-\item $\epsilon_{gQ}$ The efficiency that a gluon-jet is identified only as a quark-jet. 
-\item $\epsilon_{gQG}$ The efficiency that a gluon-jet is identified  as a quark- and a gluon-jet.
-\item $\epsilon_{gG}$ The efficiency that a gluon-jet is identified only as a gluon-jet.  
-\end{itemize}
-
-The probability of truth pairs of quark-quark ($p_{qq}$), quark-gluon ($p_{qg}$) and gluon-gluon ($p_{gg}$) events that passing the quark-gluon tagging selection criteria are given by:
-\begin{align}
-p_{qq} & = 2  \epsilon_{qQ}\epsilon_{qG} + \epsilon_{qQG}\left( \epsilon_{qQ} + \epsilon_{qG} \right)  + \epsilon_{qQG}\epsilon_{qQG} \\
-p_{gg} & = 2  \epsilon_{gQ}\epsilon_{gG} + \epsilon_{gQG}\left( \epsilon_{gQ} + \epsilon_{gG} \right)  + \epsilon_{gQG}\epsilon_{gQG} \\
-p_{qg} & = \epsilon_{qQ}\epsilon_{gG} + \epsilon_{gQ}\epsilon_{qG} + \epsilon_{qQG}\left( \epsilon_{gQ} + \epsilon_{gG} \right) 
-+ \epsilon_{gQG}\left( \epsilon_{qQ} + \epsilon_{qG} \right) 
-+ \epsilon_{gQG}\epsilon_{gQG}
-\end{align}
-the related significance is then defined as:
-\begin{equation}
-S = N_S \sum_i{ \dfrac{ f_{qq,i} p_{qq} + f_{qg,i}p_{qg} + f_{gg,i}p_{gg}  } {\sqrt{ B_{qq,i}p_{qq} + B_{qg,i}p_{qg} + B_{gg,i}p_{gg}  }}}.
-\end{equation}
-
-No obvious benefit is observed after applied a quark selection with selection efficiencies from 30 to 100\%. A small but significant improvement is obtained in significance by applying a gluon selection to one of the two leading jets.
-The resulting significances are  in Fig.~\ref{fig:QuarkGluonSignalSignificance} where an increase of 25\% in significance at masses above 5 TeV is obtained, with the largest increases happening over 70\% gluon efficiency.
-
-\begin{figure}[htb]
- \centering
-\includegraphics[width=0.75\textwidth]{fig/tagging/QuarkGluonSignalSignificance3.png}
-\caption{ The significance for observing a \qstar\ with masses from 2000 to 7000 GeV 
-for $\epsilon_{gG}$ ranging from 30 to 90\% compared to the significance calculated with no gluon selection applied. The key gives pairs of efficiencies ($\epsilon_{gG}$, $\epsilon_{qG}$).
-  \label{fig:QuarkGluonSignalSignificance}}
-\end{figure}
-
-\FloatBarrier
+%
+%\subsubsection{Expected Signal Significance}
+%%\label{sec:ExpectedSig}
+%
+%The shape of \mjj from QCD is complex and rapidly changing according to the fractions of events that originate from quark-quark, quark-gluon and gluon-gluon scattering. The QCD background is presented in Section~\ref{qcdsamps}. The MC simulated signals and background is thus used for estimating the expected signal significance.
+%
+%
+%\paragraph{Resonances that decay to quark-quark}\mbox{}\par
+%
+%The statistical significance associated with signals decaying into quark-antiquark pairs is assessed using \Zprime\ models using 
+%\begin{equation}
+%	S = N_S \sum_i{ \dfrac{ f_{qq,i}\epsilon_{qQ}^2 + f_{qg,i}\epsilon_{qQ}\epsilon_{gQ} + f_{gg.i}\epsilon_{gQ}^2  } {\sqrt{ B_{qq,i}\epsilon_{qQ}^2 + B_{qg,i}\epsilon_{qQ}\epsilon_{gQ} + B_{gg,i}\epsilon_{gQ}^2  }}}
+%\end{equation}
+%where $N_S$ is the number of signal events, $f_{qq,i}$ is fraction of signal events that result in the two 
+%highest \pT\ jets that where initiated by quarks in bin $i$ ( $f_{qg,i}$ are quark-gluon jets, and $f_{gg,i}$ is two gluon jets), 
+%$\epsilon_{qQ}$ is the efficiency of a quark initiated jet passing the quark selection criteria, 
+%$\epsilon_{gQ}$ is the efficiency of a gluon initiated jet passing the quark selection criteria, 
+%and $B_{xx,i}$ is the expected number of background events with quark-quark, quark-gluon or gluon-gluon initiated jets. 
+%
+%
+%The statistical significance is computed for \Zprime\ particles mass values within the range of 1500 to 4000 GeV, and for quark-jet selection efficiencies ranging from 30\% to 90\%. The obtained significance values are presented in Figure~\ref{fig:QuarkSignalSignificance}. The depicted results illustrate a trend of diminishing significance when any quark-selection criteria is imposed on the data. This decline in significance can be attributed to the dominant presence of quark-quark events within the data, where the selection process concurrently diminishes both background and signal contributions to a comparable extent.
+%
+%\begin{figure}[htb]
+%	\centering
+%	\includegraphics[width=0.75\textwidth]{fig/tagging/QuarkSignalSignificance.png}
+%	\caption{ The significance for observing a \Zprime\ with masses from 1500 to 4000 GeV
+%		for $\epsilon_{qQ}$ ranging from 90 to 30\% compared to the significance calculated with no quark selection applied. The key gives pairs of efficiencies ($\epsilon_{qQ}$, $\epsilon_{gQ}$).
+%		\label{fig:QuarkSignalSignificance}}
+%\end{figure}
+%
+%
+%\paragraph{Signals that decay to gluon-gluon}\mbox{}\par
+%The significance for signals that decay to a gluon-gluon pair are using \Hprime\ models, estimated by:
+%\begin{equation}
+%S = N_S \sum_i{ \dfrac{ f_{qq,_i}\epsilon_{qG}^2 + f_{qg,i}\epsilon_{qG}\epsilon_{gG} + f_{gg,i}\epsilon_{gG}^2  } {\sqrt{ B_{qq,i}\epsilon_{qG}^2 + B_{qg,i}\epsilon_{qG}\epsilon_{gG} + B_{gg,i}\epsilon_{gG}^2  }}}
+%\end{equation}
+%where  
+%$\epsilon_{qG}$ is the efficiency of a quark initiated jet passing the gluon selection criteria, 
+%$\epsilon_{gG}$ is the efficiency of a gluon initiated jet passing the gluon selection criteria. 
+%
+%The computation of significance involves the utilization of simulated \Hprime signals, with masses ranging from 2000 to 7000 GeV. The efficiencies of gluon tagged are varied across from 60\% to 90\%. The resulting significances, depicted as functions of \Hprime masses, are presented in Figure~\ref{fig:GluonSignalSignificance}. The observed trend reveals a gradual increase in significance, with values ascending from approximately 1.2 at 2 TeV to around 1.6 at 7 TeV. Notably, the most substantial enhancements occur at a gluon efficiency of 75\%.
+%
+%
+%\begin{figure}[htb]
+% \centering
+%\includegraphics[width=0.75\textwidth]{fig/tagging/GluonSignalSignificance.png}
+%\caption{ The significance for observing a \Hprime\ with masses from 2000 to 7000 GeV
+%for $\epsilon_{gG}$ ranging from 90 to 60\% compared to the significance calculated with no gluon selection applied. The key gives pairs of efficiencies ($\epsilon_{gG}$, $\epsilon_{qG}$).
+%  \label{fig:GluonSignalSignificance}}
+%\end{figure}
+%
+%
+%\paragraph{Signals that decay to quark-gluon}\mbox{}\par
+%
+%Calculating the significance for signals involving quark-gluon decays, such as string decays, poses increased complexity due to the potential overlap in the selection criteria between decaying jets that satisfy both quark and gluon criteria. In this context, it becomes imperative to establish distinct efficiencies exclusively tailored for quark- and gluon-jets. Thus the efficiencies are needed to be defined exclusively for quark- and gluon-jets.
+%
+%The efficiencies for quark-jets are defined as:
+%
+%\begin{itemize}
+%\item $\epsilon_{qQ}$ The efficiency that a quark-jet is identified only as a quark-jet. 
+%\item $\epsilon_{qQG}$ The efficiency that a quark-jet is identified as a quark- and a gluon-jet.
+%\item $\epsilon_{qG}$ The efficiency that a quark-jet is identified only as a gluon-jet.  
+%\end{itemize}
+%where $\epsilon_{qQ} + \epsilon_{qQG} + \epsilon_{qG} = 1$. 
+%
+%Another set of efficiencies that is measured for gluon-jets are:
+%\begin{itemize}
+%\item $\epsilon_{gQ}$ The efficiency that a gluon-jet is identified only as a quark-jet. 
+%\item $\epsilon_{gQG}$ The efficiency that a gluon-jet is identified  as a quark- and a gluon-jet.
+%\item $\epsilon_{gG}$ The efficiency that a gluon-jet is identified only as a gluon-jet.  
+%\end{itemize}
+%
+%The probability of truth pairs of quark-quark ($p_{qq}$), quark-gluon ($p_{qg}$) and gluon-gluon ($p_{gg}$) events that passing the quark-gluon tagging selection criteria are given by:
+%\begin{align}
+%p_{qq} & = 2  \epsilon_{qQ}\epsilon_{qG} + \epsilon_{qQG}\left( \epsilon_{qQ} + \epsilon_{qG} \right)  + \epsilon_{qQG}\epsilon_{qQG} \\
+%p_{gg} & = 2  \epsilon_{gQ}\epsilon_{gG} + \epsilon_{gQG}\left( \epsilon_{gQ} + \epsilon_{gG} \right)  + \epsilon_{gQG}\epsilon_{gQG} \\
+%p_{qg} & = \epsilon_{qQ}\epsilon_{gG} + \epsilon_{gQ}\epsilon_{qG} + \epsilon_{qQG}\left( \epsilon_{gQ} + \epsilon_{gG} \right) 
+%+ \epsilon_{gQG}\left( \epsilon_{qQ} + \epsilon_{qG} \right) 
+%+ \epsilon_{gQG}\epsilon_{gQG}
+%\end{align}
+%the related significance is then defined as:
+%\begin{equation}
+%S = N_S \sum_i{ \dfrac{ f_{qq,i} p_{qq} + f_{qg,i}p_{qg} + f_{gg,i}p_{gg}  } {\sqrt{ B_{qq,i}p_{qq} + B_{qg,i}p_{qg} + B_{gg,i}p_{gg}  }}}.
+%\end{equation}
+%
+%No obvious benefit is observed after applied a quark selection with selection efficiencies from 30 to 100\%. A small but significant improvement is obtained in significance by applying a gluon selection to one of the two leading jets.
+%The resulting significances are  in Fig.~\ref{fig:QuarkGluonSignalSignificance} where an increase of 25\% in significance at masses above 5 TeV is obtained, with the largest increases happening over 70\% gluon efficiency.
+%
+%\begin{figure}[htb]
+% \centering
+%\includegraphics[width=0.75\textwidth]{fig/tagging/QuarkGluonSignalSignificance3.png}
+%\caption{ The significance for observing a \qstar\ with masses from 2000 to 7000 GeV 
+%for $\epsilon_{gG}$ ranging from 30 to 90\% compared to the significance calculated with no gluon selection applied. The key gives pairs of efficiencies ($\epsilon_{gG}$, $\epsilon_{qG}$).
+%  \label{fig:QuarkGluonSignalSignificance}}
+%\end{figure}
+%
+%\FloatBarrier
 
 \subsubsection{Selection Criteria}
 
@@ -242,9 +242,9 @@ Tables~\ref{table:truthQuarkSelectionEfficiencies_app} and \ref{table:truthGluon
 
 \begin{figure}[p]
 	\centering
-	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/tagging_variation/quark_frac_selection_errors_6}}
-	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/tagging_variation/quark_frac_selection_errors_5}}\\
-	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/tagging_variation/quark_frac_selection_errors_4}}
+	\subfloat[] {\includegraphics[width=0.5\textwidth]{fig/tagging_variation/quark_frac_selection_errors_6}}
+	\subfloat[] {\includegraphics[width=0.5\textwidth]{fig/tagging_variation/quark_frac_selection_errors_5}}\\
+	\subfloat[] {\includegraphics[width=0.5\textwidth]{fig/tagging_variation/quark_frac_selection_errors_4}}
 	
 	\caption{ The values of \ntrk\ for (a) 70\%,  (b) 75\%  and (c) 80\% quark (blue) and gluon (red) 
 		selection efficiencies in each \pt\ bin along with the best fit to Equation~\ref{eq:nqg2}.
@@ -253,9 +253,9 @@ Tables~\ref{table:truthQuarkSelectionEfficiencies_app} and \ref{table:truthGluon
 
 \begin{figure}[p]
 	\centering
-	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/tagging_variation/quark_frac_newFit_selection_errors_6}}
-	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/tagging_variation/quark_frac_newFit_selection_errors_5}}\\
-	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/tagging_variation/quark_frac_newFit_selection_errors_4}}
+	\subfloat[] {\includegraphics[width=0.5\textwidth]{fig/tagging_variation/quark_frac_newFit_selection_errors_6}}
+	\subfloat[] {\includegraphics[width=0.5\textwidth]{fig/tagging_variation/quark_frac_newFit_selection_errors_5}}\\
+	\subfloat[] {\includegraphics[width=0.5\textwidth]{fig/tagging_variation/quark_frac_newFit_selection_errors_4}}
 	
 	\caption{ The values of \ntrk\ for (a) 70\%,  (b) 75\%  and (c) 80\% quark (blue) and gluon (red) 
 		selection efficiencies in each \pt~bin along with the best fit to Equation~\ref{eq:nqg3}.
@@ -285,53 +285,53 @@ Tables~\ref{table:truthQuarkSelectionEfficiencies_app} and \ref{table:truthGluon
 
 \FloatBarrier
 
-
-\paragraph{Signal Selection Efficiencies}\mbox{}\par
-
-The \Hprime\ signal described in section~\ref{sec:hprime} is required to pass the selection criteria for a single jet gluon selection efficiency of 75\% given in Table~\ref{table:HprimeselctionEfficiency_app}. The selection efficiency for the \Hprime\ sample is expected to be 56.3\% ($0.75^2$ as both jets are required to be 75\%). In actual process, the ratio of \Hprime\ events that decay to two gluons ranges from 51.9\% for a 2 TeV signal to 57.4\% for a 7 TeV signal.
-
-The effective fraction of \Hprime\ events decaying into two gluons is slightly below 100\%, due to factors like gluon splitting and other showering effects. This fraction varies from 91.3\% to 95.4\%. The discrepancy between the actual efficiency and the expected efficiency (56.3\% of the truth efficiency) is depicted in Figure~\ref{fig:HPrime_efficiency_difference}. The average difference across selection criteria is approximately 3.3\%.
-
-Since there is minimal distinction between the two selection criteria, the simpler choice outlined in Equation~\ref{eq:nqg2} will be adopted.
-
-\begin{table}[h]
-	\centering 
-	\begin{tabular}{SSSS}
-	\toprule
-\multicolumn{1}{c}{\Hprime\ Mass (GeV)}   & \multicolumn{3}{c}{Selection efficiency(\%)} \\
-\multicolumn{1}{c}{} & \multicolumn{1}{c}{Equation~\ref{eq:nqg2}} & \multicolumn{1}{c}{Equation.~\ref{eq:nqg3} ($\sqrt{}$ term)} 
-& \multicolumn{1}{c}{Truth} \\
-\midrule 
-2000	&	51.9 & 51.8& 91.3 \\
-2500	&	53.2 & 53.0& 91.7 \\
-3000 	&	54.9 & 54.6& 92.3 \\
-3500	&	55.3 & 55.1& 93.4 \\
-4000	&	56.4 & 56.2& 93.4 \\
-4500	&	56.7 & 56.7& 94.1 \\
-5000	&	56.2 & 56.4& 94.3 \\
-5500	&	57.2 & 57.5& 94.9 \\
-6000	&	57.4 & 57.8& 95.1 \\
-6500	&	57.4 & 58.3& 95.5 \\
-7000	&	57.4 & 58.1& 95.4 \\\bottomrule
-\end{tabular}
-	\caption{ The signal selection efficiency for a fully simulated \Hprime\ decaying to two gluons with requiring two jets to 
-	pass the 75\% single jet criteria given in Equation~\ref{eq:nqg2} with constants from 
-	Table~\ref{table:truthGluonSelectionEfficiencies_app} and the criteria given in Equation~\ref{eq:nqg3} with constants from 
-	Table~\ref{table:truthGluonSelectionEfficiencies2}.  
-	The expected double tagged gluon efficiency is 56.3\%. 
-	\label{table:HprimeselctionEfficiency_app}
-}
-\end{table}
-
-
-\begin{figure}[p]
- \centering
- \includegraphics[width=0.60\textwidth]{fig/tagging_variation/HPrime_Efficiency_Difference}
-\caption{ The difference between the expected signal selection efficiency of 56.3\%
-for a single jet selection efficiency of 75\% for \Hprime\ using Equation~\ref{eq:nqg2} (Blue) and
-Equation~\ref{eq:nqg3} (Green)}
- \label{fig:HPrime_efficiency_difference}}
-\end{figure}
+%
+%\paragraph{Signal Selection Efficiencies}\mbox{}\par
+%
+%The \Hprime\ signal described in section~\ref{sec:hprime} is required to pass the selection criteria for a single jet gluon selection efficiency of 75\% given in Table~\ref{table:HprimeselctionEfficiency_app}. The selection efficiency for the \Hprime\ sample is expected to be 56.3\% ($0.75^2$ as both jets are required to be 75\%). In actual process, the ratio of \Hprime\ events that decay to two gluons ranges from 51.9\% for a 2 TeV signal to 57.4\% for a 7 TeV signal.
+%
+%The effective fraction of \Hprime\ events decaying into two gluons is slightly below 100\%, due to factors like gluon splitting and other showering effects. This fraction varies from 91.3\% to 95.4\%. The discrepancy between the actual efficiency and the expected efficiency (56.3\% of the truth efficiency) is depicted in Figure~\ref{fig:HPrime_efficiency_difference}. The average difference across selection criteria is approximately 3.3\%.
+%
+%Since there is minimal distinction between the two selection criteria, the simpler choice outlined in Equation~\ref{eq:nqg2} will be adopted.
+%
+%\begin{table}[h]
+%	\centering 
+%	\begin{tabular}{SSSS}
+%	\toprule
+%\multicolumn{1}{c}{\Hprime\ Mass (GeV)}   & \multicolumn{3}{c}{Selection efficiency(\%)} \\
+%\multicolumn{1}{c}{} & \multicolumn{1}{c}{Equation~\ref{eq:nqg2}} & \multicolumn{1}{c}{Equation.~\ref{eq:nqg3} ($\sqrt{}$ term)} 
+%& \multicolumn{1}{c}{Truth} \\
+%\midrule 
+%2000	&	51.9 & 51.8& 91.3 \\
+%2500	&	53.2 & 53.0& 91.7 \\
+%3000 	&	54.9 & 54.6& 92.3 \\
+%3500	&	55.3 & 55.1& 93.4 \\
+%4000	&	56.4 & 56.2& 93.4 \\
+%4500	&	56.7 & 56.7& 94.1 \\
+%5000	&	56.2 & 56.4& 94.3 \\
+%5500	&	57.2 & 57.5& 94.9 \\
+%6000	&	57.4 & 57.8& 95.1 \\
+%6500	&	57.4 & 58.3& 95.5 \\
+%7000	&	57.4 & 58.1& 95.4 \\\bottomrule
+%\end{tabular}
+%	\caption{ The signal selection efficiency for a fully simulated \Hprime\ decaying to two gluons with requiring two jets to 
+%	pass the 75\% single jet criteria given in Equation~\ref{eq:nqg2} with constants from 
+%	Table~\ref{table:truthGluonSelectionEfficiencies_app} and the criteria given in Equation~\ref{eq:nqg3} with constants from 
+%	Table~\ref{table:truthGluonSelectionEfficiencies2}.  
+%	The expected double tagged gluon efficiency is 56.3\%. 
+%	\label{table:HprimeselctionEfficiency_app}
+%}
+%\end{table}
+%
+%
+%\begin{figure}[p]
+% \centering
+% \includegraphics[width=0.60\textwidth]{fig/tagging_variation/HPrime_Efficiency_Difference}
+%\caption{ The difference between the expected signal selection efficiency of 56.3\%
+%for a single jet selection efficiency of 75\% for \Hprime\ using Equation~\ref{eq:nqg2} (Blue) and
+%Equation~\ref{eq:nqg3} (Green)}
+% \label{fig:HPrime_efficiency_difference}}
+%\end{figure}
 
 
 

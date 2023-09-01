@@ -1,7 +1,6 @@
 This section outlines benchmark models for both background from the QCD and for new
-physics signals that encapsulated in the models chosen:
-\Hprime\ , Strings, and QBH.
-Full Run 2 data are used to produce EXOT2 skimmed samples used in this analysis~\cite{ATLAS:Exot2Derivation},.
+physics signals that encapsulated in the models chosen: Strings, graviton and QBH.
+Full Run 2 data are used to produce EXOT2 skimmed samples used in this analysis~\cite{ATLAS:Exot2Derivation}.
 
 \subsubsection{QCD background}
 \label{qcdsamps}
@@ -11,31 +10,34 @@ QCD processes from the MC are simulated at LO and NLO in SM perturbative theory.
 % reweighting the underlying spectrum is described in Ref.~\cite{Marshall:2016630}.  
 
 
-\subsubsection{\Hprime}
-\label{sec:hprime}
+%\subsubsection{\Hprime}
+%\label{sec:hprime}
+%
+%This analysis performs a model-independent search for two-gluon resonances at high \mjj spectrum, as the CCD background is dominated by valence quark scattering, gluon tagging in this case could be effective. 
+%
+%The simulated SU(3) singlet scalar that decay via \pythia8 with the A14 set of tuned 
+%parameters is used in this analysis\footnote{See \url{https://its.cern.ch/jira/browse/ATLMCPROD-6155}.}. The HiggsBSM:gg2H2, where set the singlet scalar as H2 particle and has Particle Data Group ID 35. Such H2 particle is set to decay to gluons and has a narrow resonances width of 0.1 GeV as the physical width is 
+%model-dependent but constrained by the detector resolution.
+%
+%The benchmark signals used vary in their underlying physics motivation, but also in the resulting shape of the signal \mjj distribution. The peaks of signal shape are set for various mass points as shown in Figure~\ref{fig:shape_Hprime}, the distributions are normalized to unity and thus the differences in peak amplitudes are not the changes in cross section.
+%
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[width=0.65\textwidth]{fig/benchmark_signals/SignalShape-Hprime.pdf}
+%\caption{Signal shapes for the \Hprime~signal at different mass points.}
+%\label{fig:shape_Hprime}
+%\end{figure}
+%\FloatBarrier
 
-This analysis performs a model-independent search for two-gluon resonances at high \mjj spectrum, as the CCD background is dominated by valence quark scattering, gluon tagging in this case could be effective. 
-
-The simulated SU(3) singlet scalar that decay via \pythia8 with the A14 set of tuned 
-parameters is used in this analysis\footnote{See \url{https://its.cern.ch/jira/browse/ATLMCPROD-6155}.}. The HiggsBSM:gg2H2, where set the singlet scalar as H2 particle and has Particle Data Group ID 35. Such H2 particle is set to decay to gluons and has a narrow resonances width of 0.1 GeV as the physical width is 
-model-dependent but constrained by the detector resolution.
-
-The benchmark signals used vary in their underlying physics motivation, but also in the resulting shape of the signal \mjj distribution. The peaks of signal shape are set for various mass points as shown in Figure~\ref{fig:shape_Hprime}, the distributions are normalized to unity and thus the differences in peak amplitudes are not the changes in cross section.
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.65\textwidth]{fig/benchmark_signals/SignalShape-Hprime.pdf}
-\caption{Signal shapes for the \Hprime~signal at different mass points.}
-\label{fig:shape_Hprime}
-\end{figure}
-\FloatBarrier
-
-\subsubsection{Strings}
+\subsubsection{String}
 \label{sec:string} % uncomment if label used. 
 As the SM has lots of well known problems such as the quadratically divergent corrections to the Higgs self-energy, supersymmetry theory offers a solution to it by fine-tuning the
-cancellation. The superstring theory, additioal to the supersymmetry, can perform as a framework that unify theories from SM at TeV-scale to quantum gravity at Planck-scale . 
+cancellation. The superstring theory, additional to the supersymmetry, can perform as a framework that unify theories from SM at TeV-scale to quantum gravity at Planck-scale. 
 
-The fundamental string scale is chosen to be within TeV scale, dontes as string mass-scale \Ms~. The string resonances could happen at masses $m_n = \sqrt{n} \Ms$, for $n = 1, 2, 3, \ldots$, where the resonance consist of the Regge excitations of quark, gluon, as well as the colour singlet that lives on the QCD stack of branes. In total, five string scales \Ms range from 7.0~TeV to 9.0~TeV, in steps of 0.5~TeV are generated for string-resonance samples~\cite{Anchordoqui:2008hi}. The lower limits of mass $M_\mathrm{min}$ provided in the generator are shown in Table~\ref{tab1}, together with the resulting cross section of the string samples.
+The fundamental string scale is chosen to be within TeV scale, denotes as string mass-scale \Ms~. The string resonances could happen at masses $m_n = \sqrt{n} \Ms$, for $n = 1, 2, 3, \ldots$, where the resonance consist of the Regge excitations of quark, gluon, as well as the colour singlet that lives on the QCD stack of branes. In total, five string scales \Ms range from 7.0~TeV to 9.0~TeV, in steps of 0.5~TeV are generated for string-resonance samples~\cite{Anchordoqui:2008hi}. The lower limits of mass $M_\mathrm{min}$ provided in the generator are shown in Table~\ref{tab1}, together with the resulting cross section of the string samples.
+
+Searches for string resonances have been done in previous dijet mass spectra~\cite{ATLAS:2012pu,Chatrchyan:2011ns,CMS:2012yf,Khachatryan:2015sja,Khachatryan:2015dcf,Sirunyan:2018xlo}. It is worth noting that the string resonance searches mentioned in these references have limitations in terms of model constraints and the clarity of the methodologies used. 
+
 
 %The string-resonance widths have been calculated in Ref~\cite{Anchordoqui:2008hi}. 
 
@@ -60,7 +62,7 @@ minimum mass $M_\mathrm{min}$, and cross section.}
 \label{tab1}
 \end{table}
 
-As the string resonances have long Breit-Wigner tails, the PDFs at low-$x$ (low mass) can significantly enhance the tail. In this study, the low-mass tail is truncated since only narrow-resonance structure in \mjj spectrum is interesting to this analysis. In the range $7.0 \leq \Ms \leq 8.0$~TeV, the truncation is done at the minimum value in the differential cross section on the lower-mass side of the \Ms peak, results in around 95\% of the area under the Breit-Wigner curve. In the range $7.0 \leq \Ms \leq 8.0$~TeV, the truncation is done at at a lower-mass point that covers 95\% of the area under the Breit-Wigner curve.
+The first $(n=1)$ resonant pole is considered in this study. The widths of string-resonances have been calculated in this Ref~\cite{Anchordoqui:2008hi}. As the string resonances have long Breit-Wigner tails, the PDFs at low-$x$ (low mass) can significantly enhance the tail. In this study, the low-mass tail is truncated since only narrow-resonance structure in \mjj spectrum is interesting to this analysis. In the range $7.0 \leq \Ms \leq 8.0$~TeV, the truncation is done at the minimum value in the differential cross section on the lower-mass side of the \Ms peak, results in around 95\% of the area under the Breit-Wigner curve. In the range $7.0 \leq \Ms \leq 8.0$~TeV, the truncation is done at at a lower-mass point that covers 95\% of the area under the Breit-Wigner curve.
 
 The distribution of signal peak at different mass points is shown in Figure~\ref{fig:shape_strings}, the distributions are normalized to unity and thus the differences in peak amplitudes are not the changes in cross section.
 
@@ -109,6 +111,23 @@ events generated with \pythia8.186 with a PDF set of NNPDF2.3 at LO and the A3~\
 
 \FloatBarrier
 
+\subsubsection{Kaluza-Klein Graviton}
+\label{sec:kkgraviton}
+
+For the RS KK graviton samples considered in this study, we focus on $k/\overline{M}_{PI} = 0.2$. These samples encompass both gluon-gluon and quark-quark initial states, with decays exclusively to gluons or bottom quarks.
+
+The signal templates for the KK gravitons are generated with different mass values using the \pythia8 event generator. These simulations utilize the A14 tune and NNPDF2.3 PDF set.
+
+Figure~\ref{fig:Ggg} shows the Graviton to gg invariant mass distribution for the considered mass points.
+
+\begin{figure}[!h]
+	\centering
+\includegraphics[width=0.65\textwidth]{fig/benchmark_signals/Ggg_mjj.pdf}
+	\caption{(a) Invariant mass distribution for the Graviton to gg samples
+		\label{fig:Ggg}
+	}
+\end{figure}
+
 \begin{comment}
 
 
@@ -153,15 +172,26 @@ interpolation is not used but drawn to help guide the eye.
 
 \FloatBarrier
 \end{comment}
-\subsubsection{Quantum Black Holes}
+\subsubsection{Quantum Black Hole}
 %\label{sec:QBH} % uncomment if label used. 
 %\todo{Do QBH decay to quarks or gluons, is there increased sensitivity or not} 
-In our study, we employ the QBH model for the purpose of comparing limits with the previous iteration of the analysis. The feasibility of producing QBHs at the LHC is contingent upon the presence of sufficiently large extra dimensions within the universe. This model posits that the energy scale of quantum gravity $M_{D}$, at which QBHs are generated, diminishes as the number of these large extra dimensions, denoted as $n$, increases. Consequently, a larger $n$ permits lower mass scales at which QBHs can be formed.
+In our study, we employ the QBH model for the purpose of comparing limits with the previous iteration of the analysis. The feasibility of producing QBHs at the LHC is contingent upon the presence of sufficiently large extra dimensions within the universe~\cite{RandallMeade}. This model posits that the energy scale of quantum gravity $M_{D}$, at which QBHs are generated, diminishes as the number of these large extra dimensions, denoted as $n$, increases. Consequently, a larger $n$ permits lower mass scales at which QBHs can be formed.
 
-Two-body isotropic final state is expected by the QBH decay at the LHC, where the $M_D$ energy threshold could be reached. Therefore the quantum gravitational effects can be probed by searches on \mjj spectrum. To simulate events involving quantum black holes with $n=6$, we utilize the \BlackMax~\cite{Dai:2007ki} MC generator. This MC generator facilitates the simulation of QBH events within the $n=6$ framework..
-%~\cite{Dai:2007ki}
+Two-body isotropic final state is expected by the QBH decay at the LHC, where the $M_D$ energy threshold could be reached~\cite{Feng:2004}. Therefore the quantum gravitational effects can be probed by searches on \mjj spectrum. To simulate events involving quantum black holes with $n=6$, we utilize the \BlackMax~\cite{Dai:2007ki} MC generator. This MC generator facilitates the simulation of QBH events within the $n=6$ framework。
 
+\subsubsection{Gaussian resonances}
 
+One way to demonstrate the search in the analysis is to set limits on the cross-section of signal modes. Here a model-independent signal as Gaussian~\cite{lukacs1942characterization} are used to expand the sensitivity of the search to new signals that may be detectable with this analysis but not currently theoretically described. Besides, a model-independent signal could help to evaluate and compare the strength of different analyses without bias, as the case where specific models are applied and leads less sensitive to the search.
+
+Therefore, model-independent limits are produced based on model-independent signal resonances. Because this analysis is sensitive to the shape of resonance, specific models with different shapes would influence the results strongly. In general, a model-independent signal is a good feature of the analysis which verify the ability to distinguish different signal models, although the model-independent limits are still influenced by the shape of the resonance in an implicit way. The motivation to choose a Gaussian resonance as a proxy is the fact that it is similar to the `average' signal with specific width. Besides, the shape of reconstructed jet \pt~of any realistic signal without very specific model is produced approximately as a Gaussian resonance, without applied JER. Hence it it straightforward to use Gaussian resonances to represent any realistic resonance.
+
+The general form of Gaussian distribution is:
+
+\begin{equation}
+	f(x)=\frac{1}{\sigma \sqrt{2 \pi}} e^{-\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^2}
+\end{equation}
+where the parameter $\mu$ is the mean or expectation of the distribution (and also its median and mode), while the parameter 
+$\sigma$ is its standard deviation.
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %

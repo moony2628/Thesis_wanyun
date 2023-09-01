@@ -808,7 +808,9 @@
 
 \hspace{8mm}
 
-The physics analyses presented in this PhD dissertation search for new physics beyond the Standard Model (BSM) in the dijet mass distribution using an integrated luminosity of 140 \ifb of proton-proton collisions with a centre-of-mass energy at 13 TeV recorded by the ATLAS detector. This analysis aims at searching for the evidence of the BSM resonances in three different spectra: the untagged dijet invariant mass, one gluon-tagged and two gluon-tagged channels. In order to increase the sensitivity to observe new resonances that preferentially decaying to one or more gluons, a gluon-tag method based on the number of associated particle tracks is employed. Jets originating from quarks and gluons can be identified using quark/gluon tagger. Two taggers are investigated: one tagger based on the number of charged tracks associated with the jets, while the other employs a boosted decision tree to combine various jet substructure observables. Differences between data and Monte Carlo simulation of tagging efficiency are provided. A matrix method is performed on data to retrieve the quark/gluon fraction from quark/gluon-enriched subsamples, defined by the pseudorapidity of the jet. In the analysis, the quantum chromodynamics (QCD) background is estimated by the statistical framework which parameterised the dijet mass spectrum. Upper limits then are set at the 95\% confidence level on a variety of theories of BSM physics and a model-independent generic Gaussian shape signal.
+The physics analyses presented in this PhD dissertation search for new physics beyond the Standard Model (BSM) in the dijet mass distribution using an integrated luminosity of 140 \ifb of proton-proton collisions with a centre-of-mass energy at 13 TeV recorded by the ATLAS detector. This analysis aims at searching for the evidence of the BSM resonances that decay into two jets.
+%in three different spectra: the untagged dijet invariant mass, one gluon-tagged and two gluon-tagged channels. In order to increase the sensitivity to observe new resonances that preferentially decaying to one or more gluons, a gluon-tag method based on the number of associated particle tracks is employed. 
+Jets originating from quarks and gluons can be identified using quark/gluon tagger. Two taggers are investigated: one tagger based on the number of charged tracks associated with the jets, while the other employs a boosted decision tree to combine various jet substructure observables. Differences between data and Monte Carlo simulation of tagging efficiency are provided. A matrix method is performed on data to retrieve the quark/gluon fraction from quark/gluon-enriched subsamples, defined by the pseudorapidity of the jet. In the analysis, the quantum chromodynamics (QCD) background is estimated by the statistical framework which parameterised the dijet mass spectrum. Upper limits then are set at the 95\% confidence level on a variety of theories of BSM physics and a model-independent generic Gaussian shape signal.
 
 %\vs
 
@@ -887,10 +889,18 @@ This thesis is structured as follows. Chapter \ref{sec:2}. describes the theoret
 \subsection{The Standard Model}
 \label{sec:2.1}
 
-The Standard Model of particle physics, which describes the three fundamental interactions - strong, weak and electromagnetic interactions - and the fundamental particles that make up all matter, is the most successful theory of particle physics known.
-The SM divides particles into two categories, fermions and bosons, based on the values of their spin: fermions are the particles that makeup matter, such as electrons in leptons, quarks and neutrinos, which have half-integer spin; bosons are the particles that transmit forces, such as photons and mesons that transmit electromagnetic forces, gluons that transmit strong nuclear forces, $W$ and $Z$ that transmit weak nuclear forces, have integer spin.  Different properties shown in fermions and bosons are due to the difference in spin. According to the spin-statistics theorem, fermions obey the Pauli exclusion principle, whereas bosons do not, thus bosons do not have a theoretical limit on their spatial density.
+The SM of particle physics, which describes the three fundamental interactions - strong, weak and electromagnetic interactions, alongside the elemental constituents that constitute all forms of matter, stands as the most triumphant theory within the realm of particle physics. 
+The SM divides particles into two categories, fermions and bosons, based on the values of their spin: fermions are the particles that makeup matter, such as electrons in leptons, quarks and neutrinos, which have half-integer spin; bosons are the particles that transmit forces, such as photons and mesons that transmit electromagnetic forces, gluons that transmit strong nuclear forces, $W$ and $Z$ that transmit weak nuclear forces, have integer spin.  Different properties shown in fermions and bosons are due to the difference in spin. According to the spin-statistics theorem, fermions obey the Pauli exclusion principle, whereas bosons do not, thus bosons do not have a theoretical limit on their spatial density. All particles and forces with their masses, charges and spines are summarised in Figure~\ref{fig:SM}.
 
-The SM is a paradigm of a quantum field theory which provides the mathematical framework for it. The Lagrangian controlled the dynamics and kinematics of the system satisfies the $SU(3)$ x $SU(2)$$_L$ x $U(1)$$_Y$ gauge symmetry, in which $U(1)$$_Y$ corresponds to a particle $B$ with weak hypercharge $Y$. $SU(2)$$_L$ corresponds to particles $W$$_\alpha$ ($\alpha$ = 1, 2, 3) with weak isospin $T$ and only left-handed chiral particles. The electroweak force which unifies the electromagnetism and the weak interaction as a Yang-Mills field is represented by the group $SU(2)$$_L$ x $U(1)$$_Y$, mathematically. In SM, the $Z$$^0$ boson and the photon ($\ga$) are given by: 
+
+\begin{figure}[htb] 
+	\centering  
+	\includegraphics[width=14cm]{./fig/SM-p.png}
+	\caption{The Standard Model of particle physics}
+	\label{fig:SM}
+\end{figure}
+
+The SM  serves as an exemplar of a quantum field theory, offering the mathematical underpinning for such a framework. The Lagrangian controlled the dynamics and kinematics of the system satisfies the $SU(3)$ x $SU(2)$$_L$ x $U(1)$$_Y$ gauge symmetry, in which $U(1)$$_Y$ corresponds to a particle $B$ with weak hypercharge $Y$. $SU(2)$$_L$ corresponds to particles $W$$_\alpha$ ($\alpha$ = 1, 2, 3) with weak isospin $T$ and only left-handed chiral particles. The electroweak force which unifies the electromagnetism and the weak interaction as a Yang-Mills field is represented by the group $SU(2)$$_L$ x $U(1)$$_Y$, mathematically. In SM, the $Z$$^0$ boson and the photon ($\ga$) are given by: 
 
 \begin{equation}
 \left(\begin{array}{c}\gamma \\ Z^{0}\end{array}\right)=\left(\begin{array}{cc}\cos \theta_{\mathrm{W}} & \sin \theta_{\mathrm{W}} \\ -\sin \theta_{\mathrm{W}} & \cos \theta_{\mathrm{W}}\end{array}\right)\left(\begin{array}{c}B \\ W_{3}\end{array}\right)
@@ -989,14 +999,14 @@ A set of techniques named renormalization are employed in solving the infinities
 
 \subsection{Physics beyond the Standard Model}
 \label{sec:2.2}
-\subsubsection{$H^\prime$}
+%\subsubsection{$H^\prime$}
 %\label{sec:2.2.2}
 
-Many extensions of the SM predict the existence of new heavy Higgs-boson-like particles. 2HDMs are a wide set of models in which the couplings scale with Yukawa couplings thus leads to a relatively small branching ratio of the scale $H$ or pseudoscalar $A$ to gluons~\cite{Harlander:2013qxa}. New particles that decay into photons are also predicted by BSM and have a branching ratio to gluons.  Besides, some classes of models predicted the new particle decaying into photons with a branching ratio to gluons, where the relative branching ratio of photons to gluons is model-dependent. Models with new heavy fermions through scalar decays to gluons are also exist~\cite{PhysRevLett.116.150001,Agashe:2020wph,Curtin:2013fra}.
-
-The motivation of a model-independent di-gluon resonances is that the \mjj background is dominated by valence quark scattering at high energy, which leads gluon tagging particularly effective. At higher energy, there is higher jet constituent multiplicity that makes gluon tagging becomes more effective, thus the search in this analysis could gain the most from gluon tagging.
-
-For this analysis, a high mass simulated $SU(3)$ singlet scalar $H^\prime$ decaying into a pair of gluons is used. The physical width in practice is set to be narrow to be model-dependent and thus the \mjj width is set by the detector resolution.
+%Many extensions of the SM predict the existence of new heavy Higgs-boson-like particles. 2HDMs are a wide set of models in which the couplings scale with Yukawa couplings thus leads to a relatively small branching ratio of the scale $H$ or pseudoscalar $A$ to gluons~\cite{Harlander:2013qxa}. New particles that decay into photons are also predicted by BSM and have a branching ratio to gluons.  Besides, some classes of models predicted the new particle decaying into photons with a branching ratio to gluons, where the relative branching ratio of photons to gluons is model-dependent. Models with new heavy fermions through scalar decays to gluons are also exist~\cite{PhysRevLett.116.150001,Agashe:2020wph,Curtin:2013fra}.
+%
+%The motivation of a model-independent di-gluon resonances is that the \mjj background is dominated by valence quark scattering at high energy, which leads gluon tagging particularly effective. At higher energy, there is higher jet constituent multiplicity that makes gluon tagging becomes more effective, thus the search in this analysis could gain the most from gluon tagging.
+%
+%For this analysis, a high mass simulated $SU(3)$ singlet scalar $H^\prime$ decaying into a pair of gluons is used. The physical width in practice is set to be narrow to be model-dependent and thus the \mjj width is set by the detector resolution.
 
 \subsubsection{String}
 %\label{sec:2.2.1}
@@ -1009,14 +1019,19 @@ In this analysis, we consider type-II string theory~\cite{StringBook} which incl
 
 By considering the main subprocesses in dijet production that are independent of the details of the compactification. Amplitudes, which include 2$\to$2 scattering processes involving two gluons and two quarks, or four gluons,  are independent of the details of the compactification such as the configuration of branes~\cite{Lust:2008qc}. This model independence makes it possible to compute the string corrections to QCD dijet processes.
 
+\subsubsection{Kaluza-Klein Graviton}
+In particle physics, Kaluza–Klein theory (KK theory)~\cite{Klein:1926tv} is a significant concept in physics. It's a classical unified field theory that attempts to unify gravitation and electromagnetism by introducing the notion of a fifth dimension beyond the four dimensions of space and time that we commonly encounter. This theory is regarded as an important precursor to more modern theories like string theory, which also incorporates the concept of extra dimensions. KK theory's exploration of additional dimensions has played a crucial role in advancing our understanding of fundamental forces and particles in the universe.
 
-\subsubsection{Quantum Black Holes}
+in the context of the KK theory, the Randall-Sundrum (RS)~\cite{Randall:1999ee} model is distinguished by its introduction of an extra dimension, which is constrained within finite bounds by two distinct three-dimensional branes situated at either end. These branes essentially represent the four-dimensional spacetime familiar to us, while the additional spatial dimension is localized and limited within this confined region. This theoretical framework was formulated as a potential solution to the hierarchy problem of the SM, and it offers a unique perspective on the behaviour of gravity and fundamental forces within our universe.  In this model, there exist KK towers of massive spin-2 gravitons that can interact with the SM fields. The graviton sector within the RS1 model is fully determined by two key parameters: $m_{KK}$ and $k/\overline{M}_{PI}$, where $m_{KK}$ is the mass of KK graviton, $k$ is a scale of order the Planck scale, ${M}_{PI}$ is effective four-dimensional (reduced) Planck scale.
+
+
+\subsubsection{Quantum Black Hole}
 \label{sec:2.2.3}
 
-Quantum Black Holes (QBH), also called micro black holes, are regarded as hypothetical mini (less than a solar mass unit) black holes that dominated by quantum mechanical effects. Some hypotheses predict that QBH could be produced at energies as low as the TeV range, which can be generated in particle accelerators such as the LHC and can be observed through the particles that are emitted by the process of Hawking radiation.
+Quantum Black Hole (QBH), also called micro black holes, is regarded as hypothetical mini (less than a solar mass unit) black hole that dominated by quantum mechanical effects~\cite{10.1093/mnras/152.1.75}. Some hypotheses predict that QBH could be produced at energies as low as the TeV range, which can be generated in particle accelerators such as the LHC and can be observed through the particles that are emitted by the process of Hawking radiation. Theoretical calculations indicate that as black holes decrease in size, their rate of evaporation accelerates. This phenomenon leads to an abrupt release of particles, akin to a sudden eruption, when a micro black hole approaches its final stages of evaporation.
 
 
-In the simplest scenario, the decay of QBH via Hawking radiation can be approximately described as isotropic decay to a many-particle final state.  The threshold of quantum-gravity energy scale $M_D$ is set to be well below the 
+In the simplest scenario, the decay of QBH via Hawking radiation~\cite{Hawking:1975vcx} can be approximately described as isotropic decay to a many-particle final state.  The threshold of quantum-gravity energy scale $M_D$ is set to be well below the 
 the actual thermal black hole production threshold for gravitational interactions so that two-body states in final states are the dominant, a resonance-like result is expected in predominantly two-body final states as jets near $M_D$. Such isotropic final states is aimed as probes of quantum gravitational effects in this dijet analysis.
 
 
@@ -1050,7 +1065,7 @@ The LHC is the last section of the CERN accelerator complex where a series of ma
 
  \begin{figure}[htb] 
  	\centering  
- 		\includegraphics[width=14cm]{./fig/2022.png}
+ 		\includegraphics[width=15cm]{./fig/2022.png}
  		\caption{The CERN accelerator complex}
 \end{figure}
  
@@ -1091,7 +1106,7 @@ To record the energy, momentum and trajectory of particles after collisions, the
 
  \begin{figure}[htb] 
 	\centering  
-	\includegraphics[width=14cm]{./fig/atlas.png}
+	\includegraphics[width=16cm]{./fig/atlas.png}
 	\caption{Cut-away view of the ATLAS detector}
 	\label{Fig.atlas}
 \end{figure}
@@ -1261,7 +1276,7 @@ The matrix method is adopted to estimate the distribution shapes of the tagging 
 
 The BDT-tagger demonstrates superior performance over the \ntrk-only tagger in distinguishing quark-jets from gluon-jets within the jet \pt~range of 500 GeV to 1200 GeV. Above this range, the performance of the two taggers becomes comparable. The evaluation of tagger performance differences between data and MC samples is facilitated through the data-to-MC SFs. Four working points of 50\%, 60\%, 70\%, 80\% together with all systematics are provided so that analyses can use it based on their own interest. These factors are measured across varying jet-\pt~intervals, exhibiting a range from 0.92 to 1.02, with a cumulative uncertainty of approximately 20\%. The primary contributor to this uncertainty stems from divergent modelling choices within MC simulations, constituting approximately 18\% for both taggers. To account for variations between different MC generators, MC-to-MC SFs are also presented, ranging from 0.9 to 1.1 for the majority of MC samples.
 
-The $q/g$ taggers developed in this study and the associated measurement of their SFs hold relevance for various analyses. These applications encompass SM measurements that rely on accurate jet origin identification, as well as BSM physics searches that can capitalize on heightened sensitivity to the presence of new particles. This thesis performs the searches on \mjj spectrum. Benchmark models \Hprime, String, and QBH are tested, as well as model-independent Gaussians. Because no significant excess in data are found, a upper limit is set to each model.
+The $q/g$ taggers developed in this study and the associated measurement of their SFs hold relevance for various analyses. These applications encompass SM measurements that rely on accurate jet origin identification, as well as BSM physics searches that can capitalize on heightened sensitivity to the presence of new particles. This thesis performs the searches on \mjj spectrum. Benchmark models String, graviton and QBH are tested, as well as model-independent Gaussians. Because no significant excess in data are found, a upper limit is set to each model.
 
 
 

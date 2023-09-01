@@ -922,176 +922,6 @@
       \verb 1809.01140
       \endverb
     \endentry
-    \entry{Harlander:2013qxa}{article}{}
-      \name{author}{5}{}{%
-        {{hash=782b37cb9ff2bac50c4512f381e48ae1}{%
-           family={Harlander},
-           familyi={H\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=50033f763221c4ef618c036d7d9cbd9a}{%
-           family={Mühlleitner},
-           familyi={M\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=81b7dca9f49660a93ff28894886566f6}{%
-           family={Rathsman},
-           familyi={R\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-        {{hash=4eeff4c1e815eb5a8b8d639315104f4c}{%
-           family={Spira},
-           familyi={S\bibinitperiod},
-           given={M.},
-           giveni={M\bibinitperiod}}}%
-        {{hash=0ee326e373c13f0254aceefd41354498}{%
-           family={Stål},
-           familyi={S\bibinitperiod},
-           given={O.},
-           giveni={O\bibinitperiod}}}%
-      }
-      \strng{namehash}{4fa5f4cb927667e3adefe2fbe20b34e2}
-      \strng{fullhash}{d1abf0a6c6365191f414d01b68ad08b6}
-      \strng{bibnamehash}{4fa5f4cb927667e3adefe2fbe20b34e2}
-      \strng{authorbibnamehash}{4fa5f4cb927667e3adefe2fbe20b34e2}
-      \strng{authornamehash}{4fa5f4cb927667e3adefe2fbe20b34e2}
-      \strng{authorfullhash}{d1abf0a6c6365191f414d01b68ad08b6}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{month}{12}
-      \field{title}{{Interim recommendations for the evaluation of Higgs production cross sections and branching ratios at the LHC in the Two-Higgs-Doublet Model}}
-      \field{year}{2013}
-      \verb{eprint}
-      \verb 1312.5571
-      \endverb
-    \endentry
-    \entry{PhysRevLett.116.150001}{article}{}
-      \name{author}{1}{}{%
-        {{hash=9760821233319b93cc72eb36e93191f1}{%
-           family={Garisto},
-           familyi={G\bibinitperiod},
-           given={Robert},
-           giveni={R\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {American Physical Society}%
-      }
-      \strng{namehash}{9760821233319b93cc72eb36e93191f1}
-      \strng{fullhash}{9760821233319b93cc72eb36e93191f1}
-      \strng{bibnamehash}{9760821233319b93cc72eb36e93191f1}
-      \strng{authorbibnamehash}{9760821233319b93cc72eb36e93191f1}
-      \strng{authornamehash}{9760821233319b93cc72eb36e93191f1}
-      \strng{authorfullhash}{9760821233319b93cc72eb36e93191f1}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issue}{15}
-      \field{journaltitle}{Phys. Rev. Lett.}
-      \field{month}{4}
-      \field{title}{Editorial: Theorists React to the CERN 750 GeV Diphoton Data}
-      \field{volume}{116}
-      \field{year}{2016}
-      \field{pages}{150001}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevLett.116.150001
-      \endverb
-      \verb{urlraw}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.116.150001
-      \endverb
-      \verb{url}
-      \verb https://link.aps.org/doi/10.1103/PhysRevLett.116.150001
-      \endverb
-    \endentry
-    \entry{Agashe:2020wph}{article}{}
-      \name{author}{4}{}{%
-        {{hash=4a209dcfa502975a07863fd149e99aba}{%
-           family={Agashe},
-           familyi={A\bibinitperiod},
-           given={Kaustubh},
-           giveni={K\bibinitperiod}}}%
-        {{hash=a81b04fe68e6ed95440aff7612d2e96a}{%
-           family={Ekhterachian},
-           familyi={E\bibinitperiod},
-           given={Majid},
-           giveni={M\bibinitperiod}}}%
-        {{hash=3539f69b02b5b2b4fb90e6c06d21f22e}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Doojin},
-           giveni={D\bibinitperiod}}}%
-        {{hash=8c5b7b39c195d4c79b299c48fa648ad4}{%
-           family={Sathyan},
-           familyi={S\bibinitperiod},
-           given={Deepak},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{4a3cb7c170d020fa1c3233336f880c28}
-      \strng{fullhash}{4711593290c93a2993fadfab344b1bb7}
-      \strng{bibnamehash}{4a3cb7c170d020fa1c3233336f880c28}
-      \strng{authorbibnamehash}{4a3cb7c170d020fa1c3233336f880c28}
-      \strng{authornamehash}{4a3cb7c170d020fa1c3233336f880c28}
-      \strng{authorfullhash}{4711593290c93a2993fadfab344b1bb7}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{JHEP}
-      \field{title}{{LHC Signals for KK Graviton from an Extended Warped Extra Dimension}}
-      \field{volume}{11}
-      \field{year}{2020}
-      \field{pages}{109}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1007/JHEP11(2020)109
-      \endverb
-      \verb{eprint}
-      \verb 2008.06480
-      \endverb
-    \endentry
-    \entry{Curtin:2013fra}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=7d7e80f8d368fcbb7705ee2361a96923}{%
-           family={Curtin},
-           familyi={C\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-      }
-      \strng{namehash}{6add43267d64dd9feda203e873b6ad70}
-      \strng{fullhash}{6add43267d64dd9feda203e873b6ad70}
-      \strng{bibnamehash}{6add43267d64dd9feda203e873b6ad70}
-      \strng{authorbibnamehash}{6add43267d64dd9feda203e873b6ad70}
-      \strng{authornamehash}{6add43267d64dd9feda203e873b6ad70}
-      \strng{authorfullhash}{6add43267d64dd9feda203e873b6ad70}
-      \field{sortinit}{8}
-      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{eprintclass}{hep-ph}
-      \field{eprinttype}{arXiv}
-      \field{journaltitle}{Phys. Rev. D}
-      \field{number}{7}
-      \field{title}{{Exotic decays of the 125 GeV Higgs boson}}
-      \field{volume}{90}
-      \field{year}{2014}
-      \field{pages}{075004}
-      \range{pages}{1}
-      \verb{doi}
-      \verb 10.1103/PhysRevD.90.075004
-      \endverb
-      \verb{eprint}
-      \verb 1312.4992
-      \endverb
-    \endentry
     \entry{Antoniadis:2000ena}{article}{}
       \name{author}{3}{}{%
         {{hash=cf9bff78e9897e40ff3a8c74d50a5771}{%
@@ -1116,8 +946,8 @@
       \strng{authorbibnamehash}{23fb9c3101f08b0b89c3204322b116f2}
       \strng{authornamehash}{23fb9c3101f08b0b89c3204322b116f2}
       \strng{authorfullhash}{23fb9c3101f08b0b89c3204322b116f2}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -1158,8 +988,8 @@
       \strng{authorbibnamehash}{30cd4adfaa9aeb7c53fbede18394c4ac}
       \strng{authornamehash}{30cd4adfaa9aeb7c53fbede18394c4ac}
       \strng{authorfullhash}{30cd4adfaa9aeb7c53fbede18394c4ac}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{10th International Conference on Supersymmetry and Unification of Fundamental Interactions (SUSY02)}}
@@ -1200,8 +1030,8 @@
       \strng{authorbibnamehash}{9eb5d756c2b4e33d71e3c1306d31a7ba}
       \strng{authornamehash}{9eb5d756c2b4e33d71e3c1306d31a7ba}
       \strng{authorfullhash}{aea592cd9fa7ad668030edaf88c0213c}
-      \field{sortinit}{9}
-      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -1233,8 +1063,8 @@
       \strng{authorbibnamehash}{efdb17824e0b95a422c0b800903c631f}
       \strng{authornamehash}{efdb17824e0b95a422c0b800903c631f}
       \strng{authorfullhash}{efdb17824e0b95a422c0b800903c631f}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{Superstring theory}}
@@ -1264,8 +1094,8 @@
       \strng{authorbibnamehash}{f7f6a9d7d51cfa3e05712738c5c725f0}
       \strng{authornamehash}{f7f6a9d7d51cfa3e05712738c5c725f0}
       \strng{authorfullhash}{f7f6a9d7d51cfa3e05712738c5c725f0}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -1323,6 +1153,156 @@
       \endverb
       \verb{eprint}
       \verb 0807.3333
+      \endverb
+    \endentry
+    \entry{Klein:1926tv}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5bedc08c7b152ce15136c0d9e1941e0b}{%
+           family={Klein},
+           familyi={K\bibinitperiod},
+           given={Oskar},
+           giveni={O\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=630b0280008fd36896a000baa05c7579}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi C.},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{5bedc08c7b152ce15136c0d9e1941e0b}
+      \strng{fullhash}{5bedc08c7b152ce15136c0d9e1941e0b}
+      \strng{bibnamehash}{5bedc08c7b152ce15136c0d9e1941e0b}
+      \strng{authorbibnamehash}{5bedc08c7b152ce15136c0d9e1941e0b}
+      \strng{authornamehash}{5bedc08c7b152ce15136c0d9e1941e0b}
+      \strng{authorfullhash}{5bedc08c7b152ce15136c0d9e1941e0b}
+      \strng{editorbibnamehash}{630b0280008fd36896a000baa05c7579}
+      \strng{editornamehash}{630b0280008fd36896a000baa05c7579}
+      \strng{editorfullhash}{630b0280008fd36896a000baa05c7579}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Z. Phys.}
+      \field{title}{{Quantum Theory and Five-Dimensional Theory of Relativity. (In German and English)}}
+      \field{volume}{37}
+      \field{year}{1926}
+      \field{pages}{895\bibrangedash 906}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1007/BF01397481
+      \endverb
+    \endentry
+    \entry{Randall:1999ee}{article}{}
+      \name{author}{2}{}{%
+        {{hash=306744ba9bf7ec9ebc2ac994bc27be43}{%
+           family={Randall},
+           familyi={R\bibinitperiod},
+           given={Lisa},
+           giveni={L\bibinitperiod}}}%
+        {{hash=54d28ac7c9d805cec1fcc61b8271536b}{%
+           family={Sundrum},
+           familyi={S\bibinitperiod},
+           given={Raman},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{211e6b93246ef64548e8f3a86f498032}
+      \strng{fullhash}{211e6b93246ef64548e8f3a86f498032}
+      \strng{bibnamehash}{211e6b93246ef64548e8f3a86f498032}
+      \strng{authorbibnamehash}{211e6b93246ef64548e8f3a86f498032}
+      \strng{authornamehash}{211e6b93246ef64548e8f3a86f498032}
+      \strng{authorfullhash}{211e6b93246ef64548e8f3a86f498032}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{title}{{A Large mass hierarchy from a small extra dimension}}
+      \field{volume}{83}
+      \field{year}{1999}
+      \field{pages}{3370\bibrangedash 3373}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.83.3370
+      \endverb
+      \verb{eprint}
+      \verb hep-ph/9905221
+      \endverb
+    \endentry
+    \entry{10.1093/mnras/152.1.75}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d6208a0d89bbe93d54449bb980342d85}{%
+           family={Hawking},
+           familyi={H\bibinitperiod},
+           given={Stephen},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{d6208a0d89bbe93d54449bb980342d85}
+      \strng{fullhash}{d6208a0d89bbe93d54449bb980342d85}
+      \strng{bibnamehash}{d6208a0d89bbe93d54449bb980342d85}
+      \strng{authorbibnamehash}{d6208a0d89bbe93d54449bb980342d85}
+      \strng{authornamehash}{d6208a0d89bbe93d54449bb980342d85}
+      \strng{authorfullhash}{d6208a0d89bbe93d54449bb980342d85}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Monthly Notices of the Royal Astronomical Society}
+      \field{month}{04}
+      \field{number}{1}
+      \field{title}{{Gravitationally Collapsed Objects of Very Low Mass}}
+      \field{volume}{152}
+      \field{year}{1971}
+      \field{pages}{75\bibrangedash 78}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1093/mnras/152.1.75
+      \endverb
+    \endentry
+    \entry{Hawking:1975vcx}{article}{}
+      \name{author}{1}{}{%
+        {{hash=2be8e4f9a1eec9e94013d9d674ce8962}{%
+           family={Hawking},
+           familyi={H\bibinitperiod},
+           given={S.\bibnamedelimi W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=f124a6c6353beba14ca70eeea60274d8}{%
+           family={Gibbons},
+           familyi={G\bibinitperiod},
+           given={G.\bibnamedelimi W.},
+           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=2be8e4f9a1eec9e94013d9d674ce8962}{%
+           family={Hawking},
+           familyi={H\bibinitperiod},
+           given={S.\bibnamedelimi W.},
+           giveni={S\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{2be8e4f9a1eec9e94013d9d674ce8962}
+      \strng{fullhash}{2be8e4f9a1eec9e94013d9d674ce8962}
+      \strng{bibnamehash}{2be8e4f9a1eec9e94013d9d674ce8962}
+      \strng{authorbibnamehash}{2be8e4f9a1eec9e94013d9d674ce8962}
+      \strng{authornamehash}{2be8e4f9a1eec9e94013d9d674ce8962}
+      \strng{authorfullhash}{2be8e4f9a1eec9e94013d9d674ce8962}
+      \strng{editorbibnamehash}{7cba4875c23870b072dc91ad1eeb3c2c}
+      \strng{editornamehash}{7cba4875c23870b072dc91ad1eeb3c2c}
+      \strng{editorfullhash}{7cba4875c23870b072dc91ad1eeb3c2c}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Commun. Math. Phys.}
+      \field{title}{{Particle Creation by Black Holes}}
+      \field{volume}{43}
+      \field{year}{1975}
+      \field{pages}{199\bibrangedash 220}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1007/BF02345020
       \endverb
     \endentry
     \entry{PERF-2007-01}{article}{}
@@ -1504,8 +1484,8 @@
       \strng{authornamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \strng{authorfullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \field{extraname}{1}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -1536,8 +1516,8 @@
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
       \field{extraname}{8}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -1572,8 +1552,8 @@
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
       \field{extraname}{9}
-      \field{sortinit}{1}
-      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -1948,8 +1928,8 @@
       \strng{authorbibnamehash}{e859ab62f4ec869207a4fbf3d9ba3707}
       \strng{authornamehash}{e859ab62f4ec869207a4fbf3d9ba3707}
       \strng{authorfullhash}{e859ab62f4ec869207a4fbf3d9ba3707}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -1991,8 +1971,8 @@
       \strng{authorbibnamehash}{b5721a5eb6ff3564d9a26b76a4e14572}
       \strng{authornamehash}{b5721a5eb6ff3564d9a26b76a4e14572}
       \strng{authorfullhash}{b5721a5eb6ff3564d9a26b76a4e14572}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -2068,8 +2048,8 @@
       \strng{authorbibnamehash}{505243b18faf96e821365f1e2b15509f}
       \strng{authornamehash}{505243b18faf96e821365f1e2b15509f}
       \strng{authorfullhash}{63f171077e0ec2422ea9cd91df5c0622}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -2461,8 +2441,8 @@
       \strng{authornamehash}{f62ef73f92b872943d4e326678701338}
       \strng{authorfullhash}{f62ef73f92b872943d4e326678701338}
       \field{extraname}{2}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -2493,8 +2473,8 @@
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
       \field{extraname}{16}
-      \field{sortinit}{3}
-      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -2993,6 +2973,222 @@
       \verb 0806.3420
       \endverb
     \endentry
+    \entry{ATLAS:2012pu}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=ec1463e7fbfc553eca7d18cd31454ab6}{%
+           family={Aad},
+           familyi={A\bibinitperiod},
+           given={Georges},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{fullhash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{bibnamehash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{authorbibnamehash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{authornamehash}{f0806a61a21762c45bb17c53a0517ffd}
+      \strng{authorfullhash}{f0806a61a21762c45bb17c53a0517ffd}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{ATLAS search for new phenomena in dijet mass and angular distributions using $pp$ collisions at $\sqrt{s}=7$ TeV}}
+      \field{volume}{01}
+      \field{year}{2013}
+      \field{pages}{029}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP01(2013)029
+      \endverb
+      \verb{eprint}
+      \verb 1210.1718
+      \endverb
+    \endentry
+    \entry{Chatrchyan:2011ns}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=7773e2d631b632e1abd826d029173e41}{%
+           family={Chatrchyan},
+           familyi={C\bibinitperiod},
+           given={Serguei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{fullhash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{bibnamehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{authorbibnamehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{authornamehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{authorfullhash}{1641571a4f1b8e722d84b42b64c15189}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Lett. B}
+      \field{title}{{Search for Resonances in the Dijet Mass Spectrum from 7 TeV pp Collisions at CMS}}
+      \field{volume}{704}
+      \field{year}{2011}
+      \field{pages}{123\bibrangedash 142}
+      \range{pages}{20}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2011.09.015
+      \endverb
+      \verb{eprint}
+      \verb 1107.4771
+      \endverb
+    \endentry
+    \entry{CMS:2012yf}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=7773e2d631b632e1abd826d029173e41}{%
+           family={Chatrchyan},
+           familyi={C\bibinitperiod},
+           given={Serguei},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{fullhash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{bibnamehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{authorbibnamehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{authornamehash}{1641571a4f1b8e722d84b42b64c15189}
+      \strng{authorfullhash}{1641571a4f1b8e722d84b42b64c15189}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Search for Narrow Resonances and Quantum Black Holes in Inclusive and $b$-Tagged Dijet Mass Spectra from $pp$ Collisions at $\sqrt{s}=7$ TeV}}
+      \field{volume}{01}
+      \field{year}{2013}
+      \field{pages}{013}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP01(2013)013
+      \endverb
+      \verb{eprint}
+      \verb 1210.2387
+      \endverb
+    \endentry
+    \entry{Khachatryan:2015sja}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=578ca237a5fdd23189740e45f3cf5212}{%
+           family={Khachatryan},
+           familyi={K\bibinitperiod},
+           given={Vardan},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{fullhash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{bibnamehash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{authorbibnamehash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{authornamehash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{authorfullhash}{e25bf948b4c59a974ca557f738f43e23}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev.}
+      \field{number}{5}
+      \field{title}{{Search for resonances and quantum black holes using dijet mass spectra in proton-proton collisions at $\sqrt{s} = 8$ TeV}}
+      \field{volume}{D91}
+      \field{year}{2015}
+      \field{pages}{052009}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevD.91.052009
+      \endverb
+      \verb{eprint}
+      \verb 1501.04198
+      \endverb
+    \endentry
+    \entry{Khachatryan:2015dcf}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=578ca237a5fdd23189740e45f3cf5212}{%
+           family={Khachatryan},
+           familyi={K\bibinitperiod},
+           given={Vardan},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{fullhash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{bibnamehash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{authorbibnamehash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{authornamehash}{e25bf948b4c59a974ca557f738f43e23}
+      \strng{authorfullhash}{e25bf948b4c59a974ca557f738f43e23}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{number}{7}
+      \field{title}{{Search for narrow resonances decaying to dijets in proton-proton collisions at $\sqrt(s) =$ 13 TeV}}
+      \field{volume}{116}
+      \field{year}{2016}
+      \field{pages}{071801}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.116.071801
+      \endverb
+      \verb{eprint}
+      \verb 1512.01224
+      \endverb
+    \endentry
+    \entry{Sirunyan:2018xlo}{article}{}
+      \true{moreauthor}
+      \true{morelabelname}
+      \name{author}{1}{}{%
+        {{hash=63f3fa4a8c5eb14450790f54e98365f6}{%
+           family={Sirunyan},
+           familyi={S\bibinitperiod},
+           given={Albert\bibnamedelima M},
+           giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{f19eea9dd97acf54ff53ff11228f09d4}
+      \strng{fullhash}{f19eea9dd97acf54ff53ff11228f09d4}
+      \strng{bibnamehash}{f19eea9dd97acf54ff53ff11228f09d4}
+      \strng{authorbibnamehash}{f19eea9dd97acf54ff53ff11228f09d4}
+      \strng{authornamehash}{f19eea9dd97acf54ff53ff11228f09d4}
+      \strng{authorfullhash}{f19eea9dd97acf54ff53ff11228f09d4}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ex}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP}
+      \field{title}{{Search for narrow and broad dijet resonances in proton-proton collisions at $ \sqrt{s}=13 $ TeV and constraints on dark matter mediators and other new particles}}
+      \field{volume}{08}
+      \field{year}{2018}
+      \field{pages}{130}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1007/JHEP08(2018)130
+      \endverb
+      \verb{eprint}
+      \verb 1806.00843
+      \endverb
+    \endentry
     \entry{Vakilipourtakalou:2018pfo}{article}{}
       \name{author}{2}{}{%
         {{hash=f8972732c1d9dc0a0e326902f22eccf4}{%
@@ -3012,8 +3208,8 @@
       \strng{authorbibnamehash}{be96396cfafe6c2dd169d8455a7a0640}
       \strng{authornamehash}{be96396cfafe6c2dd169d8455a7a0640}
       \strng{authorfullhash}{be96396cfafe6c2dd169d8455a7a0640}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -3041,8 +3237,8 @@
       \strng{authorbibnamehash}{5b65c6d657acfda369f554d126fa6784}
       \strng{authornamehash}{5b65c6d657acfda369f554d126fa6784}
       \strng{authorfullhash}{5b65c6d657acfda369f554d126fa6784}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
@@ -3073,8 +3269,8 @@
       \strng{authorbibnamehash}{fb957181e1daa634cc2ba945a3b78ef5}
       \strng{authornamehash}{fb957181e1daa634cc2ba945a3b78ef5}
       \strng{authorfullhash}{fb957181e1daa634cc2ba945a3b78ef5}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{booktitle}{{Proceedings, 7th International Conference on B physics at hadron machines (BEAUTY 2000)}}
@@ -3113,6 +3309,92 @@
       \endverb
       \verb{url}
       \verb https://cds.cern.ch/record/2206965
+      \endverb
+    \endentry
+    \entry{RandallMeade}{article}{}
+      \name{author}{2}{}{%
+        {{hash=47e5170b1f8b63c38afef2092343cd79}{%
+           family={Meade},
+           familyi={M\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=03e4dcac27cbe6c9e2970c551876c829}{%
+           family={Randall},
+           familyi={R\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{52a015cb1cbb097bcaed76ca0c59c4fc}
+      \strng{fullhash}{52a015cb1cbb097bcaed76ca0c59c4fc}
+      \strng{bibnamehash}{52a015cb1cbb097bcaed76ca0c59c4fc}
+      \strng{authorbibnamehash}{52a015cb1cbb097bcaed76ca0c59c4fc}
+      \strng{authornamehash}{52a015cb1cbb097bcaed76ca0c59c4fc}
+      \strng{authorfullhash}{52a015cb1cbb097bcaed76ca0c59c4fc}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{JHEP05}
+      \field{title}{{Black holes and quantum gravity at the LHC}}
+      \field{volume}{2008}
+      \field{year}{2008}
+      \field{pages}{003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1126-6708/2008/05/003
+      \endverb
+      \verb{eprint}
+      \verb 0708.3017
+      \endverb
+    \endentry
+    \entry{Feng:2004}{article}{}
+      \name{author}{4}{}{%
+        {{hash=52bbe8c2738b89b7d3488ecf4ed7aaf2}{%
+           family={Anchordoqui},
+           familyi={A\bibinitperiod},
+           given={Luis\bibnamedelima A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=4594f01215686cdfab36c1e7168a89d5}{%
+           family={Feng},
+           familyi={F\bibinitperiod},
+           given={Jonathan\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=3bf8cb84462bb977fce5a3b00594faa0}{%
+           family={Goldberg},
+           familyi={G\bibinitperiod},
+           given={Haim},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c08db585ea22931c69c9279c7ad19509}{%
+           family={Shapere},
+           familyi={S\bibinitperiod},
+           given={Alfred\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{f6f46688dba315bd2e0f369afe4163b2}
+      \strng{fullhash}{e28def144c11b645fb68844c4a37a9b1}
+      \strng{bibnamehash}{f6f46688dba315bd2e0f369afe4163b2}
+      \strng{authorbibnamehash}{f6f46688dba315bd2e0f369afe4163b2}
+      \strng{authornamehash}{f6f46688dba315bd2e0f369afe4163b2}
+      \strng{authorfullhash}{e28def144c11b645fb68844c4a37a9b1}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{hep-ph}
+      \field{eprinttype}{arXiv}
+      \field{journaltitle}{Phys. Lett.}
+      \field{title}{{Inelastic black hole production and large extra dimensions}}
+      \field{volume}{B594}
+      \field{year}{2004}
+      \field{pages}{363\bibrangedash 367}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1016/j.physletb.2004.05.051
+      \endverb
+      \verb{eprint}
+      \verb hep-ph/0311365
       \endverb
     \endentry
     \entry{Dai:2007ki}{article}{}
@@ -3172,6 +3454,35 @@
       \verb{eprint}
       \verb 0711.3012
       \endverb
+    \endentry
+    \entry{lukacs1942characterization}{article}{}
+      \name{author}{1}{}{%
+        {{hash=5a601b67cf6b1b900ac3da6e7d8f1b1b}{%
+           family={Lukacs},
+           familyi={L\bibinitperiod},
+           given={Eugene},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {JSTOR}%
+      }
+      \strng{namehash}{5a601b67cf6b1b900ac3da6e7d8f1b1b}
+      \strng{fullhash}{5a601b67cf6b1b900ac3da6e7d8f1b1b}
+      \strng{bibnamehash}{5a601b67cf6b1b900ac3da6e7d8f1b1b}
+      \strng{authorbibnamehash}{5a601b67cf6b1b900ac3da6e7d8f1b1b}
+      \strng{authornamehash}{5a601b67cf6b1b900ac3da6e7d8f1b1b}
+      \strng{authorfullhash}{5a601b67cf6b1b900ac3da6e7d8f1b1b}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Annals of Mathematical Statistics}
+      \field{number}{1}
+      \field{title}{A characterization of the normal distribution}
+      \field{volume}{13}
+      \field{year}{1942}
+      \field{pages}{91\bibrangedash 93}
+      \range{pages}{3}
     \endentry
     \entry{Harris:2011bh}{article}{}
       \name{author}{2}{}{%
@@ -3236,8 +3547,8 @@
       \strng{authornamehash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \strng{authorfullhash}{cc4b1f772e2313dc9fc5e11538cab46e}
       \field{extraname}{2}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -3405,8 +3716,8 @@
       \strng{authorbibnamehash}{752b6398e4261cdb66ea244348b55d69}
       \strng{authornamehash}{752b6398e4261cdb66ea244348b55d69}
       \strng{authorfullhash}{1d07bc3c1aad5955502c246636e3dec8}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{month}{11}
@@ -3435,9 +3746,8 @@
       \strng{authorbibnamehash}{c610f96e87cdd79cfbf65c047b53c743}
       \strng{authornamehash}{c610f96e87cdd79cfbf65c047b53c743}
       \strng{authorfullhash}{c610f96e87cdd79cfbf65c047b53c743}
-      \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{XML Analytic Workspace Builder}
@@ -3472,8 +3782,8 @@
       \strng{authorbibnamehash}{c194b91bb888b284b482eeaf6a9f4e79}
       \strng{authornamehash}{c194b91bb888b284b482eeaf6a9f4e79}
       \strng{authorfullhash}{c194b91bb888b284b482eeaf6a9f4e79}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{physics.data-an}
@@ -3484,36 +3794,35 @@
       \verb physics/0306116
       \endverb
     \endentry
-    \entry{quickFit}{online}{}
+    \entry{xRooFit}{online}{}
       \name{author}{1}{}{%
-        {{hash=c610f96e87cdd79cfbf65c047b53c743}{%
-           family={Yang},
-           familyi={Y\bibinitperiod},
-           given={Hongtao},
-           giveni={H\bibinitperiod}}}%
+        {{hash=e60bb1371c12b3cd168b66764cfaaf83}{%
+           family={Buttinger},
+           familyi={B\bibinitperiod},
+           given={Will},
+           giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{c610f96e87cdd79cfbf65c047b53c743}
-      \strng{fullhash}{c610f96e87cdd79cfbf65c047b53c743}
-      \strng{bibnamehash}{c610f96e87cdd79cfbf65c047b53c743}
-      \strng{authorbibnamehash}{c610f96e87cdd79cfbf65c047b53c743}
-      \strng{authornamehash}{c610f96e87cdd79cfbf65c047b53c743}
-      \strng{authorfullhash}{c610f96e87cdd79cfbf65c047b53c743}
-      \field{extraname}{2}
+      \strng{namehash}{e60bb1371c12b3cd168b66764cfaaf83}
+      \strng{fullhash}{e60bb1371c12b3cd168b66764cfaaf83}
+      \strng{bibnamehash}{e60bb1371c12b3cd168b66764cfaaf83}
+      \strng{authorbibnamehash}{e60bb1371c12b3cd168b66764cfaaf83}
+      \strng{authornamehash}{e60bb1371c12b3cd168b66764cfaaf83}
+      \strng{authorfullhash}{e60bb1371c12b3cd168b66764cfaaf83}
       \field{sortinit}{7}
       \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{quickFit}
-      \field{urlday}{22}
-      \field{urlmonth}{6}
-      \field{urlyear}{2021}
-      \field{year}{2021}
+      \field{title}{xRooFit}
+      \field{urlday}{24}
+      \field{urlmonth}{7}
+      \field{urlyear}{2023}
+      \field{year}{2023}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://gitlab.cern.ch/atlas_higgs_combination/software/quickFit
+      \verb https://gitlab.cern.ch/will/xroofit
       \endverb
       \verb{url}
-      \verb https://gitlab.cern.ch/atlas_higgs_combination/software/quickFit
+      \verb https://gitlab.cern.ch/will/xroofit
       \endverb
     \endentry
     \entry{gligorov2021avoiding}{misc}{}
@@ -3765,8 +4074,8 @@
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
       \field{extraname}{23}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -3801,8 +4110,8 @@
       \strng{authornamehash}{7f630e4da269face7159a15ec43e43f0}
       \strng{authorfullhash}{7f630e4da269face7159a15ec43e43f0}
       \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Z. Phys. C}
@@ -3832,8 +4141,8 @@
       \strng{authornamehash}{7f630e4da269face7159a15ec43e43f0}
       \strng{authorfullhash}{7f630e4da269face7159a15ec43e43f0}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Nucl. Phys. B}
@@ -3859,8 +4168,8 @@
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
       \field{extraname}{24}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{{ATL-PHYS-PUB-2020-028}}

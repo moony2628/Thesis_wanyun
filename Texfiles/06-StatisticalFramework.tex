@@ -11,7 +11,7 @@ observables to create RooFit~\cite{RooFit} workspaces. The workflow of the frame
 \caption{Workflow of the XmlAnaWSBuilder.  \label{fig:xmlAnaWSBuilderworkflow}}
 \end{figure}
 
-The quickFit framework~\cite{quickFit} that based on RooFit data fitting package is used for data fitting. Modifications are needed so that it can integrate over binned data, as RooFit evaluates its fit functions using the centre value of each bin rather than the actual average mass in each bin. As a result, significant biases could occur in the  fit results~\cite{gligorov2021avoiding}. Recent developments introduce a new class of \texttt{RooBinSamplingPdf} in to RooFit package, which solve such issue.
+The xRooFit framework~\cite{xRooFit} that based on RooFit data fitting package is used for data fitting. Modifications are needed so that it can integrate over binned data, as RooFit evaluates its fit functions using the centre value of each bin rather than the actual average mass in each bin. As a result, significant biases could occur in the fit results~\cite{gligorov2021avoiding}. Recent developments introduce a new class of \texttt{RooBinSamplingPdf} in to RooFit package, which solve such issue.
 
 % in RooFit have created a new class, \texttt{RooBinSamplingPdf}, which can now be used to avoid this problem which is available in a patch to ROOT v6.23~\cite{RooBinSamplingPdf} and built in the v6.24 release. 
 
@@ -527,7 +527,7 @@ The spurious signal test is designed to estimate the difference between the sign
 
 It is crucial to verify the stability of the fit when applied to a background-only distribution. In this context, no signal is intentionally introduced into the yields, ensuring that the extracted number of signal events remains zero. In the spurious signal test, $S_\mathrm{spur}$ is determined by fitting a model comprising both signal and background components onto a background-only template. The corresponding uncertainty from the fit is denoted as $\sigma_\mathrm{fit}$. Both the spurious signal $S_\mathrm{spur}$ and its associated uncertainty $\sigma_\mathrm{fit}$ are expected to be consistent with zero.
 
-The estimation of the spurious signal is consequently conducted through these pseudo-experiments. The mean value across all experiments is calculated, and a total of 100 pseudo-experiments have been employed. For each individual signal hypothesis, the assessment of spurious signals is conducted at various mass points. This is done individually for each signal hypothesis and at each mass point. The outcomes of the model-independent tests for Gaussian signals, considering different masses and widths, are consolidated in Table~\ref{tab:Sspur_Gauss_1gtag} for the 1 gluon-tagged category and in Table~\ref{tab:Sspur_Gauss_2gtag} for the 2 gluon-tagged category. Correspondingly, the findings for string signals characterized by different string scales are presented in Table~\ref{tab:Sspur_String_1gtag}.
+The estimation of the spurious signal is consequently conducted through these pseudo-experiments. The mean value across all experiments is calculated, and a total of 100 pseudo-experiments have been employed. For each individual signal hypothesis, the assessment of spurious signals is conducted at various mass points. This is done individually for each signal hypothesis and at each mass point. The outcomes of the model-independent tests for Gaussian signals, considering different masses and widths, are consolidated in Table~\ref{tab:Sspur_Gauss_1gtag} for the 1 gluon-tagged category and in Table~\ref{tab:Sspur_Gauss_2gtag} for the 2 gluon-tagged category. %Correspondingly, the findings for string signals characterized by different string scales are presented in Table~\ref{tab:Sspur_String_1gtag}.
 
 \begin{table}[ht]
 \begin{center}
@@ -595,26 +595,26 @@ Mass & Width & \multicolumn{2}{c}{Median $\pm$ Rms} & Ratio \\
 \label{tab:Sspur_Gauss_2gtag}
 \end{table}%
 
-
-\begin{table}[ht]
-\begin{center}
-\renewcommand{\arraystretch}{1.4}
-\begin{tabular}{cl@{\,}@{$\pm$}@{\,}lc}
-\toprule
-String scale & \multicolumn{2}{c}{Median $\pm$ Rms} & Ratio \\
- TeV  & \multicolumn{2}{c}{$S_\mathrm{spurious}$ $\pm$ Uncertainty} & $S_\mathrm{spurious}$/Uncertainty \\
-\midrule
-7    & \numRP{4.12E-04}{2} & \numRP{5.83}{2} & \numRP{7.07E-05}{2} \\
-7.5  & \numRP{1.6E-04 }{2} & \numRP{3.72}{2} & \numRP{2.84E-05}{2} \\
-8    & \numRP{6.77E-05}{2} & \numRP{2.11}{2} & \numRP{3.21E-05}{2} \\
-8.5  & \numRP{3.83E-05}{2} & \numRP{1.84}{2} & \numRP{2.08E-05}{2} \\
-9    & \numRP{3.87E-05}{2} & \numRP{1.93}{2} & \numRP{2.01E-05}{2} \\
-\bottomrule
-\end{tabular}
-\end{center}
-\caption{Spurious Signal tests using String signals.}
-\label{tab:Sspur_String_1gtag}
-\end{table}%
+%
+%\begin{table}[ht]
+%\begin{center}
+%\renewcommand{\arraystretch}{1.4}
+%\begin{tabular}{cl@{\,}@{$\pm$}@{\,}lc}
+%\toprule
+%String scale & \multicolumn{2}{c}{Median $\pm$ Rms} & Ratio \\
+% TeV  & \multicolumn{2}{c}{$S_\mathrm{spurious}$ $\pm$ Uncertainty} & $S_\mathrm{spurious}$/Uncertainty \\
+%\midrule
+%7    & \numRP{4.12E-04}{2} & \numRP{5.83}{2} & \numRP{7.07E-05}{2} \\
+%7.5  & \numRP{1.6E-04 }{2} & \numRP{3.72}{2} & \numRP{2.84E-05}{2} \\
+%8    & \numRP{6.77E-05}{2} & \numRP{2.11}{2} & \numRP{3.21E-05}{2} \\
+%8.5  & \numRP{3.83E-05}{2} & \numRP{1.84}{2} & \numRP{2.08E-05}{2} \\
+%9    & \numRP{3.87E-05}{2} & \numRP{1.93}{2} & \numRP{2.01E-05}{2} \\
+%\bottomrule
+%\end{tabular}
+%\end{center}
+%\caption{Spurious Signal tests using String signals.}
+%\label{tab:Sspur_String_1gtag}
+%\end{table}%
 
 Following the recommendations of the Statistical PUB Note~\cite{ATL-PHYS-PUB-2020-028}
 , the spurious signal is required to be
