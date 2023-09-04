@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  1 SEP 2023 17:21
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  4 SEP 2023 14:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2674,7 +2674,7 @@ and I'll forget about whatever was undefined.
 <argument> p_{\mathrm {T}}\xspace 
                                   
 l.24 ...riterion demands that the ratio of the \pt
-                                                   of the leading jet to tha...
+                                                  ~of the leading jet to tha...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -3057,6 +3057,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[34]
 ! Undefined control sequence.
 \cbeta ->\ensuremath {C_{1}^{\beta =0.2}}\xspace 
                                                  
@@ -3134,10 +3135,8 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[34]
 File: ./fig/bdt.png Graphic file (type bmp)
 <./fig/bdt.png>
-
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -3814,10 +3813,10 @@ and I'll forget about whatever was undefined.
 File: fig/ADE/new_GBDT/4vars_plots/overtrain_validation.png Graphic file (type 
 bmp)
 <fig/ADE/new_GBDT/4vars_plots/overtrain_validation.png>
-File: fig/ADE/ROCs/ROC_500_Forward_none.pdf Graphic file (type pdf)
-<use fig/ADE/ROCs/ROC_500_Forward_none.pdf>
-File: fig/ADE/ROCs/ROC_500_Central_none.pdf Graphic file (type pdf)
-<use fig/ADE/ROCs/ROC_500_Central_none.pdf>
+File: fig/ROC/ROC_500_Forward_none.pdf Graphic file (type pdf)
+<use fig/ROC/ROC_500_Forward_none.pdf>
+File: fig/ROC/ROC_500_Central_none.pdf Graphic file (type pdf)
+<use fig/ROC/ROC_500_Central_none.pdf>
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -3840,10 +3839,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-File: fig/ADE/ROCs/pt_Forward_GBDT_newScore.pdf Graphic file (type pdf)
-<use fig/ADE/ROCs/pt_Forward_GBDT_newScore.pdf>
-File: fig/ADE/ROCs/pt_Central_GBDT_newScore.pdf Graphic file (type pdf)
-<use fig/ADE/ROCs/pt_Central_GBDT_newScore.pdf>
+File: fig/ROC/pt_Forward_GBDT_newScore.pdf Graphic file (type pdf)
+<use fig/ROC/pt_Forward_GBDT_newScore.pdf>
+File: fig/ROC/pt_Central_GBDT_newScore.pdf Graphic file (type pdf)
+<use fig/ROC/pt_Central_GBDT_newScore.pdf>
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -4021,6 +4020,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[43]
 ! Undefined control sequence.
 l.24 ^^I^^Ip_{\mrm
                   {F}}(x)\\
@@ -4137,7 +4137,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[43]
 ! Undefined control sequence.
 l.53 where $p_{\mrm
                    {Q,G}}(x)$ represents the distributions of the $q/g$ tagg...
@@ -4231,6 +4230,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[44]
 File: fig/dijetanalysis/pythia-nominal/kinematics/ntrk_Forward_500_600_Pythia.p
 df Graphic file (type pdf)
 <use fig/dijetanalysis/pythia-nominal/kinematics/ntrk_Forward_500_600_Pythia.pd
@@ -4239,6 +4239,7 @@ File: fig/dijetanalysis/pythia-nominal/kinematics/ntrk_Central_500_600_Pythia.p
 df Graphic file (type pdf)
 <use fig/dijetanalysis/pythia-nominal/kinematics/ntrk_Central_500_600_Pythia.pd
 f>
+
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4269,7 +4270,7 @@ File: fig/dijetanalysis/pythia-nominal/kinematics/bdt_Central_500_600_Pythia.pd
 f Graphic file (type pdf)
 <use fig/dijetanalysis/pythia-nominal/kinematics/bdt_Central_500_600_Pythia.pdf
 >
-[44] [45] [46]) (./Texfiles/MCclosure.tex
+[45] [46] [47]) (./Texfiles/MCclosure.tex
 ! Undefined control sequence.
 l.2 ... the assumption that the shapes of $p_{\mrm
                                                   {Q}}(x)$ and $p_{\mrm{G}}(...
@@ -4480,9 +4481,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[47
+[48
 
-] [48] [49]
+] [49] [50]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4544,9 +4545,9 @@ File: fig/ADE/MCClosure/GBDT_newScore_quark_reweighting_weights/GBDT_newScore/M
 CClosure_800_gluon_GBDT_newScore.pdf Graphic file (type pdf)
 <use fig/ADE/MCClosure/GBDT_newScore_quark_reweighting_weights/GBDT_newScore/MC
 Closure_800_gluon_GBDT_newScore.pdf>
-[50
+[51
 
-] [51] [52]
+] [52] [53]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4627,7 +4628,7 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 26.
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 26.
 
-[53
+[54
 
 ]
 ! Undefined control sequence.
@@ -4787,7 +4788,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[54] [55] [56] [57] [58]
+[55] [56] [57] [58] [59]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5049,9 +5050,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[59
+[60
 
-] [60]) (./Texfiles/systematic-cali.tex
+] [61]) (./Texfiles/systematic-cali.tex
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5082,7 +5083,7 @@ File: fig/parton_shower/herwigdipole/plots/ADE/Fractions/none_event_weight/Frac
 tion.pdf Graphic file (type pdf)
 <use fig/parton_shower/herwigdipole/plots/ADE/Fractions/none_event_weight/Fract
 ion.pdf>
-[61]
+[62]
 File: fig/hadronization/sherpalund/plots/ADE/Fractions/none_event_weight/Fracti
 on.pdf Graphic file (type pdf)
 <use fig/hadronization/sherpalund/plots/ADE/Fractions/none_event_weight/Fractio
@@ -5097,11 +5098,11 @@ Overfull \hbox (22.20639pt too wide) in paragraph at lines 39--40
 les with dif-fer-ent ME : \T1/ptm/m/sc/12.045 Powheg \T1/ptm/m/n/12.045 and
  []
 
-[62]
+[63]
 File: fig/powhegpythia/plots/ADE/Fractions/none_event_weight/Fraction.pdf Graph
 ic file (type pdf)
 <use fig/powhegpythia/plots/ADE/Fractions/none_event_weight/Fraction.pdf>
- [63] [64]
+ [64] [65]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5177,72 +5178,6 @@ et_nTracks/MC_truth_Q_G_FvsC_800_jet_nTracks_quark_reweighting_weights.pdf Grap
 hic file (type pdf)
 <use fig/gluon_reweight/plots/ADE/FvsC/jet_nTracks_quark_reweighting_weights/je
 t_nTracks/MC_truth_Q_G_FvsC_800_jet_nTracks_quark_reweighting_weights.pdf>
-! Undefined control sequence.
-\pt ->\ensuremath {p_{\mathrm {T}}\xspace 
-                                          }
-l.85 ...et_nTracks_quark_reweighting_weights.pdf}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> \@empty {$Jets :800<\pt <1000\GeV 
-                                             $~(\pythia 8) }
-l.85 ...et_nTracks_quark_reweighting_weights.pdf}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.85 ...et_nTracks_quark_reweighting_weights.pdf}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> $Jets :800<\pt <1000\GeV 
-                                    $~(\pythia 8) 
-l.85 ...et_nTracks_quark_reweighting_weights.pdf}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.85 ...et_nTracks_quark_reweighting_weights.pdf}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> $Jets :800<\pt <1000\GeV 
-                                    $~(\pythia 8) 
-l.85 ...et_nTracks_quark_reweighting_weights.pdf}}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5330,10 +5265,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-
-LaTeX Warning: Reference `sub@fig:QG-pythia-NtrkDataGa' on page 65 undefined on
- input line 116.
-
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5344,10 +5275,6 @@ of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Reference `sub@fig:QG-pythia-NtrkDataGa' on page 65 undefined on
- input line 116.
 
 File: fig/gluon_reweight/plots/ADE/Extractions/jet_nTracks_quark_reweighting_we
 ights/jet_nTracks/DataExtraction_800_quark_jet_nTracks.pdf Graphic file (type p
@@ -5391,7 +5318,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[65] [66] [67] [68]
+[66] [67] [68] [69]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5522,7 +5449,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[69
+[70
 
 ]
 File: fig/Method1/pythia/Bootstrap/500-0.5-bdt-quark.pdf Graphic file (type pdf
@@ -5656,7 +5583,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[70]
+[71]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5921,7 +5848,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[71] [72] [73] [74] [75] [76] [77] [78]
+[72] [73] [74] [75] [76] [77] [78] [79]
 Overfull \hbox (4.7179pt too wide) in paragraph at lines 184--185
 \T1/ptm/m/n/12.045 puted. his in-volves em-ploy-ing each al-ter-na-tive MC sam-
 ple while treat-ing the \T1/ptm/m/sc/12.045 Pythia  \T1/ptm/m/n/12.045 MC
@@ -6315,7 +6242,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[79] [80] [81] [82] [83] [84] [85] [86] [87]) (./Texfiles/dijet.tex
+[80] [81] [82] [83] [84] [85] [86] [87] [88]) (./Texfiles/dijet.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6327,7 +6254,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[88] (./Texfiles/02-benchmark_signals.tex
+[89] (./Texfiles/02-benchmark_signals.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6605,7 +6532,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[89]
+[90]
 File: fig/benchmark_signals/SignalShape-strings.pdf Graphic file (type pdf)
 <use fig/benchmark_signals/SignalShape-strings.pdf>
 
@@ -6686,10 +6613,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[90] [91]
+[91] [92]
 File: fig/benchmark_signals/Ggg_mjj.pdf Graphic file (type pdf)
 <use fig/benchmark_signals/Ggg_mjj.pdf>
- [92]
+ [93]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6701,7 +6628,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[93]) [94] (./Texfiles/03-event_selection.tex
+[94]) [95] (./Texfiles/03-event_selection.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6746,7 +6673,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[95
+[96
 
 ]
 ! Undefined control sequence.
@@ -6804,7 +6731,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [96] (./Texfiles/04-QGselection.tex
+) [97] (./Texfiles/04-QGselection.tex
 ! Undefined control sequence.
 l.5 ...g the full Run~2 $\sqrt{s} = 13$~TeV\xspace
                                                    dataset with quark and gl...
@@ -6972,7 +6899,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[97
+[98
 
 ]
 ! Undefined control sequence.
@@ -7195,7 +7122,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[98]
+[99]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -7320,7 +7247,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[99]
+[100]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -7984,7 +7911,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[100] [101] [102]) [103] (./Texfiles/05-Optimisation.tex
+[101] [102] [103]) [104] (./Texfiles/05-Optimisation.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 1.
@@ -8020,13 +7947,13 @@ File: fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gj.pdf Graphic
 File: fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf Graphic
  file (type pdf)
 <use fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf>
-[104
+[105
 
-] [105]
+] [106]
 
-LaTeX Warning: Text page 106 contains only floats.
+LaTeX Warning: Text page 107 contains only floats.
 
-[106]
+[107]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -8049,7 +7976,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[107]
+[108]
 File: fig/massturnon/yStar0p6/mjj_turnon_1gluonTag_yStar0p6.pdf Graphic file (t
 ype pdf)
 <use fig/massturnon/yStar0p6/mjj_turnon_1gluonTag_yStar0p6.pdf>
@@ -8135,7 +8062,7 @@ l.215 ^^I\end{tabular}}
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-[108] [109] [110]
+[109] [110] [111]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -8171,7 +8098,7 @@ and I'll forget about whatever was undefined.
 
 File: fig/benchmark_signals/AccxEff_strings.pdf Graphic file (type pdf)
 <use fig/benchmark_signals/AccxEff_strings.pdf>
-[111]
+[112]
 File: fig/monitoring/GG/newStudy_HT_logY_v01.pdf Graphic file (type pdf)
 <use fig/monitoring/GG/newStudy_HT_logY_v01.pdf>
 File: fig/monitoring/GG/newStudy_NPV_logY_v01.pdf Graphic file (type pdf)
@@ -8261,7 +8188,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[112] [113]) (./Texfiles/06-StatisticalFramework.tex
+[113] [114]) (./Texfiles/06-StatisticalFramework.tex
 File: fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow.png Graphic file (ty
 pe bmp)
 <fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow.png>
@@ -8287,11 +8214,11 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 (fontspec)             <->"[FandolFang-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [114
+ [115
 
 
-] [115]
-[116] [117] [118] [119]
+] [116]
+[117] [118] [119] [120]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -8319,7 +8246,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[120]
+[121]
 Overfull \hbox (0.24991pt too wide) in paragraph at lines 346--347
 \T1/ptm/m/n/12.045 pur-pose of up-per limit es-ti-ma-tions. Con-versely, if the
  cri-te-ria are not met, the 5-parameter
@@ -8338,7 +8265,7 @@ Overfull \hbox (10.04335pt too wide) in paragraph at lines 530--531
 tly con-ducted through these pseudo-
  []
 
-[121]
+[122]
 ! Undefined control sequence.
 l.540 2  & 5  & \numRP
                       {0.19    }{2} & \numRP{802.85 }{2}    & \numRP{2.36E-0...
@@ -9311,7 +9238,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[122] [123] [124]
+[123] [124] [125]
 ! Undefined control sequence.
 <argument> ...Rms} \\ \midrule 2 & 5 & 1 & \numRP 
                                                   {20062716.45}{2} & \numRP ...
@@ -10368,9 +10295,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[125
+[126
 
-]) [126] (./Texfiles/systematics.tex (./Texfiles/stringsJES.tex
+]) [127] (./Texfiles/systematics.tex (./Texfiles/stringsJES.tex
 ! Undefined control sequence.
 \Ms ->\ensuremath {M_\mathrm {s}}\xspace 
                                          
@@ -10441,9 +10368,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[127
+[128
 
-] [128]) (./Texfiles/MCSystematics.tex
+] [129]) (./Texfiles/MCSystematics.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -10466,7 +10393,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[129]
+[130]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -10577,7 +10504,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)) [130] (./Texfiles/09-Results.tex
+)) [131] (./Texfiles/09-Results.tex
 Overfull \hbox (11.60756pt too wide) in paragraph at lines 7--8
 []\T1/ptm/m/n/12.045 The un-tagged $\OML/ztmcm/m/it/12.045 y[] < \OT1/ztmcm/m/n
 /12.045 0\OML/ztmcm/m/it/12.045 :\OT1/ztmcm/m/n/12.045 8$\T1/ptm/m/n/12.045 , 1
@@ -10660,9 +10587,9 @@ File: fig/app-SignalIndependentLimits/Gauss_Limits_yStar0p8_Tag2_WidthPercent15
 _1200to8000_sigma.pdf Graphic file (type pdf)
 <use fig/app-SignalIndependentLimits/Gauss_Limits_yStar0p8_Tag2_WidthPercent15_
 1200to8000_sigma.pdf>
-) [131
+) [132
 
-] [132] [133] [134])
+] [133] [134] [135])
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -10718,16 +10645,16 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[135
+[136
 
-] [136]
+] [137]
 Overfull \hbox (20.43512pt too wide) in paragraph at lines 1296--1296
 \T1/ptm/m/n/12 sions at $[] \OT1/ztmcm/m/n/12 = 8$ \T1/ptm/m/n/12 TeV''. In: \T
 1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 10 (2017), p. 131. \T1/ptm/m/sc/12 doi\T1/ptm
 /m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1007 / JHEP10(2017 )
  []
 
-[137] [138]
+[138] [139]
 Overfull \hbox (11.47821pt too wide) in paragraph at lines 1296--1296
 \T1/ptm/m/n/12 p. 083. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 10 . 1007 / JHEP09(2017 ) 083$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
@@ -10741,13 +10668,13 @@ Overfull \hbox (11.47821pt too wide) in paragraph at lines 1296--1296
 704 . 03878$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
 
-[139]
+[140]
 Overfull \hbox (2.27623pt too wide) in paragraph at lines 1296--1296
 []\T1/ptm/m/n/12 Dieter Lust, Stephan Stieberger, and Tomasz R. Tay-lor. ``The 
 LHC String Hunter's
  []
 
-[140]
+[141]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -10795,7 +10722,7 @@ Overfull \hbox (57.75603pt too wide) in paragraph at lines 1296--1296
 ti-$[] \OML/ztmcm/m/it/12 jetclusteringalgorithm$\T1/ptm/m/n/12 ''.
  []
 
-[141]
+[142]
 Overfull \hbox (7.74095pt too wide) in paragraph at lines 1296--1296
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``AT-LAS data qual-ity op-er-a-tions 
 and per-for-mance for 2015 |\TU/FandolSong-Regular(0)/m/n/12 –|
@@ -10848,7 +10775,7 @@ Overfull \hbox (8.12695pt too wide) in paragraph at lines 1296--1296
 ithm based on Catani--
  []
 
-[142]
+[143]
 Overfull \hbox (2.4521pt too wide) in paragraph at lines 1296--1296
 \T1/ptm/m/n/12 PDFs''. In: \T1/ptm/m/it/12 Eur. Phys. J. C \T1/ptm/m/n/12 75.5 
 (2015), p. 204. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 11
@@ -10862,7 +10789,7 @@ Overfull \hbox (4.27821pt too wide) in paragraph at lines 1296--1296
 002 . 2581$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
 
-[143]
+[144]
 Overfull \hbox (40.61462pt too wide) in paragraph at lines 1296--1296
 \T1/ptm/m/n/12 tions for jet sub-struc-ture''. In: \T1/ptm/m/it/12 JHEP \T1/ptm
 /m/n/12 06 (2013), p. 108. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n
@@ -10875,20 +10802,20 @@ Overfull \hbox (53.74583pt too wide) in paragraph at lines 1296--1296
 6b76fa -[]
  []
 
-[144]
+[145]
 Overfull \hbox (121.0458pt too wide) in paragraph at lines 1296--1296
 \T1/pcr/m/n/12 twiki . cern . ch / twiki / bin / view / AtlasProtected / Deriva
 tionframeworkExotics$[][]\T1/ptm/m/n/12 . 
  []
 
-[145]
+[146]
 Overfull \hbox (15.35498pt too wide) in paragraph at lines 1296--1296
 \T1/ptm/m/n/12 other new par-ti-cles''. In: \T1/ptm/m/it/12 JHEP \T1/ptm/m/n/12
  08 (2018), p. 130. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 
 . 1007 / JHEP08(2018 )
  []
 
-[146]
+[147]
 Overfull \hbox (9.01572pt too wide) in paragraph at lines 1296--1296
 []\T1/ptm/m/n/12 Hongtao Yang. \T1/ptm/m/it/12 XML An-a-lytic Workspace Builder
 \T1/ptm/m/n/12 . 2021. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
@@ -11006,7 +10933,7 @@ Overfull \hbox (21.20854pt too wide) in paragraph at lines 1296--1296
  [] \OML/ztmcm/m/it/12 CollisionsatCMS$\T1/ptm/m/n/12 ''.
  []
 
-[147]
+[148]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -11148,7 +11075,7 @@ Overfull \hbox (3.60066pt too wide) in paragraph at lines 1296--1296
  [][]$\T1/pcr/m/n/12 https : / / cds . cern . ch / record /
  []
 
-[148] [149]
+[149] [150]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1341.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 1341.
  (./Thesis_Wanyun.aux)
@@ -11163,9 +11090,6 @@ LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
 
 
-LaTeX Warning: There were undefined references.
-
-
 LaTeX Warning: There were multiply-defined labels.
 
 Package logreq Info: Writing requests to 'Thesis_Wanyun.run.xml'.
@@ -11173,12 +11097,12 @@ Package logreq Info: Writing requests to 'Thesis_Wanyun.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40688 strings out of 479418
- 895431 string characters out of 5884585
- 1646331 words of memory out of 5000000
- 57193 multiletter control sequences out of 15000+600000
- 652356 words of font info for 239 fonts, out of 8000000 for 9000
+ 40685 strings out of 479418
+ 895277 string characters out of 5884585
+ 1645332 words of memory out of 5000000
+ 57190 multiletter control sequences out of 15000+600000
+ 650660 words of font info for 238 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  58i,20n,91p,1455b,4808s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis_Wanyun.pdf (157 pages).
+Output written on Thesis_Wanyun.pdf (158 pages).
