@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  4 SEP 2023 14:12
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  6 SEP 2023 13:50
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -10505,16 +10505,6 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 )) [131] (./Texfiles/09-Results.tex
-Overfull \hbox (11.60756pt too wide) in paragraph at lines 7--8
-[]\T1/ptm/m/n/12.045 The un-tagged $\OML/ztmcm/m/it/12.045 y[] < \OT1/ztmcm/m/n
-/12.045 0\OML/ztmcm/m/it/12.045 :\OT1/ztmcm/m/n/12.045 8$\T1/ptm/m/n/12.045 , 1
--$\OML/ztmcm/m/it/12.045 g$ \T1/ptm/m/n/12.045 tagged $\OML/ztmcm/m/it/12.045 y
-[] < \OT1/ztmcm/m/n/12.045 0\OML/ztmcm/m/it/12.045 :\OT1/ztmcm/m/n/12.045 6$ \T
-1/ptm/m/n/12.045 and 2-$\OML/ztmcm/m/it/12.045 g$ \T1/ptm/m/n/12.045 tagged $\O
-ML/ztmcm/m/it/12.045 y[] < \OT1/ztmcm/m/n/12.045 0\OML/ztmcm/m/it/12.045 :\OT1/
-ztmcm/m/n/12.045 8$ \T1/ptm/m/n/12.045 model-independent
- []
-
 File: fig/app-SignalIndependentLimits/Gauss_Limits_yStar0p8_Tag0_WidthPercent0_
 1200to8000_sigma.pdf Graphic file (type pdf)
 <use fig/app-SignalIndependentLimits/Gauss_Limits_yStar0p8_Tag0_WidthPercent0_1
