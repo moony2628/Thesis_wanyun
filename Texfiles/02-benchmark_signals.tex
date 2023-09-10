@@ -29,87 +29,87 @@ QCD processes from the MC are simulated at LO and NLO in SM perturbative theory.
 %\end{figure}
 %\FloatBarrier
 
-\subsubsection{String}
-\label{sec:string} % uncomment if label used. 
-As the SM has lots of well known problems such as the quadratically divergent corrections to the Higgs self-energy, supersymmetry theory offers a solution to it by fine-tuning the
-cancellation. The superstring theory, additional to the supersymmetry, can perform as a framework that unify theories from SM at TeV-scale to quantum gravity at Planck-scale. 
-
-The fundamental string scale is chosen to be within TeV scale, denotes as string mass-scale \Ms~. The string resonances could happen at masses $m_n = \sqrt{n} \Ms$, for $n = 1, 2, 3, \ldots$, where the resonance consist of the Regge excitations of quark, gluon, as well as the colour singlet that lives on the QCD stack of branes. In total, five string scales \Ms range from 7.0~TeV to 9.0~TeV, in steps of 0.5~TeV are generated for string-resonance samples~\cite{Anchordoqui:2008hi}. The lower limits of mass $M_\mathrm{min}$ provided in the generator are shown in Table~\ref{tab1}, together with the resulting cross section of the string samples.
-
-Searches for string resonances have been done in previous dijet mass spectra~\cite{ATLAS:2012pu,Chatrchyan:2011ns,CMS:2012yf,Khachatryan:2015sja,Khachatryan:2015dcf,Sirunyan:2018xlo}. It is worth noting that the string resonance searches mentioned in these references have limitations in terms of model constraints and the clarity of the methodologies used. 
-
-
-%The string-resonance widths have been calculated in Ref~\cite{Anchordoqui:2008hi}. 
-
-\begin{table}[htb]
-\begin{center}
-\begin{tabular}{ccc}
-\toprule
-%[-2ex]
-\Ms & $M_\mathrm{min}$ & Cross section\\
-{[TeV]} & {[TeV]} & {[fb]}\\ 
-\midrule 
-\num{7.0} & \num{6.06} & \num{7.09E+0}\\
-\num{7.5} & \num{6.60} & \num{1.86E+0}\\
-\num{8.0} & \num{7.14} & \num{4.56E-1}\\
-\num{8.5} & \num{7.60} & \num{1.00E-1}\\
-\num{9.0} & \num{8.05} & \num{1.99E-2}\\
-\bottomrule
-\end{tabular}
-\end{center}
-\caption{MC string-resonance samples with string scale \Ms,
-minimum mass $M_\mathrm{min}$, and cross section.} 
-\label{tab1}
-\end{table}
-
-The first $(n=1)$ resonant pole is considered in this study. The widths of string-resonances have been calculated in this Ref~\cite{Anchordoqui:2008hi}. As the string resonances have long Breit-Wigner tails, the PDFs at low-$x$ (low mass) can significantly enhance the tail. In this study, the low-mass tail is truncated since only narrow-resonance structure in \mjj spectrum is interesting to this analysis. In the range $7.0 \leq \Ms \leq 8.0$~TeV, the truncation is done at the minimum value in the differential cross section on the lower-mass side of the \Ms peak, results in around 95\% of the area under the Breit-Wigner curve. In the range $7.0 \leq \Ms \leq 8.0$~TeV, the truncation is done at at a lower-mass point that covers 95\% of the area under the Breit-Wigner curve.
-
-The distribution of signal peak at different mass points is shown in Figure~\ref{fig:shape_strings}, the distributions are normalized to unity and thus the differences in peak amplitudes are not the changes in cross section.
-
-\begin{figure}[htb]
-\centering
-\includegraphics[width=0.65\textwidth]{fig/benchmark_signals/SignalShape-strings.pdf}
-\caption{Signal shapes for the String signal.}
-\label{fig:shape_strings}
-\end{figure}
-
-
-There are five possible $2\to 2$ subprocesses from string resonances are simulated. with the cross section for each subprocess vary as a function of \Ms\ shown in Table~\ref{tab2}. The dominate subprocess across the \Ms\ values is considered to be $gq\to gq$, which contributes around 81-87\% of the total cross section. The rest of subprocesses: $qq\to qq$, $\bar{q}\bar{q}\to \bar{q}\bar{q}$, and $q\bar{q}\to
-q\bar{q}$ are model dependent and thus do not included in this analysis. 
-
-
-\begin{table}[htb]
-\begin{center}
-\begin{tabular}{crrrrr}\toprule
-Subprocess             & \multicolumn{5}{c}{\Ms\ {[TeV]}}\\
-& \multicolumn{1}{c}{7.0} & \multicolumn{1}{c}{7.5} &
-\multicolumn{1}{c}{8.0} & \multicolumn{1}{c}{8.5} &
-\multicolumn{1}{c}{9.0}\\ 
-\midrule
-$gg\to gg$             & 11.4\% &  9.5\% &  8.2\% &  7.2\% &  5.1\%\\
-$gg\to q\bar{q}$       &  0.3\% &  0.3\% &  0.2\% &  0.2\% &  0.2\%\\
-$gq\to gq$             & 81.4\% & 83.1\% & 84.6\% & 85.5\% & 87.6\%\\
-$g\bar{q}\to g\bar{q}$ &  0.7\% &  0.6\% &  0.5\% &  0.5\% &  0.5\%\\
-$q\bar{q}\to gg$       &  6.3\% &  6.5\% &  6.5\% &  6.5\% &  6.7\%\\
-\bottomrule
-\end{tabular}
-\end{center}
-\caption{String-resonance subprocesses and their relative contributions
-to the total cross section at each string scales \Ms.
-The statistics are based on samples of 66000 events.}
-\label{tab2}
-\end{table}
-
-For generating string samples, the MC event
-generator \str~1.00~\cite{Vakilipourtakalou:2018pfo} 
-with interfaced to \pythia8.240~\cite{Sjostrand:2014zea} for parton shower modelling is used, together with the A14 tune.%~\cite{ATL-PHYS-PUB-2014-021}.
-The CTEQ6L1~\cite{Pumplin:2002vw} PDF set at the LO is used for the parton shower and the hard-scattering process. The decaying processes is simulated using the EvtGen~1.6.0 program.~\cite{Lange:2001uf}.
-
-The effect from pile-up is simulated by overlaying the MC inelastic $pp$
-events generated with \pythia8.186 with a PDF set of NNPDF2.3 at LO and the A3~\cite{ATL-PHYS-PUB-2016-017}  tune over the original hard-scattering events. 
-
-
-\FloatBarrier
+%\subsubsection{String}
+%\label{sec:string} % uncomment if label used. 
+%As the SM has lots of well known problems such as the quadratically divergent corrections to the Higgs self-energy, supersymmetry theory offers a solution to it by fine-tuning the
+%cancellation. The superstring theory, additional to the supersymmetry, can perform as a framework that unify theories from SM at TeV-scale to quantum gravity at Planck-scale. 
+%
+%The fundamental string scale is chosen to be within TeV scale, denotes as string mass-scale \Ms~. The string resonances could happen at masses $m_n = \sqrt{n} \Ms$, for $n = 1, 2, 3, \ldots$, where the resonance consist of the Regge excitations of quark, gluon, as well as the colour singlet that lives on the QCD stack of branes. In total, five string scales \Ms range from 7.0~TeV to 9.0~TeV, in steps of 0.5~TeV are generated for string-resonance samples~\cite{Anchordoqui:2008hi}. The lower limits of mass $M_\mathrm{min}$ provided in the generator are shown in Table~\ref{tab1}, together with the resulting cross section of the string samples.
+%
+%Searches for string resonances have been done in previous dijet mass spectra~\cite{ATLAS:2012pu,Chatrchyan:2011ns,CMS:2012yf,Khachatryan:2015sja,Khachatryan:2015dcf,Sirunyan:2018xlo}. It is worth noting that the string resonance searches mentioned in these references have limitations in terms of model constraints and the clarity of the methodologies used. 
+%
+%
+%%The string-resonance widths have been calculated in Ref~\cite{Anchordoqui:2008hi}. 
+%
+%\begin{table}[htb]
+%\begin{center}
+%\begin{tabular}{ccc}
+%\toprule
+%%[-2ex]
+%\Ms & $M_\mathrm{min}$ & Cross section\\
+%{[TeV]} & {[TeV]} & {[fb]}\\ 
+%\midrule 
+%\num{7.0} & \num{6.06} & \num{7.09E+0}\\
+%\num{7.5} & \num{6.60} & \num{1.86E+0}\\
+%\num{8.0} & \num{7.14} & \num{4.56E-1}\\
+%\num{8.5} & \num{7.60} & \num{1.00E-1}\\
+%\num{9.0} & \num{8.05} & \num{1.99E-2}\\
+%\bottomrule
+%\end{tabular}
+%\end{center}
+%\caption{MC string-resonance samples with string scale \Ms,
+%minimum mass $M_\mathrm{min}$, and cross section.} 
+%\label{tab1}
+%\end{table}
+%
+%The first $(n=1)$ resonant pole is considered in this study. The widths of string-resonances have been calculated in this Ref~\cite{Anchordoqui:2008hi}. As the string resonances have long Breit-Wigner tails, the PDFs at low-$x$ (low mass) can significantly enhance the tail. In this study, the low-mass tail is truncated since only narrow-resonance structure in \mjj spectrum is interesting to this analysis. In the range $7.0 \leq \Ms \leq 8.0$~TeV, the truncation is done at the minimum value in the differential cross section on the lower-mass side of the \Ms peak, results in around 95\% of the area under the Breit-Wigner curve. In the range $7.0 \leq \Ms \leq 8.0$~TeV, the truncation is done at at a lower-mass point that covers 95\% of the area under the Breit-Wigner curve.
+%
+%The distribution of signal peak at different mass points is shown in Figure~\ref{fig:shape_strings}, the distributions are normalized to unity and thus the differences in peak amplitudes are not the changes in cross section.
+%
+%\begin{figure}[htb]
+%\centering
+%\includegraphics[width=0.65\textwidth]{fig/benchmark_signals/SignalShape-strings.pdf}
+%\caption{Signal shapes for the String signal.}
+%\label{fig:shape_strings}
+%\end{figure}
+%
+%
+%There are five possible $2\to 2$ subprocesses from string resonances are simulated. with the cross section for each subprocess vary as a function of \Ms\ shown in Table~\ref{tab2}. The dominate subprocess across the \Ms\ values is considered to be $gq\to gq$, which contributes around 81-87\% of the total cross section. The rest of subprocesses: $qq\to qq$, $\bar{q}\bar{q}\to \bar{q}\bar{q}$, and $q\bar{q}\to
+%q\bar{q}$ are model dependent and thus do not included in this analysis. 
+%
+%
+%\begin{table}[htb]
+%\begin{center}
+%\begin{tabular}{crrrrr}\toprule
+%Subprocess             & \multicolumn{5}{c}{\Ms\ {[TeV]}}\\
+%& \multicolumn{1}{c}{7.0} & \multicolumn{1}{c}{7.5} &
+%\multicolumn{1}{c}{8.0} & \multicolumn{1}{c}{8.5} &
+%\multicolumn{1}{c}{9.0}\\ 
+%\midrule
+%$gg\to gg$             & 11.4\% &  9.5\% &  8.2\% &  7.2\% &  5.1\%\\
+%$gg\to q\bar{q}$       &  0.3\% &  0.3\% &  0.2\% &  0.2\% &  0.2\%\\
+%$gq\to gq$             & 81.4\% & 83.1\% & 84.6\% & 85.5\% & 87.6\%\\
+%$g\bar{q}\to g\bar{q}$ &  0.7\% &  0.6\% &  0.5\% &  0.5\% &  0.5\%\\
+%$q\bar{q}\to gg$       &  6.3\% &  6.5\% &  6.5\% &  6.5\% &  6.7\%\\
+%\bottomrule
+%\end{tabular}
+%\end{center}
+%\caption{String-resonance subprocesses and their relative contributions
+%to the total cross section at each string scales \Ms.
+%The statistics are based on samples of 66000 events.}
+%\label{tab2}
+%\end{table}
+%
+%For generating string samples, the MC event
+%generator \str~1.00~\cite{Vakilipourtakalou:2018pfo} 
+%with interfaced to \pythia8.240~\cite{Sjostrand:2014zea} for parton shower modelling is used, together with the A14 tune.%~\cite{ATL-PHYS-PUB-2014-021}.
+%The CTEQ6L1~\cite{Pumplin:2002vw} PDF set at the LO is used for the parton shower and the hard-scattering process. The decaying processes is simulated using the EvtGen~1.6.0 program.~\cite{Lange:2001uf}.
+%
+%The effect from pile-up is simulated by overlaying the MC inelastic $pp$
+%events generated with \pythia8.186 with a PDF set of NNPDF2.3 at LO and the A3~\cite{ATL-PHYS-PUB-2016-017}  tune over the original hard-scattering events. 
+%
+%
+%\FloatBarrier
 
 \subsubsection{Kaluza-Klein Graviton}
 \label{sec:kkgraviton}
@@ -122,7 +122,7 @@ Figure~\ref{fig:Ggg} shows the Graviton to gg invariant mass distribution for th
 
 \begin{figure}[!h]
 	\centering
-\includegraphics[width=0.65\textwidth]{fig/benchmark_signals/Ggg_mjj.pdf}
+\includegraphics[width=0.75\textwidth]{fig/benchmark_signals/Ggg_mjj.pdf}
 	\caption{(a) Invariant mass distribution for the Graviton to gg samples
 		\label{fig:Ggg}
 	}
@@ -181,9 +181,9 @@ Two-body isotropic final state is expected by the QBH decay at the LHC, where th
 
 \subsubsection{Gaussian resonances}
 
-One way to demonstrate the search in the analysis is to set limits on the cross-section of signal modes. Here a model-independent signal as Gaussian~\cite{lukacs1942characterization} are used to expand the sensitivity of the search to new signals that may be detectable with this analysis but not currently theoretically described. Besides, a model-independent signal could help to evaluate and compare the strength of different analyses without bias, as the case where specific models are applied and leads less sensitive to the search.
+A model-independent signal as Gaussian~\cite{lukacs1942characterization} are used to expand the sensitivity of the search to new signals that may be detectable with this analysis but not currently theoretically described. Besides, a model-independent signal could help to evaluate and compare the strength of different analyses without bias, as the case where specific models are applied and leads less sensitive to the search.
 
-Therefore, model-independent limits are produced based on model-independent signal resonances. Because this analysis is sensitive to the shape of resonance, specific models with different shapes would influence the results strongly. In general, a model-independent signal is a good feature of the analysis which verify the ability to distinguish different signal models, although the model-independent limits are still influenced by the shape of the resonance in an implicit way. The motivation to choose a Gaussian resonance as a proxy is the fact that it is similar to the `average' signal with specific width. Besides, the shape of reconstructed jet \pt~of any realistic signal without very specific model is produced approximately as a Gaussian resonance, without applied JER. Hence it it straightforward to use Gaussian resonances to represent any realistic resonance.
+Therefore, model-independent fit function tests are produced based on model-independent signal resonances. Because this analysis is sensitive to the shape of resonance, specific models with different shapes would influence the results strongly. In general, a model-independent signal is a good feature of the analysis which verify the ability to distinguish different signal models, although the model-independent limits are still influenced by the shape of the resonance in an implicit way. The motivation to choose a Gaussian resonance as a proxy is the fact that it is similar to the `average' signal with specific width. Besides, the shape of reconstructed jet \pt~of any realistic signal without very specific model is produced approximately as a Gaussian resonance, without applied JER. Hence it it straightforward to use Gaussian resonances to represent any realistic resonance.
 
 The general form of Gaussian distribution is:
 

@@ -10,175 +10,163 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {2.2}Physics beyond the Standard Model}{7}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}String}{7}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Kaluza-Klein Graviton}{7}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Kaluza-Klein Graviton}{8}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2}Quantum Black Hole}{8}{subsubsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.3}Quantum Black Hole}{9}{subsubsection.2.2.3}%
+\contentsline {section}{\numberline {3}The ATLAS Experiment}{9}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}The ATLAS Experiment}{10}{section.3}%
+\contentsline {subsection}{\numberline {3.1}The Large Hadron Collider}{9}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}The Large Hadron Collider}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}The ATLAS detector}{11}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}The ATLAS detector}{12}{subsection.3.2}%
+\contentsline {subsubsection}{\numberline {3.2.1}Inner detector}{11}{subsubsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Inner detector}{12}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}Calorimeters}{14}{subsubsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Calorimeters}{15}{subsubsection.3.2.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}Muon spectrometer}{19}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3}Muon spectrometer}{18}{subsubsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.4}Trigger and data acquisition}{19}{subsubsection.3.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Jets in ATLAS}{22}{section.4}%
+\contentsline {section}{\numberline {4}Jets in ATLAS}{21}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Jet reconstruction}{22}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Jet reconstruction}{21}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Jet calibration and cleaning}{25}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Jet calibration and cleaning}{24}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Pile-up corrections}{25}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1}Pile-up corrections}{24}{subsubsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Jet energy scale and $\eta $ calibration}{26}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2}Jet energy scale and $\eta $ calibration}{25}{subsubsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}Global sequential calibration}{27}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3}Global sequential calibration}{26}{subsubsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4}Residual $in\nobreakspace {}situ$ calibration}{28}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4}Residual $in\nobreakspace {}situ$ calibration}{27}{subsubsection.4.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}The calibration of quark/gluon jets taggers}{29}{section.5}%
+\contentsline {section}{\numberline {5}The calibration of quark/gluon jets taggers}{28}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Data and Monte Carlo samples}{29}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.1}Data and Monte Carlo samples}{28}{subsection.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Data}{29}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {5.1.1}Data}{28}{subsubsection.5.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2}Monte Carlo simulation}{30}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {5.1.2}Monte Carlo simulation}{29}{subsubsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Object and Event selection}{31}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}Object and Event selection}{30}{subsection.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.1}Physics object definition}{32}{subsubsection.5.2.1}%
+\contentsline {subsubsection}{\numberline {5.2.1}Physics object definition}{31}{subsubsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2}Event Selection and definition of quark and gluon-enriched samples}{33}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2}Event Selection and definition of quark and gluon-enriched samples}{32}{subsubsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Quark/gluon tagging variables}{33}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.3}Quark/gluon tagging variables}{32}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.3.1}The BDT tagger}{35}{subsubsection.5.3.1}%
+\contentsline {subsubsection}{\numberline {5.3.1}The BDT tagger}{34}{subsubsection.5.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {5.3.1.1}Feature selections}{36}{paragraph.5.3.1.1}%
+\contentsline {paragraph}{\numberline {5.3.1.1}Feature selections}{35}{paragraph.5.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {5.3.1.2}Training weights}{37}{paragraph.5.3.1.2}%
+\contentsline {paragraph}{\numberline {5.3.1.2}Training weights}{36}{paragraph.5.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {5.3.1.3}Training Configuration}{40}{paragraph.5.3.1.3}%
+\contentsline {paragraph}{\numberline {5.3.1.3}Training Configuration}{39}{paragraph.5.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.4}Matrix Method}{43}{subsection.5.4}%
+\contentsline {subsection}{\numberline {5.4}Matrix Method}{42}{subsection.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.5}MC non-closure}{48}{subsection.5.5}%
+\contentsline {subsection}{\numberline {5.5}MC non-closure}{45}{subsection.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.5.1}Closure test for BDT tagger}{51}{subsubsection.5.5.1}%
+\contentsline {subsubsection}{\numberline {5.5.1}Closure test for BDT tagger}{47}{subsubsection.5.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.5.2}Summary for the MC Closure test}{54}{subsubsection.5.5.2}%
+\contentsline {subsubsection}{\numberline {5.5.2}Summary for the MC Closure test}{51}{subsubsection.5.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.6}Scale factor}{54}{subsection.5.6}%
+\contentsline {subsection}{\numberline {5.6}Scale factor}{51}{subsection.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.7}Systematic uncertainties}{62}{subsection.5.7}%
+\contentsline {subsection}{\numberline {5.7}Systematic uncertainties}{59}{subsection.5.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.1}Parton shower modelling uncertainty}{62}{subsubsection.5.7.1}%
+\contentsline {subsubsection}{\numberline {5.7.1}Parton shower modelling uncertainty}{59}{subsubsection.5.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.2}Hadronisation modelling uncertainty}{63}{subsubsection.5.7.2}%
+\contentsline {subsubsection}{\numberline {5.7.2}Hadronisation modelling uncertainty}{60}{subsubsection.5.7.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.3}Matrix element uncertainty}{64}{subsubsection.5.7.3}%
+\contentsline {subsubsection}{\numberline {5.7.3}Matrix element uncertainty}{61}{subsubsection.5.7.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.4}PDF uncertainty}{64}{subsubsection.5.7.4}%
+\contentsline {subsubsection}{\numberline {5.7.4}PDF uncertainty}{61}{subsubsection.5.7.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.5}Scale variation uncertainty}{64}{subsubsection.5.7.5}%
+\contentsline {subsubsection}{\numberline {5.7.5}Scale variation uncertainty}{61}{subsubsection.5.7.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.6}Splitting-Kernel variation uncertainty}{65}{subsubsection.5.7.6}%
+\contentsline {subsubsection}{\numberline {5.7.6}Splitting-Kernel variation uncertainty}{62}{subsubsection.5.7.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.7}Tracking uncertainty}{65}{subsubsection.5.7.7}%
+\contentsline {subsubsection}{\numberline {5.7.7}Tracking uncertainty}{62}{subsubsection.5.7.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.8}JES /JER uncertainty }{66}{subsubsection.5.7.8}%
+\contentsline {subsubsection}{\numberline {5.7.8}JES /JER uncertainty }{63}{subsubsection.5.7.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.9}{\ensuremath {N_{\mathrm {trk}}}} / BDT re-weighting}{66}{subsubsection.5.7.9}%
+\contentsline {subsubsection}{\numberline {5.7.9}{\ensuremath {N_{\mathrm {trk}}}} / BDT re-weighting}{63}{subsubsection.5.7.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.10}The MC non-closure}{70}{subsubsection.5.7.10}%
+\contentsline {subsubsection}{\numberline {5.7.10}The MC non-closure}{67}{subsubsection.5.7.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.7.11}Statistical uncertainty}{70}{subsubsection.5.7.11}%
+\contentsline {subsubsection}{\numberline {5.7.11}Statistical uncertainty}{67}{subsubsection.5.7.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.8}Results}{71}{subsection.5.8}%
+\contentsline {subsection}{\numberline {5.8}Results}{68}{subsection.5.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Search for new phenomena in dijet events}{89}{section.6}%
+\contentsline {section}{\numberline {6}Search for new phenomena in dijet events}{86}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.1}Monte Carlo models}{90}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.1}Monte Carlo models}{87}{subsection.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.1}QCD background}{90}{subsubsection.6.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}QCD background}{87}{subsubsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.2}String}{90}{subsubsection.6.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.2}Kaluza-Klein Graviton}{87}{subsubsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.3}Kaluza-Klein Graviton}{93}{subsubsection.6.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.3}Quantum Black Hole}{87}{subsubsection.6.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.4}Quantum Black Hole}{94}{subsubsection.6.1.4}%
+\contentsline {subsubsection}{\numberline {6.1.4}Gaussian resonances}{88}{subsubsection.6.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.1.5}Gaussian resonances}{94}{subsubsection.6.1.5}%
+\contentsline {subsection}{\numberline {6.2}Events selections}{90}{subsection.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.2}Events selections}{96}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Observables and Kinematic Variables}{90}{subsubsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.1}Observables and Kinematic Variables}{96}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}Baseline selection}{91}{subsubsection.6.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.2}Baseline selection}{97}{subsubsection.6.2.2}%
+\contentsline {subsection}{\numberline {6.3}Quark-Gluon Sample Selection}{92}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Quark-Gluon Sample Selection}{98}{subsection.6.3}%
+\contentsline {subsubsection}{\numberline {6.3.1}Selection Criteria}{93}{subsubsection.6.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.3.1}Selection Criteria}{99}{subsubsection.6.3.1}%
+\contentsline {subsection}{\numberline {6.4}Signal Optimisation}{99}{subsection.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Signal Optimisation}{105}{subsection.6.4}%
+\contentsline {subsubsection}{\numberline {6.4.1}\ensuremath {y^\ast }\ Cut Optimisation}{99}{subsubsection.6.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.1}\ensuremath {y^\ast }\ Cut Optimisation}{105}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.2}Optimised Selection}{102}{subsubsection.6.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.2}Dijet Mass Turn-on}{109}{subsubsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.3}Selected Kinematic Plots}{102}{subsubsection.6.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.3}Optimised Selection}{112}{subsubsection.6.4.3}%
+\contentsline {subsection}{\numberline {6.5}Statistical Framework}{105}{subsection.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.4}Selected Kinematic Plots}{113}{subsubsection.6.4.4}%
+\contentsline {subsubsection}{\numberline {6.5.1}Fitting Framework}{105}{subsubsection.6.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Statistical Framework}{115}{subsection.6.5}%
+\contentsline {subsubsection}{\numberline {6.5.2}Statistical Method}{106}{subsubsection.6.5.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.1}Fitting Framework}{115}{subsubsection.6.5.1}%
+\contentsline {paragraph}{\numberline {6.5.2.1}Parametric background models}{106}{paragraph.6.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.2}Statistical Method}{116}{subsubsection.6.5.2}%
+\contentsline {paragraph}{\numberline {6.5.2.2}Uncertainties}{107}{paragraph.6.5.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.1}Parametric background models}{116}{paragraph.6.5.2.1}%
+\contentsline {paragraph}{\numberline {6.5.2.3}Likelihood function definition}{107}{paragraph.6.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.2}Uncertainties}{117}{paragraph.6.5.2.2}%
+\contentsline {paragraph}{\numberline {6.5.2.4}Statistical Method}{108}{paragraph.6.5.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.3}Likelihood function definition}{117}{paragraph.6.5.2.3}%
+\contentsline {paragraph}{\numberline {6.5.2.5}Test statistic and p-value definitions}{109}{paragraph.6.5.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.4}Statistical Method}{118}{paragraph.6.5.2.4}%
+\contentsline {paragraph}{\numberline {6.5.2.6}Generation of pseudo-data}{110}{paragraph.6.5.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.5}Test statistic and p-value definitions}{119}{paragraph.6.5.2.5}%
+\contentsline {paragraph}{\numberline {6.5.2.7}Definition of exclusion limit}{110}{paragraph.6.5.2.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.6}Generation of pseudo-data}{120}{paragraph.6.5.2.6}%
+\contentsline {paragraph}{\numberline {6.5.2.8}Implementation}{111}{paragraph.6.5.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.7}Definition of exclusion limit}{120}{paragraph.6.5.2.7}%
+\contentsline {subsubsection}{\numberline {6.5.3}Background Estimation}{111}{subsubsection.6.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.8}Implementation}{121}{paragraph.6.5.2.8}%
+\contentsline {subsubsection}{\numberline {6.5.4}Analysis Strategy}{111}{subsubsection.6.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.3}Background Estimation}{121}{subsubsection.6.5.3}%
+\contentsline {subsubsection}{\numberline {6.5.5}Spurious Signal Tests}{112}{subsubsection.6.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.4}Analysis Strategy}{121}{subsubsection.6.5.4}%
+\contentsline {subsubsection}{\numberline {6.5.6}Fit Stability Tests}{116}{subsubsection.6.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.5}Spurious Signal Tests}{122}{subsubsection.6.5.5}%
+\contentsline {subsection}{\numberline {6.6}Systematic uncertainties}{118}{subsection.6.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.6}Fit Stability Tests}{126}{subsubsection.6.5.6}%
+\contentsline {subsection}{\numberline {6.7}Results}{120}{subsection.6.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Systematic uncertainties}{128}{subsection.6.6}%
+\contentsline {section}{\numberline {7}Conclusions}{122}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.6.1}String resonsnace systematic uncertainties}{128}{subsubsection.6.6.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.6.2}q/g tagging Systematics}{130}{subsubsection.6.6.2}%
-\defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.6.2.1}Pure MC Systematics}{130}{paragraph.6.6.2.1}%
-\defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7}Results}{132}{subsection.6.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions}{136}{section.7}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Acknowledgements}{150}{section.8}%
+\contentsline {section}{\numberline {8}Acknowledgements}{136}{section.8}%
 \contentsfinish 
