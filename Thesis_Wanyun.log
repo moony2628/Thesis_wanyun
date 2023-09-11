@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  10 SEP 2023 15:40
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  11 SEP 2023 18:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1741,53 +1741,6 @@ LaTeX Info: Redefining \nameref on input line 630.
 File: ./fig/logo/logo.png Graphic file (type bmp)
 <./fig/logo/logo.png>
 
-
-Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
-(fontspec)                Script "CJK".
-
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 64
-7.
-(/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/t1phv.fd
-File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
-
-
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 20.
-
-
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 23.
-
-
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 26.
-
-
-LaTeX Warning: Font shape declaration has incorrect series value `mc'.
-               It should not contain an `m'! Please correct it.
-               Found on input line 46.
-
-)
-
-Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
-(fontspec)             'FandolHei-Regular' with options
-(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}
-].
-(fontspec)              
-(fontspec)              This font family consists of the following NFSS
-(fontspec)             series/shapes:
-(fontspec)              
-(fontspec)             - 'normal' (m/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
-(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
-(fontspec)             - 'bold' (b/n) with NFSS spec.:
-(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
-(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 649--650
 
  []
@@ -1870,6 +1823,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 725--726
 
 Package fontspec Warning: Font "FandolHei-Regular" does not contain requested
 (fontspec)                Script "CJK".
+
+
+Package fontspec Info: Font family 'FandolHei-Regular(0)' created for font
+(fontspec)             'FandolHei-Regular' with options
+(fontspec)             [Script={CJK},Extension={.otf},BoldFont={FandolHei-Bold}
+].
+(fontspec)              
+(fontspec)              This font family consists of the following NFSS
+(fontspec)             series/shapes:
+(fontspec)              
+(fontspec)             - 'normal' (m/n) with NFSS spec.:
+(fontspec)             <->"[FandolHei-Regular.otf]/OT:language=dflt;"
+(fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
+(fontspec)             - 'bold' (b/n) with NFSS spec.:
+(fontspec)             <->"[FandolHei-Bold.otf]/OT:language=dflt;"
+(fontspec)             - 'bold small caps'  (b/sc) with NFSS spec.: 
 
 LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
  743.
@@ -1988,18 +1957,18 @@ File: fig/f3.png Graphic file (type bmp)
 File: ./fig/2022.png Graphic file (type bmp)
 <./fig/2022.png>
 
-Overfull \hbox (31.29819pt too wide) in paragraph at lines 1068--1069
+Overfull \hbox (31.29819pt too wide) in paragraph at lines 1067--1068
  [][] 
  []
 
 [9] [10]
 Missing character: There is no ‑ in font ptmr8t!
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-095.
+094.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (1.28625pt too wide) in paragraph at lines 1103--1104
+Overfull \hbox (1.28625pt too wide) in paragraph at lines 1102--1103
 []\T1/ptm/m/n/12.045 The AT-LAS de-tec-tor [[][]37[][]] is the largest vol-ume 
 de-tec-tor ever con-structed for general-
  []
@@ -2007,14 +1976,14 @@ de-tec-tor ever con-structed for general-
 File: ./fig/atlas.png Graphic file (type bmp)
 <./fig/atlas.png>
 
-Overfull \hbox (31.29819pt too wide) in paragraph at lines 1109--1110
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 1108--1109
  [][] 
  []
 
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1118 Charged particles above a certain \pt
+l.1117 Charged particles above a certain \pt
                                             ~threshold are detected by the A...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2027,7 +1996,7 @@ File: ./fig/id.png Graphic file (type bmp)
 ! Undefined control sequence.
 \pt ->\ensuremath {p_{\mathrm {T}}\xspace 
                                           }
-l.1124 ...ctor along with their envelopes in $r$.}
+l.1123 ...ctor along with their envelopes in $r$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2036,11 +2005,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1124.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1123.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1124 ...ctor along with their envelopes in $r$.}
+l.1123 ...ctor along with their envelopes in $r$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2051,7 +2020,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1124 ...ctor along with their envelopes in $r$.}
+l.1123 ...ctor along with their envelopes in $r$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2060,7 +2029,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [11] [12] [13]
-Overfull \hbox (2.59377pt too wide) in paragraph at lines 1141--1143
+Overfull \hbox (2.59377pt too wide) in paragraph at lines 1140--1142
 \T1/ptm/m/n/12.045 The out-er-most layer of the ID is the TRT which en-com-pass
 es poly-imide drift(straw)
  []
@@ -2068,7 +2037,7 @@ es poly-imide drift(straw)
 File: ./fig/calo1.jpg Graphic file (type bmp)
 <./fig/calo1.jpg>
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 1159--1159
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 1158--1158
  [][] 
  []
 
@@ -2076,7 +2045,7 @@ Overfull \hbox (2.84544pt too wide) in paragraph at lines 1159--1159
 File: ./fig/calo2.png Graphic file (type bmp)
 <./fig/calo2.png>
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 1169--1169
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 1168--1168
  [][] 
  []
 
@@ -2090,7 +2059,7 @@ File: ./fig/muon.jpg Graphic file (type bmp)
 File: ./fig/dq.png Graphic file (type bmp)
 <./fig/dq.png>
 
-Overfull \hbox (31.29819pt too wide) in paragraph at lines 1224--1224
+Overfull \hbox (31.29819pt too wide) in paragraph at lines 1223--1223
  [][] 
  []
 
@@ -3952,7 +3921,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[41]) (./Texfiles/method.tex
+[41] [42]) (./Texfiles/method.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -4019,7 +3988,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[42]
 ! Undefined control sequence.
 l.24 ^^I^^Ip_{\mrm
                   {F}}(x)\\
@@ -4299,6 +4267,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[45]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4338,7 +4307,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[45]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4481,7 +4449,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[46]
+[46] [47] [48]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4543,7 +4511,9 @@ File: fig/ADE/MCClosure/GBDT_newScore_quark_reweighting_weights/GBDT_newScore/M
 CClosure_800_gluon_GBDT_newScore.pdf Graphic file (type pdf)
 <use fig/ADE/MCClosure/GBDT_newScore_quark_reweighting_weights/GBDT_newScore/MC
 Closure_800_gluon_GBDT_newScore.pdf>
-[47] [48] [49] [50]
+[49
+
+] [50] [51]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4624,7 +4594,7 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 26.
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 26.
 
-[51
+[52
 
 ]
 ! Undefined control sequence.
@@ -4784,7 +4754,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[52] [53] [54] [55] [56]
+[53] [54] [55] [56] [57]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5046,9 +5016,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[57
+[58
 
-] [58]) (./Texfiles/systematic-cali.tex
+] [59]) (./Texfiles/systematic-cali.tex
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5079,7 +5049,7 @@ File: fig/parton_shower/herwigdipole/plots/ADE/Fractions/none_event_weight/Frac
 tion.pdf Graphic file (type pdf)
 <use fig/parton_shower/herwigdipole/plots/ADE/Fractions/none_event_weight/Fract
 ion.pdf>
-[59]
+[60]
 File: fig/hadronization/sherpalund/plots/ADE/Fractions/none_event_weight/Fracti
 on.pdf Graphic file (type pdf)
 <use fig/hadronization/sherpalund/plots/ADE/Fractions/none_event_weight/Fractio
@@ -5094,11 +5064,11 @@ Overfull \hbox (22.20639pt too wide) in paragraph at lines 39--40
 les with dif-fer-ent ME : \T1/ptm/m/sc/12.045 Powheg \T1/ptm/m/n/12.045 and
  []
 
-[60]
+[61]
 File: fig/powhegpythia/plots/ADE/Fractions/none_event_weight/Fraction.pdf Graph
 ic file (type pdf)
 <use fig/powhegpythia/plots/ADE/Fractions/none_event_weight/Fraction.pdf>
- [61] [62]
+ [62] [63]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5314,7 +5284,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[63] [64] [65] [66]
+[64] [65] [66] [67]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5445,9 +5415,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[67
-
-]
 File: fig/Method1/pythia/Bootstrap/500-0.5-bdt-quark.pdf Graphic file (type pdf
 )
 <use fig/Method1/pythia/Bootstrap/500-0.5-bdt-quark.pdf>
@@ -5534,7 +5501,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)
+[68
+
+])
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5579,7 +5548,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[68]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5844,7 +5812,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[69] [70] [71] [72] [73] [74] [75] [76]
+[69] [70] [71] [72] [73] [74] [75] [76] [77]
 Overfull \hbox (4.7179pt too wide) in paragraph at lines 184--185
 \T1/ptm/m/n/12.045 puted. his in-volves em-ploy-ing each al-ter-na-tive MC sam-
 ple while treat-ing the \T1/ptm/m/sc/12.045 Pythia  \T1/ptm/m/n/12.045 MC
@@ -6238,7 +6206,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[77] [78] [79] [80] [81] [82] [83] [84] [85]) (./Texfiles/dijet.tex
+[78] [79] [80] [81] [82] [83] [84] [85] [86]) (./Texfiles/dijet.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6250,7 +6218,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[86] (./Texfiles/02-benchmark_signals.tex
+[87] (./Texfiles/02-benchmark_signals.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6278,7 +6246,7 @@ File: fig/benchmark_signals/Ggg_mjj.pdf Graphic file (type pdf)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[87]
+[88]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6296,7 +6264,7 @@ Overfull \hbox (27.97832pt too wide) in paragraph at lines 186--187
 uced based on model-independent
  []
 
-[88]) [89] (./Texfiles/03-event_selection.tex
+[89]) [90] (./Texfiles/03-event_selection.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6341,9 +6309,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[90
-
-]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6370,6 +6335,9 @@ and I'll forget about whatever was undefined.
 LaTeX Warning: Reference `section:dijetmassturn-on' on page 91 undefined on inp
 ut line 48.
 
+[91
+
+]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6403,7 +6371,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [91] (./Texfiles/04-QGselection.tex
+) [92] (./Texfiles/04-QGselection.tex
 ! Undefined control sequence.
 l.5 ...g the full Run~2 $\sqrt{s} = 13$~TeV\xspace
                                                    dataset with quark and gl...
@@ -6571,7 +6539,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[92
+[93
 
 ]
 ! Undefined control sequence.
@@ -6761,7 +6729,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[93]
+[94]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6919,7 +6887,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[94]
+[95]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -7583,7 +7551,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[95] [96] [97]) [98] (./Texfiles/05-Optimisation.tex
+[96] [97] [98]) [99] (./Texfiles/05-Optimisation.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 1.
@@ -7610,13 +7578,13 @@ File: fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gj.pdf Graphic
 File: fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf Graphic
  file (type pdf)
 <use fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf>
-[99
+[100
 
 ]
 
-LaTeX Warning: Text page 100 contains only floats.
+LaTeX Warning: Text page 101 contains only floats.
 
-[100] [101]
+[101] [102]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -7738,7 +7706,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[102] [103] [104]) (./Texfiles/06-StatisticalFramework.tex
+[103] [104] [105]) (./Texfiles/06-StatisticalFramework.tex
 File: fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow.png Graphic file (ty
 pe bmp)
 <fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow.png>
@@ -7764,11 +7732,11 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 (fontspec)             <->"[FandolFang-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [105
+ [106
 
 
-] [106]
-[107] [108] [109] [110]
+] [107]
+[108] [109] [110] [111]
 ! Missing $ inserted.
 <inserted text> 
                 $
@@ -7796,7 +7764,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[111]
+[112]
 Overfull \hbox (0.24991pt too wide) in paragraph at lines 346--347
 \T1/ptm/m/n/12.045 pur-pose of up-per limit es-ti-ma-tions. Con-versely, if the
  cri-te-ria are not met, the 5-parameter
@@ -7815,7 +7783,7 @@ Overfull \hbox (10.04335pt too wide) in paragraph at lines 530--531
 tly con-ducted through these pseudo-
  []
 
-[112]
+[113]
 ! Undefined control sequence.
 l.540 2  & 5  & \numRP
                       {0.19    }{2} & \numRP{802.85 }{2}    & \numRP{2.36E-0...
@@ -8788,7 +8756,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[113] [114] [115]
+[114] [115] [116]
 ! Undefined control sequence.
 <argument> ...Rms} \\ \midrule 2 & 5 & 1 & \numRP 
                                                   {20062716.45}{2} & \numRP ...
@@ -9845,9 +9813,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[116
+[117
 
-]) [117] (./Texfiles/systematics.tex (./Texfiles/MCSystematics.tex
+]) [118] (./Texfiles/systematics.tex (./Texfiles/MCSystematics.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -9925,7 +9893,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[118
+[119
 
 ]
 ! Undefined control sequence.
@@ -9983,7 +9951,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)) [119] (./Texfiles/09-Results.tex
+)) [120] (./Texfiles/09-Results.tex
 File: fig/new_Limit/Ggg_Tag0_yStar0p8_data1_Set1_Param5_LumiSyst0p0083_JESJERtr
 ue_sigma.pdf Graphic file (type pdf)
 <use fig/new_Limit/Ggg_Tag0_yStar0p8_data1_Set1_Param5_LumiSyst0p0083_JESJERtru
@@ -10008,13 +9976,13 @@ File: fig/new_Limit/QBH_Tag2_yStar0p8_data0_Set1_Param5_LumiSyst0p0083_JESJERtr
 ue_sigma.pdf Graphic file (type pdf)
 <use fig/new_Limit/QBH_Tag2_yStar0p8_data0_Set1_Param5_LumiSyst0p0083_JESJERtru
 e_sigma.pdf>
-) [120
+) [121
 
-] [121])
+] [122] [123])
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
-l.1273 ...icle jet constituent multiplicity (\ntrk
+l.1272 ...icle jet constituent multiplicity (\ntrk
                                                   ), and a BDT-based tagger,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10025,7 +9993,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1275 ...of dijet events characterized by jet \pt
+l.1274 ...of dijet events characterized by jet \pt
                                                   ~ranging from 500 GeV to 2...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10036,7 +10004,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
-l.1277 ...ates superior performance over the \ntrk
+l.1276 ...ates superior performance over the \ntrk
                                                   -only tagger in distinguis...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10047,7 +10015,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1277 ...-jets from gluon-jets within the jet \pt
+l.1276 ...-jets from gluon-jets within the jet \pt
                                                   ~range of 500 GeV to 1200 ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10058,7 +10026,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1277 ...tors are measured across varying jet-\pt
+l.1276 ...tors are measured across varying jet-\pt
                                                   ~intervals, exhibiting a r...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10066,40 +10034,40 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[122
+[124
 
-] [123]
-Overfull \hbox (20.43512pt too wide) in paragraph at lines 1296--1296
+] [125]
+Overfull \hbox (20.43512pt too wide) in paragraph at lines 1295--1295
 \T1/ptm/m/n/12 sions at $[] \OT1/ztmcm/m/n/12 = 8$ \T1/ptm/m/n/12 TeV''. In: \T
 1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 10 (2017), p. 131. \T1/ptm/m/sc/12 doi\T1/ptm
 /m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1007 / JHEP10(2017 )
  []
 
-[124] [125]
-Overfull \hbox (11.47821pt too wide) in paragraph at lines 1296--1296
+[126] [127]
+Overfull \hbox (11.47821pt too wide) in paragraph at lines 1295--1295
 \T1/ptm/m/n/12 p. 083. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 10 . 1007 / JHEP09(2017 ) 083$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
 704 . 06266$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
 
 
-Overfull \hbox (11.47821pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (11.47821pt too wide) in paragraph at lines 1295--1295
 \T1/ptm/m/n/12 p. 091. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 10 . 1007 / JHEP07(2017 ) 091$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
 704 . 03878$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
 
-[126]
-Overfull \hbox (2.27623pt too wide) in paragraph at lines 1296--1296
+[128]
+Overfull \hbox (2.27623pt too wide) in paragraph at lines 1295--1295
 []\T1/ptm/m/n/12 Dieter Lust, Stephan Stieberger, and Tomasz R. Tay-lor. ``The 
 LHC String Hunter's
  []
 
-[127]
+[129]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10107,7 +10075,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...-\(k_{t}\) jet clustering algorithm}
                                                   
-l.1296 
+l.1295 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10118,7 +10086,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10129,7 +10097,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10138,13 +10106,13 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (57.75603pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (57.75603pt too wide) in paragraph at lines 1295--1295
 []\T1/ptm/m/n/12 Matteo Cac-ciari, Gavin P. Salam, and Gre-gory Soyez. ``The an
 ti-$[] \OML/ztmcm/m/it/12 jetclusteringalgorithm$\T1/ptm/m/n/12 ''.
  []
 
-[128]
-Overfull \hbox (7.74095pt too wide) in paragraph at lines 1296--1296
+[130]
+Overfull \hbox (7.74095pt too wide) in paragraph at lines 1295--1295
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``AT-LAS data qual-ity op-er-a-tions 
 and per-for-mance for 2015 |\TU/FandolSong-Regular(0)/m/n/12 –|
  []
@@ -10152,7 +10120,7 @@ and per-for-mance for 2015 |\TU/FandolSong-Regular(0)/m/n/12 –|
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10160,7 +10128,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...a~8 tunes to \(7~\text {TeV}\) data}
                                                   
-l.1296 
+l.1295 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10171,7 +10139,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10182,7 +10150,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10191,60 +10159,60 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (8.12695pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (8.12695pt too wide) in paragraph at lines 1295--1295
 []\T1/ptm/m/n/12 Steffen Schu-mann and Frank Krauss. ``A par-ton shower al-go-r
 ithm based on Catani--
  []
 
-[129]
-Overfull \hbox (2.4521pt too wide) in paragraph at lines 1296--1296
+[131]
+Overfull \hbox (2.4521pt too wide) in paragraph at lines 1295--1295
 \T1/ptm/m/n/12 PDFs''. In: \T1/ptm/m/it/12 Eur. Phys. J. C \T1/ptm/m/n/12 75.5 
 (2015), p. 204. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 11
 40 / epjc / s10052 -[]
  []
 
 
-Overfull \hbox (4.27821pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (4.27821pt too wide) in paragraph at lines 1295--1295
 \T1/ptm/m/n/12 p. 043. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 10 . 1007 / JHEP06(2010 ) 043$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
 002 . 2581$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
 
-[130]
-Overfull \hbox (40.61462pt too wide) in paragraph at lines 1296--1296
+[132]
+Overfull \hbox (40.61462pt too wide) in paragraph at lines 1295--1295
 \T1/ptm/m/n/12 tions for jet sub-struc-ture''. In: \T1/ptm/m/it/12 JHEP \T1/ptm
 /m/n/12 06 (2013), p. 108. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n
 /12 10 . 1007 / JHEP06(2013 )
  []
 
 
-Overfull \hbox (53.74583pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (53.74583pt too wide) in paragraph at lines 1295--1295
 \T1/pcr/m/n/12 paper _ files / paper / 2017 / file / 6449f44a102fde848669bdd9eb
 6b76fa -[]
  []
 
-[131]
-Overfull \hbox (121.0458pt too wide) in paragraph at lines 1296--1296
+[133]
+Overfull \hbox (121.0458pt too wide) in paragraph at lines 1295--1295
 \T1/pcr/m/n/12 twiki . cern . ch / twiki / bin / view / AtlasProtected / Deriva
 tionframeworkExotics$[][]\T1/ptm/m/n/12 . 
  []
 
-[132]
-Overfull \hbox (15.35498pt too wide) in paragraph at lines 1296--1296
+[134]
+Overfull \hbox (15.35498pt too wide) in paragraph at lines 1295--1295
 \T1/ptm/m/n/12 other new par-ti-cles''. In: \T1/ptm/m/it/12 JHEP \T1/ptm/m/n/12
  08 (2018), p. 130. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 
 . 1007 / JHEP08(2018 )
  []
 
-[133]
-Overfull \hbox (9.01572pt too wide) in paragraph at lines 1296--1296
+[135]
+Overfull \hbox (9.01572pt too wide) in paragraph at lines 1295--1295
 []\T1/ptm/m/n/12 Hongtao Yang. \T1/ptm/m/it/12 XML An-a-lytic Workspace Builder
 \T1/ptm/m/n/12 . 2021. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 https : / / twiki .
  []
 
 
-Overfull \hbox (24.44585pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (24.44585pt too wide) in paragraph at lines 1295--1295
 \T1/pcr/m/n/12 cern . ch / twiki / bin / viewauth / AtlasProtected / XmlAnaWSBu
 ilder$[][]
  []
@@ -10252,7 +10220,7 @@ ilder$[][]
 ! Undefined control sequence.
 <argument> ...llisions at $\sqrt {s} = 1.96$~\TeV 
                                                   }
-l.1296 
+l.1295 
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10263,7 +10231,7 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10271,7 +10239,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ... with the ATLAS Detector at the LHC}
                                                   
-l.1296 
+l.1295 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10282,7 +10250,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10293,7 +10261,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10302,7 +10270,7 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (53.56429pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (53.56429pt too wide) in paragraph at lines 1295--1295
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``Search for New Par-ti-cles in Two-J
 et Fi-nal States in $[] \OML/ztmcm/m/it/12 Proton \OMS/ztmcm/m/n/12 ^^@
  []
@@ -10310,7 +10278,7 @@ et Fi-nal States in $[] \OML/ztmcm/m/it/12 Proton \OMS/ztmcm/m/n/12 ^^@
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10318,7 +10286,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...xt {TeV}\) \(pp\) Collisions at CMS}
                                                   
-l.1296 
+l.1295 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10329,7 +10297,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10340,7 +10308,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10349,16 +10317,16 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (21.20854pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (21.20854pt too wide) in paragraph at lines 1295--1295
 []\T1/ptm/m/n/12 CMS Col-lab-o-ra-tion. ``Search for Di-jet Res-o-nances in $[]
  [] \OML/ztmcm/m/it/12 CollisionsatCMS$\T1/ptm/m/n/12 ''.
  []
 
-[134]
+[136]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10366,7 +10334,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...\) measured with the ATLAS detector}
                                                   
-l.1296 
+l.1295 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10377,7 +10345,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10388,7 +10356,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10399,7 +10367,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10407,7 +10375,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ext {TeV}\) with the ATLAS detector}
                                                   
-l.1296 
+l.1295 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10418,7 +10386,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10429,7 +10397,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10440,7 +10408,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10448,7 +10416,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ext {TeV}\) with the ATLAS detector}
                                                   
-l.1296 
+l.1295 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10459,7 +10427,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10470,7 +10438,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1296 
+l.1295 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10479,29 +10447,29 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (13.62364pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (13.62364pt too wide) in paragraph at lines 1295--1295
 \T1/ptm/m/n/12 pairs us-ing $[] \OML/ztmcm/m/it/12 of [] collisionsat [] withth
 eATLASdetector$\T1/ptm/m/n/12 ''.
  []
 
 
-Overfull \hbox (12.14688pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (12.14688pt too wide) in paragraph at lines 1295--1295
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. \T1/ptm/m/it/12 Rec-om-men-da-tions f
 or the Mod-el-ing of Smooth Back-grounds\T1/ptm/m/n/12 .
  []
 
 
-Overfull \hbox (3.60066pt too wide) in paragraph at lines 1296--1296
+Overfull \hbox (3.60066pt too wide) in paragraph at lines 1295--1295
 \T1/ptm/m/n/12 ATL-PHYS-PUB-2020-028. 2020. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 :
  [][]$\T1/pcr/m/n/12 https : / / cds . cern . ch / record /
  []
 
-[135] [136]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1344.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1344.
+[137] [138]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1343.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1343.
  (./Thesis_Wanyun.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1344.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1344.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1343.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1343.
 
 Package rerunfilecheck Info: File `Thesis_Wanyun.out' has not changed.
 (rerunfilecheck)             Checksum: F7001622AA10F14C779B667C56AF5315;15283.
@@ -10521,12 +10489,12 @@ Package logreq Info: Writing requests to 'Thesis_Wanyun.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40473 strings out of 479418
- 881985 string characters out of 5884585
- 1643019 words of memory out of 5000000
- 57014 multiletter control sequences out of 15000+600000
- 650660 words of font info for 238 fonts, out of 8000000 for 9000
+ 40423 strings out of 479418
+ 881280 string characters out of 5884585
+ 1648293 words of memory out of 5000000
+ 56970 multiletter control sequences out of 15000+600000
+ 647172 words of font info for 234 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,20n,91p,1455b,4808s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,20n,91p,1540b,4794s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis_Wanyun.pdf (144 pages).
+Output written on Thesis_Wanyun.pdf (146 pages).
