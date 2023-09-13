@@ -1,6 +1,6 @@
 \label{sec:statistical_framework}
 
-\subsubsection{Fitting Framework}
+\subsubsection{Fitting framework}
 
 The fitting framework used to parameterise QCD background is based on XML Analytic Workspace Builder~\cite{xmlAnaWSBuilder} (xmlAnaWSBuilder), which employs one-dimensional 
 observables to create RooFit~\cite{RooFit} workspaces. The workflow of the framework is summarised in Figure~\ref{fig:xmlAnaWSBuilderworkflow}.
@@ -61,7 +61,7 @@ The xRooFit framework~\cite{xRooFit} that based on RooFit data fitting package i
 %the \textit{CLs} method.
 %%~\cite[Cowan:2010js, Read:2002hq]. 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\subsubsection{Statistical Method} 
+\subsubsection{Statistical method} 
 
 In this analysis, the discriminating variable is set to the dijet invariant mass $m_{jj}$, and the distribution of it is used as  a probability density function (pdf) to build the likelihood function.
 
@@ -98,7 +98,7 @@ The distribution of \mjj~of background is parameterized by
 f_b(m_{jj};\bm{p}_b) = f_b(m_{jj};p_1,p_2,p_3,p_4,p_5) = p_1 \left( 1
 - \frac{m_{jj}}{\sqrt{s}} \right)^{p_2} \left( \frac{m_{jj}}{\sqrt{s}}
 \right)^{p_3 + p_4\ln\left( \frac{m_{jj}}{\sqrt{s}} \right) +  p_5
-  \left[ \ln \left( \frac{m_{jj}}{\sqrt{s}} \right) \right]^2}\, ,  
+  \left[ \ln \left( \frac{m_{jj}}{\sqrt{s}} \right) \right]^2}\, .  
 \end{equation}
 
 \noindent
@@ -111,8 +111,8 @@ Given that we are employing a binned likelihood approach and working with histog
 
 \begin{eqnarray}
 s_i & = & s_\mathrm{tot} \int_{\mathrm{bin}\ i} f_s(m_{jj};\bm{p}_s)
-dm_{jj}\, ,\\
-b_i & = & b_\mathrm{tot} \int_{\mathrm{bin}\ i} f_b(m_{jj};\bm{p}_b) dm_{jj}\, ,
+dm_{jj}\, .\\
+b_i & = & b_\mathrm{tot} \int_{\mathrm{bin}\ i} f_b(m_{jj};\bm{p}_b) dm_{jj}\, .
 \end{eqnarray}
 
 \noindent
@@ -162,7 +162,7 @@ A binned likelihood is used in this analysis. Consider the $m_{jj}$ histogram of
 events, the likelihood function without uncertainties is built as:
 \begin{equation}
 \mathcal{L}(\mu;b_\mathrm{tot},\bm{p}_s,\bm{p}_b) = \prod_{i=1}^N \frac{(\mu s_i +
-b_i)^{n_i}}{n_i!} e^{-(\mu s_i + b_i)}\, ,
+b_i)^{n_i}}{n_i!} e^{-(\mu s_i + b_i)}\, .
 \end{equation}
 \noindent
 where the parameter of interest (POI) $\mu$ is the signal strength
@@ -182,7 +182,7 @@ N_i(\alpha_t;\theta_t,\delta E_t)
 N_i(\alpha_{E_\mathrm{JER}};\theta_{E_\mathrm{JER}},\delta E_\mathrm{JER})\\
 & \cdot &
 N_i(\alpha_{E_\mathrm{JES}};\theta_{E_\mathrm{JES}},\delta E_\mathrm{JES})
-N_i(\alpha_S;\theta_S,\delta_S)\, ,
+N_i(\alpha_S;\theta_S,\delta_S)\, .
 \end{eqnarray}
 
 \noindent
@@ -221,7 +221,7 @@ The simplified likelihood function is written as:
 \end{equation}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
-\paragraph{Statistical Method}\mbox{}\par
+\paragraph{Statistical method}\mbox{}\par
 
 A hypothesis test is used for estimating the compatibility between data and a theoretical hypothesis, where the pseudo datasets are generated according to a given hypothesis, and compared to the tested dataset in terms of a test statistic.
 
@@ -316,26 +316,32 @@ The statistical approach employed in this analysis differs slightly from previou
 To create the RooFit workspaces, the XML Analytic Workspace Builder is utilized. The xRooFit tool processes these workspaces and performs operations like setting limits, among others, using classes from the RooFit and RooStats libraries.
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% 
 
-\subsubsection{Background Estimation}
+\subsubsection{Background estimation}
 
 In the resonant search the SM background of the \mjj\ spectrum is established through a functional fitting procedure applied to the data. Refs.~\cite{Bagnaia:1984ip,PhysRevD.79.112002,EXOT-2010-01,CMS-EXO-10-010,EXOT-2010-07,EXOT-2013-11})
 have found that a parametric function of the form
 \begin{equation}
-  f(x) = p_1 (1 - x)^{p_2} x^{p_3 + p_4\ln x + p_5 (\ln x)^2},
+  f(x) = p_1 (1 - x)^{p_2} x^{p_3 + p_4\ln x + p_5 (\ln x)^2}.
 \label{Eq:fitfunction}% uncomment if label used. 
 \end{equation}
 where $x \equiv \mjj /\sqrt{s}$, accurately describes dijet mass distribution predicted by leading and next-to-leading-order 
 QCD Monte Carlo. In the ATLAS Run~2 analysis with \integLumi\ of data  \cite{EXOT-2019-03,Nishu:2646455}, the four parameter 
 version of the function ($p_5 = 0$) was found to sufficiently described the data.  
-The introduction of  gluon tagging may require more  parameters to properly describe the full invariant mass spectrum.
+The introduction of  gluon tagging may require more  parameters to properly describe the full invariant mass spectrum, where no significant deviation is observed, as shown in Figure~\ref{fig:5p}.
+ \begin{figure}[!htb]
+	   \centering
+	   \includegraphics[width=0.45\textwidth]{fig/5presult.png}
+	   \caption{\mjj\ background fit.}
+		   \label{fig:5p}}
+ \end{figure}
 
-To avoid introducing any potential bias due to the selection of a specific background function, an alternative functional form is employed. This alternative form is inspired by the one used by the UA2 experiment \cite{Alitti:1990kw, Alitti:1993pn} when observing the decay of $W$ and $Z$ bosons into two jets, followed by a subsequent search.
-\begin{equation}
-  f(x) = p_1 x^{p_2} \exp\left({p_3 x + p_4  x^2 }\right).
-%\label{Eq:fitfunction2}% uncomment if label used. 
-\end{equation}
+%To avoid introducing any potential bias due to the selection of a specific background function, an alternative functional form is employed. This alternative form is inspired by the one used by the UA2 experiment \cite{Alitti:1990kw, Alitti:1993pn} when observing the decay of $W$ and $Z$ bosons into two jets, followed by a subsequent search.
+%\begin{equation}
+%  f(x) = p_1 x^{p_2} \exp\left({p_3 x + p_4  x^2 }\right).
+%%\label{Eq:fitfunction2}% uncomment if label used. 
+%\end{equation}
 
-\subsubsection{Analysis Strategy}
+\subsubsection{Analysis strategy}
 
 The analysis begins with the utilization of skimmed ntuples, which are the result of applying the event selection criteria outlined in Section~\ref{sec:analysiscuts}. These ntuples serve as the basis for generating pseudo-data using the background-only model. Subsequently, a 4-parameter ($p_5$ = 0) fit function described by Equation~\ref{Eq:fitfunction} is employed to fit this pseudo-data. The fit to the data is deemed satisfactory if it meets the following criterion:
 
@@ -517,7 +523,7 @@ If the conditions mentioned above are satisfied, the background is chosen for th
 %
 %\FloatBarrier
 
-\subsubsection{Spurious Signal Tests}
+\subsubsection{Spurious signal tests}
 
 The spurious signal test is designed to estimate the difference between the signal yields from the fit and the expected signal yields that given by fitting a known template signal model on a smooth background distribution. Such difference is considered as fit bias and defined as $S_\mathrm{spur}$:
 
@@ -626,7 +632,7 @@ The idea criteria is when the spurious signal satisfy: $S_\mathrm{spur}$ < 30\% 
 
 \FloatBarrier
 
-\subsubsection{Fit Stability Tests}
+\subsubsection{Fit stability tests}
 The fit stability tests are employed to assess the behaviour of the background fit function under different scenarios: when applied to the background-only template and the signal + background template. A comparison is made between the fit results obtained from these two templates. Ideally, the background fit function should yield consistent outcomes in both cases. The results of these fit stability tests are presented in Table~\ref{tab:FitStab_Gauss_1gtag} through Table~\ref{tab:FitStab_Gauss_2gtag}, encompassing various signal strengths and mass points.
 
 Notably, the background estimation derived from the signal + background fit ($B_1$) aligns with the background estimation obtained from the background-only fit ($B_2$), indicating good agreement between the two approaches.

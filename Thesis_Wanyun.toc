@@ -50,11 +50,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.1.2}Monte Carlo simulation}{29}{subsubsection.5.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Object and Event selection}{30}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.2}Object and event selection}{30}{subsection.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {5.2.1}Physics object definition}{31}{subsubsection.5.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.2.2}Event Selection and definition of quark and gluon-enriched samples}{32}{subsubsection.5.2.2}%
+\contentsline {subsubsection}{\numberline {5.2.2}Event selection and definition of quark and gluon-enriched samples}{32}{subsubsection.5.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.3}Quark/gluon tagging variables}{32}{subsection.5.3}%
 \defcounter {refsection}{0}\relax 
@@ -116,27 +116,27 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {6.2}Events selections}{91}{subsection.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.2.1}Observables and Kinematic Variables}{91}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.1}Observables and kinematic variables}{91}{subsubsection.6.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {6.2.2}Baseline selection}{92}{subsubsection.6.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.3}Quark-Gluon Sample Selection}{93}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.3}Quark-Gluon sample selection}{93}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.3.1}Selection Criteria}{94}{subsubsection.6.3.1}%
+\contentsline {subsubsection}{\numberline {6.3.1}Selection criteria}{94}{subsubsection.6.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.4}Signal Optimisation}{100}{subsection.6.4}%
+\contentsline {subsection}{\numberline {6.4}Signal optimisation}{100}{subsection.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.1}\ensuremath {y^\ast }\ Cut Optimisation}{100}{subsubsection.6.4.1}%
+\contentsline {subsubsection}{\numberline {6.4.1}\ensuremath {y^\ast }\ cut optimisation}{100}{subsubsection.6.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.2}Optimised Selection}{103}{subsubsection.6.4.2}%
+\contentsline {subsubsection}{\numberline {6.4.2}Optimised selection}{103}{subsubsection.6.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.4.3}Selected Kinematic Plots}{103}{subsubsection.6.4.3}%
+\contentsline {subsubsection}{\numberline {6.4.3}Selected kinematic plots}{103}{subsubsection.6.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Statistical Framework}{106}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.5}Statistical framework}{106}{subsection.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.1}Fitting Framework}{106}{subsubsection.6.5.1}%
+\contentsline {subsubsection}{\numberline {6.5.1}Fitting framework}{106}{subsubsection.6.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.2}Statistical Method}{107}{subsubsection.6.5.2}%
+\contentsline {subsubsection}{\numberline {6.5.2}Statistical method}{107}{subsubsection.6.5.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {6.5.2.1}Parametric background models}{107}{paragraph.6.5.2.1}%
 \defcounter {refsection}{0}\relax 
@@ -144,7 +144,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {6.5.2.3}Likelihood function definition}{108}{paragraph.6.5.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {6.5.2.4}Statistical Method}{109}{paragraph.6.5.2.4}%
+\contentsline {paragraph}{\numberline {6.5.2.4}Statistical method}{109}{paragraph.6.5.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {6.5.2.5}Test statistic and p-value definitions}{110}{paragraph.6.5.2.5}%
 \defcounter {refsection}{0}\relax 
@@ -154,19 +154,19 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {6.5.2.8}Implementation}{112}{paragraph.6.5.2.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.3}Background Estimation}{112}{subsubsection.6.5.3}%
+\contentsline {subsubsection}{\numberline {6.5.3}Background estimation}{112}{subsubsection.6.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.4}Analysis Strategy}{112}{subsubsection.6.5.4}%
+\contentsline {subsubsection}{\numberline {6.5.4}Analysis strategy}{113}{subsubsection.6.5.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.5}Spurious Signal Tests}{113}{subsubsection.6.5.5}%
+\contentsline {subsubsection}{\numberline {6.5.5}Spurious signal tests}{113}{subsubsection.6.5.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.6}Fit Stability Tests}{117}{subsubsection.6.5.6}%
+\contentsline {subsubsection}{\numberline {6.5.6}Fit stability tests}{118}{subsubsection.6.5.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.6}Systematic uncertainties}{119}{subsection.6.6}%
+\contentsline {subsection}{\numberline {6.6}Systematic uncertainties}{120}{subsection.6.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.7}Results}{121}{subsection.6.7}%
+\contentsline {subsection}{\numberline {6.7}Results}{122}{subsection.6.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Conclusions}{124}{section.7}%
+\contentsline {section}{\numberline {7}Conclusions}{125}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Acknowledgements}{138}{section.8}%
+\contentsline {section}{\numberline {8}Acknowledgements}{137}{section.8}%
 \contentsfinish 
