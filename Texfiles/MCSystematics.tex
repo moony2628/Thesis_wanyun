@@ -12,8 +12,61 @@ These equations require two samples with different fractions of quark- and gluon
 
 They systematic uncertainty can be estimated by using pure MC simulations and is expected to be substantial, yet smaller than that obtained from data at the edges of the mass range. This technique is particularly effective where statistics are not limited, such as in the central region of the \pt\ distribution. Such an approach has proven to be the optimal choice. To extend the uncertainties into the higher \pt\ regime, particle-level effects and MC reconstruction effects are incorporated. These uncertainties pertain to "in-situ" considerations, making it reasonable to employ them during an extrapolation procedure.
 
-The procedure is performed at constant \pt\ ranges, as \ntrk~depends only on \pt\ and the parton type that initiating jets, uncertainties can be computed by comparing the distribution of \ntrk~in bins of jet \pt~, which generated from different simulation models. Thus different type of MC generators could introduce underlying uncertainties to the results. Details on different types of uncertainties and the samples used to estimate them are described in Section.~\ref{sec:QG-syst}. 
+The procedure is performed at constant \pt\ ranges, as \ntrk~depends only on \pt\ and the parton type that initiating jets, uncertainties can be computed by comparing the distribution of \ntrk~in bins of jet \pt~, which generated from different simulation models. Thus different type of MC generators could introduce underlying uncertainties to the results. Details on different types of theoretical uncertainties and the samples used to estimate them are described in Section~\ref{sec:QG-syst}.  Uncertainties from experiments are described in Section~\ref{sec:unc}.
 
+The distribution of \ntrk versus jet \pt\ for 75\% gluon tagging working point can be seen in Figure~\ref{fig:SysHerwig} for the two Herwig samples. 
+
+\begin{figure}[htb]
+	\centering
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/Systematics/quark_frac_selection_errors_HerwigAngularOrder_5.pdf}}
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/Systematics/quark_frac_selection_errors_HerwigDipole_5.pdf}}
+	%
+	\caption{The values of \ntrk~for 75\% quark (blue) and gluon (red) selection efficiencies in each \pt\ bin obtained with
+		(a) Herwig Angular-ordered, and
+		(b) Herwig Dipole MC samples.
+	}
+	\label{fig:SysHerwig}
+\end{figure}
+
+
+Sherpa with Cluster-based hadronisation (Sherpa CSS) and Sherpa with String-based hadronisation (Sherpa Lund) model hadronisation, and therefore underlying events, 
+differently. The systematic uncertainty due to hadronisation modelling is estimated from the Sherpa CSS and Sherpa Lund modelling sample.
+The distribution of \ntrk~versus jet \pt\ for 75\% gluon tagging working point can be seen in Figure~\ref{fig:SysSherpa} for the two Sherpa samples.  
+
+\begin{figure}[htb]
+	\centering
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/Systematics/quark_frac_selection_errors_SherpaCSS_5.pdf}}
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/Systematics/quark_frac_selection_errors_SherpaLund_5.pdf}}
+	%
+	\caption{The values of \ntrk~for 75\% quark (blue) and gluon (red) selection efficiencies in each \pt\ bin obtained with
+		(a) Sherpa CSS, and 
+		(b) Sherpa Lund MC samples.
+	}
+	\label{fig:SysSherpa}
+\end{figure}
+
+The values of constants $m$ and $c$ from Equation~\ref{eq:nqg2} such that $ \ntrk  \ge \ngluon $ for truth quark jets for 75\% efficiencies 
+with different dijet MC samples mentioned above are shown in Table~\ref{table:qgTagSysTable}.
+
+\begin{table}[!htb]
+	\begin{center}
+		\renewcommand{\arraystretch}{1.4}
+		\resizebox{0.99\textwidth}{!}{
+		\begin{tabular}{ccccc}
+			\toprule
+			\multicolumn{1}{c}{MC samples}   & \multicolumn{1}{c}{Truth-$g$ selection efficiency}   & \multicolumn{1}{c}{Truth-$q$ selection efficiency} &  \multicolumn{1}{c}{$c$}  &  \multicolumn{1}{c}{$m$} \\
+			\midrule
+			Pythia & 0.75 & 0.265 & -13.399 & 5.049 \\
+			Sherpa Lund & 0.75 & 0.283 & -13.559 & 4.969  \\
+			Sherpa CSS & 0.75 & 0.306 & -14.819 & 5.151 \\
+			Herwig angular-ordered & 0.75 & 0.474 & -6.061 & 3.504 \\
+			Herwig dipole-ordered  & 0.75 & 0.308 & -10.013 & 4.524 \\
+			\bottomrule
+		\end{tabular}}
+	\end{center}
+	\caption{ Values of constants $m$ and $c$ from Equation~\ref{eq:nqg2} obtained with different MC samples.}
+	\label{table:qgTagSysTable}
+\end{table}
 
 %\paragraph{Track Systematics\\}
 %

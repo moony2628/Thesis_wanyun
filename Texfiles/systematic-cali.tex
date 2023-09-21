@@ -63,7 +63,7 @@ All formulations of shower processes are constructed on the fundamental foundati
   
     \subsubsection{Tracking uncertainty}
 
-he number of associated tracks is the most important input for both taggers, with tracking-related systematics exerting an impact on the measurement of SFs. he uncertainty associated with reconstructed tracks is partitioned into two components: the uncertainty pertaining to track reconstruction efficiency and the MC fake rate~\cite{ATLAS:2017kyn}. Both sources of uncertainty are factored in to recalibrate the count of tracks associated with jets.
+The number of associated tracks is the most important input for both taggers, with tracking-related systematics exerting an impact on the measurement of SFs. he uncertainty associated with reconstructed tracks is partitioned into two components: the uncertainty pertaining to track reconstruction efficiency and the MC fake rate~\cite{ATLAS:2017kyn}. Both sources of uncertainty are factored in to recalibrate the count of tracks associated with jets.
 
  The track reconstruction efficiency uncertainty originates from material-related uncertainties, which constitutes the prevailing source, as well as from considerations related to the physics model. These uncertainties are estimated through a comparison of track efficiency across samples that encompass diverse detector modelling configurations. On the other hand, the MC fake rate is determined by contrasting the trends in a specific aspect of track multiplicity as a function of the average number of interactions per bunch crossing between empirical data and the MC simulation.The disparity in final SFs between the nominal value and the outcome of the systematic variation contributes to the tracking systematic uncertainty. This uncertainty spans a range of approximately 1\% to 8\%.
 
@@ -141,42 +141,42 @@ The uncertainties associated with JES stem from the process of calibrating the t
     \subsubsection{Statistical uncertainty}
  The estimation of statistical uncertainty involves a stepwise process. It commences by varying the input data/MC distributions bin-by-bin, using Poisson/Gaussian distributions wherein the number of data events within each bin serves as the central value. These variations of the input histograms yield templates, subsequently employed as inputs for the template variations technique. This procedure is iterated 5000 times, with the standard deviation of these uncertainties of all toys taken is used to derive the statistical uncertainty of the SFs. This uncertainty is around 0.1\%.
     
-   The distributions of SFs are shown in \ref{fig:QG-pythia-bootstrap-500-ntrk} for \ntrk~and \ref{fig:QG-pythia-bootstrap-500-bdt} for the BDT.  
-  \begin{figure}[htb]
-	\centering
-	\subfloat[working Point:50\%~(Quark)]{\label{fig:QG-pythia-BDTQ5}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.5-ntrk-quark.pdf}} \quad
-	\subfloat[working Point:60\%~(Quark)]{\label{fig:QG-pythia-BDTQ6}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.6-ntrk-quark.pdf}}\quad
-	\subfloat[working Point:70\%~(Quark)]{\label{fig:QG-pythia-BDTQ7}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.7-ntrk-quark.pdf}} \quad
-	\subfloat[working Point:80\%~(Quark)]{\label{fig:QG-pythia-BDTQ8}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.8-ntrk-quark.pdf}}\\
-	\subfloat[working Point:50\%~(Gluon)]{\label{fig:QG-pythia-BDTG5}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.5-ntrk-gluon.pdf}} \quad
-	\subfloat[working Point:60\%~(Gluon)]{\label{fig:QG-pythia-BDTG6}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.6-ntrk-gluon.pdf}}\quad
-	\subfloat[working Point:70\%~(Gluon)]{\label{fig:QG-pythia-BDTG7}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.7-ntrk-gluon.pdf}} \quad
-	\subfloat[working Point:80\%~(Gluon)]{\label{fig:QG-pythia-BDTG8}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.8-ntrk-gluon.pdf}}\\
-	\caption[]{
-	The distribution of SF by varying the input data distributions bin-by-bin using a Poisson distribution with the number of data events in each bin as the central value for 5000 times for working point of \ntrk~in jet \pt~range 500-600 GeV. 
-
-		\label{fig:QG-pythia-bootstrap-500-ntrk}
-	}
-\end{figure}
-
-
-
-\begin{figure}[htb]
-	\centering
-	\subfloat[working Point:50\%~(Quark)]{\label{fig:QG-pythia-BDTQ5}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.5-bdt-quark.pdf}} \quad
-	\subfloat[working Point:60\%~(Quark)]{\label{fig:QG-pythia-BDTQ6}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.6-bdt-quark.pdf}}\quad
-	\subfloat[working Point:70\%~(Quark)]{\label{fig:QG-pythia-BDTQ7}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.7-bdt-quark.pdf}} \quad
-	\subfloat[working Point:80\%~(Quark)]{\label{fig:QG-pythia-BDTQ8}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.8-bdt-quark.pdf}}\\
-	\subfloat[working Point:50\%~(Gluon)]{\label{fig:QG-pythia-BDTG5}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.5-bdt-gluon.pdf}} \quad
-	\subfloat[working Point:60\%~(Gluon)]{\label{fig:QG-pythia-BDTG6}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.6-bdt-gluon.pdf}}\quad
-	\subfloat[working Point:70\%~(Gluon)]{\label{fig:QG-pythia-BDTG7}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.7-bdt-gluon.pdf}} \quad
-	\subfloat[working Point:80\%~(Gluon)]{\label{fig:QG-pythia-BDTG8}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.8-bdt-gluon.pdf}}\\
-	\caption[]{
-	The distribution of SF by varying the input data distributions bin-by-bin using a Poisson distribution with the number of data events in each bin as the central value for 5000 times for working point of BDT in jet \pt~range 500-600 GeV. 
-
-		\label{fig:QG-pythia-bootstrap-500-bdt}
-	}
-\end{figure}
+%   The distributions of SFs are shown in \ref{fig:QG-pythia-bootstrap-500-ntrk} for \ntrk~and \ref{fig:QG-pythia-bootstrap-500-bdt} for the BDT.  
+%  \begin{figure}[htb]
+%	\centering
+%	\subfloat[working Point:50\%~(Quark)]{\label{fig:QG-pythia-BDTQ5}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.5-ntrk-quark.pdf}} \quad
+%	\subfloat[working Point:60\%~(Quark)]{\label{fig:QG-pythia-BDTQ6}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.6-ntrk-quark.pdf}}\quad
+%	\subfloat[working Point:70\%~(Quark)]{\label{fig:QG-pythia-BDTQ7}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.7-ntrk-quark.pdf}} \quad
+%	\subfloat[working Point:80\%~(Quark)]{\label{fig:QG-pythia-BDTQ8}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.8-ntrk-quark.pdf}}\\
+%	\subfloat[working Point:50\%~(Gluon)]{\label{fig:QG-pythia-BDTG5}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.5-ntrk-gluon.pdf}} \quad
+%	\subfloat[working Point:60\%~(Gluon)]{\label{fig:QG-pythia-BDTG6}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.6-ntrk-gluon.pdf}}\quad
+%	\subfloat[working Point:70\%~(Gluon)]{\label{fig:QG-pythia-BDTG7}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.7-ntrk-gluon.pdf}} \quad
+%	\subfloat[working Point:80\%~(Gluon)]{\label{fig:QG-pythia-BDTG8}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.8-ntrk-gluon.pdf}}\\
+%	\caption[]{
+%	The distribution of SF by varying the input data distributions bin-by-bin using a Poisson distribution with the number of data events in each bin as the central value for 5000 times for working point of \ntrk~in jet \pt~range 500-600 GeV. 
+%
+%		\label{fig:QG-pythia-bootstrap-500-ntrk}
+%	}
+%\end{figure}
+%
+%
+%
+%\begin{figure}[htb]
+%	\centering
+%	\subfloat[working Point:50\%~(Quark)]{\label{fig:QG-pythia-BDTQ5}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.5-bdt-quark.pdf}} \quad
+%	\subfloat[working Point:60\%~(Quark)]{\label{fig:QG-pythia-BDTQ6}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.6-bdt-quark.pdf}}\quad
+%	\subfloat[working Point:70\%~(Quark)]{\label{fig:QG-pythia-BDTQ7}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.7-bdt-quark.pdf}} \quad
+%	\subfloat[working Point:80\%~(Quark)]{\label{fig:QG-pythia-BDTQ8}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.8-bdt-quark.pdf}}\\
+%	\subfloat[working Point:50\%~(Gluon)]{\label{fig:QG-pythia-BDTG5}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.5-bdt-gluon.pdf}} \quad
+%	\subfloat[working Point:60\%~(Gluon)]{\label{fig:QG-pythia-BDTG6}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.6-bdt-gluon.pdf}}\quad
+%	\subfloat[working Point:70\%~(Gluon)]{\label{fig:QG-pythia-BDTG7}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.7-bdt-gluon.pdf}} \quad
+%	\subfloat[working Point:80\%~(Gluon)]{\label{fig:QG-pythia-BDTG8}\includegraphics[width=0.22\textwidth]{fig/Method1/pythia/Bootstrap/500-0.8-bdt-gluon.pdf}}\\
+%	\caption[]{
+%	The distribution of SF by varying the input data distributions bin-by-bin using a Poisson distribution with the number of data events in each bin as the central value for 5000 times for working point of BDT in jet \pt~range 500-600 GeV. 
+%
+%		\label{fig:QG-pythia-bootstrap-500-bdt}
+%	}
+%\end{figure}
 
 
 

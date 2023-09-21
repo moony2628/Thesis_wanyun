@@ -924,16 +924,16 @@
     \endentry
     \entry{lbnl}{article}{}
       \name{author}{1}{}{%
-        {{hash=594d66ec48b182e40a3da9b388d30694}{%
-           family={{Particle Data Groupn}},
+        {{hash=4eea7085eaa05715b19a05077bd8a97c}{%
+           family={{Particle Data Group}},
            familyi={P\bibinitperiod}}}%
       }
-      \strng{namehash}{594d66ec48b182e40a3da9b388d30694}
-      \strng{fullhash}{594d66ec48b182e40a3da9b388d30694}
-      \strng{bibnamehash}{594d66ec48b182e40a3da9b388d30694}
-      \strng{authorbibnamehash}{594d66ec48b182e40a3da9b388d30694}
-      \strng{authornamehash}{594d66ec48b182e40a3da9b388d30694}
-      \strng{authorfullhash}{594d66ec48b182e40a3da9b388d30694}
+      \strng{namehash}{4eea7085eaa05715b19a05077bd8a97c}
+      \strng{fullhash}{4eea7085eaa05715b19a05077bd8a97c}
+      \strng{bibnamehash}{4eea7085eaa05715b19a05077bd8a97c}
+      \strng{authorbibnamehash}{4eea7085eaa05715b19a05077bd8a97c}
+      \strng{authornamehash}{4eea7085eaa05715b19a05077bd8a97c}
+      \strng{authorfullhash}{4eea7085eaa05715b19a05077bd8a97c}
       \field{sortinit}{7}
       \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
       \field{labelnamesource}{author}
@@ -2611,8 +2611,8 @@
       \strng{authorbibnamehash}{ff1164c60887b18eafe3e6f6c4f947d8}
       \strng{authornamehash}{ff1164c60887b18eafe3e6f6c4f947d8}
       \strng{authorfullhash}{ff1164c60887b18eafe3e6f6c4f947d8}
-      \field{sortinit}{5}
-      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ph}
@@ -3484,8 +3484,8 @@
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
       \field{extraname}{22}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{eprintclass}{hep-ex}
@@ -3501,68 +3501,6 @@
       \endverb
       \verb{eprint}
       \verb 1910.08447
-      \endverb
-    \endentry
-    \entry{Alitti:1990kw}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=a31267aaf06fea0a6924e149da7ca104}{%
-           family={Alitti},
-           familyi={A\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{fullhash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{bibnamehash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{authorbibnamehash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{authornamehash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{authorfullhash}{7f630e4da269face7159a15ec43e43f0}
-      \field{extraname}{1}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Z. Phys. C}
-      \field{title}{{A Measurement of two jet decays of the $W$ and $Z$ bosons at the CERN $\bar{p} p$ collider}}
-      \field{volume}{49}
-      \field{year}{1991}
-      \field{pages}{17\bibrangedash 28}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1007/BF01570793
-      \endverb
-    \endentry
-    \entry{Alitti:1993pn}{article}{}
-      \true{moreauthor}
-      \true{morelabelname}
-      \name{author}{1}{}{%
-        {{hash=a31267aaf06fea0a6924e149da7ca104}{%
-           family={Alitti},
-           familyi={A\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{fullhash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{bibnamehash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{authorbibnamehash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{authornamehash}{7f630e4da269face7159a15ec43e43f0}
-      \strng{authorfullhash}{7f630e4da269face7159a15ec43e43f0}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Nucl. Phys. B}
-      \field{title}{{A Search for new intermediate vector mesons and excited quarks decaying to two jets at the CERN $\bar{p} p$ collider}}
-      \field{volume}{400}
-      \field{year}{1993}
-      \field{pages}{3\bibrangedash 24}
-      \range{pages}{22}
-      \verb{doi}
-      \verb 10.1016/0550-3213(93)90395-6
       \endverb
     \endentry
     \entry{ATL-PHYS-PUB-2020-028}{booklet}{}
@@ -3593,7 +3531,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{ref21}
 \endrefsection
 \endinput
 

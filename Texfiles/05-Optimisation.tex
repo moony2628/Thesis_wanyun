@@ -92,7 +92,7 @@ which is accurate up to 10 decimal places around $\frac{S_i}{B_i} = 10^{-5}$ and
 %
 
 
-Figure.~\ref{fig: graviton significance as a function of y* cut} shows the significance of Graviton signal as a function of \ystar\ cut. The significance peaks at about 0.6, so the optimal  cut for the Graviton search is $|\ystar| < 0.6$. Table.~\ref{tab:ystargraviton} shows the \ystar\ cut corresponding to the peak significance value for Graviton at each mass point, and the range in \ystar\ cut around the peak that gives a significance $\geq$ 0.99
+Figure.~\ref{fig: graviton significance as a function of y* cut} shows the significance of Graviton signal as a function of \ystar\ cut. The significance peaks at about 0.6 to 0.8. Table~\ref{tab:ystargraviton} shows the \ystar\ cut corresponding to the peak significance value for Graviton at each mass point, and the range in \ystar\ cut around the peak that gives a significance $\geq$ 0.99
 \begin{figure}[!htb]
         \centering
         \subfloat[Inclusive]{\includegraphics[width=0.45\columnwidth]{fig/yStarOptimization/New_Plots/Significance_Graviton_mc16a+d+e_jj.pdf}}
@@ -128,7 +128,7 @@ Figure.~\ref{fig: graviton significance as a function of y* cut} shows the signi
 
 
 
-Figure.~\ref{fig: qbh significance as a function of y* cut} shows the significance of QBH signal as a function of \ystar\ cut. The maximum significance is at about 0.9, so the optimal cut for the QBH search is $|\ystar| < 0.9$. Table.~\ref{tab:ystarqbh} shows the \ystar\ cut corresponding to the peak significance value for the QBH at each mass point, and the range in \ystar\ cut around the peak that gives a significance $\geq$ 0.99
+Figure.~\ref{fig: qbh significance as a function of y* cut} shows the significance of QBH signal as a function of \ystar\ cut. The maximum significance is at about 0.9, so the optimal cut for the QBH search is $|\ystar| < 0.9$. Table~\ref{tab:ystarqbh} shows the \ystar\ cut corresponding to the peak significance value for the QBH at each mass point, and the range in \ystar\ cut around the peak that gives a significance $\geq$ 0.99
 \begin{figure}[!htb]
         \centering
         \subfloat[Inclusive]{\includegraphics[width=0.45\columnwidth]{fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_jj.pdf}}
@@ -238,8 +238,7 @@ The following additional cuts are for quark-gluon tagging.
 	\item $\ge 1$ gluon tagged (75\% working point)
 	\item 2 gluons tagged (75\% working point)
 \end{itemize}
-where the 75\% gluon selection criteria is applied as: $\ntrk~> - 13.5 +
-5.0\ln(\pt)$, with jet \pt\ in GeV.
+where the 75\% gluon selection criteria is $n_\mathrm{track} > -13.399 +5.049\ln(\pt)$, with \pt\ in GeV.
 
 
 \FloatBarrier
@@ -257,51 +256,61 @@ where the 75\% gluon selection criteria is applied as: $\ntrk~> - 13.5 +
 \subsubsection{Selected kinematic plots}
 %\label{sec:kinematic_distributions} % uncomment if label used.
 
-In this section a selection of kinematic and monitoring plots processed with samples passed the gluon-gluon selection criteria are shown in Figure~\ref{fig:GGmonitoring1}, \ref{fig:GGmonitoring2}, \ref{fig:GGmonitoring3}. The distributions of kinematics in MC are consistent with full dataset.
-
+In this section a selection of kinematic and monitoring plots processed with samples passed the one- and two-gluon selection criteria are shown in Figure~\ref{fig:GGmonitoring1} to\ref{fig:GGmonitoring4}. 
 \begin{figure}[htb]
  \centering
- \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_HT_logY_v01.pdf}}
- \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_NPV_logY_v01.pdf}}\\
- \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_averageInteractionsPerCrossing_logY_v01.pdf}}
-  \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_njets_logY_v01.pdf}}
+\subfloat[]{\includegraphics[width=0.45\textwidth]{fig/monitoring/1gtag/MC16d/LeadingJetPt.pdf}}
+\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/1gtag/MC16d/SubLeadingJetPt.pdf}}\\
+\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/1gtag/MC16d/JetEta.pdf}}
+\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/1gtag/MC16d/yStar.pdf}}
+
  \caption{Monitoring plots for %2016 data, 
- the gluon-gluon selection. (a) scalar \pt~sum of all parton-level jets ($H_T$), %(b) $MH_T$ (missing transverse momentum calculated only from the jets in the event), 
- (b) number of primary interaction vertices (NPV),
- (c) average interactions per bunch crossing, and 
- (d) number of jets.}
+ the one-gluon selection. (a) Leading jet \pt\, %(b) $MH_T$ (missing transverse momentum calculated only from the jets in the event), 
+ (b)Sub-leading jet \pt\,
+ (c)) jet $\eta$,
+ (d) y* between the two jets}
  \label{fig:GGmonitoring1}
 \end{figure}
 
  \begin{figure}[htb]
  \centering
- \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_deltaPhi_logY_v01.pdf}}
- \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_jet_eta_logY_v01.pdf}}\\
- \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_jet_phi_logY_v01.pdf}}
-  \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_jet_rapidity_logY_v01.pdf}}
+\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/1gtag/MC16d/JetPhi.pdf}}
+\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/1gtag/MC16d/Njets.pdf}}
+
  %
-  \caption{Monitoring plots on the gluon-gluon sample. 
+  \caption{Monitoring plots on the one-gluon sample. 
   (a) $\Delta\phi$ between the two jets,
-  (b) jet $\eta$,
-  (c) jet $\phi$, and 
-  (d)  jet rapidity.  %Fluctuations in the jet $phi$ distribution are attributable to dead modules in the tile calorimeter which lead to fewer jets in small slices of the detector.
+  (b) number of jets.
   }
  \label{fig:GGmonitoring2}
 \end{figure}
 
 
- \begin{figure}[htb]
- \centering
- %
- \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_jet_pt_logY_v01.pdf}}
- %
- %\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/GG/newStudy_yBoost_logY_v01.pdf}}
- \subfloat[] {\includegraphics[width=0.5\textwidth]{fig/monitoring/GG/newStudy_yStar_logY_v01.pdf}}
- \caption{Monitoring plots on  the gluon-gluon sample.
- (a) jet \pt,
-  %(b) \yB{}, and
-  (b) \ystar{}. }
- \label{fig:GGmonitoring3}
+\begin{figure}[htb]
+	\centering
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/2gtag/MC16d/LeadingJetPt.pdf}}
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/2gtag/MC16d/SubLeadingJetPt.pdf}}\\
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/2gtag/MC16d/JetEta.pdf}}
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/2gtag/MC16d/yStar.pdf}}
+	\caption{Monitoring plots for %2016 data, 
+ the gluon-gluon selection. (a) Leading jet \pt\, %(b) $MH_T$ (missing transverse momentum calculated only from the jets in the event), 
+(b)Sub-leading jet \pt\,
+(c)) jet $\eta$,
+(d) y* between the two jets}
+	\label{fig:GGmonitoring3}
+\end{figure}
+
+\begin{figure}[htb]
+	\centering
+
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/2gtag/MC16d/JetPhi.pdf}}
+	\subfloat[] {\includegraphics[width=0.45\textwidth]{fig/monitoring/2gtag/MC16d/Njets.pdf}}
+
+  \caption{Monitoring plots on the gluon-gluon sample. 
+	(a) $\Delta\phi$ between the two jets,
+	(b) number of jets.
+}
+ \label{fig:GGmonitoring4}
 \end{figure}
 
 

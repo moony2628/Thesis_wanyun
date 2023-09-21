@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  13 SEP 2023 17:00
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  21 SEP 2023 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1505,54 +1505,6 @@ LaTeX Warning: Label `fig:QG6' multiply defined.
 LaTeX Warning: Label `sub@fig:QG6' multiply defined.
 
 
-LaTeX Warning: Label `fig:QG-pythia-BDTQ5' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:QG-pythia-BDTQ5' multiply defined.
-
-
-LaTeX Warning: Label `fig:QG-pythia-BDTQ6' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:QG-pythia-BDTQ6' multiply defined.
-
-
-LaTeX Warning: Label `fig:QG-pythia-BDTQ7' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:QG-pythia-BDTQ7' multiply defined.
-
-
-LaTeX Warning: Label `fig:QG-pythia-BDTQ8' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:QG-pythia-BDTQ8' multiply defined.
-
-
-LaTeX Warning: Label `fig:QG-pythia-BDTG5' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:QG-pythia-BDTG5' multiply defined.
-
-
-LaTeX Warning: Label `fig:QG-pythia-BDTG6' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:QG-pythia-BDTG6' multiply defined.
-
-
-LaTeX Warning: Label `fig:QG-pythia-BDTG7' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:QG-pythia-BDTG7' multiply defined.
-
-
-LaTeX Warning: Label `fig:QG-pythia-BDTG8' multiply defined.
-
-
-LaTeX Warning: Label `sub@fig:QG-pythia-BDTG8' multiply defined.
-
-
 LaTeX Warning: Label `fig:QG-pythia-UncPythiaQa_Ntrk1' multiply defined.
 
 
@@ -1664,15 +1616,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Thesis_Wanyun.bbl' found.
 
-(./Thesis_Wanyun.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                ref21
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+(./Thesis_Wanyun.bbl)
 Package biblatex Info: Reference section=0 on input line 630.
 Package biblatex Info: Reference segment=0 on input line 630.
 
@@ -1930,16 +1874,22 @@ LaTeX Font Warning: Font shape `U/stmry/m/n' in size <7.52812> not available
 
 [3]
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 801.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 807.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 801.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 807.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 801.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 807.
 
 
-Package mathptmx Warning: There are no bold math fonts on input line 801.
+Package mathptmx Warning: There are no bold math fonts on input line 807.
 
-[1] [2] (./Thesis_Wanyun.toc [3] [4])
+[1]
+Overfull \hbox (0.20282pt too wide) in paragraph at lines 819--820
+[]\T1/ptm/m/n/12.045 The pro-cess of dis-tin-guish-ing jets aris-ing from quark
+s and glu-ons, com-monly known
+ []
+
+[2] (./Thesis_Wanyun.toc [3] [4])
 \tf@toc=\write7
 \openout7 = `Thesis_Wanyun.toc'.
 
@@ -1954,7 +1904,7 @@ File: fig/f2.png Graphic file (type bmp)
 File: fig/f3.png Graphic file (type bmp)
 <fig/f3.png>
  [6]
-Overfull \hbox (13.45125pt too wide) in paragraph at lines 1026--1027
+Overfull \hbox (13.45125pt too wide) in paragraph at lines 1036--1037
 \T1/ptm/m/n/12.045 anti-de Sit-ter space-time, where our ob-serv-able uni-verse
  is rep-re-sented by a four-dimensional
  []
@@ -1963,18 +1913,17 @@ Overfull \hbox (13.45125pt too wide) in paragraph at lines 1026--1027
 File: ./fig/2022.png Graphic file (type bmp)
 <./fig/2022.png>
 
-Overfull \hbox (31.29819pt too wide) in paragraph at lines 1074--1075
+Overfull \hbox (31.29819pt too wide) in paragraph at lines 1084--1085
  [][] 
  []
 
 [9] [10]
-Missing character: There is no ‑ in font ptmr8t!
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-101.
+111.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (1.28625pt too wide) in paragraph at lines 1109--1110
+Overfull \hbox (1.28625pt too wide) in paragraph at lines 1119--1120
 []\T1/ptm/m/n/12.045 The AT-LAS de-tec-tor [[][]32[][]] is the largest vol-ume 
 de-tec-tor ever con-structed for general-
  []
@@ -1982,14 +1931,14 @@ de-tec-tor ever con-structed for general-
 File: ./fig/atlas.png Graphic file (type bmp)
 <./fig/atlas.png>
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 1115--1116
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 1125--1126
  [][] 
  []
 
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1124 Charged particles above a certain \pt
+l.1134 Charged particles above a certain \pt
                                             ~threshold are detected by the A...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2002,7 +1951,7 @@ File: ./fig/id.png Graphic file (type bmp)
 ! Undefined control sequence.
 \pt ->\ensuremath {p_{\mathrm {T}}\xspace 
                                           }
-l.1130 ...ctor along with their envelopes in $r$.}
+l.1140 ...ctor along with their envelopes in $r$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2011,11 +1960,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1130.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1140.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1130 ...ctor along with their envelopes in $r$.}
+l.1140 ...ctor along with their envelopes in $r$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2026,7 +1975,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1130 ...ctor along with their envelopes in $r$.}
+l.1140 ...ctor along with their envelopes in $r$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2035,7 +1984,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [11] [12] [13]
-Overfull \hbox (2.59377pt too wide) in paragraph at lines 1147--1149
+Overfull \hbox (2.59377pt too wide) in paragraph at lines 1157--1159
 \T1/ptm/m/n/12.045 The out-er-most layer of the ID is the TRT which en-com-pass
 es poly-imide drift(straw)
  []
@@ -2043,7 +1992,7 @@ es poly-imide drift(straw)
 File: ./fig/calo1.jpg Graphic file (type bmp)
 <./fig/calo1.jpg>
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 1165--1165
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 1175--1175
  [][] 
  []
 
@@ -2051,7 +2000,7 @@ Overfull \hbox (2.84544pt too wide) in paragraph at lines 1165--1165
 File: ./fig/calo2.png Graphic file (type bmp)
 <./fig/calo2.png>
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 1175--1175
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 1185--1185
  [][] 
  []
 
@@ -2065,7 +2014,7 @@ File: ./fig/muon.jpg Graphic file (type bmp)
 File: ./fig/dq.png Graphic file (type bmp)
 <./fig/dq.png>
 
-Overfull \hbox (31.29819pt too wide) in paragraph at lines 1230--1230
+Overfull \hbox (31.29819pt too wide) in paragraph at lines 1240--1240
  [][] 
  []
 
@@ -2150,7 +2099,7 @@ Overfull \hbox (2.84544pt too wide) in paragraph at lines 60--60
 <argument> p_{\mathrm {T}}\xspace 
                                   
 l.67 ...raction of pile-up contribution to the \pt
-                                                   of each jet per event is ...
+                                                  ~of each jet per event is ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2337,7 +2286,7 @@ Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 <argument> p_{\mathrm {T}}\xspace 
                                   
 l.115 ...es can be quantified by weighting the \pt
-                                                  ~ of a jet to other refere...
+                                                  ~of a jet to other referen...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -2557,7 +2506,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)) (./Texfiles/object.tex
+)) (./Texfiles/object.tex [30]
 ! Undefined control sequence.
 l.6 ...ets that are reconstructed with the \antikt
                                                   ~algorithm with a radius p...
@@ -2567,7 +2516,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[30]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -2610,7 +2558,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-(./Texfiles/object_def.tex)
+(./Texfiles/object_def.tex) [31]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -2666,7 +2614,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[31]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -3020,6 +2967,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[33]
 ! Undefined control sequence.
 \cbeta ->\ensuremath {C_{1}^{\beta =0.2}}\xspace 
                                                  
@@ -3031,7 +2979,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[33]
 ! Undefined control sequence.
 \cbeta ->\ensuremath {C_{1}^{\beta =0.2}}\xspace 
                                                  
@@ -3468,6 +3415,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[35]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -3512,7 +3460,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[35]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -3601,6 +3548,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[36] [37] [38]
 File: fig/ADE/new_GBDT/4vars_plots/MC_truth_Q_G_FvsC_500_GBDT_newScore_None.jpg
  Graphic file (type bmp)
 <fig/ADE/new_GBDT/4vars_plots/MC_truth_Q_G_FvsC_500_GBDT_newScore_None.jpg>
@@ -3612,6 +3560,7 @@ File: fig/ADE/new_GBDT/5vars_abseta_plots/MC_truth_Q_G_FvsC_500_GBDT_newScore_N
 one.jpg Graphic file (type bmp)
 <fig/ADE/new_GBDT/5vars_abseta_plots/MC_truth_Q_G_FvsC_500_GBDT_newScore_None.j
 pg>
+
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -3678,12 +3627,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[36] [37] [38]
 File: fig/ADE/new_GBDT/pt_event_weight.png Graphic file (type bmp)
 <fig/ADE/new_GBDT/pt_event_weight.png>
 File: fig/ADE/new_GBDT/pt_flatpt_weight.png Graphic file (type bmp)
 <fig/ADE/new_GBDT/pt_flatpt_weight.png>
-
 ! Undefined control sequence.
 \pt ->\ensuremath {p_{\mathrm {T}}\xspace 
                                           }
@@ -3927,7 +3874,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[41] [42]) (./Texfiles/method.tex
+[41]) (./Texfiles/method.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -3994,6 +3941,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
+[42]
 ! Undefined control sequence.
 l.24 ^^I^^Ip_{\mrm
                   {F}}(x)\\
@@ -4177,73 +4125,7 @@ and I'll forget about whatever was undefined.
 
 File: fig/ADE/frac/Fraction_jet_nTracks_pythia.pdf Graphic file (type pdf)
 <use fig/ADE/frac/Fraction_jet_nTracks_pythia.pdf>
-
-LaTeX Warning: Reference `fig:QG-quark-fraction' on page 43 undefined on input 
-line 81.
-
-! Undefined control sequence.
-\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
-                                               
-l.83 The distributions of \ntrk
-                               ~and BDT score in higher and lower jet region...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.83 ...and Figure~\ref{fig:QG-jetHLPt} in jet \pt
-                                                  ~range 500 GeV - 600 GeV. ...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[43]
-File: fig/dijetanalysis/pythia-nominal/kinematics/ntrk_Forward_500_600_Pythia.p
-df Graphic file (type pdf)
-<use fig/dijetanalysis/pythia-nominal/kinematics/ntrk_Forward_500_600_Pythia.pd
-f>
-File: fig/dijetanalysis/pythia-nominal/kinematics/ntrk_Central_500_600_Pythia.p
-df Graphic file (type pdf)
-<use fig/dijetanalysis/pythia-nominal/kinematics/ntrk_Central_500_600_Pythia.pd
-f>
-
-! Undefined control sequence.
-\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
-                                               
-l.92 ^^I}
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
-                                               
-l.92 ^^I}
-         
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: fig/dijetanalysis/pythia-nominal/kinematics/bdt_Forward_500_600_Pythia.pd
-f Graphic file (type pdf)
-<use fig/dijetanalysis/pythia-nominal/kinematics/bdt_Forward_500_600_Pythia.pdf
->
-File: fig/dijetanalysis/pythia-nominal/kinematics/bdt_Central_500_600_Pythia.pd
-f Graphic file (type pdf)
-<use fig/dijetanalysis/pythia-nominal/kinematics/bdt_Central_500_600_Pythia.pdf
->
-[44]) (./Texfiles/MCclosure.tex
+[43]) (./Texfiles/MCclosure.tex
 ! Undefined control sequence.
 l.2 ... the assumption that the shapes of $p_{\mrm
                                                   {Q}}(x)$ and $p_{\mrm{G}}(...
@@ -4273,7 +4155,6 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[45]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4302,6 +4183,7 @@ Overfull \hbox (1.33891pt too wide) in paragraph at lines 6--7
 riched re-gions in each $\OML/ztmcm/m/it/12.045 p[]$ \T1/ptm/m/n/12.045 bin.
  []
 
+[44]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -4455,7 +4337,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[46] [47] [48]
+[45] [46] [47]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4517,9 +4399,9 @@ File: fig/ADE/MCClosure/GBDT_newScore_quark_reweighting_weights/GBDT_newScore/M
 CClosure_800_gluon_GBDT_newScore.pdf Graphic file (type pdf)
 <use fig/ADE/MCClosure/GBDT_newScore_quark_reweighting_weights/GBDT_newScore/MC
 Closure_800_gluon_GBDT_newScore.pdf>
-[49
+[48
 
-] [50] [51]
+] [49] [50]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -4600,7 +4482,7 @@ LaTeX Font Warning: Command \tiny invalid in math mode on input line 26.
 
 LaTeX Font Warning: Command \tiny invalid in math mode on input line 26.
 
-[52
+[51
 
 ]
 ! Undefined control sequence.
@@ -4760,7 +4642,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[53] [54] [55] [56] [57]
+[52] [53] [54] [55] [56]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5022,9 +4904,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[58
+[57
 
-] [59]) (./Texfiles/systematic-cali.tex
+] [58]) (./Texfiles/systematic-cali.tex
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5055,7 +4937,7 @@ File: fig/parton_shower/herwigdipole/plots/ADE/Fractions/none_event_weight/Frac
 tion.pdf Graphic file (type pdf)
 <use fig/parton_shower/herwigdipole/plots/ADE/Fractions/none_event_weight/Fract
 ion.pdf>
-[60]
+[59]
 File: fig/hadronization/sherpalund/plots/ADE/Fractions/none_event_weight/Fracti
 on.pdf Graphic file (type pdf)
 <use fig/hadronization/sherpalund/plots/ADE/Fractions/none_event_weight/Fractio
@@ -5070,11 +4952,11 @@ Overfull \hbox (22.20639pt too wide) in paragraph at lines 39--40
 les with dif-fer-ent ME : \T1/ptm/m/sc/12.045 Powheg \T1/ptm/m/n/12.045 and
  []
 
-[61]
+[60]
 File: fig/powhegpythia/plots/ADE/Fractions/none_event_weight/Fraction.pdf Graph
 ic file (type pdf)
 <use fig/powhegpythia/plots/ADE/Fractions/none_event_weight/Fraction.pdf>
- [62] [63]
+ [61] [62]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5290,7 +5172,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[64] [65] [66] [67]
+[63] [64] [65] [66]
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5302,214 +5184,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
-                                               
-l.144 ...g:QG-pythia-bootstrap-500-ntrk} for \ntrk
-                                                  ~and \ref{fig:QG-pythia-bo...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: fig/Method1/pythia/Bootstrap/500-0.5-ntrk-quark.pdf Graphic file (type pd
-f)
-<use fig/Method1/pythia/Bootstrap/500-0.5-ntrk-quark.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 147--147
-[]\T1/ptm/m/n/10 (a) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.6-ntrk-quark.pdf Graphic file (type pd
-f)
-<use fig/Method1/pythia/Bootstrap/500-0.6-ntrk-quark.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 148--148
-[]\T1/ptm/m/n/10 (b) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.7-ntrk-quark.pdf Graphic file (type pd
-f)
-<use fig/Method1/pythia/Bootstrap/500-0.7-ntrk-quark.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 149--149
-[]\T1/ptm/m/n/10 (c) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.8-ntrk-quark.pdf Graphic file (type pd
-f)
-<use fig/Method1/pythia/Bootstrap/500-0.8-ntrk-quark.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 150--150
-[]\T1/ptm/m/n/10 (d) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.5-ntrk-gluon.pdf Graphic file (type pd
-f)
-<use fig/Method1/pythia/Bootstrap/500-0.5-ntrk-gluon.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 151--151
-[]\T1/ptm/m/n/10 (e) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.6-ntrk-gluon.pdf Graphic file (type pd
-f)
-<use fig/Method1/pythia/Bootstrap/500-0.6-ntrk-gluon.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 152--152
-[]\T1/ptm/m/n/10 (f) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.7-ntrk-gluon.pdf Graphic file (type pd
-f)
-<use fig/Method1/pythia/Bootstrap/500-0.7-ntrk-gluon.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 153--153
-[]\T1/ptm/m/n/10 (g) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.8-ntrk-gluon.pdf Graphic file (type pd
-f)
-<use fig/Method1/pythia/Bootstrap/500-0.8-ntrk-gluon.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 154--154
-[]\T1/ptm/m/n/10 (h) |work-ing
- []
-
-! Undefined control sequence.
-\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
-                                               
-l.159 ^^I}
-          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.159 ^^I}
-          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
-                                               
-l.159 ^^I}
-          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.159 ^^I}
-          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: fig/Method1/pythia/Bootstrap/500-0.5-bdt-quark.pdf Graphic file (type pdf
 )
-<use fig/Method1/pythia/Bootstrap/500-0.5-bdt-quark.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 166--166
-[]\T1/ptm/m/n/10 (a) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.6-bdt-quark.pdf Graphic file (type pdf
-)
-<use fig/Method1/pythia/Bootstrap/500-0.6-bdt-quark.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 167--167
-[]\T1/ptm/m/n/10 (b) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.7-bdt-quark.pdf Graphic file (type pdf
-)
-<use fig/Method1/pythia/Bootstrap/500-0.7-bdt-quark.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 168--168
-[]\T1/ptm/m/n/10 (c) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.8-bdt-quark.pdf Graphic file (type pdf
-)
-<use fig/Method1/pythia/Bootstrap/500-0.8-bdt-quark.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--169
-[]\T1/ptm/m/n/10 (d) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.5-bdt-gluon.pdf Graphic file (type pdf
-)
-<use fig/Method1/pythia/Bootstrap/500-0.5-bdt-gluon.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 170--170
-[]\T1/ptm/m/n/10 (e) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.6-bdt-gluon.pdf Graphic file (type pdf
-)
-<use fig/Method1/pythia/Bootstrap/500-0.6-bdt-gluon.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 171--171
-[]\T1/ptm/m/n/10 (f) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.7-bdt-gluon.pdf Graphic file (type pdf
-)
-<use fig/Method1/pythia/Bootstrap/500-0.7-bdt-gluon.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 172--172
-[]\T1/ptm/m/n/10 (g) |work-ing
- []
-
-File: fig/Method1/pythia/Bootstrap/500-0.8-bdt-gluon.pdf Graphic file (type pdf
-)
-<use fig/Method1/pythia/Bootstrap/500-0.8-bdt-gluon.pdf>
-
-Underfull \hbox (badness 10000) in paragraph at lines 173--173
-[]\T1/ptm/m/n/10 (h) |work-ing
- []
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.178 ^^I}
-          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.178 ^^I}
-          
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-[68
-
-])
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -5818,7 +5493,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[69] [70] [71] [72] [73] [74] [75] [76] [77]
+[67
+
+] [68] [69] [70] [71] [72] [73] [74] [75]
 Overfull \hbox (4.7179pt too wide) in paragraph at lines 184--185
 \T1/ptm/m/n/12.045 puted. his in-volves em-ploy-ing each al-ter-na-tive MC sam-
 ple while treat-ing the \T1/ptm/m/sc/12.045 Pythia  \T1/ptm/m/n/12.045 MC
@@ -6212,7 +5889,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[78] [79] [80] [81] [82] [83] [84] [85] [86]) (./Texfiles/dijet.tex
+[76] [77] [78] [79] [80] [81] [82] [83] [84]) (./Texfiles/dijet.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6224,7 +5901,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[87] (./Texfiles/02-benchmark_signals.tex
+[85] (./Texfiles/02-benchmark_signals.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6252,7 +5929,7 @@ File: fig/benchmark_signals/Ggg_mjj.pdf Graphic file (type pdf)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[88]
+[86]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6270,7 +5947,7 @@ Overfull \hbox (27.97832pt too wide) in paragraph at lines 186--187
 uced based on model-independent
  []
 
-[89]) [90] (./Texfiles/03-event_selection.tex
+[87]) [88] (./Texfiles/03-event_selection.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6337,7 +6014,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[91
+[89
 
 ]
 ! Undefined control sequence.
@@ -6373,7 +6050,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-) [92] (./Texfiles/04-QGselection.tex
+) [90] (./Texfiles/04-QGselection.tex
 ! Undefined control sequence.
 l.5 ...g the full Run~2 $\sqrt{s} = 13$~TeV\xspace
                                                    dataset with quark and gl...
@@ -6541,7 +6218,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[93
+[91
 
 ]
 ! Undefined control sequence.
@@ -6761,7 +6438,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[94]
+[92]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -6919,7 +6596,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[95]
+[93]
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -7299,15 +6976,12 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-File: fig/tagging_variation/quark_frac_selection_errors_6.pdf Graphic file (typ
-e pdf)
-<use fig/tagging_variation/quark_frac_selection_errors_6.pdf>
-File: fig/tagging_variation/quark_frac_selection_errors_5.pdf Graphic file (typ
-e pdf)
-<use fig/tagging_variation/quark_frac_selection_errors_5.pdf>
-File: fig/tagging_variation/quark_frac_selection_errors_4.pdf Graphic file (typ
-e pdf)
-<use fig/tagging_variation/quark_frac_selection_errors_4.pdf>
+File: fig/tagging/quark_frac_selection_errors_6.pdf Graphic file (type pdf)
+<use fig/tagging/quark_frac_selection_errors_6.pdf>
+File: fig/tagging/quark_frac_selection_errors_5.pdf Graphic file (type pdf)
+<use fig/tagging/quark_frac_selection_errors_5.pdf>
+File: fig/tagging/quark_frac_selection_errors_4.pdf Graphic file (type pdf)
+<use fig/tagging/quark_frac_selection_errors_4.pdf>
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -7374,15 +7048,15 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-File: fig/tagging_variation/quark_frac_newFit_selection_errors_6.pdf Graphic fi
-le (type pdf)
-<use fig/tagging_variation/quark_frac_newFit_selection_errors_6.pdf>
-File: fig/tagging_variation/quark_frac_newFit_selection_errors_5.pdf Graphic fi
-le (type pdf)
-<use fig/tagging_variation/quark_frac_newFit_selection_errors_5.pdf>
-File: fig/tagging_variation/quark_frac_newFit_selection_errors_4.pdf Graphic fi
-le (type pdf)
-<use fig/tagging_variation/quark_frac_newFit_selection_errors_4.pdf>
+File: fig/tagging/quark_frac_newFit_selection_errors_6.pdf Graphic file (type p
+df)
+<use fig/tagging/quark_frac_newFit_selection_errors_6.pdf>
+File: fig/tagging/quark_frac_newFit_selection_errors_5.pdf Graphic file (type p
+df)
+<use fig/tagging/quark_frac_newFit_selection_errors_5.pdf>
+File: fig/tagging/quark_frac_newFit_selection_errors_4.pdf Graphic file (type p
+df)
+<use fig/tagging/quark_frac_newFit_selection_errors_4.pdf>
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
@@ -7583,7 +7257,7 @@ and I'll forget about whatever was undefined.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[96] [97] [98]) [99] (./Texfiles/05-Optimisation.tex
+[94] [95] [96]) [97] (./Texfiles/05-Optimisation.tex
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
 (hyperref)                removing `superscript' on input line 1.
@@ -7610,18 +7284,18 @@ File: fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gj.pdf Graphic
 File: fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf Graphic
  file (type pdf)
 <use fig/yStarOptimization/New_Plots/Significance_QBH_mc16a+d+e_gg.pdf>
-[100
+[98
 
 ]
 
-LaTeX Warning: Text page 101 contains only floats.
+LaTeX Warning: Text page 99 contains only floats.
 
-[101] [102]
+[99] [100]
 ! Undefined control sequence.
-\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
-                                               
-l.241 ... selection criteria is applied as: $\ntrk
-                                                  ~> - 13.5 +
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.241 ...$n_\mathrm{track} > -13.399 +5.049\ln(\pt
+                                                  )$, with \pt\ in GeV.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7631,85 +7305,38 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.242 5.0\ln(\pt
-                )$, with jet \pt\ in GeV.
+l.241 ...rack} > -13.399 +5.049\ln(\pt)$, with \pt
+                                                  \ in GeV.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.242 5.0\ln(\pt)$, with jet \pt
-                                \ in GeV.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: fig/monitoring/GG/newStudy_HT_logY_v01.pdf Graphic file (type pdf)
-<use fig/monitoring/GG/newStudy_HT_logY_v01.pdf>
-File: fig/monitoring/GG/newStudy_NPV_logY_v01.pdf Graphic file (type pdf)
-<use fig/monitoring/GG/newStudy_NPV_logY_v01.pdf>
-File: fig/monitoring/GG/newStudy_averageInteractionsPerCrossing_logY_v01.pdf Gr
-aphic file (type pdf)
-<use fig/monitoring/GG/newStudy_averageInteractionsPerCrossing_logY_v01.pdf>
-File: fig/monitoring/GG/newStudy_njets_logY_v01.pdf Graphic file (type pdf)
-<use fig/monitoring/GG/newStudy_njets_logY_v01.pdf>
+File: fig/monitoring/1gtag/MC16d/LeadingJetPt.pdf Graphic file (type pdf)
+<use fig/monitoring/1gtag/MC16d/LeadingJetPt.pdf>
+File: fig/monitoring/1gtag/MC16d/SubLeadingJetPt.pdf Graphic file (type pdf)
+<use fig/monitoring/1gtag/MC16d/SubLeadingJetPt.pdf>
+File: fig/monitoring/1gtag/MC16d/JetEta.pdf Graphic file (type pdf)
+<use fig/monitoring/1gtag/MC16d/JetEta.pdf>
+File: fig/monitoring/1gtag/MC16d/yStar.pdf Graphic file (type pdf)
+<use fig/monitoring/1gtag/MC16d/yStar.pdf>
 ! Undefined control sequence.
 \pt ->\ensuremath {p_{\mathrm {T}}\xspace 
                                           }
-l.272  (d) number of jets.}
-                           
+l.271  (d) y* between the two jets}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.272  (d) number of jets.}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-! Undefined control sequence.
-<argument> p_{\mathrm {T}}\xspace 
-                                  
-l.272  (d) number of jets.}
-                           
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-File: fig/monitoring/GG/newStudy_deltaPhi_logY_v01.pdf Graphic file (type pdf)
-<use fig/monitoring/GG/newStudy_deltaPhi_logY_v01.pdf>
-File: fig/monitoring/GG/newStudy_jet_eta_logY_v01.pdf Graphic file (type pdf)
-<use fig/monitoring/GG/newStudy_jet_eta_logY_v01.pdf>
-File: fig/monitoring/GG/newStudy_jet_phi_logY_v01.pdf Graphic file (type pdf)
-<use fig/monitoring/GG/newStudy_jet_phi_logY_v01.pdf>
-File: fig/monitoring/GG/newStudy_jet_rapidity_logY_v01.pdf Graphic file (type p
-df)
-<use fig/monitoring/GG/newStudy_jet_rapidity_logY_v01.pdf>
-File: fig/monitoring/GG/newStudy_jet_pt_logY_v01.pdf Graphic file (type pdf)
-<use fig/monitoring/GG/newStudy_jet_pt_logY_v01.pdf>
-File: fig/monitoring/GG/newStudy_yStar_logY_v01.pdf Graphic file (type pdf)
-<use fig/monitoring/GG/newStudy_yStar_logY_v01.pdf>
 ! Undefined control sequence.
 \pt ->\ensuremath {p_{\mathrm {T}}\xspace 
                                           }
-l.303   (b) \ystar{}. }
-                       
+l.271  (d) y* between the two jets}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7719,8 +7346,8 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.303   (b) \ystar{}. }
-                       
+l.271  (d) y* between the two jets}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -7730,15 +7357,119 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.303   (b) \ystar{}. }
-                       
+l.271  (d) y* between the two jets}
+                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[103] [104] [105]) (./Texfiles/06-StatisticalFramework.tex
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.271  (d) y* between the two jets}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.271  (d) y* between the two jets}
+                                   
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: fig/monitoring/1gtag/MC16d/JetPhi.pdf Graphic file (type pdf)
+<use fig/monitoring/1gtag/MC16d/JetPhi.pdf>
+File: fig/monitoring/1gtag/MC16d/Njets.pdf Graphic file (type pdf)
+<use fig/monitoring/1gtag/MC16d/Njets.pdf>
+File: fig/monitoring/2gtag/MC16d/LeadingJetPt.pdf Graphic file (type pdf)
+<use fig/monitoring/2gtag/MC16d/LeadingJetPt.pdf>
+File: fig/monitoring/2gtag/MC16d/SubLeadingJetPt.pdf Graphic file (type pdf)
+<use fig/monitoring/2gtag/MC16d/SubLeadingJetPt.pdf>
+File: fig/monitoring/2gtag/MC16d/JetEta.pdf Graphic file (type pdf)
+<use fig/monitoring/2gtag/MC16d/JetEta.pdf>
+File: fig/monitoring/2gtag/MC16d/yStar.pdf Graphic file (type pdf)
+<use fig/monitoring/2gtag/MC16d/yStar.pdf>
+! Undefined control sequence.
+\pt ->\ensuremath {p_{\mathrm {T}}\xspace 
+                                          }
+l.299 (d) y* between the two jets}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\pt ->\ensuremath {p_{\mathrm {T}}\xspace 
+                                          }
+l.299 (d) y* between the two jets}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.299 (d) y* between the two jets}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.299 (d) y* between the two jets}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.299 (d) y* between the two jets}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.299 (d) y* between the two jets}
+                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: fig/monitoring/2gtag/MC16d/JetPhi.pdf Graphic file (type pdf)
+<use fig/monitoring/2gtag/MC16d/JetPhi.pdf>
+File: fig/monitoring/2gtag/MC16d/Njets.pdf Graphic file (type pdf)
+<use fig/monitoring/2gtag/MC16d/Njets.pdf>
+[101] [102] [103]) (./Texfiles/06-StatisticalFramework.tex
 File: fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow.png Graphic file (ty
 pe bmp)
 <fig/06-StatisticalFramework/xmlAnaWSBuilder_workflow.png>
@@ -7764,15 +7495,20 @@ Package fontspec Info: Font family 'FandolFang-Regular(0)' created for font
 (fontspec)             <->"[FandolFang-Regular.otf]/OT:language=dflt;"
 (fontspec)             - 'small caps'  (m/sc) with NFSS spec.: 
 
- [106
+ [104
 
 
-] [107]
-[108] [109] [110] [111]
+] [105]
+[106] [107] [108] [109]
+Overfull \hbox (7.50102pt too wide) in paragraph at lines 316--319
+\T1/ptm/m/n/12.045 within the com-plete like-li-hood frame-work used in all fit
+s. To cre-ate the RooFit workspaces,
+ []
+
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.327 where $x \equiv \mjj
+l.328 where $x \equiv \mjj
                            /\sqrt{s}$, accurately describes dijet mass distr...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -7780,7 +7516,7 @@ you left one out. Proceed, with fingers crossed.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.327 where $x \equiv \mjj /\sqrt{
+l.328 where $x \equiv \mjj /\sqrt{
                                   s}$, accurately describes dijet mass distr...
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -7788,7 +7524,7 @@ you left one out. Proceed, with fingers crossed.
 ! Undefined control sequence.
 \integLumi ->139.0~\ifb \xspace 
                                 
-l.328 ... the ATLAS Run~2 analysis with \integLumi
+l.329 ... the ATLAS Run~2 analysis with \integLumi
                                                   \ of data  \cite{EXOT-2019...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7801,7 +7537,7 @@ File: fig/5presult.png Graphic file (type bmp)
 ! Extra }, or forgotten \endgroup.
 \sf@endfloatbox ...gefalse \outer@nobreak \egroup 
                                                   \color@endbox 
-l.336  \end{figure}
+l.337  \end{figure}
                    
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -7809,8 +7545,8 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[112]
-Overfull \hbox (0.24991pt too wide) in paragraph at lines 352--353
+[110]
+Overfull \hbox (0.24991pt too wide) in paragraph at lines 353--354
 \T1/ptm/m/n/12.045 pur-pose of up-per limit es-ti-ma-tions. Con-versely, if the
  cri-te-ria are not met, the 5-parameter
  []
@@ -7818,19 +7554,19 @@ Overfull \hbox (0.24991pt too wide) in paragraph at lines 352--353
 File: fig/flowcharts/QGDijet-FlowChart-30March.pdf Graphic file (type pdf)
 <use fig/flowcharts/QGDijet-FlowChart-30March.pdf>
 
-Overfull \hbox (84.78787pt too wide) in paragraph at lines 357--359
+Overfull \hbox (42.39717pt too wide) in paragraph at lines 358--360
  [][] 
  []
 
 
-Overfull \hbox (10.04335pt too wide) in paragraph at lines 536--537
+Overfull \hbox (10.04335pt too wide) in paragraph at lines 537--538
 []\T1/ptm/m/n/12.045 The es-ti-ma-tion of the spu-ri-ous sig-nal is con-se-quen
 tly con-ducted through these pseudo-
  []
 
-[113]
+[111]
 ! Undefined control sequence.
-l.546 2  & 5  & \numRP
+l.547 2  & 5  & \numRP
                       {0.19    }{2} & \numRP{802.85 }{2}    & \numRP{2.36E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7839,7 +7575,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.546 2  & 5  & \numRP{0.19    }{2} & \numRP
+l.547 2  & 5  & \numRP{0.19    }{2} & \numRP
                                             {802.85 }{2}    & \numRP{2.36E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7848,7 +7584,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.546 ...    }{2} & \numRP{802.85 }{2}    & \numRP
+l.547 ...    }{2} & \numRP{802.85 }{2}    & \numRP
                                                   {2.36E-04}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7857,7 +7593,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.547 2  & 10 & \numRP
+l.548 2  & 10 & \numRP
                       {3.35    }{2} & \numRP{1313.79}{2}    & \numRP{2.55E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7866,7 +7602,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.547 2  & 10 & \numRP{3.35    }{2} & \numRP
+l.548 2  & 10 & \numRP{3.35    }{2} & \numRP
                                             {1313.79}{2}    & \numRP{2.55E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7875,7 +7611,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.547 ...    }{2} & \numRP{1313.79}{2}    & \numRP
+l.548 ...    }{2} & \numRP{1313.79}{2}    & \numRP
                                                   {2.55E-03}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7884,7 +7620,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.548 2  & 15 & \numRP
+l.549 2  & 15 & \numRP
                       {154.92  }{2} & \numRP{1666.6 }{2}    & \numRP{0.093  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7893,7 +7629,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.548 2  & 15 & \numRP{154.92  }{2} & \numRP
+l.549 2  & 15 & \numRP{154.92  }{2} & \numRP
                                             {1666.6 }{2}    & \numRP{0.093  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7902,7 +7638,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.548 ...92  }{2} & \numRP{1666.6 }{2}    & \numRP
+l.549 ...92  }{2} & \numRP{1666.6 }{2}    & \numRP
                                                   {0.093   }{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7911,7 +7647,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.549 3  & 5  & \numRP
+l.550 3  & 5  & \numRP
                       {1.76    }{2} & \numRP{249.13 }{2}    & \numRP{7.06E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7920,7 +7656,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.549 3  & 5  & \numRP{1.76    }{2} & \numRP
+l.550 3  & 5  & \numRP{1.76    }{2} & \numRP
                                             {249.13 }{2}    & \numRP{7.06E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7929,7 +7665,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.549 ...    }{2} & \numRP{249.13 }{2}    & \numRP
+l.550 ...    }{2} & \numRP{249.13 }{2}    & \numRP
                                                   {7.06E-03}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7938,7 +7674,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.550 3  & 10 & \numRP
+l.551 3  & 10 & \numRP
                       {82.55   }{2} & \numRP{520.85 }{2}    & \numRP{0.158  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7947,7 +7683,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.550 3  & 10 & \numRP{82.55   }{2} & \numRP
+l.551 3  & 10 & \numRP{82.55   }{2} & \numRP
                                             {520.85 }{2}    & \numRP{0.158  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7956,7 +7692,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.550 ...5   }{2} & \numRP{520.85 }{2}    & \numRP
+l.551 ...5   }{2} & \numRP{520.85 }{2}    & \numRP
                                                   {0.158   }{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7965,7 +7701,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.551 3  & 15 & \numRP
+l.552 3  & 15 & \numRP
                       {344.74  }{2} & \numRP{803.85 }{2}    & \numRP{0.429  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7974,7 +7710,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.551 3  & 15 & \numRP{344.74  }{2} & \numRP
+l.552 3  & 15 & \numRP{344.74  }{2} & \numRP
                                             {803.85 }{2}    & \numRP{0.429  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7983,7 +7719,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.551 ...74  }{2} & \numRP{803.85 }{2}    & \numRP
+l.552 ...74  }{2} & \numRP{803.85 }{2}    & \numRP
                                                   {0.429   }{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -7992,7 +7728,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.552 4  & 5  & \numRP
+l.553 4  & 5  & \numRP
                       {48.42   }{2} & \numRP{112.34 }{2}    & \numRP{0.431  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8001,7 +7737,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.552 4  & 5  & \numRP{48.42   }{2} & \numRP
+l.553 4  & 5  & \numRP{48.42   }{2} & \numRP
                                             {112.34 }{2}    & \numRP{0.431  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8010,7 +7746,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.552 ...2   }{2} & \numRP{112.34 }{2}    & \numRP
+l.553 ...2   }{2} & \numRP{112.34 }{2}    & \numRP
                                                   {0.431   }{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8019,7 +7755,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.553 4  & 10 & \numRP
+l.554 4  & 10 & \numRP
                       {115.89  }{2} & \numRP{200.83 }{2}    & \numRP{0.577  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8028,7 +7764,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.553 4  & 10 & \numRP{115.89  }{2} & \numRP
+l.554 4  & 10 & \numRP{115.89  }{2} & \numRP
                                             {200.83 }{2}    & \numRP{0.577  ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8037,7 +7773,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.553 ...89  }{2} & \numRP{200.83 }{2}    & \numRP
+l.554 ...89  }{2} & \numRP{200.83 }{2}    & \numRP
                                                   {0.577   }{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8046,7 +7782,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.554 4  & 15 & \numRP
+l.555 4  & 15 & \numRP
                       {2.02    }{2} & \numRP{242.15 }{2}    & \numRP{8.34E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8055,7 +7791,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.554 4  & 15 & \numRP{2.02    }{2} & \numRP
+l.555 4  & 15 & \numRP{2.02    }{2} & \numRP
                                             {242.15 }{2}    & \numRP{8.34E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8064,7 +7800,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.554 ...    }{2} & \numRP{242.15 }{2}    & \numRP
+l.555 ...    }{2} & \numRP{242.15 }{2}    & \numRP
                                                   {8.34E-03}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8073,7 +7809,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.555 5  & 5  & \numRP
+l.556 5  & 5  & \numRP
                       {0.021   }{2} & \numRP{31.77  }{2}    & \numRP{6.61E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8082,7 +7818,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.555 5  & 5  & \numRP{0.021   }{2} & \numRP
+l.556 5  & 5  & \numRP{0.021   }{2} & \numRP
                                             {31.77  }{2}    & \numRP{6.61E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8091,7 +7827,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.555 ...1   }{2} & \numRP{31.77  }{2}    & \numRP
+l.556 ...1   }{2} & \numRP{31.77  }{2}    & \numRP
                                                   {6.61E-04}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8100,7 +7836,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.556 5  & 10 & \numRP
+l.557 5  & 10 & \numRP
                       {0.012   }{2} & \numRP{31.96  }{2}    & \numRP{3.75E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8109,7 +7845,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.556 5  & 10 & \numRP{0.012   }{2} & \numRP
+l.557 5  & 10 & \numRP{0.012   }{2} & \numRP
                                             {31.96  }{2}    & \numRP{3.75E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8118,7 +7854,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.556 ...2   }{2} & \numRP{31.96  }{2}    & \numRP
+l.557 ...2   }{2} & \numRP{31.96  }{2}    & \numRP
                                                   {3.75E-04}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8127,7 +7863,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.557 5  & 15 & \numRP
+l.558 5  & 15 & \numRP
                       {0.006   }{2} & \numRP{18.98  }{2}    & \numRP{3.16E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8136,7 +7872,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.557 5  & 15 & \numRP{0.006   }{2} & \numRP
+l.558 5  & 15 & \numRP{0.006   }{2} & \numRP
                                             {18.98  }{2}    & \numRP{3.16E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8145,7 +7881,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.557 ...6   }{2} & \numRP{18.98  }{2}    & \numRP
+l.558 ...6   }{2} & \numRP{18.98  }{2}    & \numRP
                                                   {3.16E-04}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8154,7 +7890,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.558 6  & 5  & \numRP
+l.559 6  & 5  & \numRP
                       {7.82E-04}{2} & \numRP{5.54   }{2}    & \numRP{1.41E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8163,7 +7899,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.558 6  & 5  & \numRP{7.82E-04}{2} & \numRP
+l.559 6  & 5  & \numRP{7.82E-04}{2} & \numRP
                                             {5.54   }{2}    & \numRP{1.41E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8172,7 +7908,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.558 ...E-04}{2} & \numRP{5.54   }{2}    & \numRP
+l.559 ...E-04}{2} & \numRP{5.54   }{2}    & \numRP
                                                   {1.41E-04}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8181,7 +7917,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.559 6  & 10 & \numRP
+l.560 6  & 10 & \numRP
                       {2.84E-04}{2} & \numRP{5.93   }{2}    & \numRP{4.79E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8190,7 +7926,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.559 6  & 10 & \numRP{2.84E-04}{2} & \numRP
+l.560 6  & 10 & \numRP{2.84E-04}{2} & \numRP
                                             {5.93   }{2}    & \numRP{4.79E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8199,7 +7935,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.559 ...E-04}{2} & \numRP{5.93   }{2}    & \numRP
+l.560 ...E-04}{2} & \numRP{5.93   }{2}    & \numRP
                                                   {4.79E-05}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8208,7 +7944,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.560 6  & 15 & \numRP
+l.561 6  & 15 & \numRP
                       {3.62E-04}{2} & \numRP{5.79   }{2}    & \numRP{6.25E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8217,7 +7953,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.560 6  & 15 & \numRP{3.62E-04}{2} & \numRP
+l.561 6  & 15 & \numRP{3.62E-04}{2} & \numRP
                                             {5.79   }{2}    & \numRP{6.25E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8226,7 +7962,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.560 ...E-04}{2} & \numRP{5.79   }{2}    & \numRP
+l.561 ...E-04}{2} & \numRP{5.79   }{2}    & \numRP
                                                   {6.25E-05}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8235,7 +7971,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.561 7  & 5  & \numRP
+l.562 7  & 5  & \numRP
                       {8.65E-04}{2} & \numRP{2.66   }{2}    & \numRP{3.25E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8244,7 +7980,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.561 7  & 5  & \numRP{8.65E-04}{2} & \numRP
+l.562 7  & 5  & \numRP{8.65E-04}{2} & \numRP
                                             {2.66   }{2}    & \numRP{3.25E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8253,7 +7989,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.561 ...E-04}{2} & \numRP{2.66   }{2}    & \numRP
+l.562 ...E-04}{2} & \numRP{2.66   }{2}    & \numRP
                                                   {3.25E-04}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8262,7 +7998,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.562 7  & 10 & \numRP
+l.563 7  & 10 & \numRP
                       {1.6E-04 }{2} & \numRP{2.59   }{2}    & \numRP{6.18E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8271,7 +8007,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.562 7  & 10 & \numRP{1.6E-04 }{2} & \numRP
+l.563 7  & 10 & \numRP{1.6E-04 }{2} & \numRP
                                             {2.59   }{2}    & \numRP{6.18E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8280,7 +8016,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.562 ...-04 }{2} & \numRP{2.59   }{2}    & \numRP
+l.563 ...-04 }{2} & \numRP{2.59   }{2}    & \numRP
                                                   {6.18E-05}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8289,7 +8025,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.563 7  & 15 & \numRP
+l.564 7  & 15 & \numRP
                       {8.34E-05}{2} & \numRP{2.71   }{2}    & \numRP{3.08E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8298,7 +8034,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.563 7  & 15 & \numRP{8.34E-05}{2} & \numRP
+l.564 7  & 15 & \numRP{8.34E-05}{2} & \numRP
                                             {2.71   }{2}    & \numRP{3.08E-0...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8307,7 +8043,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.563 ...E-05}{2} & \numRP{2.71   }{2}    & \numRP
+l.564 ...E-05}{2} & \numRP{2.71   }{2}    & \numRP
                                                   {3.08E-05}{2}\\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8316,7 +8052,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.579 2  & 5  & \numRP
+l.580 2  & 5  & \numRP
                       {179.84  }{2} & \numRP{635.08     }{2}    &  \numRP{0....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8325,7 +8061,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.579 2  & 5  & \numRP{179.84  }{2} & \numRP
+l.580 2  & 5  & \numRP{179.84  }{2} & \numRP
                                             {635.08     }{2}    &  \numRP{0....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8334,7 +8070,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.579 ...{2} & \numRP{635.08     }{2}    &  \numRP
+l.580 ...{2} & \numRP{635.08     }{2}    &  \numRP
                                                   {0.283      }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8343,7 +8079,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.580 2  & 10 & \numRP
+l.581 2  & 10 & \numRP
                       {757.07  }{2} & \numRP{1265.99    }{2}    &  \numRP{0....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8352,7 +8088,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.580 2  & 10 & \numRP{757.07  }{2} & \numRP
+l.581 2  & 10 & \numRP{757.07  }{2} & \numRP
                                             {1265.99    }{2}    &  \numRP{0....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8361,7 +8097,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.580 ...{2} & \numRP{1265.99    }{2}    &  \numRP
+l.581 ...{2} & \numRP{1265.99    }{2}    &  \numRP
                                                   {0.598      }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8370,7 +8106,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.581 2  & 15 & \numRP
+l.582 2  & 15 & \numRP
                       {1666.24 }{2} & \numRP{2126.08    }{2}    &  \numRP{0....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8379,7 +8115,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.581 2  & 15 & \numRP{1666.24 }{2} & \numRP
+l.582 2  & 15 & \numRP{1666.24 }{2} & \numRP
                                             {2126.08    }{2}    &  \numRP{0....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8388,7 +8124,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.581 ...{2} & \numRP{2126.08    }{2}    &  \numRP
+l.582 ...{2} & \numRP{2126.08    }{2}    &  \numRP
                                                   {0.784      }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8397,7 +8133,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.582 3  & 5  & \numRP
+l.583 3  & 5  & \numRP
                       {1.83E-03}{2} & \numRP{85.31      }{2}    &  \numRP{2....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8406,7 +8142,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.582 3  & 5  & \numRP{1.83E-03}{2} & \numRP
+l.583 3  & 5  & \numRP{1.83E-03}{2} & \numRP
                                             {85.31      }{2}    &  \numRP{2....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8415,7 +8151,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.582 ...{2} & \numRP{85.31      }{2}    &  \numRP
+l.583 ...{2} & \numRP{85.31      }{2}    &  \numRP
                                                   {2.14E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8424,7 +8160,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.583 3  & 10 & \numRP
+l.584 3  & 10 & \numRP
                       {0.27    }{2} & \numRP{125.63     }{2}    &  \numRP{2....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8433,7 +8169,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.583 3  & 10 & \numRP{0.27    }{2} & \numRP
+l.584 3  & 10 & \numRP{0.27    }{2} & \numRP
                                             {125.63     }{2}    &  \numRP{2....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8442,7 +8178,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.583 ...{2} & \numRP{125.63     }{2}    &  \numRP
+l.584 ...{2} & \numRP{125.63     }{2}    &  \numRP
                                                   {2.15E-03   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8451,7 +8187,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.584 3  & 15 & \numRP
+l.585 3  & 15 & \numRP
                       {0.021   }{2} & \numRP{113.74     }{2}    &  \numRP{1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8460,7 +8196,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.584 3  & 15 & \numRP{0.021   }{2} & \numRP
+l.585 3  & 15 & \numRP{0.021   }{2} & \numRP
                                             {113.74     }{2}    &  \numRP{1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8469,7 +8205,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.584 ...{2} & \numRP{113.74     }{2}    &  \numRP
+l.585 ...{2} & \numRP{113.74     }{2}    &  \numRP
                                                   {1.85E-04   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8478,7 +8214,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.585 4  & 5  & \numRP
+l.586 4  & 5  & \numRP
                       {1.91E-03}{2} & \numRP{25.6       }{2}    &  \numRP{7....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8487,7 +8223,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.585 4  & 5  & \numRP{1.91E-03}{2} & \numRP
+l.586 4  & 5  & \numRP{1.91E-03}{2} & \numRP
                                             {25.6       }{2}    &  \numRP{7....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8496,7 +8232,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.585 ...{2} & \numRP{25.6       }{2}    &  \numRP
+l.586 ...{2} & \numRP{25.6       }{2}    &  \numRP
                                                   {7.46E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8505,7 +8241,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.586 4  & 10 & \numRP
+l.587 4  & 10 & \numRP
                       {3.55E-03}{2} & \numRP{38.68      }{2}    &  \numRP{9....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8514,7 +8250,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.586 4  & 10 & \numRP{3.55E-03}{2} & \numRP
+l.587 4  & 10 & \numRP{3.55E-03}{2} & \numRP
                                             {38.68      }{2}    &  \numRP{9....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8523,7 +8259,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.586 ...{2} & \numRP{38.68      }{2}    &  \numRP
+l.587 ...{2} & \numRP{38.68      }{2}    &  \numRP
                                                   {9.18E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8532,7 +8268,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.587 4  & 15 & \numRP
+l.588 4  & 15 & \numRP
                       {1.50E-03}{2} & \numRP{27.01      }{2}    &  \numRP{5....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8541,7 +8277,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.587 4  & 15 & \numRP{1.50E-03}{2} & \numRP
+l.588 4  & 15 & \numRP{1.50E-03}{2} & \numRP
                                             {27.01      }{2}    &  \numRP{5....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8550,7 +8286,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.587 ...{2} & \numRP{27.01      }{2}    &  \numRP
+l.588 ...{2} & \numRP{27.01      }{2}    &  \numRP
                                                   {5.55E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8559,7 +8295,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.588 5  & 5  & \numRP
+l.589 5  & 5  & \numRP
                       {2.72E-04}{2} & \numRP{7.13       }{2}    &  \numRP{3....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8568,7 +8304,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.588 5  & 5  & \numRP{2.72E-04}{2} & \numRP
+l.589 5  & 5  & \numRP{2.72E-04}{2} & \numRP
                                             {7.13       }{2}    &  \numRP{3....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8577,7 +8313,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.588 ...{2} & \numRP{7.13       }{2}    &  \numRP
+l.589 ...{2} & \numRP{7.13       }{2}    &  \numRP
                                                   {3.81E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8586,7 +8322,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.589 5  & 10 & \numRP
+l.590 5  & 10 & \numRP
                       {9.99E-05}{2} & \numRP{5.57       }{2}    &  \numRP{1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8595,7 +8331,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.589 5  & 10 & \numRP{9.99E-05}{2} & \numRP
+l.590 5  & 10 & \numRP{9.99E-05}{2} & \numRP
                                             {5.57       }{2}    &  \numRP{1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8604,7 +8340,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.589 ...{2} & \numRP{5.57       }{2}    &  \numRP
+l.590 ...{2} & \numRP{5.57       }{2}    &  \numRP
                                                   {1.79E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8613,7 +8349,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.590 5  & 15 & \numRP
+l.591 5  & 15 & \numRP
                       {2.1E-04 }{2} & \numRP{4.72       }{2}    &  \numRP{4....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8622,7 +8358,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.590 5  & 15 & \numRP{2.1E-04 }{2} & \numRP
+l.591 5  & 15 & \numRP{2.1E-04 }{2} & \numRP
                                             {4.72       }{2}    &  \numRP{4....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8631,7 +8367,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.590 ...{2} & \numRP{4.72       }{2}    &  \numRP
+l.591 ...{2} & \numRP{4.72       }{2}    &  \numRP
                                                   {4.45E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8640,7 +8376,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.591 6  & 5  & \numRP
+l.592 6  & 5  & \numRP
                       {1.37E-04}{2} & \numRP{1.92       }{2}    &  \numRP{7....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8649,7 +8385,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.591 6  & 5  & \numRP{1.37E-04}{2} & \numRP
+l.592 6  & 5  & \numRP{1.37E-04}{2} & \numRP
                                             {1.92       }{2}    &  \numRP{7....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8658,7 +8394,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.591 ...{2} & \numRP{1.92       }{2}    &  \numRP
+l.592 ...{2} & \numRP{1.92       }{2}    &  \numRP
                                                   {7.14E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8667,7 +8403,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.592 6  & 10 & \numRP
+l.593 6  & 10 & \numRP
                       {1.47E-04}{2} & \numRP{3.25       }{2}    &  \numRP{4....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8676,7 +8412,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.592 6  & 10 & \numRP{1.47E-04}{2} & \numRP
+l.593 6  & 10 & \numRP{1.47E-04}{2} & \numRP
                                             {3.25       }{2}    &  \numRP{4....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8685,7 +8421,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.592 ...{2} & \numRP{3.25       }{2}    &  \numRP
+l.593 ...{2} & \numRP{3.25       }{2}    &  \numRP
                                                   {4.52E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8694,7 +8430,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.593 6  & 15 & \numRP
+l.594 6  & 15 & \numRP
                       {6.49E-05}{2} & \numRP{2.59       }{2}    &  \numRP{2....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8703,7 +8439,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.593 6  & 15 & \numRP{6.49E-05}{2} & \numRP
+l.594 6  & 15 & \numRP{6.49E-05}{2} & \numRP
                                             {2.59       }{2}    &  \numRP{2....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8712,7 +8448,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.593 ...{2} & \numRP{2.59       }{2}    &  \numRP
+l.594 ...{2} & \numRP{2.59       }{2}    &  \numRP
                                                   {2.51E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8721,7 +8457,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.594 7  & 5  & \numRP
+l.595 7  & 5  & \numRP
                       {1.88E-04}{2} & \numRP{1.19       }{2}    &  \numRP{1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8730,7 +8466,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.594 7  & 5  & \numRP{1.88E-04}{2} & \numRP
+l.595 7  & 5  & \numRP{1.88E-04}{2} & \numRP
                                             {1.19       }{2}    &  \numRP{1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8739,7 +8475,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.594 ...{2} & \numRP{1.19       }{2}    &  \numRP
+l.595 ...{2} & \numRP{1.19       }{2}    &  \numRP
                                                   {1.58E-04   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8748,7 +8484,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.595 7  & 10 & \numRP
+l.596 7  & 10 & \numRP
                       {1.17E-04}{2} & \numRP{1.17       }{2}    &  \numRP{1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8757,7 +8493,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.595 7  & 10 & \numRP{1.17E-04}{2} & \numRP
+l.596 7  & 10 & \numRP{1.17E-04}{2} & \numRP
                                             {1.17       }{2}    &  \numRP{1....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8766,7 +8502,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.595 ...{2} & \numRP{1.17       }{2}    &  \numRP
+l.596 ...{2} & \numRP{1.17       }{2}    &  \numRP
                                                   {1.0E-04    }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8775,7 +8511,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.596 7  & 15 & \numRP
+l.597 7  & 15 & \numRP
                       {7.83E-05}{2} & \numRP{1.20       }{2}    &  \numRP{6....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8784,7 +8520,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.596 7  & 15 & \numRP{7.83E-05}{2} & \numRP
+l.597 7  & 15 & \numRP{7.83E-05}{2} & \numRP
                                             {1.20       }{2}    &  \numRP{6....
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8793,7 +8529,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
-l.596 ...{2} & \numRP{1.20       }{2}    &  \numRP
+l.597 ...{2} & \numRP{1.20       }{2}    &  \numRP
                                                   {6.53E-05   }{2} \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8801,11 +8537,11 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[114] [115] [116] [117]
+[112] [113] [114]
 ! Undefined control sequence.
 <argument> ...Rms} \\ \midrule 2 & 5 & 1 & \numRP 
                                                   {20062716.45}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8816,7 +8552,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062716.45}{2} & \numRP 
                                                   {4370.57}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8827,7 +8563,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4370.57}{2} & \numRP 
                                                   {20064025.61}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8838,7 +8574,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20064025.61}{2} & \numRP 
                                                   {4003.07}{2} \\ 2 & 5 & 3 ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8849,7 +8585,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {4003.07}{2} \\ 2 & 5 & 3 & \numRP 
                                                   {20063730.27}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8860,7 +8596,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20063730.27}{2} & \numRP 
                                                   {4882.09}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8871,7 +8607,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4882.09}{2} & \numRP 
                                                   {20067248.18}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8882,7 +8618,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20067248.18}{2} & \numRP 
                                                   {4003.14}{2} \\ 2 & 5 & 5 ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8893,7 +8629,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {4003.14}{2} \\ 2 & 5 & 5 & \numRP 
                                                   {20062961.53}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8904,7 +8640,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062961.53}{2} & \numRP 
                                                   {4521.62}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8915,7 +8651,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4521.62}{2} & \numRP 
                                                   {20070470.90}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8926,7 +8662,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20070470.90}{2} & \numRP 
                                                   {4003.36}{2} \\ 5 & 5 & 1 ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8937,7 +8673,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {4003.36}{2} \\ 5 & 5 & 1 & \numRP 
                                                   {20062414.49}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8948,7 +8684,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062414.49}{2} & \numRP 
                                                   {4005.80}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8959,7 +8695,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4005.80}{2} & \numRP 
                                                   {20062458.64}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8970,7 +8706,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062458.64}{2} & \numRP 
                                                   {4003.05}{2} \\ 5 & 5 & 3 ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8981,7 +8717,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {4003.05}{2} \\ 5 & 5 & 3 & \numRP 
                                                   {20062420.85}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -8992,7 +8728,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062420.85}{2} & \numRP 
                                                   {4002.94}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9003,7 +8739,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4002.94}{2} & \numRP 
                                                   {20062547.11}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9014,7 +8750,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062547.11}{2} & \numRP 
                                                   {4003.09}{2} \\ 5 & 5 & 5 ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9025,7 +8761,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {4003.09}{2} \\ 5 & 5 & 5 & \numRP 
                                                   {20062420.96}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9036,7 +8772,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062420.96}{2} & \numRP 
                                                   {4002.82}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9047,7 +8783,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4002.82}{2} & \numRP 
                                                   {20062635.82}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9058,7 +8794,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062635.82}{2} & \numRP 
                                                   {4003.25}{2} \\ 5 & 10 & 1...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9069,7 +8805,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{4003.25}{2} \\ 5 & 10 & 1 & \numRP 
                                                   {20062435.18}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9080,7 +8816,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062435.18}{2} & \numRP 
                                                   {4010.37}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9091,7 +8827,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4010.37}{2} & \numRP 
                                                   {20062483.50}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9102,7 +8838,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062483.50}{2} & \numRP 
                                                   {4002.87}{2} \\ 5 & 10 & 3...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9113,7 +8849,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{4002.87}{2} \\ 5 & 10 & 3 & \numRP 
                                                   {20062448.75}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9124,7 +8860,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062448.75}{2} & \numRP 
                                                   {4007.22}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9135,7 +8871,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4007.22}{2} & \numRP 
                                                   {20062622.26}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9146,7 +8882,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062622.26}{2} & \numRP 
                                                   {4002.95}{2} \\ 5 & 10 & 5...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9157,7 +8893,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{4002.95}{2} \\ 5 & 10 & 5 & \numRP 
                                                   {20061413.12}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9168,7 +8904,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20061413.12}{2} & \numRP 
                                                   {3682.05}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9179,7 +8915,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {3682.05}{2} & \numRP 
                                                   {20062761.08}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9190,7 +8926,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062761.08}{2} & \numRP 
                                                   {4003.12}{2} \\ 7 & 5 & 1 ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9201,7 +8937,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {4003.12}{2} \\ 7 & 5 & 1 & \numRP 
                                                   {20062420.38}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9212,7 +8948,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062420.38}{2} & \numRP 
                                                   {4002.68}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9223,7 +8959,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4002.68}{2} & \numRP 
                                                   {20062420.29}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9234,7 +8970,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062420.29}{2} & \numRP 
                                                   {4002.98}{2} \\ 7 & 5 & 3 ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9245,7 +8981,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {4002.98}{2} \\ 7 & 5 & 3 & \numRP 
                                                   {20062422.56}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9256,7 +8992,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062422.56}{2} & \numRP 
                                                   {4002.86}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9267,7 +9003,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4002.86}{2} & \numRP 
                                                   {20062432.08}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9278,7 +9014,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062432.08}{2} & \numRP 
                                                   {4003.08}{2} \\ 7 & 5 & 5 ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9289,7 +9025,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {4003.08}{2} \\ 7 & 5 & 5 & \numRP 
                                                   {20062422.86}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9300,7 +9036,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062422.86}{2} & \numRP 
                                                   {4002.98}{2} & \numRP {200...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9311,7 +9047,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {4002.98}{2} & \numRP 
                                                   {20062444.09}{2} & \numRP ...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9322,7 +9058,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... & \numRP {20062444.09}{2} & \numRP 
                                                   {4003.20}{2} \\ \bottomrul...
-l.662 \end{tabular}}
+l.663 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9333,7 +9069,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...Rms} \\ \midrule 2 & 5 & 1 & \numRP 
                                                   {3901512.92}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9344,7 +9080,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...1 & \numRP {3901512.92}{2} & \numRP 
                                                   {2163.27}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9355,7 +9091,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2163.27}{2} & \numRP 
                                                   {3902240.71}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9366,7 +9102,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3902240.71}{2} & \numRP 
                                                   {2048.04}{2} \\ 2 & 5 & 3 ...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9377,7 +9113,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {2048.04}{2} \\ 2 & 5 & 3 & \numRP 
                                                   {3901530.76}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9388,7 +9124,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...3 & \numRP {3901530.76}{2} & \numRP 
                                                   {2166.98}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9399,7 +9135,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2166.98}{2} & \numRP 
                                                   {3903253.55}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9410,7 +9146,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3903253.55}{2} & \numRP 
                                                   {2047.37}{2} \\ 2 & 5 & 5 ...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9421,7 +9157,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {2047.37}{2} \\ 2 & 5 & 5 & \numRP 
                                                   {3901621.90}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9432,7 +9168,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...5 & \numRP {3901621.90}{2} & \numRP 
                                                   {2291.01}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9443,7 +9179,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2291.01}{2} & \numRP 
                                                   {3905032.95}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9454,7 +9190,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3905032.95}{2} & \numRP 
                                                   {2050.68}{2} \\ 5 & 5 & 1 ...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9465,7 +9201,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {2050.68}{2} \\ 5 & 5 & 1 & \numRP 
                                                   {3901529.75}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9476,7 +9212,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...1 & \numRP {3901529.75}{2} & \numRP 
                                                   {2049.31}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9487,7 +9223,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2049.31}{2} & \numRP 
                                                   {3901559.92}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9498,7 +9234,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3901559.92}{2} & \numRP 
                                                   {2046.18}{2} \\ 5 & 5 & 3 ...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9509,7 +9245,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {2046.18}{2} \\ 5 & 5 & 3 & \numRP 
                                                   {3901528.52}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9520,7 +9256,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...3 & \numRP {3901528.52}{2} & \numRP 
                                                   {2049.15}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9531,7 +9267,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2049.15}{2} & \numRP 
                                                   {3901589.41}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9542,7 +9278,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3901589.41}{2} & \numRP 
                                                   {2044.93}{2}\\ 5 & 5 & 5 &...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9553,7 +9289,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...P {2044.93}{2}\\ 5 & 5 & 5 & \numRP 
                                                   {3901533.99}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9564,7 +9300,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...5 & \numRP {3901533.99}{2} & \numRP 
                                                   {2047.48}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9575,7 +9311,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2047.48}{2} & \numRP 
                                                   {3901621.88}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9586,7 +9322,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3901621.88}{2} & \numRP 
                                                   {3901586.68}{2} \\ 5 & 10 ...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9597,7 +9333,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...01586.68}{2} \\ 5 & 10 & 1 & \numRP 
                                                   {3901536.86}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9608,7 +9344,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...1 & \numRP {3901536.86}{2} & \numRP 
                                                   {2047.40}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9619,7 +9355,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2047.40}{2} & \numRP 
                                                   {3901566.44}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9630,7 +9366,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3901566.44}{2} & \numRP 
                                                   {2048.23}{2} \\ 5 & 10 & 3...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9641,7 +9377,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{2048.23}{2} \\ 5 & 10 & 3 & \numRP 
                                                   {3901535.71}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9652,7 +9388,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...3 & \numRP {3901535.71}{2} & \numRP 
                                                   {2054.62}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9663,7 +9399,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2054.62}{2} & \numRP 
                                                   {3901616.49}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9674,7 +9410,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3901616.49}{2} & \numRP 
                                                   {2050.26}{2} \\ 5 & 10 & 5...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9685,7 +9421,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...{2050.26}{2} \\ 5 & 10 & 5 & \numRP 
                                                   {3901538.47}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9696,7 +9432,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...5 & \numRP {3901538.47}{2} & \numRP 
                                                   {2049.54}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9707,7 +9443,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2049.54}{2} & \numRP 
                                                   {3901670.56}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9718,7 +9454,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3901670.56}{2} & \numRP 
                                                   {2047.94}{2} \\ 7 & 5 & 1 ...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9729,7 +9465,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {2047.94}{2} \\ 7 & 5 & 1 & \numRP 
                                                   {3901531.27}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9740,7 +9476,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...1 & \numRP {3901531.27}{2} & \numRP 
                                                   {2047.30}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9751,7 +9487,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2047.30}{2} & \numRP 
                                                   {3901538.45}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9762,7 +9498,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3901538.45}{2} & \numRP 
                                                   {2049.16}{2} \\ 7 & 5 & 3 ...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9773,7 +9509,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {2049.16}{2} \\ 7 & 5 & 3 & \numRP 
                                                   {3901540.72}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9784,7 +9520,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...3 & \numRP {3901540.72}{2} & \numRP 
                                                   {2068.73}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9795,7 +9531,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2068.73}{2} & \numRP 
                                                   {3901542.75}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9806,7 +9542,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3901542.75}{2} & \numRP 
                                                   {2048.46}{2} \\ 7 & 5 & 5 ...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9817,7 +9553,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ... {2048.46}{2} \\ 7 & 5 & 5 & \numRP 
                                                   {3901533.13}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9828,7 +9564,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...5 & \numRP {3901533.13}{2} & \numRP 
                                                   {2052.64}{2} & \numRP {390...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9839,7 +9575,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...}{2} & \numRP {2052.64}{2} & \numRP 
                                                   {3901540.09}{2} & \numRP {...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9850,7 +9586,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> ...} & \numRP {3901540.09}{2} & \numRP 
                                                   {2048.94}{2} \\ \bottomrul...
-l.690 \end{tabular}}
+l.691 \end{tabular}}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9858,9 +9594,9 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[118
+[115
 
-]) [119] (./Texfiles/systematics.tex (./Texfiles/MCSystematics.tex
+]) [116] (./Texfiles/systematics.tex (./Texfiles/MCSystematics.tex
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
@@ -9938,7 +9674,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[120
+[117
 
 ]
 ! Undefined control sequence.
@@ -9996,7 +9732,223 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-)) [121] (./Texfiles/09-Results.tex
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.17 The distribution of \ntrk
+                               versus jet \pt\ for 75\% gluon tagging workin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.17 The distribution of \ntrk versus jet \pt
+                                             \ for 75\% gluon tagging workin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+File: fig/Systematics/quark_frac_selection_errors_HerwigAngularOrder_5.pdf Grap
+hic file (type pdf)
+<use fig/Systematics/quark_frac_selection_errors_HerwigAngularOrder_5.pdf>
+File: fig/Systematics/quark_frac_selection_errors_HerwigDipole_5.pdf Graphic fi
+le (type pdf)
+<use fig/Systematics/quark_frac_selection_errors_HerwigDipole_5.pdf>
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.27 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\pt ->\ensuremath {p_{\mathrm {T}}\xspace 
+                                          }
+l.27 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.27 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.27 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.27 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.27 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.34 The distribution of \ntrk
+                              ~versus jet \pt\ for 75\% gluon tagging workin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.34 The distribution of \ntrk~versus jet \pt
+                                             \ for 75\% gluon tagging workin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (1.7446pt too wide) in paragraph at lines 32--35
+\T1/ptm/m/n/12.045 based hadro-ni-sa-tion (Sherpa Lund) model hadro-ni-sa-tion,
+ and there-fore un-der-ly-ing events,
+ []
+
+File: fig/Systematics/quark_frac_selection_errors_SherpaCSS_5.pdf Graphic file 
+(type pdf)
+<use fig/Systematics/quark_frac_selection_errors_SherpaCSS_5.pdf>
+File: fig/Systematics/quark_frac_selection_errors_SherpaLund_5.pdf Graphic file
+ (type pdf)
+<use fig/Systematics/quark_frac_selection_errors_SherpaLund_5.pdf>
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.44 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\pt ->\ensuremath {p_{\mathrm {T}}\xspace 
+                                          }
+l.44 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.44 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.44 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.44 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.44 ^^I}
+         
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.48 ...m Equation~\ref{eq:nqg2} such that $ \ntrk
+                                                    \ge \ngluon $ for truth ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ngluon ->\ensuremath {n_{\textrm {g}}}\xspace 
+                                               
+l.48 ...ef{eq:nqg2} such that $ \ntrk  \ge \ngluon
+                                                   $ for truth quark jets fo...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[118])) [119] (./Texfiles/09-Results.tex
 File: fig/new_Limit/Ggg_Tag0_yStar0p8_data1_Set1_Param5_LumiSyst0p0083_JESJERtr
 ue_sigma.pdf Graphic file (type pdf)
 <use fig/new_Limit/Ggg_Tag0_yStar0p8_data1_Set1_Param5_LumiSyst0p0083_JESJERtru
@@ -10021,13 +9973,13 @@ File: fig/new_Limit/QBH_Tag2_yStar0p8_data0_Set1_Param5_LumiSyst0p0083_JESJERtr
 ue_sigma.pdf Graphic file (type pdf)
 <use fig/new_Limit/QBH_Tag2_yStar0p8_data0_Set1_Param5_LumiSyst0p0083_JESJERtru
 e_sigma.pdf>
-) [122
+) [120
 
-] [123] [124])
+] [121] [122])
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
-l.1279 ...icle jet constituent multiplicity (\ntrk
+l.1289 ...icle jet constituent multiplicity (\ntrk
                                                   ), and a BDT-based tagger,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10038,7 +9990,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1281 ...of dijet events characterized by jet \pt
+l.1291 ...of dijet events characterized by jet \pt
                                                   ~ranging from 500 GeV to 2...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10049,7 +10001,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
-l.1283 ...ates superior performance over the \ntrk
+l.1293 ...ates superior performance over the \ntrk
                                                   -only tagger in distinguis...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10060,7 +10012,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1283 ...-jets from gluon-jets within the jet \pt
+l.1293 ...-jets from gluon-jets within the jet \pt
                                                   ~range of 500 GeV to 1200 ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10071,7 +10023,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1283 ...tors are measured across varying jet-\pt
+l.1293 ...tors are measured across varying jet-\pt
                                                   ~intervals, exhibiting a r...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10079,33 +10031,33 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-[125
+[123
 
-] [126]
-Overfull \hbox (18.119pt too wide) in paragraph at lines 1302--1302
+] [124]
+Overfull \hbox (18.119pt too wide) in paragraph at lines 1312--1312
 \T1/ptm/m/n/12 from proton-proton col-li-sions at $[] \OT1/ztmcm/m/n/12 = 13[][
 ][]$\T1/ptm/m/n/12 ''. In: \T1/ptm/m/it/12 Phys. Rev. D \T1/ptm/m/n/12 98 (2018
 ), p. 092014.
  []
 
-[127] [128]
-Overfull \hbox (5.18187pt too wide) in paragraph at lines 1302--1302
+[125] [126]
+Overfull \hbox (5.18187pt too wide) in paragraph at lines 1312--1312
 \T1/ptm/m/n/12 quark/gluon dis-crim-i-na-tion with count-ing ob-serv-ables''. I
 n: \T1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 09 (2017), p. 083.
  []
 
 
-Overfull \hbox (5.47821pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (5.47821pt too wide) in paragraph at lines 1312--1312
 \T1/ptm/m/n/12 p. 091. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 10 . 1007 / JHEP07(2017 ) 091$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
 704 . 03878$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
 
-[129]
+[127]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10113,7 +10065,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...-\(k_{t}\) jet clustering algorithm}
                                                   
-l.1302 
+l.1312 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10124,7 +10076,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10135,7 +10087,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10144,20 +10096,20 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (51.75603pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (51.75603pt too wide) in paragraph at lines 1312--1312
 []\T1/ptm/m/n/12 Matteo Cac-ciari, Gavin P. Salam, and Gre-gory Soyez. ``The an
 ti-$[] \OML/ztmcm/m/it/12 jetclusteringalgorithm$\T1/ptm/m/n/12 ''.
  []
 
-[130]
-Overfull \hbox (15.61258pt too wide) in paragraph at lines 1302--1302
+[128]
+Overfull \hbox (15.61258pt too wide) in paragraph at lines 1312--1312
 \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1140 / epjc / s100
 52 -[] 014 -[] 3023 -[] z$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1405 
 . 6583$ [hep-ex][][]\T1/ptm/m/n/12 . 
  []
 
 
-Overfull \hbox (1.74095pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (1.74095pt too wide) in paragraph at lines 1312--1312
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``AT-LAS data qual-ity op-er-a-tions 
 and per-for-mance for 2015 |\TU/FandolSong-Regular(0)/m/n/12 –|
  []
@@ -10165,7 +10117,7 @@ and per-for-mance for 2015 |\TU/FandolSong-Regular(0)/m/n/12 –|
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10173,7 +10125,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...a~8 tunes to \(7~\text {TeV}\) data}
                                                   
-l.1302 
+l.1312 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10184,7 +10136,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10195,7 +10147,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10204,53 +10156,53 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (2.12695pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (2.12695pt too wide) in paragraph at lines 1312--1312
 []\T1/ptm/m/n/12 Steffen Schu-mann and Frank Krauss. ``A par-ton shower al-go-r
 ithm based on Catani--
  []
 
-[131] [132]
-Overfull \hbox (34.61462pt too wide) in paragraph at lines 1302--1302
+[129] [130]
+Overfull \hbox (34.61462pt too wide) in paragraph at lines 1312--1312
 \T1/ptm/m/n/12 tions for jet sub-struc-ture''. In: \T1/ptm/m/it/12 JHEP \T1/ptm
 /m/n/12 06 (2013), p. 108. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n
 /12 10 . 1007 / JHEP06(2013 )
  []
 
 
-Overfull \hbox (47.74583pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (47.74583pt too wide) in paragraph at lines 1312--1312
 \T1/pcr/m/n/12 paper _ files / paper / 2017 / file / 6449f44a102fde848669bdd9eb
 6b76fa -[]
  []
 
-[133]
-Overfull \hbox (13.81047pt too wide) in paragraph at lines 1302--1302
+[131]
+Overfull \hbox (13.81047pt too wide) in paragraph at lines 1312--1312
 []\T1/ptm/m/n/12 DerivationProductionTeam. \T1/ptm/m/it/12 Ex-otics deriva-tion
  twiki page\T1/ptm/m/n/12 . \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/pcr/m/
 n/12 https : / / twiki .
  []
 
 
-Overfull \hbox (71.84583pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (71.84583pt too wide) in paragraph at lines 1312--1312
 \T1/pcr/m/n/12 cern . ch / twiki / bin / view / AtlasProtected / Derivationfram
 eworkExotics$[][]\T1/ptm/m/n/12 . 
  []
 
 
-Overfull \hbox (2.8929pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (2.8929pt too wide) in paragraph at lines 1312--1312
 \T1/ptm/m/n/12 sions''. In: \T1/ptm/m/it/12 Phys. Lett. \T1/ptm/m/n/12 B594 (20
 04), pp. 363^^U367. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 
 . 1016 / j . physletb .
  []
 
-[134]
-Overfull \hbox (3.01572pt too wide) in paragraph at lines 1302--1302
+[132]
+Overfull \hbox (3.01572pt too wide) in paragraph at lines 1312--1312
 []\T1/ptm/m/n/12 Hongtao Yang. \T1/ptm/m/it/12 XML An-a-lytic Workspace Builder
 \T1/ptm/m/n/12 . 2021. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 https : / / twiki .
  []
 
 
-Overfull \hbox (18.44585pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (18.44585pt too wide) in paragraph at lines 1312--1312
 \T1/pcr/m/n/12 cern . ch / twiki / bin / viewauth / AtlasProtected / XmlAnaWSBu
 ilder$[][]
  []
@@ -10258,7 +10210,7 @@ ilder$[][]
 ! Undefined control sequence.
 <argument> ...llisions at $\sqrt {s} = 1.96$~\TeV 
                                                   }
-l.1302 
+l.1312 
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -10269,7 +10221,7 @@ and I'll forget about whatever was undefined.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10277,7 +10229,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ... with the ATLAS Detector at the LHC}
                                                   
-l.1302 
+l.1312 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10288,7 +10240,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10299,7 +10251,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10308,13 +10260,13 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (47.56429pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (47.56429pt too wide) in paragraph at lines 1312--1312
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``Search for New Par-ti-cles in Two-J
 et Fi-nal States in $[] \OML/ztmcm/m/it/12 Proton \OMS/ztmcm/m/n/12 ^^@
  []
 
 
-Overfull \hbox (20.41408pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (20.41408pt too wide) in paragraph at lines 1312--1312
 \OMS/ztmcm/m/n/12 ^^@\OML/ztmcm/m/it/12 ProtonCollisionswiththeATLASDetectoratt
 heLHC$\T1/ptm/m/n/12 ''. In: \T1/ptm/m/it/12 Phys. Rev. Lett. \T1/ptm/m/n/12 10
 5 (2010),
@@ -10323,7 +10275,7 @@ heLHC$\T1/ptm/m/n/12 ''. In: \T1/ptm/m/it/12 Phys. Rev. Lett. \T1/ptm/m/n/12 10
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10331,7 +10283,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...xt {TeV}\) \(pp\) Collisions at CMS}
                                                   
-l.1302 
+l.1312 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10342,7 +10294,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10353,7 +10305,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10362,16 +10314,16 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (15.20854pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (15.20854pt too wide) in paragraph at lines 1312--1312
 []\T1/ptm/m/n/12 CMS Col-lab-o-ra-tion. ``Search for Di-jet Res-o-nances in $[]
  [] \OML/ztmcm/m/it/12 CollisionsatCMS$\T1/ptm/m/n/12 ''.
  []
 
-[135]
+[133]
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10379,7 +10331,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...\) measured with the ATLAS detector}
                                                   
-l.1302 
+l.1312 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10390,7 +10342,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10401,7 +10353,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10412,7 +10364,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10420,7 +10372,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ext {TeV}\) with the ATLAS detector}
                                                   
-l.1302 
+l.1312 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10431,7 +10383,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10442,7 +10394,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10453,7 +10405,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted a begin-math/end-math symbol since I think
 you left one out. Proceed, with fingers crossed.
@@ -10461,7 +10413,7 @@ you left one out. Proceed, with fingers crossed.
 ! Extra }, or forgotten $.
 <argument> ...ext {TeV}\) with the ATLAS detector}
                                                   
-l.1302 
+l.1312 
        
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -10472,7 +10424,7 @@ deleted material, e.g., by typing `I$}'.
 ! Missing $ inserted.
 <inserted text> 
                 $
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10483,7 +10435,7 @@ my insertion and my current dilemma will both disappear.
 ! Missing } inserted.
 <inserted text> 
                 }
-l.1302 
+l.1312 
        
 I've inserted something that you may have forgotten.
 (See the <inserted text> above.)
@@ -10492,33 +10444,30 @@ really didn't forget anything, try typing `2' now; then
 my insertion and my current dilemma will both disappear.
 
 
-Overfull \hbox (7.62364pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (7.62364pt too wide) in paragraph at lines 1312--1312
 \T1/ptm/m/n/12 pairs us-ing $[] \OML/ztmcm/m/it/12 of [] collisionsat [] withth
 eATLASdetector$\T1/ptm/m/n/12 ''.
  []
 
 
-Overfull \hbox (6.14688pt too wide) in paragraph at lines 1302--1302
+Overfull \hbox (6.14688pt too wide) in paragraph at lines 1312--1312
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. \T1/ptm/m/it/12 Rec-om-men-da-tions f
 or the Mod-el-ing of Smooth Back-grounds\T1/ptm/m/n/12 .
  []
 
-[136] [137]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1350.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1350.
+[134] [135]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1360.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1360.
  (./Thesis_Wanyun.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1350.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1350.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1360.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1360.
 
 Package rerunfilecheck Info: File `Thesis_Wanyun.out' has not changed.
-(rerunfilecheck)             Checksum: FBF53714D5C5AC323417193EE8713A73;15283.
+(rerunfilecheck)             Checksum: 79A371CCB1DD4D4C41E7E8C7C6497506;15384.
 
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.47188pt have occurred.
-
-
-LaTeX Warning: There were undefined references.
 
 
 LaTeX Warning: There were multiply-defined labels.
@@ -10528,12 +10477,12 @@ Package logreq Info: Writing requests to 'Thesis_Wanyun.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40450 strings out of 479418
- 880514 string characters out of 5884585
- 1648864 words of memory out of 5000000
- 56990 multiletter control sequences out of 15000+600000
+ 40352 strings out of 479418
+ 875164 string characters out of 5884585
+ 1646533 words of memory out of 5000000
+ 56912 multiletter control sequences out of 15000+600000
  652396 words of font info for 239 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 58i,20n,91p,1540b,4792s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,20n,93p,1569b,4792s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis_Wanyun.pdf (145 pages).
+Output written on Thesis_Wanyun.pdf (143 pages).
