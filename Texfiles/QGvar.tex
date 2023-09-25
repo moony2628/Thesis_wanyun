@@ -112,15 +112,15 @@ At detector-level, however, the observed radiation pattern within jets no longer
 An additional data processing step is conducted to modify the event weights, such that a flat distribution of the \pt~spectrum is given. 
 This adjustment is motivated by the observation that higher \pt~jets have less probability to occur, so the training on the higher \pt~jets need to be emphasise. This newly introduced weight, referred to as the "flat \pt-weight" within this context, is exclusively employed during the training process. Conversely, for other scenarios, such as assessing tagger performance on validation datasets and subsequent calibration endeavours, the original event weights based on physical considerations remain employed.
 
-\begin{figure}[htb]
-	\centering
-	\subfloat[Physical event weight]{\label{fig:QG-training-pt-event-weight}\includegraphics[width=0.45\textwidth]{fig/ADE/new_GBDT/pt_event_weight.png}} \quad
-	\subfloat[Flat \pt-weight]{\label{fig:QG-training-pt-flatpt-weight}\includegraphics[width=0.45\textwidth]{fig/ADE/new_GBDT/pt_flatpt_weight.png}}
-	\caption[]{
-		The comparison of jet \pt~distributions with different weights. %.
-		\label{fig:QG-training-pt-weight-compare}
-	}
-\end{figure}
+%\begin{figure}[htb]
+%	\centering
+%	\subfloat[Physical event weight]{\label{fig:QG-training-pt-event-weight}\includegraphics[width=0.45\textwidth]{fig/ADE/new_GBDT/pt_event_weight.png}} \quad
+%	\subfloat[Flat \pt-weight]{\label{fig:QG-training-pt-flatpt-weight}\includegraphics[width=0.45\textwidth]{fig/ADE/new_GBDT/pt_flatpt_weight.png}}
+%	\caption[]{
+%		The comparison of jet \pt~distributions with different weights. %.
+%		\label{fig:QG-training-pt-weight-compare}
+%	}
+%\end{figure}
 
 \paragraph{Training Configuration}\mbox{}\par
 
