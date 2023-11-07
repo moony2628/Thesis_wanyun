@@ -71,7 +71,7 @@
       \field{eprintclass}{hep-ex}
       \field{eprinttype}{arXiv}
       \field{journaltitle}{Eur. Phys. J. C}
-      \field{title}{{Electroweak production of two jets in association with a Z boson in proton-proton collisions at $\sqrt{s}$= 13 TeV}}
+      \field{title}{{Electroweak production of two jets in association with a Z boson in proton-proton collisions at $\sqrt{s}$ = 13 TeV}}
       \field{volume}{78}
       \field{year}{2018}
       \field{pages}{589}
@@ -103,7 +103,7 @@
       \field{eprintclass}{hep-ex}
       \field{eprinttype}{arXiv}
       \field{journaltitle}{Phys. Lett. B}
-      \field{title}{{Search for diboson resonances with boson-tagged jets in pp collisions at $\sqrt{s}$= 13 TeV with the ATLAS detector}}
+      \field{title}{{Search for diboson resonances with boson-tagged jets in pp collisions at $\sqrt{s}$ = 13 TeV with the ATLAS detector}}
       \field{volume}{777}
       \field{year}{2018}
       \field{pages}{91}
@@ -498,7 +498,7 @@
       \field{labeltitlesource}{title}
       \field{eprinttype}{arXiv}
       \field{journaltitle}{Phys. Rev. D}
-      \field{title}{{Study of jet shapes in inclusive jet production in $p\bar{p}$ collisions at $\sqrt{s}=1.96$ TeV}}
+      \field{title}{{Study of jet shapes in inclusive jet production in $p\bar{p}$ collisions at $\sqrt{s} = 1.96$ TeV}}
       \field{volume}{71}
       \field{year}{2005}
       \field{pages}{112002}
@@ -922,7 +922,7 @@
       \verb 1809.01140
       \endverb
     \endentry
-    \entry{lbnl}{article}{}
+    \entry{lbnl}{online}{}
       \name{author}{1}{}{%
         {{hash=4eea7085eaa05715b19a05077bd8a97c}{%
            family={{Particle Data Group}},
@@ -1282,7 +1282,7 @@
       \field{eprintclass}{hep-ph}
       \field{eprinttype}{arXiv}
       \field{journaltitle}{JHEP}
-      \field{title}{{The anti-\(k_{t}\) jet clustering algorithm}}
+      \field{title}{{The anti-$k_{t}$ jet clustering algorithm}}
       \field{volume}{04}
       \field{year}{2008}
       \field{pages}{063}
@@ -1655,7 +1655,7 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{{ATL-PHYS-PUB-2014-021}}
-      \field{title}{{ATLAS Pythia~8 tunes to \(7~\text{TeV}\) data}}
+      \field{title}{{ATLAS Pythia~8 tunes to 7 TeV data}}
       \field{year}{2014}
       \verb{urlraw}
       \verb https://cds.cern.ch/record/1966419
@@ -2338,13 +2338,13 @@
       \field{eprinttype}{arXiv}
       \field{journaltitle}{Phys. Rev. D}
       \field{number}{5}
-      \field{title}{{Measurement of jet charge in dijet events from $\sqrt{s}$=8 TeV pp collisions with the ATLAS detector}}
+      \field{title}{{Measurement of jet charge in dijet events from $\sqrt{s}$ = 8 TeV pp collisions with the ATLAS detector}}
       \field{volume}{93}
       \field{year}{2016}
       \field{pages}{052003}
       \range{pages}{1}
       \verb{doi}
-      \verb 10.1103/PhysRevD.93.052003
+      \verb 1103/PhysRevD.93.052003
       \endverb
       \verb{eprint}
       \verb 1509.05190
@@ -2976,172 +2976,6 @@
       \verb 1111.6097
       \endverb
     \endentry
-    \entry{Nishu:2646455}{report}{}
-      \name{author}{27}{}{%
-        {{hash=68788ca2d75f22dd554784f6fe080144}{%
-           family={Nishu},
-           familyi={N\bibinitperiod},
-           given={Nishu},
-           giveni={N\bibinitperiod}}}%
-        {{hash=202d18afd396cd3f54cdf4843e250867}{%
-           family={Allen},
-           familyi={A\bibinitperiod},
-           given={Benjamin\bibnamedelima William},
-           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=b41834d05c54484d40fb060074cb1695}{%
-           family={Bauce},
-           familyi={B\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod}}}%
-        {{hash=ecdd4068fb4c00b680951a46d45c7504}{%
-           family={Bawa},
-           familyi={B\bibinitperiod},
-           given={Harinder\bibnamedelima Singh},
-           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-        {{hash=d423cb765d85bfe01fe7102c5910dc5c}{%
-           family={Bertram},
-           familyi={B\bibinitperiod},
-           given={Iain\bibnamedelima Alexander},
-           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=365eef4248ec79eb3d1553518c32ec3f}{%
-           family={Coccaro},
-           familyi={C\bibinitperiod},
-           given={Andrea},
-           giveni={A\bibinitperiod}}}%
-        {{hash=dead0107423abc896ae0f8ae8b80bdba}{%
-           family={Di\bibnamedelima Bello},
-           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
-           given={Francesco\bibnamedelima Armando},
-           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-        {{hash=9a3131ca498ba863c0c6f33fa7baac32}{%
-           family={Ding},
-           familyi={D\bibinitperiod},
-           given={Wei},
-           giveni={W\bibinitperiod}}}%
-        {{hash=ae80ab6109b8c7426bb2e74c05d2c449}{%
-           family={Dong},
-           familyi={D\bibinitperiod},
-           given={Binbin},
-           giveni={B\bibinitperiod}}}%
-        {{hash=943d09e31c85cbf7695570b88bcba777}{%
-           family={Francescato},
-           familyi={F\bibinitperiod},
-           given={Simone},
-           giveni={S\bibinitperiod}}}%
-        {{hash=a55804468e0a6ee21af8470b7b65a08b}{%
-           family={Gingrich},
-           familyi={G\bibinitperiod},
-           given={Douglas},
-           giveni={D\bibinitperiod}}}%
-        {{hash=ee75379b97fd458171c18488082d98de}{%
-           family={Liu},
-           familyi={L\bibinitperiod},
-           given={Bingxuan},
-           giveni={B\bibinitperiod}}}%
-        {{hash=543ef92137beee014d964378365bf561}{%
-           family={Whitmore},
-           familyi={W\bibinitperiod},
-           given={Ben\bibnamedelima William},
-           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
-        {{hash=fdf838d2c8591ec9571dc21b05d98e55}{%
-           family={Zhou},
-           familyi={Z\bibinitperiod},
-           given={Ning},
-           giveni={N\bibinitperiod}}}%
-        {{hash=f1ca925b701bfe12fe23d254fbeafe1b}{%
-           family={Zhang},
-           familyi={Z\bibinitperiod},
-           given={Dengfeng},
-           giveni={D\bibinitperiod}}}%
-        {{hash=71247cd94b58ed8406cb818281ce0cc8}{%
-           family={Li},
-           familyi={L\bibinitperiod},
-           given={Haifeng},
-           giveni={H\bibinitperiod}}}%
-        {{hash=c92f596b1a0ae9585ab7983c1693aa94}{%
-           family={Abulaiti},
-           familyi={A\bibinitperiod},
-           given={Yiming},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=92dd328de60c82082309ce613e5dcd4b}{%
-           family={Strom},
-           familyi={S\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod}}}%
-        {{hash=8f1b1eaccf1ccd4dc2b89182f0b09be6}{%
-           family={Proudfoot},
-           familyi={P\bibinitperiod},
-           given={James},
-           giveni={J\bibinitperiod}}}%
-        {{hash=08a67d4bc2a1a154ff9c3f0d6513968f}{%
-           family={Love},
-           familyi={L\bibinitperiod},
-           given={Jeremy},
-           giveni={J\bibinitperiod}}}%
-        {{hash=9a8e37c2db183faff113a94a5dbc4914}{%
-           family={Wang},
-           familyi={W\bibinitperiod},
-           given={Rui},
-           giveni={R\bibinitperiod}}}%
-        {{hash=7a9e0db66cdb4064758798ec0524022e}{%
-           family={Giagu},
-           familyi={G\bibinitperiod},
-           given={Stefano},
-           giveni={S\bibinitperiod}}}%
-        {{hash=4c378e1d51ad61eb387300da5ee6d3f8}{%
-           family={Poulsen},
-           familyi={P\bibinitperiod},
-           given={Trine},
-           giveni={T\bibinitperiod}}}%
-        {{hash=c6b0b16d268b7266380aa15c23031fcf}{%
-           family={Chen},
-           familyi={C\bibinitperiod},
-           given={Xin},
-           giveni={X\bibinitperiod}}}%
-        {{hash=a84d0bee3fcd749da61fcf3a78172c20}{%
-           family={Gao},
-           familyi={G\bibinitperiod},
-           given={Yongsheng},
-           giveni={Y\bibinitperiod}}}%
-        {{hash=a7d88dc7ef7c35e638a808b28971892d}{%
-           family={Windischhofer},
-           familyi={W\bibinitperiod},
-           given={Philipp\bibnamedelima Jonas},
-           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=1efbd90cc3c00613e54c7b4bdc06c2a2}{%
-           family={Schmoeckel},
-           familyi={S\bibinitperiod},
-           given={Julian\bibnamedelima Constantin},
-           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {CERN}%
-      }
-      \list{location}{1}{%
-        {Geneva}%
-      }
-      \strng{namehash}{752b6398e4261cdb66ea244348b55d69}
-      \strng{fullhash}{1d07bc3c1aad5955502c246636e3dec8}
-      \strng{bibnamehash}{752b6398e4261cdb66ea244348b55d69}
-      \strng{authorbibnamehash}{752b6398e4261cdb66ea244348b55d69}
-      \strng{authornamehash}{752b6398e4261cdb66ea244348b55d69}
-      \strng{authorfullhash}{1d07bc3c1aad5955502c246636e3dec8}
-      \field{sortinit}{6}
-      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{11}
-      \field{number}{ATL-COM-PHYS-2018-1538}
-      \field{title}{{Search for New Phenomena in Dijet Events using the complete Run-2 dataset collected with the ATLAS Detector at $\sqrt{s}$ =13 TeV}}
-      \field{type}{techreport}
-      \field{year}{2018}
-      \verb{urlraw}
-      \verb https://cds.cern.ch/record/2646455
-      \endverb
-      \verb{url}
-      \verb https://cds.cern.ch/record/2646455
-      \endverb
-    \endentry
     \entry{xmlAnaWSBuilder}{online}{}
       \name{author}{1}{}{%
         {{hash=c610f96e87cdd79cfbf65c047b53c743}{%
@@ -3363,7 +3197,7 @@
       \field{eprintclass}{hep-ex}
       \field{eprinttype}{arXiv}
       \field{journaltitle}{Phys. Rev. Lett.}
-      \field{title}{{Search for New Particles in Two-Jet Final States in \(7\,\text{TeV}\) Proton--Proton Collisions with the ATLAS Detector at the LHC}}
+      \field{title}{{Search for New Particles in Two-Jet Final States in 7 TeV Proton--Proton Collisions with the ATLAS Detector at the LHC}}
       \field{volume}{105}
       \field{year}{2010}
       \field{pages}{161801}
@@ -3395,7 +3229,7 @@
       \field{eprintclass}{hep-ex}
       \field{eprinttype}{arXiv}
       \field{journaltitle}{Phys. Rev. Lett.}
-      \field{title}{{Search for Dijet Resonances in \(7\,\text{TeV}\) \(pp\) Collisions at CMS}}
+      \field{title}{{Search for Dijet Resonances in 7 TeV $pp$ Collisions at CMS}}
       \field{volume}{105}
       \field{year}{2010}
       \field{pages}{211801}
@@ -3427,7 +3261,7 @@
       \field{eprintclass}{hep-ex}
       \field{eprinttype}{arXiv}
       \field{journaltitle}{New J. Phys.}
-      \field{title}{{A search for new physics in dijet mass and angular distributions in \(pp\) collisions at \(\sqrt{s} = 7\,\text{TeV}\) measured with the ATLAS detector}}
+      \field{title}{{A search for new physics in dijet mass and angular distributions in $pp$ collisions at $\sqrt{s} = 7$ TeV measured with the ATLAS detector}}
       \field{volume}{13}
       \field{year}{2011}
       \field{pages}{053044}
@@ -3459,7 +3293,7 @@
       \field{eprintclass}{hep-ex}
       \field{eprinttype}{arXiv}
       \field{journaltitle}{Phys. Rev. D}
-      \field{title}{{Search for new phenomena in the dijet mass distribution using \(pp\) collision data at \(\sqrt{s} = 8\,\text{TeV}\) with the ATLAS detector}}
+      \field{title}{{Search for new phenomena in the dijet mass distribution using $pp$ collision data at $\sqrt{s} = 8$ TeV with the ATLAS detector}}
       \field{volume}{91}
       \field{year}{2015}
       \field{pages}{052007}
@@ -3491,7 +3325,7 @@
       \field{eprintclass}{hep-ex}
       \field{eprinttype}{arXiv}
       \field{journaltitle}{JHEP}
-      \field{title}{{Search for new resonances in mass distributions of jet pairs using \(139\,\text{fb}^{-1}\) of \(pp\) collisions at \(\sqrt{s} = 13\,\text{TeV}\) with the ATLAS detector}}
+      \field{title}{{Search for new resonances in mass distributions of jet pairs using 139 $fb^{-1}$ of $pp$ collisions at $\sqrt{s} = 13$ TeV with the ATLAS detector}}
       \field{volume}{03}
       \field{year}{2020}
       \field{pages}{145}
@@ -3501,6 +3335,172 @@
       \endverb
       \verb{eprint}
       \verb 1910.08447
+      \endverb
+    \endentry
+    \entry{Nishu:2646455}{report}{}
+      \name{author}{27}{}{%
+        {{hash=68788ca2d75f22dd554784f6fe080144}{%
+           family={Nishu},
+           familyi={N\bibinitperiod},
+           given={Nishu},
+           giveni={N\bibinitperiod}}}%
+        {{hash=202d18afd396cd3f54cdf4843e250867}{%
+           family={Allen},
+           familyi={A\bibinitperiod},
+           given={Benjamin\bibnamedelima William},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=b41834d05c54484d40fb060074cb1695}{%
+           family={Bauce},
+           familyi={B\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+        {{hash=ecdd4068fb4c00b680951a46d45c7504}{%
+           family={Bawa},
+           familyi={B\bibinitperiod},
+           given={Harinder\bibnamedelima Singh},
+           giveni={H\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=d423cb765d85bfe01fe7102c5910dc5c}{%
+           family={Bertram},
+           familyi={B\bibinitperiod},
+           given={Iain\bibnamedelima Alexander},
+           giveni={I\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=365eef4248ec79eb3d1553518c32ec3f}{%
+           family={Coccaro},
+           familyi={C\bibinitperiod},
+           given={Andrea},
+           giveni={A\bibinitperiod}}}%
+        {{hash=dead0107423abc896ae0f8ae8b80bdba}{%
+           family={Di\bibnamedelima Bello},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Francesco\bibnamedelima Armando},
+           giveni={F\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=9a3131ca498ba863c0c6f33fa7baac32}{%
+           family={Ding},
+           familyi={D\bibinitperiod},
+           given={Wei},
+           giveni={W\bibinitperiod}}}%
+        {{hash=ae80ab6109b8c7426bb2e74c05d2c449}{%
+           family={Dong},
+           familyi={D\bibinitperiod},
+           given={Binbin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=943d09e31c85cbf7695570b88bcba777}{%
+           family={Francescato},
+           familyi={F\bibinitperiod},
+           given={Simone},
+           giveni={S\bibinitperiod}}}%
+        {{hash=a55804468e0a6ee21af8470b7b65a08b}{%
+           family={Gingrich},
+           familyi={G\bibinitperiod},
+           given={Douglas},
+           giveni={D\bibinitperiod}}}%
+        {{hash=ee75379b97fd458171c18488082d98de}{%
+           family={Liu},
+           familyi={L\bibinitperiod},
+           given={Bingxuan},
+           giveni={B\bibinitperiod}}}%
+        {{hash=543ef92137beee014d964378365bf561}{%
+           family={Whitmore},
+           familyi={W\bibinitperiod},
+           given={Ben\bibnamedelima William},
+           giveni={B\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=fdf838d2c8591ec9571dc21b05d98e55}{%
+           family={Zhou},
+           familyi={Z\bibinitperiod},
+           given={Ning},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f1ca925b701bfe12fe23d254fbeafe1b}{%
+           family={Zhang},
+           familyi={Z\bibinitperiod},
+           given={Dengfeng},
+           giveni={D\bibinitperiod}}}%
+        {{hash=71247cd94b58ed8406cb818281ce0cc8}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={Haifeng},
+           giveni={H\bibinitperiod}}}%
+        {{hash=c92f596b1a0ae9585ab7983c1693aa94}{%
+           family={Abulaiti},
+           familyi={A\bibinitperiod},
+           given={Yiming},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=92dd328de60c82082309ce613e5dcd4b}{%
+           family={Strom},
+           familyi={S\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod}}}%
+        {{hash=8f1b1eaccf1ccd4dc2b89182f0b09be6}{%
+           family={Proudfoot},
+           familyi={P\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=08a67d4bc2a1a154ff9c3f0d6513968f}{%
+           family={Love},
+           familyi={L\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod}}}%
+        {{hash=9a8e37c2db183faff113a94a5dbc4914}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+        {{hash=7a9e0db66cdb4064758798ec0524022e}{%
+           family={Giagu},
+           familyi={G\bibinitperiod},
+           given={Stefano},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4c378e1d51ad61eb387300da5ee6d3f8}{%
+           family={Poulsen},
+           familyi={P\bibinitperiod},
+           given={Trine},
+           giveni={T\bibinitperiod}}}%
+        {{hash=c6b0b16d268b7266380aa15c23031fcf}{%
+           family={Chen},
+           familyi={C\bibinitperiod},
+           given={Xin},
+           giveni={X\bibinitperiod}}}%
+        {{hash=a84d0bee3fcd749da61fcf3a78172c20}{%
+           family={Gao},
+           familyi={G\bibinitperiod},
+           given={Yongsheng},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=a7d88dc7ef7c35e638a808b28971892d}{%
+           family={Windischhofer},
+           familyi={W\bibinitperiod},
+           given={Philipp\bibnamedelima Jonas},
+           giveni={P\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=1efbd90cc3c00613e54c7b4bdc06c2a2}{%
+           family={Schmoeckel},
+           familyi={S\bibinitperiod},
+           given={Julian\bibnamedelima Constantin},
+           giveni={J\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {CERN}%
+      }
+      \list{location}{1}{%
+        {Geneva}%
+      }
+      \strng{namehash}{752b6398e4261cdb66ea244348b55d69}
+      \strng{fullhash}{1d07bc3c1aad5955502c246636e3dec8}
+      \strng{bibnamehash}{752b6398e4261cdb66ea244348b55d69}
+      \strng{authorbibnamehash}{752b6398e4261cdb66ea244348b55d69}
+      \strng{authornamehash}{752b6398e4261cdb66ea244348b55d69}
+      \strng{authorfullhash}{1d07bc3c1aad5955502c246636e3dec8}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{number}{ATL-COM-PHYS-2018-1538}
+      \field{title}{{Search for New Phenomena in Dijet Events using the complete Run-2 dataset collected with the ATLAS Detector at $\sqrt{s}$ =13 TeV}}
+      \field{type}{techreport}
+      \field{year}{2018}
+      \verb{urlraw}
+      \verb https://cds.cern.ch/record/2646455
+      \endverb
+      \verb{url}
+      \verb https://cds.cern.ch/record/2646455
       \endverb
     \endentry
     \entry{ATL-PHYS-PUB-2020-028}{booklet}{}
@@ -3516,8 +3516,8 @@
       \strng{authornamehash}{ebfe6052e5f504e4a3579c49c44afe41}
       \strng{authorfullhash}{ebfe6052e5f504e4a3579c49c44afe41}
       \field{extraname}{23}
-      \field{sortinit}{7}
-      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{howpublished}{{ATL-PHYS-PUB-2020-028}}

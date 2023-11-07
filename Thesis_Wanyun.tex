@@ -3,6 +3,7 @@
 \documentclass[UTF8,12pt]{ctexart}
 
 \usepackage[sorting=none]{biblatex}
+%\usepackage{atlasbiblatex}
 \addbibresource{bib/ANA-JETM-2020-02-PAPER.bib}
 \addbibresource{bib/ATLAS.bib}
 \addbibresource{bib/CMS.bib}
@@ -935,13 +936,13 @@ This chapter therefore focuses on the present SM, various extensions and variant
 \subsubsection{Quantum chromodynamics}
 \label{sec:2.1.1}
 
-QCD is the theory of the strong interaction between quarks and gluons, and it is a fundamental component of the SM of particle physics. Satisfying the $SU(3)$ symmetry group invariant, QCD is a non-abelian gauge theory, over the years, QCD has collected a huge body of experimental evidence, proved that it has been a successful application from a quantum field theory.
+QCD is the theory of the strong interaction between quarks and gluons, and it is a fundamental component of the SM of particle physics. Satisfying the $SU(3)$ symmetry group invariant, QCD is a non-abelian gauge theory. Over the years, QCD has collected a huge body of experimental evidence, proved that it has been a successful application from a quantum field theory.
 
 The Lagrangian of QCD can be expressed as:
 \begin{equation}
 \mathcal{L}_{\mathrm{QCD}}=\bar{\psi}_{i}\left(i \gamma^{\mu}\left(D_{\mu}\right)_{i j}-m \delta_{i j}\right) \psi_{j}-\frac{1}{4} G_{\mu \nu}^{a} G_{a}^{\mu \nu}
 \end{equation}
-where $\psi_{i}$ is the quark field in the fundamental representation of the $SU(3)$ gauge group, indexed by $i$ and $j$ running from 1 to3; $m$ corresponds to the quark mass; the $\gamma^{\mu}$ are Dirac matrices relating the spinor representation to the vector representation of the Lorentz group.
+where $\psi_{i}$ is the quark field in the fundamental representation of the $SU(3)$ gauge group, indexed by $i$ and $j$ running from 1 to 3; $m$ corresponds to the quark mass; the $\gamma^{\mu}$ are Dirac matrices relating the spinor representation to the vector representation of the Lorentz group.
 
 $D$$_{\mu}$ is defined as the gauge covariant derivative:
 
@@ -993,10 +994,10 @@ The calculation of matrix element in QCD can be rather complex as more and more 
 	\centering  
    \subfloat[]{
 	\label{Fig.sub.1}
-	\includegraphics[width=4cm]{fig/f1.png}}
+	\includegraphics[width=4cm]{fig/f1.png}}\quad
 	\subfloat[]{
 	\label{Fig.sub.2}
-	\includegraphics[width=4cm]{fig/f2.png}}
+	\includegraphics[width=4cm]{fig/f2.png}}\quad
 	\subfloat[]{
 	\label{Fig.sub.3}
 	\includegraphics[width=4cm]{fig/f3.png}}
@@ -1004,8 +1005,10 @@ The calculation of matrix element in QCD can be rather complex as more and more 
 \end{figure}
 
 With more interactions points involved in, more complicated the calculations become. The effects of self-interactions between particles themselves can happen by producing a virtual particle which is restricted by the uncertainty principle, represented as a loop in a Feynman diagram. The accuracy of the calculation has dependency on the coupling $\alpha_{s}$ and is contributed to a fraction at each order. By including an infinite number of virtual particles, the calculations are led to divergent and infinite.
-A set of techniques named renormalization are employed in solving the infinities showed up in the calculations, by which the infinite self-interactions are parameterised by re-scaling them as finite values to compensate the effects. The ultraviolet divergence that occurs from integrating the contributions at extreme high energy is represented by renormalization scale $\mu_R$, on the contrast,  $\mu_F$ represents the condition of an integral diverges at infinitesimal energy.
 
+A set of techniques named renormalization are employed in solving the infinities showed up in the calculations, by which the infinite self-interactions are parametrised by re-scaling them as finite values to compensate the effects. The ultraviolet divergence that occurs from integrating the contributions at extreme high energy is represented by renormalization scale $\mu_R$, on the contrast,  $\mu_F$ represents the condition of an integral diverges at infinitesimal energy.
+
+However, it is imperative to emphasize that not all QCD phenomena are amenable to perturbative treatment. The transition to low-energy regimes results in a substantial increase in $\alpha_{s}$, heralding the dominance of non-perturbative effects. These effects are essential for understanding phenomena such as quark confinement and chiral symmetry breaking, with the former ensuring that quarks and gluons are perpetually bound within hadrons, and the latter influencing the masses of light quarks through spontaneous symmetry breaking. Such non-perturbative facet of QCD affects the modelling dependence in the analysis later on. A meticulous consideration of these non-perturbative aspects is studied in the Chapter~\ref{sec:5}, ensuring that our models are both accurate and reliable.
 
 
 \subsection{Physics beyond the Standard Model}

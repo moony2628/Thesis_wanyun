@@ -45,21 +45,24 @@ package~\cite{Cacciari:2011ma}.  The EMTopo jets, reconstructed from topological
 \label{sec:base_selection}
 
 
-The triggers used in this analysis is HLT\_j420. Besides, two single-jet trigger HLT\_j225\_gsc420\_boffperf\_split is also used as the unprescaled trigger for full Run 2 data. Both triggers have the threshold of $\pt > 420$ GeV of the jets, while the GSC is applied to the HLT\_j225\_gsc420\_boffperf\_split to the trigger turn-on improvement. A turn-on based on the \mjj~spectrum is found to be much powerful than the cut requirement of the leading jet \pt, where the \mjj~cut imposes a soft cut on the leading and subleading jet, respectively~\cite{Nishu:2646455}. %More details are shown in Section.~\ref{section:dijetmassturn-on}. 
+ %Besides, two single-jet trigger HLT\_j225\_gsc420\_boffperf\_split is also used as the unprescaled trigger for full Run 2 data. Both triggers have the threshold of $\pt > 420$ GeV of the jets, while the GSC is applied to the HLT\_j225\_gsc420\_boffperf\_split to the trigger turn-on improvement. A turn-on based on the \mjj~spectrum is found to be much powerful than the cut requirement of the leading jet \pt, where the \mjj~cut imposes a soft cut on the leading and subleading jet, respectively~\cite{Nishu:2646455}. %More details are shown in Section.~\ref{section:dijetmassturn-on}. 
 
 
 
 %The two triggers were found to be very similar in performance in Ref.~\cite{Nishu:2646455}; we used HLT\_j420 trigger. It was also found in Ref.~\cite{Nishu:2646455} that obtaining the turn-on directly from \mjj\ provides a much power turn-on than from requiring a specific cut on the leading jet \pT\.
 
-The baseline event selection is applied for all categories. The GRL and various flags that indicate the status of detector when taking data are provided by the ATLAS Data Quality (DQ) group, are applied to ensure the data integrity. Primary vertex requirement is also included to ensure good quality jets. The  
-
+The triggers used in this analysis is HLT\_j420. The baseline event selection is applied for all categories. The GRL and various flags that indicate the status of detector when taking data are provided by the ATLAS Data Quality (DQ) group, are applied to ensure the data integrity. Primary vertex requirement is also included to ensure good quality jets. The baseline cuts are given:
 
 \begin{itemize}
-\item All jets with $\pt > 150$ GeV pass \textit{Loose} cleaning cuts
+\item Good Run List: Requirement that all relevant detectors were in a good state ready for physics. 
+\item LAr: Liquid Argon Calorimeter error rejected (errorState(xAOD::EventInfo::LAr))
+\item Tile: Tile Calorimeter error rejected (errorState(xAOD::EventInfo::Tile))
+\item SCT: SCT single event upsets rejected (errorState(xAOD::EventInfo::SCT))
+\item Core: Incomplete event build rejected (isEventFlagBitSet(xAOD::EventInfo::Core, 18))
+\item All jets with $\pt > 150$ GeV,  \abseta~< 2.1, pass \textit{Loose} cleaning cuts
 \item Passes the lowest unprescaled single-jet trigger: HLT\_j420
 \item Jet multiplicity $\ge 2$
-\item Leading jet $\pt > 380$ GeV and subeading jet $\pt > 150$ GeV
-\item Leading jet \abseta~< 2.1 and subeading jet \abseta~< 2.1 
+\item Leading jet $\pt > 380$ GeV.
 \item $|\Delta\phi|$ between two jets: $|\Delta\phi| > 1.0$
 \item \mjj > 1100 GeV
 \end{itemize}
