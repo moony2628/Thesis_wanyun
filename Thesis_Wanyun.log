@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  7 NOV 2023 11:34
+This is XeTeX, Version 3.14159265-2.6-0.999992 (TeX Live 2020) (preloaded format=xelatex 2020.4.30)  28 NOV 2023 18:41
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1861,27 +1861,94 @@ LaTeX Font Warning: Font shape `U/stmry/m/n' in size <7.52812> not available
 (Font)              size <8> substituted on input line 769.
 
 [3]
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.795 ...两种夸克/胶子喷注标记器的性能和校准：一种基于与喷注相关的带电轨迹数量（\ntrk
+                                                  ）的标记器，另一种则采用增强决策树（BDT）算法来结...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.795 ... 喷注横向动量范围内，BDT标记器在区分夸克喷注和胶子喷注方面的表现优于\ntrk
+                                                  ~标记器。在高于此能级范围上，两种标记器的表现相当。...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 808.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 798.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 808.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 798.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 808.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 798.
+
+Package mathptmx Warning: There are no bold math fonts on input line 798.
+
+[1] [2]
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.826 ...ed tracks associated with the jets (\ntrk
+                                                  ), while the other employs...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
+                                               
+l.826 ...es. The BDT-tagger outperformed the \ntrk
+                                                  -tagger in distinguishing ...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.826 ...k-jets from gluon-jets up to 1200 GeV \pt
+                                                  , with both taggers showin...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-Package mathptmx Warning: There are no bold math fonts on input line 808.
-
-[1]
-Overfull \hbox (0.20282pt too wide) in paragraph at lines 820--821
+Overfull \hbox (0.20282pt too wide) in paragraph at lines 826--827
 []\T1/ptm/m/n/12.045 The pro-cess of dis-tin-guish-ing jets aris-ing from quark
 s and glu-ons, com-monly known
  []
 
-[2] (./Thesis_Wanyun.toc [3] [4])
+[3]
+! Undefined control sequence.
+<argument> p_{\mathrm {T}}\xspace 
+                                  
+l.828 ... per tagged gluon, especially at high \pt
+                                                  . By incorporating gluon-t...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+[4] (./Thesis_Wanyun.toc [5] [6])
 \tf@toc=\write7
 \openout7 = `Thesis_Wanyun.toc'.
 
- [5] [1] [2]
+ [7] [1] [2]
 File: ./fig/SM-p.png Graphic file (type bmp)
 <./fig/SM-p.png>
  [3] [4] [5]
@@ -1892,7 +1959,7 @@ File: fig/f2.png Graphic file (type bmp)
 File: fig/f3.png Graphic file (type bmp)
 <fig/f3.png>
  [6] [7]
-Overfull \hbox (13.45125pt too wide) in paragraph at lines 1039--1040
+Overfull \hbox (13.45125pt too wide) in paragraph at lines 1048--1049
 \T1/ptm/m/n/12.045 anti-de Sit-ter space-time, where our ob-serv-able uni-verse
  is rep-re-sented by a four-dimensional
  []
@@ -1901,17 +1968,17 @@ Overfull \hbox (13.45125pt too wide) in paragraph at lines 1039--1040
 File: ./fig/2022.png Graphic file (type bmp)
 <./fig/2022.png>
 
-Overfull \hbox (31.29819pt too wide) in paragraph at lines 1087--1088
+Overfull \hbox (31.29819pt too wide) in paragraph at lines 1096--1097
  [][] 
  []
 
 [10] [11]
 LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 1
-114.
+123.
  (/usr/local/texlive/2020/texmf-dist/tex/latex/psnfss/ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-Overfull \hbox (1.28625pt too wide) in paragraph at lines 1122--1123
+Overfull \hbox (1.28625pt too wide) in paragraph at lines 1131--1132
 []\T1/ptm/m/n/12.045 The AT-LAS de-tec-tor [[][]32[][]] is the largest vol-ume 
 de-tec-tor ever con-structed for general-
  []
@@ -1919,14 +1986,14 @@ de-tec-tor ever con-structed for general-
 File: ./fig/atlas.png Graphic file (type bmp)
 <./fig/atlas.png>
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 1128--1129
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 1137--1138
  [][] 
  []
 
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1137 Charged particles above a certain \pt
+l.1146 Charged particles above a certain \pt
                                             ~threshold are detected by the A...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1939,7 +2006,7 @@ File: ./fig/id.png Graphic file (type bmp)
 ! Undefined control sequence.
 \pt ->\ensuremath {p_{\mathrm {T}}\xspace 
                                           }
-l.1143 ...ctor along with their envelopes in $r$.}
+l.1152 ...ctor along with their envelopes in $r$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1948,11 +2015,11 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1143.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 1152.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1143 ...ctor along with their envelopes in $r$.}
+l.1152 ...ctor along with their envelopes in $r$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1963,7 +2030,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1143 ...ctor along with their envelopes in $r$.}
+l.1152 ...ctor along with their envelopes in $r$.}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1972,7 +2039,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 [12] [13] [14]
-Overfull \hbox (2.59377pt too wide) in paragraph at lines 1160--1162
+Overfull \hbox (2.59377pt too wide) in paragraph at lines 1169--1171
 \T1/ptm/m/n/12.045 The out-er-most layer of the ID is the TRT which en-com-pass
 es poly-imide drift(straw)
  []
@@ -1980,7 +2047,7 @@ es poly-imide drift(straw)
 File: ./fig/calo1.jpg Graphic file (type bmp)
 <./fig/calo1.jpg>
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 1178--1178
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 1187--1187
  [][] 
  []
 
@@ -1988,7 +2055,7 @@ Overfull \hbox (2.84544pt too wide) in paragraph at lines 1178--1178
 File: ./fig/calo2.png Graphic file (type bmp)
 <./fig/calo2.png>
 
-Overfull \hbox (2.84544pt too wide) in paragraph at lines 1188--1188
+Overfull \hbox (2.84544pt too wide) in paragraph at lines 1197--1197
  [][] 
  []
 
@@ -2002,7 +2069,7 @@ File: ./fig/muon.jpg Graphic file (type bmp)
 File: ./fig/dq.png Graphic file (type bmp)
 <./fig/dq.png>
 
-Overfull \hbox (31.29819pt too wide) in paragraph at lines 1243--1243
+Overfull \hbox (31.29819pt too wide) in paragraph at lines 1252--1252
  [][] 
  []
 
@@ -4055,7 +4122,7 @@ and I'll forget about whatever was undefined.
 
 ! Undefined control sequence.
 l.2 ...the shapes of $p_{\mrm{Q}}(x)$ and $p_{\mrm
-                                                  {G}}(x)$ emain consistent,...
+                                                  {G}}(x)$ remain consistent...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -9765,7 +9832,7 @@ e_sigma.pdf>
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
-l.1292 ...icle jet constituent multiplicity (\ntrk
+l.1301 ...icle jet constituent multiplicity (\ntrk
                                                   ), and a BDT-based tagger,...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9776,7 +9843,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1294 ...of dijet events characterized by jet \pt
+l.1303 ...of dijet events characterized by jet \pt
                                                   ~ranging from 500 GeV to 2...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9787,7 +9854,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 \ntrk ->\ensuremath {N_{\mathrm {trk}}}\xspace 
                                                
-l.1296 ...ates superior performance over the \ntrk
+l.1305 ...ates superior performance over the \ntrk
                                                   -only tagger in distinguis...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9798,7 +9865,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1296 ...-jets from gluon-jets within the jet \pt
+l.1305 ...-jets from gluon-jets within the jet \pt
                                                   ~range of 500 GeV to 1200 ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9809,7 +9876,7 @@ and I'll forget about whatever was undefined.
 ! Undefined control sequence.
 <argument> p_{\mathrm {T}}\xspace 
                                   
-l.1296 ...tors are measured across varying jet-\pt
+l.1305 ...tors are measured across varying jet-\pt
                                                   ~intervals, exhibiting a r...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9820,93 +9887,93 @@ and I'll forget about whatever was undefined.
 [125
 
 ] [126]
-Overfull \hbox (18.119pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (18.119pt too wide) in paragraph at lines 1325--1325
 \T1/ptm/m/n/12 from proton-proton col-li-sions at $[] \OT1/ztmcm/m/n/12 = 13[][
 ][]$\T1/ptm/m/n/12 ''. In: \T1/ptm/m/it/12 Phys. Rev. D \T1/ptm/m/n/12 98 (2018
 ), p. 092014.
  []
 
 [127] [128]
-Overfull \hbox (5.18187pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (5.18187pt too wide) in paragraph at lines 1325--1325
 \T1/ptm/m/n/12 quark/gluon dis-crim-i-na-tion with count-ing ob-serv-ables''. I
 n: \T1/ptm/m/it/12 JHEP \T1/ptm/m/n/12 09 (2017), p. 083.
  []
 
 
-Overfull \hbox (5.47821pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (5.47821pt too wide) in paragraph at lines 1325--1325
 \T1/ptm/m/n/12 p. 091. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 10 . 1007 / JHEP07(2017 ) 091$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1
 704 . 03878$ [hep-ph][][]\T1/ptm/m/n/12 . 
  []
 
 [129] [130]
-Overfull \hbox (15.61258pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (15.61258pt too wide) in paragraph at lines 1325--1325
 \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 . 1140 / epjc / s100
 52 -[] 014 -[] 3023 -[] z$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/12 1405 
 . 6583$ [hep-ex][][]\T1/ptm/m/n/12 . 
  []
 
 
-Overfull \hbox (1.74095pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (1.74095pt too wide) in paragraph at lines 1325--1325
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. ``AT-LAS data qual-ity op-er-a-tions 
 and per-for-mance for 2015 |\TU/FandolSong-Regular(0)/m/n/12 –|
  []
 
 
-Overfull \hbox (2.12695pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (2.12695pt too wide) in paragraph at lines 1325--1325
 []\T1/ptm/m/n/12 Steffen Schu-mann and Frank Krauss. ``A par-ton shower al-go-r
 ithm based on Catani--
  []
 
 [131] [132]
-Overfull \hbox (23.47821pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (23.47821pt too wide) in paragraph at lines 1325--1325
 \T1/ptm/m/n/12 p. 052003. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/
 12 1103 / PhysRevD . 93 . 052003$[][]\T1/ptm/m/n/12 . arXiv: [][]$\T1/pcr/m/n/1
 2 1509 . 05190$ [hep-ex][][]\T1/ptm/m/n/12 . 
  []
 
 
-Overfull \hbox (34.61462pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (34.61462pt too wide) in paragraph at lines 1325--1325
 \T1/ptm/m/n/12 tions for jet sub-struc-ture''. In: \T1/ptm/m/it/12 JHEP \T1/ptm
 /m/n/12 06 (2013), p. 108. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n
 /12 10 . 1007 / JHEP06(2013 )
  []
 
 
-Overfull \hbox (47.74583pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (47.74583pt too wide) in paragraph at lines 1325--1325
 \T1/pcr/m/n/12 paper _ files / paper / 2017 / file / 6449f44a102fde848669bdd9eb
 6b76fa -[]
  []
 
 [133]
-Overfull \hbox (13.81047pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (13.81047pt too wide) in paragraph at lines 1325--1325
 []\T1/ptm/m/n/12 DerivationProductionTeam. \T1/ptm/m/it/12 Ex-otics deriva-tion
  twiki page\T1/ptm/m/n/12 . \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/pcr/m/
 n/12 https : / / twiki .
  []
 
 
-Overfull \hbox (71.84583pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (71.84583pt too wide) in paragraph at lines 1325--1325
 \T1/pcr/m/n/12 cern . ch / twiki / bin / view / AtlasProtected / Derivationfram
 eworkExotics$[][]\T1/ptm/m/n/12 . 
  []
 
 
-Overfull \hbox (2.8929pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (2.8929pt too wide) in paragraph at lines 1325--1325
 \T1/ptm/m/n/12 sions''. In: \T1/ptm/m/it/12 Phys. Lett. \T1/ptm/m/n/12 B594 (20
 04), pp. 363^^U367. \T1/ptm/m/sc/12 doi\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 10 
 . 1016 / j . physletb .
  []
 
 [134]
-Overfull \hbox (3.01572pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (3.01572pt too wide) in paragraph at lines 1325--1325
 []\T1/ptm/m/n/12 Hongtao Yang. \T1/ptm/m/it/12 XML An-a-lytic Workspace Builder
 \T1/ptm/m/n/12 . 2021. \T1/ptm/m/sc/12 url\T1/ptm/m/n/12 : [][]$\T1/pcr/m/n/12 
 https : / / twiki .
  []
 
 
-Overfull \hbox (18.44585pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (18.44585pt too wide) in paragraph at lines 1325--1325
 \T1/pcr/m/n/12 cern . ch / twiki / bin / viewauth / AtlasProtected / XmlAnaWSBu
 ilder$[][]
  []
@@ -9914,7 +9981,7 @@ ilder$[][]
 ! Undefined control sequence.
 <argument> ...llisions at $\sqrt {s} = 1.96$~\TeV 
                                                   }
-l.1316 
+l.1325 
        
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -9923,26 +9990,26 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-Overfull \hbox (3.01375pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (3.01375pt too wide) in paragraph at lines 1325--1325
 []\T1/ptm/m/n/12 CMS Col-lab-o-ra-tion. ``Search for Di-jet Res-o-nances in 7 T
 eV $\OML/ztmcm/m/it/12 pp$ \T1/ptm/m/n/12 Col-li-sions at CMS''.
  []
 
 [135]
-Overfull \hbox (6.14688pt too wide) in paragraph at lines 1316--1316
+Overfull \hbox (6.14688pt too wide) in paragraph at lines 1325--1325
 []\T1/ptm/m/n/12 ATLAS Col-lab-o-ra-tion. \T1/ptm/m/it/12 Rec-om-men-da-tions f
 or the Mod-el-ing of Smooth Back-grounds\T1/ptm/m/n/12 .
  []
 
 [136] [137]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1364.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 1364.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1373.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1373.
  (./Thesis_Wanyun.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1364.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1364.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 1373.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1373.
 
 Package rerunfilecheck Info: File `Thesis_Wanyun.out' has not changed.
-(rerunfilecheck)             Checksum: 79A371CCB1DD4D4C41E7E8C7C6497506;15384.
+(rerunfilecheck)             Checksum: F7D801CB0A3C782048990F9FE1B47C12;15369.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -9956,12 +10023,12 @@ Package logreq Info: Writing requests to 'Thesis_Wanyun.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40249 strings out of 479418
- 870534 string characters out of 5884585
- 1645492 words of memory out of 5000000
- 56821 multiletter control sequences out of 15000+600000
+ 40256 strings out of 479418
+ 871103 string characters out of 5884585
+ 1645490 words of memory out of 5000000
+ 56828 multiletter control sequences out of 15000+600000
  643748 words of font info for 232 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  58i,20n,93p,1582b,4792s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on Thesis_Wanyun.pdf (145 pages).
+Output written on Thesis_Wanyun.pdf (147 pages).

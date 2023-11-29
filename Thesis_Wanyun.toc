@@ -8,11 +8,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.1}Quantum chromodynamics}{5}{subsubsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Physics beyond the Standard Model}{7}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Physics beyond the Standard Model}{8}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Kaluza-Klein Graviton}{7}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Kaluza-Klein Graviton}{8}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Quantum Black Hole}{8}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2}Quantum Black Hole}{9}{subsubsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}The ATLAS Experiment}{10}{section.3}%
 \defcounter {refsection}{0}\relax 
@@ -132,7 +132,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {6.4.3}Selected kinematic plots}{102}{subsubsection.6.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {6.5}Statistical framework}{105}{subsection.6.5}%
+\contentsline {subsection}{\numberline {6.5}Analysis framework}{105}{subsection.6.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {6.5.1}Fitting framework}{105}{subsubsection.6.5.1}%
 \defcounter {refsection}{0}\relax 
@@ -156,7 +156,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {6.5.3}Background estimation}{111}{subsubsection.6.5.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {6.5.4}Analysis strategy}{112}{subsubsection.6.5.4}%
+\contentsline {subsubsection}{\numberline {6.5.4}Analysis workflow}{112}{subsubsection.6.5.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {6.5.5}Spurious signal tests}{112}{subsubsection.6.5.5}%
 \defcounter {refsection}{0}\relax 
